@@ -58,10 +58,11 @@ int core0_main(void)
 
 
     // 此处编写用户代码 例如外设初始化代码等
-    setup();                       // Initialize servo PWM once.
+    setup();                       // Initialize servo and camera once.
     cpu_wait_event_ready();         // 等待所有核心初始化完毕
     while (TRUE)
     {
+        loop();                    // Send completed camera frames.
         // 此处编写需要循环执行的代码
 
 

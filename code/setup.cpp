@@ -7,23 +7,15 @@
 
 #include "setup.hpp"
 #include "servo.hpp"
-#include "zf_common_headfile.h"
-
-
-
-
+#include "camera.hpp"
 
 void setup(void)
 {
     servo_init();
-    while(1){
-        system_delay_ms(5000);
-        //car_angle(0.2);
-        system_delay_ms(5000);
-        //car_angle(-0.2);
-
-    };
+    camera_init();
 }
 
-
-
+void loop(void)
+{
+    camera_send_frame();
+}
