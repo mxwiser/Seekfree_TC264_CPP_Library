@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc24404c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/camera.src cc24404a.ic"
+	.compiler_invocation	"ctc -f cc30368c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/camera.src cc30368a.ic"
 	.compiler_name		"ctc"
 	;source	'../code/camera.cpp'
 
@@ -16,112 +16,146 @@ $TC16X
 .L6:
 _Z11camera_initv:	.type	func
 	mov	d4,#0
-	call	seekfree_assistant_interface_init
-.L39:
+	call	ips200_init
+.L34:
+	mov	d4,#0
+.L35:
+	mov	d5,#0
+.L36:
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+.L37:
+	call	ips200_show_string
+.L38:
 	j	.L2
 .L3:
+	mov	d4,#0
+.L39:
+	mov	d5,#80
+.L40:
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+.L41:
+	call	ips200_show_string
+.L42:
 	mov	d4,#500
 	call	system_delay_ms
 .L2:
 	call	mt9v03x_init
-.L40:
-	jne	d2,#0,.L3
-.L41:
-	movh.a	a4,#@his(camera_information)
-	lea	a4,[a4]@los(camera_information)
-.L42:
-	mov	d4,#2
 .L43:
-	mov	d5,#188
+	jne	d2,#0,.L3
 .L44:
-	mov	d6,#120
+	mov	d4,#0
 .L45:
-	movh.a	a5,#@his(image_copy)
-	lea	a5,[a5]@los(image_copy)
+	mov	d5,#16
 .L46:
-	call	seekfree_assistant_camera_config
+	movh.a	a4,#@his(.3.str)
+	lea	a4,[a4]@los(.3.str)
 .L47:
+	call	ips200_show_string
+.L48:
 	ret
-.L27:
+.L23:
 	
 ___Z11camera_initv_function_end:
 	.size	_Z11camera_initv,___Z11camera_initv_function_end-_Z11camera_initv
 .L17:
 	; End of function
 	
-	.sdecl	'.text.cpu0_dsram',code,cluster('_Z17camera_send_framev')
+	.sdecl	'.text.cpu0_dsram',code,cluster('_Z20camera_display_framev')
 	.sect	'.text.cpu0_dsram'
 	.align	2
 	
-	.global	_Z17camera_send_framev
-; Function _Z17camera_send_framev
+	.global	_Z20camera_display_framev
+; Function _Z20camera_display_framev
 .L8:
-_Z17camera_send_framev:	.type	func
+_Z20camera_display_framev:	.type	func
+	sub.a	a10,#16
+.L25:
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
 	ld.bu	d15,[a15]
-.L52:
-	jeq	d15,#0,.L4
 .L53:
+	jeq	d15,#0,.L4
+.L54:
+	mov	d15,#188
+	st.h	[a10],d15
+.L55:
+	mov	d15,#120
+	st.h	[a10]4,d15
+.L56:
+	mov	d15,#0
+	st.b	[a10]8,d15
+.L57:
+	mov	d4,#0
+.L58:
+	mov	d5,#0
+.L59:
+	movh.a	a4,#@his(mt9v03x_image)
+	lea	a4,[a4]@los(mt9v03x_image)
+.L60:
+	mov	d6,#188
+.L61:
+	mov	d7,#120
+	call	ips200_show_gray_image
+.L62:
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
-.L54:
+.L63:
 	mov	d15,#0
-.L55:
+.L64:
 	st.b	[a15],d15
-.L56:
-	movh.a	a4,#@his(image_copy)
-	lea	a4,[a4]@los(image_copy)
-.L57:
-	movh.a	a5,#@his(mt9v03x_image)
-	lea	a5,[a5]@los(mt9v03x_image)
-.L58:
-	mov	d4,#22560
-	call	memcpy
-.L59:
-	movh.a	a4,#@his(camera_information)
-	lea	a4,[a4]@los(camera_information)
-	call	seekfree_assistant_camera_send
 .L4:
 	ret
-.L28:
+.L24:
 	
-___Z17camera_send_framev_function_end:
-	.size	_Z17camera_send_framev,___Z17camera_send_framev_function_end-_Z17camera_send_framev
+___Z20camera_display_framev_function_end:
+	.size	_Z20camera_display_framev,___Z20camera_display_framev_function_end-_Z20camera_display_framev
 .L22:
 	; End of function
 	
-	.sdecl	'.bss.cpu0_dsram',data,cluster('image_copy')
-	.sect	'.bss.cpu0_dsram'
-image_copy:	.type	object
-	.size	image_copy,22560
-	.space	22560
-	.sdecl	'.bss.cpu0_dsram',data,cluster('camera_information')
-	.sect	'.bss.cpu0_dsram'
-	.align	4
-camera_information:	.type	object
-	.size	camera_information,20
-	.space	20
-	.calls	'_Z11camera_initv','seekfree_assistant_interface_init'
+	.sdecl	'.rodata.cpu0_dsram',data,rom
+	.sect	'.rodata.cpu0_dsram'
+.1.str:	.type	object
+	.size	.1.str,14
+	.byte	109,116,57,118,48,51,120,32
+	.byte	105,110,105,116
+	.byte	46
+	.space	1
+	.sdecl	'.rodata.cpu0_dsram',data,rom
+	.sect	'.rodata.cpu0_dsram'
+.2.str:	.type	object
+	.size	.2.str,16
+	.byte	109,116,57,118,48,51,120,32
+	.byte	114,101,105,110
+	.byte	105,116,46
+	.space	1
+	.sdecl	'.rodata.cpu0_dsram',data,rom
+	.sect	'.rodata.cpu0_dsram'
+.3.str:	.type	object
+	.size	.3.str,14
+	.byte	105,110,105,116,32,115,117,99
+	.byte	99,101,115,115
+	.byte	46
+	.space	1
+	.calls	'_Z11camera_initv','ips200_init'
+	.calls	'_Z11camera_initv','ips200_show_string'
 	.calls	'_Z11camera_initv','system_delay_ms'
 	.calls	'_Z11camera_initv','mt9v03x_init'
-	.calls	'_Z11camera_initv','seekfree_assistant_camera_config'
-	.calls	'_Z17camera_send_framev','memcpy'
-	.calls	'_Z17camera_send_framev','seekfree_assistant_camera_send'
+	.calls	'_Z20camera_display_framev','ips200_show_gray_image'
 	.calls	'_Z11camera_initv','',0
-	.extern	memcpy
 	.extern	system_delay_ms
+	.extern	ips200_show_string
+	.extern	ips200_show_gray_image
+	.extern	ips200_init
 	.extern	mt9v03x_init
-	.extern	seekfree_assistant_camera_config
-	.extern	seekfree_assistant_camera_send
-	.extern	seekfree_assistant_interface_init
 	.extern	mt9v03x_finish_flag
 	.extern	mt9v03x_image
-	.calls	'_Z17camera_send_framev','',0
+	.calls	'_Z20camera_display_framev','',16
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L10:
-	.word	1834
+	.word	854
 	.half	3
 	.word	.L11
 	.byte	4
@@ -132,199 +166,130 @@ camera_information:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L12
 	.byte	2
-	.byte	'void',0,3
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'system_delay_ms',0,1,46,13,1,1,1,1,4
+	.byte	'time',0,1,46,36
 	.word	173
-	.byte	4
-	.word	179
-	.byte	5
-	.word	173
-	.byte	3
-	.word	189
-	.byte	4
-	.word	194
+	.byte	0,2
+	.byte	'unsigned short int',0,2,7,2
+	.byte	'char',0,1,6,5
+	.word	254
 	.byte	6
-	.byte	'unsigned int',0,4,7,7
-	.byte	'memcpy',0,1,53,14
-	.word	179
-	.byte	1,1,1,1,8,1,53,26
-	.word	184
-	.byte	8,1,53,48
-	.word	199
-	.byte	8,1,53,59
-	.word	204
-	.byte	0,6
-	.byte	'unsigned long int',0,4,7,9
-	.byte	'system_delay_ms',0,2,46,13,1,1,1,1,10
-	.byte	'time',0,2,46,36
-	.word	264
-	.byte	0,6
-	.byte	'unsigned char',0,1,8,11
-	.byte	'mt9v03x_init',0,3,145,1,14
-	.word	323
-	.byte	1,1,1,1,12,2
-	.word	323
-	.byte	13,1,0,12,3
-	.word	323
-	.byte	13,2,0,14
-	.byte	'_ZN32seekfree_assistant_camera_structUt_E',0,4,101,8,12,15
-	.byte	'head',0
-	.word	323
-	.byte	1,2,35,0,15
-	.byte	'check_sum',0
-	.word	323
-	.byte	1,2,35,1,15
-	.byte	'cmd',0
-	.word	323
-	.byte	1,2,35,2,15
-	.byte	'camera_type',0
-	.word	323
-	.byte	1,2,35,3,15
-	.byte	'image_width_buffer',0
-	.word	366
-	.byte	2,2,35,4,15
-	.byte	'image_height_buffer',0
-	.word	366
-	.byte	2,2,35,6,15
-	.byte	'data_type',0
-	.word	323
-	.byte	1,2,35,8,15
-	.byte	'reserve',0
-	.word	375
-	.byte	3,2,35,9,0
-.L30:
-	.byte	14
-	.byte	'seekfree_assistant_camera_struct',0,4,99,8,20,15
-	.byte	'config',0
-	.word	384
-	.byte	12,2,35,0,15
-	.byte	'buffer_byte_size',0
-	.word	264
-	.byte	4,2,35,12,15
-	.byte	'data_buffer',0
-	.word	179
-	.byte	4,2,35,16,0,3
-	.word	592
-	.byte	16
-	.byte	'seekfree_assistant_camera_type_enum',0,4,57,6,1,17
-	.byte	'SEEKFREE_ASSISTANT_CAMERA_TYPE_BINARY',0,1,17
-	.byte	'SEEKFREE_ASSISTANT_CAMERA_TYPE_OV7725_BIN',0,1,17
-	.byte	'SEEKFREE_ASSISTANT_CAMERA_TYPE_GRAY',0,2,17
-	.byte	'SEEKFREE_ASSISTANT_CAMERA_TYPE_MT9V03X',0,2,17
-	.byte	'SEEKFREE_ASSISTANT_CAMERA_TYPE_RGB565',0,3,17
-	.byte	'SEEKFREE_ASSISTANT_CAMERA_TYPE_SCC8660',0,3,0,6
-	.byte	'unsigned short int',0,2,7,9
-	.byte	'seekfree_assistant_camera_config',0,4,233,1,13,1,1,1,1,10
-	.byte	'camera_obj',0,4,233,1,80
-	.word	694
-	.byte	10
-	.byte	'camera_type',0,4,233,1,128,1
-	.word	699
-	.byte	10
-	.byte	'image_width',0,4,233,1,148,1
-	.word	985
-	.byte	10
-	.byte	'image_height',0,4,233,1,168,1
-	.word	985
-	.byte	10
-	.byte	'data_buffer',0,4,233,1,188,1
-	.word	179
+	.word	262
+	.byte	3
+	.byte	'ips200_show_string',0,2,177,1,13,1,1,1,1,4
+	.byte	'x',0,2,177,1,39
+	.word	232
+	.byte	4
+	.byte	'y',0,2,177,1,49
+	.word	232
+	.byte	4
+	.byte	'dat',0,2,177,1,64
+	.word	267
+	.byte	0,2
+	.byte	'unsigned char',0,1,8,5
+	.word	336
+	.byte	6
+	.word	353
+	.byte	3
+	.byte	'ips200_show_gray_image',0,2,183,1,13,1,1,1,1,4
+	.byte	'x',0,2,183,1,43
+	.word	232
+	.byte	4
+	.byte	'y',0,2,183,1,53
+	.word	232
+	.byte	4
+	.byte	'image',0,2,183,1,69
+	.word	358
+	.byte	4
+	.byte	'width',0,2,183,1,83
+	.word	232
+	.byte	4
+	.byte	'height',0,2,183,1,97
+	.word	232
+	.byte	4
+	.byte	'dis_width',0,2,183,1,112
+	.word	232
+	.byte	4
+	.byte	'dis_height',0,2,183,1,130,1
+	.word	232
+	.byte	4
+	.byte	'threshold',0,2,183,1,148,1
+	.word	336
+	.byte	0,7
+	.byte	'ips200_type_enum',0,2,142,1,6,1,8
+	.byte	'IPS200_TYPE_SPI',0,0,8
+	.byte	'IPS200_TYPE_PARALLEL8',0,1,0,3
+	.byte	'ips200_init',0,2,189,1,13,1,1,1,1,4
+	.byte	'type_select',0,2,189,1,42
+	.word	524
 	.byte	0,9
-	.byte	'seekfree_assistant_camera_send',0,4,246,1,13,1,1,1,1,10
-	.byte	'camera_obj',0,4,246,1,78
-	.word	694
-	.byte	0,16
-	.byte	'seekfree_assistant_transfer_device_enum',0,5,43,6,1,17
-	.byte	'SEEKFREE_ASSISTANT_DEBUG_UART',0,0,17
-	.byte	'SEEKFREE_ASSISTANT_WIRELESS_UART',0,1,17
-	.byte	'SEEKFREE_ASSISTANT_CH9141',0,2,17
-	.byte	'SEEKFREE_ASSISTANT_WIFI_UART',0,3,17
-	.byte	'SEEKFREE_ASSISTANT_WIFI_SPI',0,4,17
-	.byte	'SEEKFREE_ASSISTANT_CUSTOM',0,5,0,9
-	.byte	'seekfree_assistant_interface_init',0,5,53,13,1,1,1,1,10
-	.byte	'transfer_device',0,5,53,87
-	.word	1220
-	.byte	0,18,1,3
-	.word	1517
-	.byte	19
-	.byte	'__codeptr',0,6,1,1
-	.word	1519
-	.byte	19
-	.byte	'size_t',0,7,31,18
-	.word	204
-	.byte	19
-	.byte	'uint8',0,8,105,23
-	.word	323
-	.byte	19
-	.byte	'uint16',0,8,109,24
-	.word	985
-	.byte	19
-	.byte	'uint32',0,8,113,23
-	.word	264
-	.byte	20
-	.word	323
-	.byte	19
-	.byte	'vuint8',0,9,59,24
-	.word	1601
-	.byte	19
-	.byte	'seekfree_assistant_camera_type_enum',0,4,67,50
-	.word	699
-	.byte	19
-	.byte	'seekfree_assistant_camera_struct',0,4,113,49
-	.word	592
-	.byte	19
-	.byte	'seekfree_assistant_transfer_device_enum',0,5,50,54
-	.word	1220
-	.byte	20
-	.word	323
-	.byte	21
+	.byte	'mt9v03x_init',0,3,145,1,14
+	.word	336
+	.byte	1,1,1,1,10,1,6
+	.word	659
+	.byte	11
+	.byte	'__codeptr',0,4,1,1
+	.word	661
+	.byte	11
+	.byte	'uint8',0,5,105,23
+	.word	336
+	.byte	11
+	.byte	'uint16',0,5,109,24
+	.word	232
+	.byte	11
+	.byte	'uint32',0,5,113,23
+	.word	173
+	.byte	12
+	.word	336
+	.byte	11
+	.byte	'vuint8',0,6,59,24
+	.word	728
+	.byte	11
+	.byte	'ips200_type_enum',0,2,145,1,31
+	.word	524
+	.byte	12
+	.word	336
+	.byte	13
 	.byte	'mt9v03x_finish_flag',0,3,136,1,15
-	.word	1754
-	.byte	1,1,12,188,1
-	.word	323
-	.byte	13,187,1,0
-.L29:
-	.byte	12,160,176,1
-	.word	1790
-	.byte	13,119,0,21
+	.word	774
+	.byte	1,1,14,188,1
+	.word	336
+	.byte	15,187,1,0,14,160,176,1
+	.word	810
+	.byte	15,119,0,13
 	.byte	'mt9v03x_image',0,3,137,1,14
-	.word	1801
+	.word	821
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
 .L11:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,59,0,3,8,0,0,3,15,0,73,19,0,0,4,55,0,73,19,0,0,5,38,0
-	.byte	73,19,0,0,6,36,0,3,8,11,15,62,15,0,0,7,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,8
-	.byte	5,0,58,15,59,15,57,15,73,19,0,0,9,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,10,5,0,3,8,58
-	.byte	15,59,15,57,15,73,19,0,0,11,46,0,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,12,1,1,11,15
-	.byte	73,19,0,0,13,33,0,47,15,0,0,14,19,1,3,8,58,15,59,15,57,15,11,15,0,0,15,13,0,3,8,73,19,11,15,56,9,0,0,16
-	.byte	4,1,3,8,58,15,59,15,57,15,11,15,0,0,17,40,0,3,8,28,13,0,0,18,21,0,54,15,0,0,19,22,0,3,8,58,15,59,15,57
-	.byte	15,73,19,0,0,20,53,0,73,19,0,0,21,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,38,0,73,19,0,0,6,15,0,73,19,0,0,7
+	.byte	4,1,3,8,58,15,59,15,57,15,11,15,0,0,8,40,0,3,8,28,13,0,0,9,46,0,3,8,58,15,59,15,57,15,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,53,0,73,19,0,0,13,52,0,3
+	.byte	8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,14,1,1,11,15,73,19,0,0,15,33,0,47,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L12:
-	.word	.L32-.L31
-.L31:
+	.word	.L27-.L26
+.L26:
 	.half	3
-	.word	.L34-.L33
-.L33:
+	.word	.L29-.L28
+.L28:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'D:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver',0
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device',0
-	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components',0
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common',0,0
-	.byte	'string.h',0,1,0,0
-	.byte	'zf_driver_delay.h',0,2,0,0
-	.byte	'zf_device_mt9v03x.h',0,3,0,0
-	.byte	'seekfree_assistant.h',0,4,0,0
-	.byte	'seekfree_assistant_interface.h',0,4,0,0
+	.byte	'zf_driver_delay.h',0,1,0,0
+	.byte	'zf_device_ips200.h',0,2,0,0
+	.byte	'zf_device_mt9v03x.h',0,2,0,0
 	.byte	'../code/camera.cpp',0,0,0,0
-	.byte	'stdio.h',0,1,0,0
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\Cpu/Std/Platform_Types.h',0
 	.byte	0,0,0
-	.byte	'zf_common_typedef.h',0,5,0,0,0
-.L34:
-.L32:
+	.byte	'zf_common_typedef.h',0,3,0,0,0
+.L29:
+.L27:
 	.sdecl	'.debug_info',debug,cluster('_Z11camera_initv')
 	.sect	'.debug_info'
 .L13:
@@ -339,10 +304,10 @@ camera_information:	.type	object
 	.byte	2
 	.word	.L9
 	.byte	3
-	.byte	'_Z11camera_initv',0,1,10,6,1,1,1
-	.word	.L6,.L27,.L5
+	.byte	'_Z11camera_initv',0,1,6,6,1,1,1
+	.word	.L6,.L23,.L5
 	.byte	4
-	.word	.L6,.L27
+	.word	.L6,.L23
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_Z11camera_initv')
 	.sect	'.debug_abbrev'
@@ -352,50 +317,62 @@ camera_information:	.type	object
 	.sdecl	'.debug_line',debug,cluster('_Z11camera_initv')
 	.sect	'.debug_line'
 .L15:
-	.word	.L36-.L35
-.L35:
+	.word	.L31-.L30
+.L30:
 	.half	3
-	.word	.L38-.L37
-.L37:
+	.word	.L33-.L32
+.L32:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/camera.cpp',0,0,0,0,0
-.L38:
-	.byte	5,35,7,0,5,2
+.L33:
+	.byte	5,13,7,0,5,2
 	.word	.L6
-	.byte	3,11,1,5,22,9
-	.half	.L39-.L6
-	.byte	3,2,1,5,17,9
-	.half	.L3-.L39
-	.byte	3,3,1,5,20,9
-	.half	.L2-.L3
-	.byte	3,125,1,5,22,9
-	.half	.L40-.L2
-	.byte	1,5,36,7,9
+	.byte	3,7,1,5,21,9
+	.half	.L34-.L6
+	.byte	3,1,1,5,35,9
+	.half	.L35-.L34
+	.byte	1,5,63,9
+	.half	.L36-.L35
+	.byte	1,5,49,9
+	.half	.L37-.L36
+	.byte	1,5,22,9
+	.half	.L38-.L37
+	.byte	3,2,1,5,21,9
+	.half	.L3-.L38
+	.byte	3,2,1,5,35,9
+	.half	.L39-.L3
+	.byte	1,5,64,9
+	.half	.L40-.L39
+	.byte	1,5,50,9
 	.half	.L41-.L40
-	.byte	3,6,1,5,57,9
+	.byte	1,5,17,9
 	.half	.L42-.L41
-	.byte	1,5,98,9
-	.half	.L43-.L42
-	.byte	1,5,114,9
+	.byte	3,1,1,5,20,9
+	.half	.L2-.L42
+	.byte	3,125,1,5,22,9
+	.half	.L43-.L2
+	.byte	1,5,21,7,9
 	.half	.L44-.L43
-	.byte	1,5,141,1,9
+	.byte	3,6,1,5,35,9
 	.half	.L45-.L44
-	.byte	1,5,130,1,9
+	.byte	1,5,64,9
 	.half	.L46-.L45
-	.byte	1,5,1,9
+	.byte	1,5,50,9
 	.half	.L47-.L46
-	.byte	3,3,1,7,9
-	.half	.L17-.L47
+	.byte	1,5,1,9
+	.half	.L48-.L47
+	.byte	3,1,1,7,9
+	.half	.L17-.L48
 	.byte	0,1,1
-.L36:
+.L31:
 	.sdecl	'.debug_ranges',debug,cluster('_Z11camera_initv')
 	.sect	'.debug_ranges'
 .L16:
 	.word	-1,.L6,0,.L17-.L6,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z17camera_send_framev')
+	.sdecl	'.debug_info',debug,cluster('_Z20camera_display_framev')
 	.sect	'.debug_info'
 .L18:
-	.word	231
+	.word	234
 	.half	3
 	.word	.L19
 	.byte	4,1
@@ -406,114 +383,88 @@ camera_information:	.type	object
 	.byte	2
 	.word	.L9
 	.byte	3
-	.byte	'_Z17camera_send_framev',0,1,25,6,1,1,1
-	.word	.L8,.L28,.L7
+	.byte	'_Z20camera_display_framev',0,1,20,6,1,1,1
+	.word	.L8,.L24,.L7
 	.byte	4
-	.word	.L8,.L28
+	.word	.L8,.L24
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_Z17camera_send_framev')
+	.sdecl	'.debug_abbrev',debug,cluster('_Z20camera_display_framev')
 	.sect	'.debug_abbrev'
 .L19:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_Z17camera_send_framev')
+	.sdecl	'.debug_line',debug,cluster('_Z20camera_display_framev')
 	.sect	'.debug_line'
 .L20:
-	.word	.L49-.L48
-.L48:
+	.word	.L50-.L49
+.L49:
 	.half	3
-	.word	.L51-.L50
-.L50:
+	.word	.L52-.L51
+.L51:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/camera.cpp',0,0,0,0,0
-.L51:
-	.byte	5,5,7,0,5,2
+.L52:
+	.byte	5,6,7,0,5,2
 	.word	.L8
-	.byte	3,26,1,5,1,9
-	.half	.L52-.L8
-	.byte	1,7,9
-	.half	.L53-.L52
-	.byte	3,2,1,5,24,9
+	.byte	3,19,1,5,5,9
+	.half	.L25-.L8
+	.byte	3,2,1,5,1,9
+	.half	.L53-.L25
+	.byte	1,5,120,7,9
 	.half	.L54-.L53
-	.byte	1,5,21,9
+	.byte	3,2,1,5,136,1,9
 	.half	.L55-.L54
-	.byte	1,5,20,9
+	.byte	1,5,152,1,9
 	.half	.L56-.L55
-	.byte	3,1,1,5,57,9
+	.byte	1,5,25,9
 	.half	.L57-.L56
-	.byte	1,5,79,9
+	.byte	1,5,39,9
 	.half	.L58-.L57
-	.byte	1,5,34,9
+	.byte	1,5,68,9
 	.half	.L59-.L58
-	.byte	3,1,1,5,1,9
-	.half	.L4-.L59
+	.byte	1,5,88,9
+	.half	.L60-.L59
+	.byte	1,5,104,9
+	.half	.L61-.L60
+	.byte	1,5,1,9
+	.half	.L62-.L61
+	.byte	3,2,1,5,24,9
+	.half	.L63-.L62
+	.byte	1,5,21,9
+	.half	.L64-.L63
+	.byte	1,5,1,9
+	.half	.L4-.L64
 	.byte	3,2,1,7,9
 	.half	.L22-.L4
 	.byte	0,1,1
-.L49:
-	.sdecl	'.debug_ranges',debug,cluster('_Z17camera_send_framev')
+.L50:
+	.sdecl	'.debug_ranges',debug,cluster('_Z20camera_display_framev')
 	.sect	'.debug_ranges'
 .L21:
 	.word	-1,.L8,0,.L22-.L8,0,0
-	.sdecl	'.debug_info',debug,cluster('image_copy')
-	.sect	'.debug_info'
-.L23:
-	.word	196
-	.half	3
-	.word	.L24
-	.byte	4,1
-	.byte	'../code/camera.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L9
-	.byte	3
-	.byte	'image_copy',0,6,7,14
-	.word	.L29
-	.byte	5,3
-	.word	image_copy
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('image_copy')
-	.sect	'.debug_abbrev'
-.L24:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('camera_information')
-	.sect	'.debug_info'
-.L25:
-	.word	204
-	.half	3
-	.word	.L26
-	.byte	4,1
-	.byte	'../code/camera.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L9
-	.byte	3
-	.byte	'camera_information',0,6,8,41
-	.word	.L30
-	.byte	5,3
-	.word	camera_information
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('camera_information')
-	.sect	'.debug_abbrev'
-.L26:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z11camera_initv')
 	.sect	'.debug_loc'
 .L5:
-	.word	-1,.L6,0,.L27-.L6
+	.word	-1,.L6,0,.L23-.L6
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('_Z17camera_send_framev')
+	.sdecl	'.debug_loc',debug,cluster('_Z20camera_display_framev')
 	.sect	'.debug_loc'
 .L7:
-	.word	-1,.L8,0,.L28-.L8
+	.word	-1,.L8,0,.L25-.L8
+	.half	2
+	.byte	138,0
+	.word	.L25-.L8,.L24-.L8
+	.half	2
+	.byte	138,16
+	.word	.L24-.L8,.L24-.L8
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L60:
+.L65:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -521,9 +472,14 @@ camera_information:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('_Z11camera_initv')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L60,.L6,.L27-.L6
-	.sdecl	'.debug_frame',debug,cluster('_Z17camera_send_framev')
+	.word	.L65,.L6,.L23-.L6
+	.sdecl	'.debug_frame',debug,cluster('_Z20camera_display_framev')
 	.sect	'.debug_frame'
-	.word	12
-	.word	.L60,.L8,.L28-.L8
+	.word	36
+	.word	.L65,.L8,.L24-.L8
+	.byte	4
+	.word	(.L25-.L8)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L24-.L25)/2
+	.byte	19,0,8,26,0,0
 	; Module end

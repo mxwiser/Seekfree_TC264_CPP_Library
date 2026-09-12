@@ -62,7 +62,7 @@ int core0_main(void)
     cpu_wait_event_ready();         // 等待所有核心初始化完毕
     while (TRUE)
     {
-        loop();                    // Send completed camera frames.
+        loop();                    // Display completed camera frames on IPS200.
         // 此处编写需要循环执行的代码
 
 

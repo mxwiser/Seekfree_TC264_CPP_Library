@@ -3,32 +3,27 @@
 
 #pragma section all "cpu0_dsram"
 
-// Keep a separate snapshot so UART transmission does not read a changing frame.
-static uint8 image_copy[MT9V03X_H][MT9V03X_W];
-static seekfree_assistant_camera_struct camera_information;
-
 void camera_init(void)
 {
-    seekfree_assistant_interface_init(SEEKFREE_ASSISTANT_DEBUG_UART);
+    ips200_init(IPS200_TYPE_SPI);
+    ips200_show_string(0, 0, "mt9v03x init.");
 
     while (mt9v03x_init())
     {
-        // The camera driver reports initialization errors through the debug UART.
+        ips200_show_string(0, 80, "mt9v03x reinit.");
         system_delay_ms(500);
     }
 
-    seekfree_assistant_camera_config(&camera_information,
-        SEEKFREE_ASSISTANT_CAMERA_TYPE_MT9V03X,
-        MT9V03X_W, MT9V03X_H, image_copy[0]);
+    ips200_show_string(0, 16, "init success.");
 }
 
-void camera_send_frame(void)
+void camera_display_frame(void)
 {
     if (mt9v03x_finish_flag)
     {
+        ips200_displayimage03x((const uint8 *)mt9v03x_image,
+            MT9V03X_W, MT9V03X_H);
         mt9v03x_finish_flag = 0;
-        memcpy(image_copy[0], mt9v03x_image[0], MT9V03X_IMAGE_SIZE);
-        seekfree_assistant_camera_send(&camera_information);
     }
 }
 
