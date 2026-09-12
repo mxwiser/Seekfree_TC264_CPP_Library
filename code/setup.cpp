@@ -11,43 +11,27 @@
 #pragma section all "cpu0_dsram"
 
 
-#define CHANNEL_NUMBER          (4)
-#define PWM_CH1                 (ATOM1_CH5_P20_9)
-#define PWM_CH2                 (ATOM0_CH7_P20_8)
-#define PWM_CH3                 (ATOM0_CH3_P21_5)
-#define PWM_CH4                 (ATOM0_CH2_P21_4)
-
-
-int16 duty = 0;
-int16 duty_temp = 0;
-uint8 channel_index = 0;
-pwm_channel_enum channel_list[CHANNEL_NUMBER] = {PWM_CH1, PWM_CH2, PWM_CH3, PWM_CH4};
-
+// Assumed servo: 180 degrees over 500-2500 us, neutral at 1500 us.
+#define SERVO_PWM_CHANNEL       (ATOM0_CH1_P33_9)
+#define SERVO_PWM_FREQ_HZ       (50U)
+#define SERVO_NEUTRAL_US        (1500)
+#define SERVO_PULSE_SPAN_US     (2000)
+#define SERVO_ANGLE_SPAN_DEG    (180)
+#define SERVO_LEFT_OFFSET_DEG   (10)
+// Left uses a smaller angle and a shorter pulse than neutral.
+#define SERVO_LEFT_DIRECTION    (-1)
 
 void setup(void)
 {
+    const uint32 pulse_us = (uint32)(SERVO_NEUTRAL_US
+        + SERVO_LEFT_DIRECTION * SERVO_LEFT_OFFSET_DEG
+        * SERVO_PULSE_SPAN_US / SERVO_ANGLE_SPAN_DEG);
+    const uint32 period_us = 1000000U / SERVO_PWM_FREQ_HZ;
+    const uint32 duty = (uint32)(((uint64)pulse_us * PWM_DUTY_MAX
+        + period_us / 2U) / period_us);
 
-    pwm_init(PWM_CH1, 17000, 0);                                                // ??? PWM ?? ?? 17KHz ????? 0%
-    pwm_init(PWM_CH2, 17000, 0);                                                // ??? PWM ?? ?? 17KHz ????? 0%
-    pwm_init(PWM_CH3, 17000, 0);                                                // ??? PWM ?? ?? 17KHz ????? 0%
-    pwm_init(PWM_CH4, 17000, 0);                                                // ??? PWM ?? ?? 17KHz ????? 0%
-    while (TRUE)
-    {
-        // ?????????????
-
-        for(duty = 0; duty <= PWM_DUTY_MAX / 2; duty ++)                        // ???????? 50%
-        {
-			// ?????
-            for(channel_index = 0; channel_index < CHANNEL_NUMBER; channel_index++) 
-            {
-                duty_temp = (duty + channel_index * PWM_DUTY_MAX / 8) % (PWM_DUTY_MAX / 2) + (PWM_DUTY_MAX / 2); 
-                pwm_set_duty(channel_list[channel_index], duty_temp);           // ?????????
-            }
-            system_delay_us(200);
-        }
-
-        // ?????????????
-    }
+    // Initialize once; hardware keeps outputting the target position pulse.
+    pwm_init(SERVO_PWM_CHANNEL, SERVO_PWM_FREQ_HZ, duty);
 }
 
 #pragma section all restore
