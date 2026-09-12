@@ -16,8 +16,10 @@ void setup(void)
     servo_init();
     camera_init();
     right_motor_init(20);
+    left_motor_init(20);
     system_delay_ms(5000);
     right_motor_stop();
+    left_motor_stop();
 }
 
 void loop(void)

@@ -6,4 +6,9 @@ void right_motor_init(int duty_percent);
 void right_motor_set_duty(int duty_percent);
 void right_motor_stop(void);
 
+// Left motor: DIR=P02.4, PWM=P02.5, PWM frequency=2 kHz.
+void left_motor_init(int duty_percent);
+void left_motor_set_duty(int duty_percent);
+void left_motor_stop(void);
+
 #endif /* CODE_MOTOR_HPP_ */
