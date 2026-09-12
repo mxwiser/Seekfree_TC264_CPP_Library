@@ -4,6 +4,8 @@ setup.o :	"D:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\inc
 "D:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include.cpp\intrinsics.h" :
 setup.o :	../code/setup.hpp
 ../code/setup.hpp :
+setup.o :	../code/servo.hpp
+../code/servo.hpp :
 setup.o :	"D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h"
 "D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h" :
 setup.o :	"D:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include.stl\math.h"
