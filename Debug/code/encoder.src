@@ -1,0 +1,836 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc1516c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\route_process -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/encoder.src cc1516a.ic"
+	.compiler_name		"ctc"
+	;source	'../code/encoder.cpp'
+
+	
+$TC16X
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('encoder_init')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+	.global	encoder_init
+; Function encoder_init
+.L5:
+encoder_init:	.type	func
+	mov	d4,#3
+.L71:
+	mov	d5,#5
+.L72:
+	mov	d6,#6
+	call	encoder_dir_init
+.L73:
+	mov	d4,#0
+.L74:
+	mov	d5,#1
+.L75:
+	mov	d6,#1
+	call	encoder_dir_init
+.L76:
+	mov	d4,#0
+.L77:
+	mov	d5,#3125
+	sh	d5,#5
+	call	pit_init
+.L78:
+	ret
+.L47:
+	
+__encoder_init_function_end:
+	.size	encoder_init,__encoder_init_function_end-encoder_init
+.L22:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('encoder_update_100ms')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+	.global	encoder_update_100ms
+; Function encoder_update_100ms
+.L7:
+encoder_update_100ms:	.type	func
+	movh.a	a15,#@his(right_encoder_count)
+	lea	a15,[a15]@los(right_encoder_count)
+.L83:
+	mov	d4,#3
+	call	encoder_get_count
+.L84:
+	rsub	d2,#0
+.L85:
+	st.h	[a15],d2
+.L86:
+	mov	d4,#3
+	call	encoder_clear_count
+.L87:
+	movh.a	a15,#@his(left_encoder_count)
+	lea	a15,[a15]@los(left_encoder_count)
+.L88:
+	mov	d4,#0
+	call	encoder_get_count
+.L89:
+	st.h	[a15],d2
+.L90:
+	mov	d4,#0
+	call	encoder_clear_count
+.L91:
+	ret
+.L48:
+	
+__encoder_update_100ms_function_end:
+	.size	encoder_update_100ms,__encoder_update_100ms_function_end-encoder_update_100ms
+.L27:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('encoder_display')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+	.global	encoder_display
+; Function encoder_display
+.L9:
+encoder_display:	.type	func
+	movh.a	a15,#@his(right_encoder_count)
+	lea	a15,[a15]@los(right_encoder_count)
+	ld.h	d15,[a15]
+.L57:
+	movh.a	a15,#@his(left_encoder_count)
+	lea	a15,[a15]@los(left_encoder_count)
+	ld.h	d8,[a15]
+.L58:
+	mov	d4,#0
+.L96:
+	mov	d5,#200
+.L97:
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+.L98:
+	call	ips200_show_string
+.L99:
+	mov	d4,#64
+.L100:
+	mov	d5,#200
+.L101:
+	mov	d7,#6
+	mov	d6,d15
+.L59:
+	call	ips200_show_int
+.L60:
+	mov	d4,#0
+.L102:
+	mov	d5,#216
+.L103:
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+.L104:
+	call	ips200_show_string
+.L105:
+	mov	d4,#64
+.L106:
+	mov	d5,#216
+.L107:
+	mov	d7,#6
+	mov	d6,d8
+.L61:
+	call	ips200_show_int
+.L62:
+	ret
+.L49:
+	
+__encoder_display_function_end:
+	.size	encoder_display,__encoder_display_function_end-encoder_display
+.L32:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('encoder_get_left_count_100ms')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+	.global	encoder_get_left_count_100ms
+; Function encoder_get_left_count_100ms
+.L11:
+encoder_get_left_count_100ms:	.type	func
+	movh.a	a15,#@his(left_encoder_count)
+	lea	a15,[a15]@los(left_encoder_count)
+	ld.h	d2,[a15]
+.L112:
+	j	.L2
+.L2:
+	ret
+.L53:
+	
+__encoder_get_left_count_100ms_function_end:
+	.size	encoder_get_left_count_100ms,__encoder_get_left_count_100ms_function_end-encoder_get_left_count_100ms
+.L37:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('encoder_get_right_count_100ms')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+	.global	encoder_get_right_count_100ms
+; Function encoder_get_right_count_100ms
+.L13:
+encoder_get_right_count_100ms:	.type	func
+	movh.a	a15,#@his(right_encoder_count)
+	lea	a15,[a15]@los(right_encoder_count)
+	ld.h	d2,[a15]
+.L117:
+	j	.L3
+.L3:
+	ret
+.L54:
+	
+__encoder_get_right_count_100ms_function_end:
+	.size	encoder_get_right_count_100ms,__encoder_get_right_count_100ms_function_end-encoder_get_right_count_100ms
+.L42:
+	; End of function
+	
+	.sdecl	'.data.cpu0_dsram',data,cluster('right_encoder_count')
+	.sect	'.data.cpu0_dsram'
+	.align	2
+right_encoder_count:	.type	object
+	.size	right_encoder_count,2
+	.space	2
+	.sdecl	'.data.cpu0_dsram',data,cluster('left_encoder_count')
+	.sect	'.data.cpu0_dsram'
+	.align	2
+left_encoder_count:	.type	object
+	.size	left_encoder_count,2
+	.space	2
+	.sdecl	'.rodata.cpu0_dsram',data,rom
+	.sect	'.rodata.cpu0_dsram'
+.1.str:	.type	object
+	.size	.1.str,7
+	.byte	69,78,67,32
+	.byte	82,58
+	.space	1
+	.sdecl	'.rodata.cpu0_dsram',data,rom
+	.sect	'.rodata.cpu0_dsram'
+.2.str:	.type	object
+	.size	.2.str,7
+	.byte	69,78,67,32
+	.byte	76,58
+	.space	1
+	.calls	'encoder_init','encoder_dir_init'
+	.calls	'encoder_init','pit_init'
+	.calls	'encoder_update_100ms','encoder_get_count'
+	.calls	'encoder_update_100ms','encoder_clear_count'
+	.calls	'encoder_display','ips200_show_string'
+	.calls	'encoder_display','ips200_show_int'
+	.calls	'encoder_init','',0
+	.calls	'encoder_update_100ms','',0
+	.calls	'encoder_display','',0
+	.calls	'encoder_get_left_count_100ms','',0
+	.extern	encoder_get_count
+	.extern	encoder_clear_count
+	.extern	encoder_dir_init
+	.extern	pit_init
+	.extern	ips200_show_string
+	.extern	ips200_show_int
+	.calls	'encoder_get_right_count_100ms','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L15:
+	.word	1475
+	.half	3
+	.word	.L16
+	.byte	4
+.L14:
+	.byte	1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L17
+.L50:
+	.byte	2
+	.byte	'short int',0,2,5,3
+	.byte	'encoder_index_enum',0,1,76,6,1,4
+	.byte	'TIM2_ENCODER',0,0,4
+	.byte	'TIM3_ENCODER',0,1,4
+	.byte	'TIM4_ENCODER',0,2,4
+	.byte	'TIM5_ENCODER',0,3,4
+	.byte	'TIM6_ENCODER',0,4,0,5
+	.byte	'encoder_get_count',0,1,85,14
+	.word	174
+	.byte	1,1,1,1,6
+	.byte	'encoder_n',0,1,85,51
+	.word	187
+	.byte	0,7
+	.byte	'encoder_clear_count',0,1,86,13,1,1,1,1,6
+	.byte	'encoder_n',0,1,86,52
+	.word	187
+	.byte	0,3
+	.byte	'encoder_channel1_enum',0,1,43,6,1,4
+	.byte	'TIM2_ENCODER_CH1_P00_7',0,0,4
+	.byte	'TIM2_ENCODER_CH1_P33_7',0,1,4
+	.byte	'TIM3_ENCODER_CH1_P02_6',0,2,4
+	.byte	'TIM4_ENCODER_CH1_P02_8',0,3,4
+	.byte	'TIM5_ENCODER_CH1_P21_7',0,4,4
+	.byte	'TIM5_ENCODER_CH1_P10_3',0,5,4
+	.byte	'TIM6_ENCODER_CH1_P20_3',0,6,4
+	.byte	'TIM6_ENCODER_CH1_P10_2',0,7,0,3
+	.byte	'encoder_channel2_enum',0,1,60,6,1,4
+	.byte	'TIM2_ENCODER_CH2_P00_8',0,0,4
+	.byte	'TIM2_ENCODER_CH2_P33_6',0,1,4
+	.byte	'TIM3_ENCODER_CH2_P02_7',0,2,4
+	.byte	'TIM4_ENCODER_CH2_P00_9',0,3,4
+	.byte	'TIM4_ENCODER_CH2_P33_5',0,4,4
+	.byte	'TIM5_ENCODER_CH2_P21_6',0,5,4
+	.byte	'TIM5_ENCODER_CH2_P10_1',0,6,4
+	.byte	'TIM6_ENCODER_CH2_P20_0',0,7,0,7
+	.byte	'encoder_dir_init',0,1,89,13,1,1,1,1,6
+	.byte	'encoder_n',0,1,89,49
+	.word	187
+	.byte	6
+	.byte	'ch1_pin',0,1,89,82
+	.word	383
+	.byte	6
+	.byte	'ch2_pin',0,1,89,113
+	.word	611
+	.byte	0,3
+	.byte	'pit_index_enum',0,2,42,6,1,4
+	.byte	'CCU60_CH0',0,0,4
+	.byte	'CCU60_CH1',0,1,4
+	.byte	'CCU61_CH0',0,2,4
+	.byte	'CCU61_CH1',0,3,0,2
+	.byte	'unsigned long int',0,4,7,7
+	.byte	'pit_init',0,2,58,13,1,1,1,1,6
+	.byte	'pit_index',0,2,58,37
+	.word	915
+	.byte	6
+	.byte	'time',0,2,58,55
+	.word	984
+	.byte	0,2
+	.byte	'unsigned short int',0,2,7,2
+	.byte	'char',0,1,6,8
+	.word	1076
+	.byte	9
+	.word	1084
+	.byte	7
+	.byte	'ips200_show_string',0,3,177,1,13,1,1,1,1,6
+	.byte	'x',0,3,177,1,39
+	.word	1054
+	.byte	6
+	.byte	'y',0,3,177,1,49
+	.word	1054
+	.byte	6
+	.byte	'dat',0,3,177,1,64
+	.word	1089
+	.byte	0,2
+	.byte	'int',0,4,5,8
+	.word	1158
+	.byte	2
+	.byte	'unsigned char',0,1,8,7
+	.byte	'ips200_show_int',0,3,178,1,13,1,1,1,1,6
+	.byte	'x',0,3,178,1,36
+	.word	1054
+	.byte	6
+	.byte	'y',0,3,178,1,46
+	.word	1054
+	.byte	6
+	.byte	'dat',0,3,178,1,61
+	.word	1165
+	.byte	6
+	.byte	'num',0,3,178,1,72
+	.word	1170
+	.byte	0,10,1,9
+	.word	1261
+	.byte	11
+	.byte	'__codeptr',0,4,1,1
+	.word	1263
+	.byte	11
+	.byte	'uint8',0,5,105,23
+	.word	1170
+	.byte	11
+	.byte	'uint16',0,5,109,24
+	.word	1054
+	.byte	11
+	.byte	'uint32',0,5,113,23
+	.word	984
+	.byte	11
+	.byte	'int16',0,6,55,22
+	.word	174
+	.byte	11
+	.byte	'int32',0,6,56,20
+	.word	1158
+	.byte	11
+	.byte	'encoder_channel1_enum',0,1,56,36
+	.word	383
+	.byte	11
+	.byte	'encoder_channel2_enum',0,1,73,36
+	.word	611
+	.byte	11
+	.byte	'encoder_index_enum',0,1,82,33
+	.word	187
+	.byte	11
+	.byte	'pit_index_enum',0,2,47,29
+	.word	915
+.L55:
+	.byte	12
+	.word	174
+.L56:
+	.byte	12
+	.word	174
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,4,1,3,8,58,15,59,15,57,15,11
+	.byte	15,0,0,4,40,0,3,8,28,13,0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58
+	.byte	15,59,15,57,15,73,19,0,0,7,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,8,38,0,73,19,0,0,9,15
+	.byte	0,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,53,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L17:
+	.word	.L64-.L63
+.L63:
+	.half	3
+	.word	.L66-.L65
+.L65:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver',0
+	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device',0
+	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common',0,0
+	.byte	'zf_driver_encoder.h',0,1,0,0
+	.byte	'zf_driver_pit.h',0,1,0,0
+	.byte	'zf_device_ips200.h',0,2,0,0
+	.byte	'../code/encoder.cpp',0,0,0,0
+	.byte	'Platform_Types.h',0,3,0,0
+	.byte	'zf_common_typedef.h',0,4,0,0,0
+.L66:
+.L64:
+	.sdecl	'.debug_info',debug,cluster('encoder_init')
+	.sect	'.debug_info'
+.L18:
+	.word	222
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L21,.L20
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'encoder_init',0,1,19,6,1,1,1
+	.word	.L5,.L47,.L4
+	.byte	4
+	.word	.L5,.L47
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('encoder_init')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('encoder_init')
+	.sect	'.debug_line'
+.L20:
+	.word	.L68-.L67
+.L67:
+	.half	3
+	.word	.L70-.L69
+.L69:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/encoder.cpp',0,0,0,0,0
+.L70:
+	.byte	5,18,7,0,5,2
+	.word	.L5
+	.byte	3,20,1,5,32,9
+	.half	.L71-.L5
+	.byte	1,5,56,9
+	.half	.L72-.L71
+	.byte	1,5,18,9
+	.half	.L73-.L72
+	.byte	3,1,1,5,32,9
+	.half	.L74-.L73
+	.byte	1,5,56,9
+	.half	.L75-.L74
+	.byte	1,5,10,9
+	.half	.L76-.L75
+	.byte	3,1,1,5,21,9
+	.half	.L77-.L76
+	.byte	1,5,1,9
+	.half	.L78-.L77
+	.byte	3,1,1,7,9
+	.half	.L22-.L78
+	.byte	0,1,1
+.L68:
+	.sdecl	'.debug_ranges',debug,cluster('encoder_init')
+	.sect	'.debug_ranges'
+.L21:
+	.word	-1,.L5,0,.L22-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('encoder_update_100ms')
+	.sect	'.debug_info'
+.L23:
+	.word	230
+	.half	3
+	.word	.L24
+	.byte	4,1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L26,.L25
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'encoder_update_100ms',0,1,26,6,1,1,1
+	.word	.L7,.L48,.L6
+	.byte	4
+	.word	.L7,.L48
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('encoder_update_100ms')
+	.sect	'.debug_abbrev'
+.L24:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('encoder_update_100ms')
+	.sect	'.debug_line'
+.L25:
+	.word	.L80-.L79
+.L79:
+	.half	3
+	.word	.L82-.L81
+.L81:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/encoder.cpp',0,0,0,0,0
+.L82:
+	.byte	5,1,7,0,5,2
+	.word	.L7
+	.byte	3,28,1,5,58,9
+	.half	.L83-.L7
+	.byte	1,5,32,9
+	.half	.L84-.L83
+	.byte	1,5,21,9
+	.half	.L85-.L84
+	.byte	1,9
+	.half	.L86-.L85
+	.byte	3,1,1,5,1,9
+	.half	.L87-.L86
+	.byte	3,2,1,5,41,9
+	.half	.L88-.L87
+	.byte	1,5,20,9
+	.half	.L89-.L88
+	.byte	1,5,21,9
+	.half	.L90-.L89
+	.byte	3,1,1,5,1,9
+	.half	.L91-.L90
+	.byte	3,1,1,7,9
+	.half	.L27-.L91
+	.byte	0,1,1
+.L80:
+	.sdecl	'.debug_ranges',debug,cluster('encoder_update_100ms')
+	.sect	'.debug_ranges'
+.L26:
+	.word	-1,.L7,0,.L27-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('encoder_display')
+	.sect	'.debug_info'
+.L28:
+	.word	295
+	.half	3
+	.word	.L29
+	.byte	4,1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L31,.L30
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'encoder_display',0,1,36,6,1,1,1
+	.word	.L9,.L49,.L8
+	.byte	4
+	.word	.L9,.L49
+	.byte	5
+	.byte	'__67899_17_right_count',0,1,38,12
+	.word	.L50,.L51
+	.byte	5
+	.byte	'__67900_17_left_count',0,1,39,12
+	.word	.L50,.L52
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('encoder_display')
+	.sect	'.debug_abbrev'
+.L29:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('encoder_display')
+	.sect	'.debug_line'
+.L30:
+	.word	.L93-.L92
+.L92:
+	.half	3
+	.word	.L95-.L94
+.L94:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/encoder.cpp',0,0,0,0,0
+.L95:
+	.byte	5,26,7,0,5,2
+	.word	.L9
+	.byte	3,37,1,5,25,9
+	.half	.L57-.L9
+	.byte	3,1,1,5,21,9
+	.half	.L58-.L57
+	.byte	3,2,1,5,35,9
+	.half	.L96-.L58
+	.byte	1,5,65,9
+	.half	.L97-.L96
+	.byte	1,5,51,9
+	.half	.L98-.L97
+	.byte	1,5,18,9
+	.half	.L99-.L98
+	.byte	3,1,1,5,33,9
+	.half	.L100-.L99
+	.byte	1,5,82,9
+	.half	.L101-.L100
+	.byte	1,5,21,9
+	.half	.L60-.L101
+	.byte	3,1,1,5,35,9
+	.half	.L102-.L60
+	.byte	1,5,65,9
+	.half	.L103-.L102
+	.byte	1,5,51,9
+	.half	.L104-.L103
+	.byte	1,5,18,9
+	.half	.L105-.L104
+	.byte	3,1,1,5,33,9
+	.half	.L106-.L105
+	.byte	1,5,81,9
+	.half	.L107-.L106
+	.byte	1,5,1,9
+	.half	.L62-.L107
+	.byte	3,1,1,7,9
+	.half	.L32-.L62
+	.byte	0,1,1
+.L93:
+	.sdecl	'.debug_ranges',debug,cluster('encoder_display')
+	.sect	'.debug_ranges'
+.L31:
+	.word	-1,.L9,0,.L32-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('encoder_get_left_count_100ms')
+	.sect	'.debug_info'
+.L33:
+	.word	242
+	.half	3
+	.word	.L34
+	.byte	4,1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L36,.L35
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'encoder_get_left_count_100ms',0,1,47,7
+	.word	.L50
+	.byte	1,1,1
+	.word	.L11,.L53,.L10
+	.byte	4
+	.word	.L11,.L53
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('encoder_get_left_count_100ms')
+	.sect	'.debug_abbrev'
+.L34:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('encoder_get_left_count_100ms')
+	.sect	'.debug_line'
+.L35:
+	.word	.L109-.L108
+.L108:
+	.half	3
+	.word	.L111-.L110
+.L110:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/encoder.cpp',0,0,0,0,0
+.L111:
+	.byte	5,8,7,0,5,2
+	.word	.L11
+	.byte	3,48,1,5,1,9
+	.half	.L112-.L11
+	.byte	1,9
+	.half	.L2-.L112
+	.byte	3,1,1,7,9
+	.half	.L37-.L2
+	.byte	0,1,1
+.L109:
+	.sdecl	'.debug_ranges',debug,cluster('encoder_get_left_count_100ms')
+	.sect	'.debug_ranges'
+.L36:
+	.word	-1,.L11,0,.L37-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('encoder_get_right_count_100ms')
+	.sect	'.debug_info'
+.L38:
+	.word	243
+	.half	3
+	.word	.L39
+	.byte	4,1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L41,.L40
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'encoder_get_right_count_100ms',0,1,52,7
+	.word	.L50
+	.byte	1,1,1
+	.word	.L13,.L54,.L12
+	.byte	4
+	.word	.L13,.L54
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('encoder_get_right_count_100ms')
+	.sect	'.debug_abbrev'
+.L39:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('encoder_get_right_count_100ms')
+	.sect	'.debug_line'
+.L40:
+	.word	.L114-.L113
+.L113:
+	.half	3
+	.word	.L116-.L115
+.L115:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/encoder.cpp',0,0,0,0,0
+.L116:
+	.byte	5,8,7,0,5,2
+	.word	.L13
+	.byte	3,53,1,5,1,9
+	.half	.L117-.L13
+	.byte	1,9
+	.half	.L3-.L117
+	.byte	3,1,1,7,9
+	.half	.L42-.L3
+	.byte	0,1,1
+.L114:
+	.sdecl	'.debug_ranges',debug,cluster('encoder_get_right_count_100ms')
+	.sect	'.debug_ranges'
+.L41:
+	.word	-1,.L13,0,.L42-.L13,0,0
+	.sdecl	'.debug_info',debug,cluster('right_encoder_count')
+	.sect	'.debug_info'
+.L43:
+	.word	206
+	.half	3
+	.word	.L44
+	.byte	4,1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
+	.word	.L14
+	.byte	3
+	.byte	'right_encoder_count',0,4,16,23
+	.word	.L55
+	.byte	5,3
+	.word	right_encoder_count
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('right_encoder_count')
+	.sect	'.debug_abbrev'
+.L44:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('left_encoder_count')
+	.sect	'.debug_info'
+.L45:
+	.word	205
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../code/encoder.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
+	.word	.L14
+	.byte	3
+	.byte	'left_encoder_count',0,4,17,23
+	.word	.L56
+	.byte	5,3
+	.word	left_encoder_count
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('left_encoder_count')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('encoder_display')
+	.sect	'.debug_loc'
+.L51:
+	.word	-1,.L9,.L57-.L9,.L49-.L9
+	.half	1
+	.byte	95
+	.word	.L59-.L9,.L60-.L9
+	.half	1
+	.byte	86
+	.word	0,0
+.L52:
+	.word	-1,.L9,.L58-.L9,.L49-.L9
+	.half	1
+	.byte	88
+	.word	.L61-.L9,.L62-.L9
+	.half	1
+	.byte	86
+	.word	0,0
+.L8:
+	.word	-1,.L9,0,.L49-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('encoder_get_left_count_100ms')
+	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L53-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('encoder_get_right_count_100ms')
+	.sect	'.debug_loc'
+.L12:
+	.word	-1,.L13,0,.L54-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('encoder_init')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L47-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('encoder_update_100ms')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L48-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L118:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('encoder_init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L118,.L5,.L47-.L5
+	.sdecl	'.debug_frame',debug,cluster('encoder_update_100ms')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L118,.L7,.L48-.L7
+	.sdecl	'.debug_frame',debug,cluster('encoder_display')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L118,.L9,.L49-.L9
+	.sdecl	'.debug_frame',debug,cluster('encoder_get_left_count_100ms')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L118,.L11,.L53-.L11
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('encoder_get_right_count_100ms')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L118,.L13,.L54-.L13
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

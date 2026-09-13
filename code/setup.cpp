@@ -9,20 +9,22 @@
 #include "servo.hpp"
 #include "camera.hpp"
 #include "motor.hpp"
+#include "encoder.hpp"
+#include "route_process/route_process.hpp"
+#include "route_process/route_config.hpp"
 #include "zf_common_headfile.h"
 
 void setup(void)
 {
     servo_init();
     camera_init();
-    //right_motor_init(20);
-    //left_motor_init(20);
-    system_delay_ms(5000);
-    right_motor_stop();
-    left_motor_stop();
+    route_process_init();
+    encoder_init();
+    system_delay_ms(ROUTE_START_DELAY_MS);
+    route_process_start();
 }
 
 void loop(void)
 {
-    camera_display_frame();
+    route_process_frame();
 }

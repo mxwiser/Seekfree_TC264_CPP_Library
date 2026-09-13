@@ -328,3 +328,7 @@ isr.o :	"D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\libraries\\zf_c
 "D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\libraries\\zf_components\seekfree_assistant.h" :
 isr.o :	"D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\libraries\\zf_components\seekfree_assistant_interface.h"
 "D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\libraries\\zf_components\seekfree_assistant_interface.h" :
+isr.o :	"D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\code\encoder.hpp"
+"D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\code\encoder.hpp" :
+isr.o :	"D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\code\route_process\route_process.hpp"
+"D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\code\route_process\route_process.hpp" :
