@@ -1,6 +1,15 @@
 import numpy as np
 
-from route_algorithm import IMAGE_H, IMAGE_W, RouteImageAlgorithm, c_div
+from route_algorithm import (
+    IMAGE_H,
+    IMAGE_W,
+    STEERING_LOST_HOLD_FRAMES,
+    STEERING_MAX_STEP,
+    RouteController,
+    RouteImageAlgorithm,
+    RouteImageResult,
+    c_div,
+)
 
 
 def make_track(far_shift=0, ramp_shape=False):
@@ -39,6 +48,27 @@ def main():
                                      dtype=np.uint8)).track_valid == 0
     assert algorithm.process(np.full((IMAGE_H, IMAGE_W), 210,
                                      dtype=np.uint8)).track_valid == 0
+
+    controller = RouteController()
+    result = RouteImageResult(track_valid=1, steering_error=60)
+    first_steering = controller.update_steering(result)
+    assert 0.0 < first_steering <= STEERING_MAX_STEP
+
+    result.steering_error = -60
+    previous = controller.filtered_steering
+    controller.update_steering(result)
+    assert abs(controller.filtered_steering - previous) <= (
+        STEERING_MAX_STEP + 1e-9
+    )
+
+    result.track_valid = 0
+    held = controller.filtered_steering
+    for _ in range(STEERING_LOST_HOLD_FRAMES):
+        assert controller.update_steering(result) == held
+        assert controller.track_valid == 1
+    controller.update_steering(result)
+    assert controller.track_valid == 0
+    assert abs(controller.filtered_steering) <= abs(held)
     print("Python route algorithm matches the C++ synthetic reference cases.")
 
 

@@ -32,6 +32,7 @@ static volatile int16 route_ramp_speed_ticks
 
 static float route_last_image_error = 0.0f;
 static float route_filtered_steering = 0.0f;
+static uint8 route_lost_frame_count = 0;
 
 static int route_limit_int(int value, int minimum, int maximum)
 {
@@ -81,28 +82,61 @@ static int route_update_speed_pid(route_speed_pid_t *pid,
     return (int)(pid->output + 0.5f);
 }
 
+static void route_move_steering_toward(float target)
+{
+    target = route_limit_float(target, -1.0f, 1.0f);
+    const float filtered_target = route_filtered_steering
+        + ROUTE_STEERING_FILTER * (target - route_filtered_steering);
+    const float step = route_limit_float(
+        filtered_target - route_filtered_steering,
+        -ROUTE_STEERING_MAX_STEP, ROUTE_STEERING_MAX_STEP);
+
+    route_filtered_steering = route_limit_float(
+        route_filtered_steering + step, -1.0f, 1.0f);
+    route_steering_permille = (int16)(route_filtered_steering * 1000.0f);
+}
+
 static void route_update_steering(void)
 {
     if (!route_image_result.track_valid)
     {
+        // Ignore a few isolated bad frames. Re-centering immediately on every
+        // missed frame makes the steering alternate between turn and center.
+        if (route_track_valid
+            && route_lost_frame_count < ROUTE_STEERING_LOST_HOLD_FRAMES)
+        {
+            ++route_lost_frame_count;
+            if (route_enabled)
+            {
+                car_angle(route_filtered_steering);
+            }
+            return;
+        }
+
         route_track_valid = 0;
-        route_steering_permille = 0;
+        route_ramp_active = 0;
         route_last_image_error = 0.0f;
-        route_filtered_steering = 0.0f;
-        car_angle(0.0f);
+        route_move_steering_toward(0.0f);
+        if (route_enabled)
+        {
+            car_angle(route_filtered_steering);
+        }
         return;
     }
 
-    const float error = (float)route_image_result.steering_error;
+    route_lost_frame_count = 0;
+    float error = (float)route_image_result.steering_error;
+    if (error >= -(float)ROUTE_STEERING_DEADBAND_PIXELS
+        && error <= (float)ROUTE_STEERING_DEADBAND_PIXELS)
+    {
+        error = 0.0f;
+    }
+
     const float raw_steering = ROUTE_STEERING_KP * error
         + ROUTE_STEERING_KD * (error - route_last_image_error);
-    route_filtered_steering += ROUTE_STEERING_FILTER
-        * (raw_steering - route_filtered_steering);
-    route_filtered_steering = route_limit_float(route_filtered_steering,
-        -1.0f, 1.0f);
+    route_move_steering_toward(raw_steering);
     route_last_image_error = error;
 
-    route_steering_permille = (int16)(route_filtered_steering * 1000.0f);
     route_track_valid = 1;
     route_ramp_active = route_image_result.ramp_active;
     if (route_enabled)
@@ -162,6 +196,7 @@ void route_process_init(void)
     route_right_duty = 0;
     route_last_image_error = 0.0f;
     route_filtered_steering = 0.0f;
+    route_lost_frame_count = 0;
     route_enabled = 0;
 
     left_motor_init(0);
@@ -172,6 +207,7 @@ void route_process_start(void)
 {
     route_reset_speed_pid(&left_speed_pid);
     route_reset_speed_pid(&right_speed_pid);
+    route_lost_frame_count = 0;
     route_enabled = 1;
 }
 
@@ -180,6 +216,12 @@ void route_process_stop(void)
     route_enabled = 0;
     route_left_duty = 0;
     route_right_duty = 0;
+    route_track_valid = 0;
+    route_ramp_active = 0;
+    route_steering_permille = 0;
+    route_last_image_error = 0.0f;
+    route_filtered_steering = 0.0f;
+    route_lost_frame_count = 0;
     left_motor_stop();
     right_motor_stop();
     car_angle(0.0f);
@@ -242,8 +284,10 @@ void route_speed_control_100ms(void)
     //    left_target, encoder_get_left_count_100ms());
     //route_right_duty = (int16)route_update_speed_pid(&right_speed_pid,
     //    right_target, encoder_get_right_count_100ms());
-    left_motor_set_duty(25);
-    right_motor_set_duty(25);
+    route_left_duty = ROUTE_OPEN_LOOP_DUTY_PERCENT;
+    route_right_duty = ROUTE_OPEN_LOOP_DUTY_PERCENT;
+    left_motor_set_duty(route_left_duty);
+    right_motor_set_duty(route_right_duty);
 }
 
 #pragma section all restore

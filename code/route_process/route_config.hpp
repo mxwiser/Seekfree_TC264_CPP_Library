@@ -13,9 +13,12 @@
 
 // A positive image error means that the track center is to the right.
 // car_angle(+1.0f) steers to the right and car_angle(-1.0f) to the left.
-#define ROUTE_STEERING_KP                  (0.025f)
-#define ROUTE_STEERING_KD                  (0.012f)
-#define ROUTE_STEERING_FILTER              (0.35f)
+#define ROUTE_STEERING_KP                  (0.010f)
+#define ROUTE_STEERING_KD                  (0.000f)
+#define ROUTE_STEERING_FILTER              (0.12f)
+#define ROUTE_STEERING_DEADBAND_PIXELS     (2)
+#define ROUTE_STEERING_MAX_STEP            (0.025f)
+#define ROUTE_STEERING_LOST_HOLD_FRAMES    (3U)
 
 // Encoder targets are pulse counts measured during one 100 ms interval.
 // Tune these two values after observing ENC L / ENC R on the IPS display.
@@ -28,6 +31,9 @@
 #define ROUTE_SPEED_KI                     (0.05f)
 #define ROUTE_SPEED_KD                     (0.00f)
 #define ROUTE_MOTOR_MAX_DUTY_PERCENT       (60)
+
+// Temporary low-speed duty while the encoder PID calls remain disabled.
+#define ROUTE_OPEN_LOOP_DUTY_PERCENT       (18)
 
 // Give the operator time to place the vehicle after reset.
 #define ROUTE_START_DELAY_MS               (3000U)
