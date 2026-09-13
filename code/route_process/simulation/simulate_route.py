@@ -432,19 +432,15 @@ def draw_frame(base_map, camera, result, state, trajectories, history,
         f"steering {state['steering']:+.3f}",
         f"servo angle {state['servo_angle']:5.1f} deg   "
         f"camera {state['phase']}",
-        f"ramp state  {result.ramp_state:d}   width delta "
-        f"{result.ramp_width_delta:+3d}",
         f"speed L/R   {state['left_speed']:5.1f} / "
         f"{state['right_speed']:5.1f}",
         f"target L/R  {state['left_target']:3d} / "
         f"{state['right_target']:3d}",
-        f"duty L/R    {state['left_duty']:3d}% / "
-        f"{state['right_duty']:3d}%   load x{state['load']:.2f}",
+        f"duty L/R    {state['left_duty']:4.1f}% / "
+        f"{state['right_duty']:4.1f}%   load x{state['load']:.2f}",
     ]
     for index, line in enumerate(status):
-        color = (255, 205, 55) if (
-            "ramp state" in line and result.ramp_active
-        ) else (219, 227, 237)
+        color = (219, 227, 237)
         draw.text((CAM_PANEL_X, status_y + index * 23), line,
                   font=FONT_16, fill=color)
 
@@ -640,8 +636,6 @@ def simulate(source_path, output_dir, frame_count, fps, make_video=True):
             "line_error_px": result.steering_error,
             "steering": steering,
             "servo_angle_deg": state["servo_angle"],
-            "ramp_state": result.ramp_state,
-            "ramp_width_delta": result.ramp_width_delta,
             "left_target": left_target,
             "right_target": right_target,
             "left_speed": left_speed,
@@ -697,8 +691,6 @@ def simulate(source_path, output_dir, frame_count, fps, make_video=True):
             for index, segment in enumerate(segments)
         ],
         "valid_frames": int(sum(item["track_valid"] for item in metrics)),
-        "ramp_frames": int(sum(1 <= item["ramp_state"] <= 4
-                               for item in metrics)),
         "maximum_abs_line_error_px": int(max(
             abs(item["line_error_px"]) for item in metrics
         )),

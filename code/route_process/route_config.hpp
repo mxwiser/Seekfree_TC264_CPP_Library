@@ -10,6 +10,7 @@
 #define ROUTE_CONTRAST_THRESHOLD           (30)
 #define ROUTE_SEED_SEARCH_RANGE            (24)
 #define ROUTE_MIN_TRACK_WIDTH              (12)
+#define ROUTE_MAX_CENTER_JUMP               (15)
 
 // A positive image error means that the track center is to the right.
 // car_angle(+1.0f) steers to the right and car_angle(-1.0f) to the left.

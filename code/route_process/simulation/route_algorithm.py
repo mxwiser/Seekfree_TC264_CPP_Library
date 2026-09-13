@@ -1,8 +1,4 @@
-"""Python translation of code/route_process/route_image.cpp.
-
-The loop order, integer limits, C/C++ integer division, edge flags, steering
-weights, and ramp state transitions intentionally match the embedded code.
-"""
+"""Python translation of the embedded route image and control algorithms."""
 
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -40,11 +36,15 @@ CONTRAST_OFFSET = _cpp_config_number("ROUTE_CONTRAST_OFFSET", 3)
 CONTRAST_THRESHOLD = _cpp_config_number("ROUTE_CONTRAST_THRESHOLD", 30)
 SEED_SEARCH_RANGE = _cpp_config_number("ROUTE_SEED_SEARCH_RANGE", 24)
 MIN_TRACK_WIDTH = _cpp_config_number("ROUTE_MIN_TRACK_WIDTH", 12)
+MAX_CENTER_JUMP = _cpp_config_number("ROUTE_MAX_CENTER_JUMP", 15)
 
 STEERING_KP = _cpp_config_number("ROUTE_STEERING_KP", 0.025)
 STEERING_KD = _cpp_config_number("ROUTE_STEERING_KD", 0.012)
 
 NORMAL_SPEED = _cpp_config_number("ROUTE_NORMAL_SPEED_TICKS_100MS", 3000)
+MIN_TURN_SPEED = _cpp_config_number(
+    "ROUTE_MIN_TURN_SPEED_TICKS_100MS", 1000
+)
 SPEED_KP = _cpp_config_number("ROUTE_SPEED_KP", 0.006)
 SPEED_KI = _cpp_config_number("ROUTE_SPEED_KI", 0.0020)
 SPEED_KD = _cpp_config_number("ROUTE_SPEED_KD", 0.00)
@@ -82,25 +82,16 @@ class RouteImageResult:
     center_line: np.ndarray = field(
         default_factory=lambda: np.full(IMAGE_H, IMAGE_W // 2, dtype=np.uint8)
     )
-    track_width: np.ndarray = field(
-        default_factory=lambda: np.zeros(IMAGE_H, dtype=np.uint8)
-    )
     edge_flags: np.ndarray = field(
         default_factory=lambda: np.zeros(IMAGE_H, dtype=np.uint8)
     )
     steering_error: int = 0
-    ramp_width_delta: int = 0
     track_valid: int = 0
-    ramp_state: int = 0
-    ramp_active: int = 0
 
 
 class RouteImageAlgorithm:
     def __init__(self):
         self.result = RouteImageResult()
-        self.ramp_confirm_count = 0
-        self.ramp_timeout_count = 0
-        self.ramp_exit_count = 0
 
     def reset(self):
         self.__init__()
@@ -198,6 +189,7 @@ class RouteImageAlgorithm:
     def _trace_edges(self, image):
         predicted_center = self.result.reference_col
         estimated_width = IMAGE_W - 20
+        center_initialized = False
         for row in range(IMAGE_H - 1, self.result.reference_row - 1, -1):
             line = image[row]
             seed = self._find_white_seed(line, predicted_center)
@@ -206,16 +198,9 @@ class RouteImageAlgorithm:
 
             left, left_found = self._find_left_edge(line, seed)
             right, right_found = self._find_right_edge(line, seed)
-            if left_found:
-                self.result.edge_flags[row] |= LEFT_FOUND
-            if right_found:
-                self.result.edge_flags[row] |= RIGHT_FOUND
-            self.result.left_edge[row] = left
-            self.result.right_edge[row] = right
 
             center = predicted_center
             if left_found and right_found and right - left >= MIN_TRACK_WIDTH:
-                estimated_width = right - left
                 center = c_div(left + right, 2)
             elif left_found and not right_found:
                 center = left + c_div(estimated_width, 2)
@@ -225,21 +210,31 @@ class RouteImageAlgorithm:
                 continue
 
             center = limit_int(center, 0, IMAGE_W - 1)
+            if (center_initialized
+                    and abs(center - predicted_center) > MAX_CENTER_JUMP):
+                continue
+
+            if left_found:
+                self.result.edge_flags[row] |= LEFT_FOUND
+            if right_found:
+                self.result.edge_flags[row] |= RIGHT_FOUND
+            self.result.left_edge[row] = left
+            self.result.right_edge[row] = right
             self.result.center_line[row] = center
-            self.result.track_width[row] = limit_int(
-                right - left, 0, IMAGE_W - 1
-            )
+            if left_found and right_found:
+                estimated_width = right - left
             predicted_center = center
+            center_initialized = True
 
     def _calculate_steering_error(self):
         weighted_error = 0
         weight_sum = 0
         usable_rows = 0
-        first_row = max(self.result.reference_row + 5, 30)
-        for row in range(first_row, min(100, IMAGE_H - 1) + 1, 5):
+        first_row = max(self.result.reference_row + 5, 25)
+        for row in range(first_row, min(90, IMAGE_H - 1) + 1, 5):
             if self.result.edge_flags[row] == 0:
                 continue
-            weight = 1 + c_div(100 - row, 20)
+            weight = 1 + c_div(90 - row, 10)
             weighted_error += (int(self.result.center_line[row])
                                - IMAGE_W // 2) * weight
             weight_sum += weight
@@ -251,79 +246,22 @@ class RouteImageAlgorithm:
             )
             self.result.track_valid = 1
 
-    def _update_ramp_state(self):
-        both_edges = LEFT_FOUND | RIGHT_FOUND
-        if (self.result.edge_flags[40] != both_edges
-                or self.result.edge_flags[50] != both_edges):
-            self.result.ramp_active = int(1 <= self.result.ramp_state <= 4)
-            return
-
-        delta = (int(self.result.track_width[50])
-                 - int(self.result.track_width[40]))
-        self.result.ramp_width_delta = delta
-        state = self.result.ramp_state
-
-        if state == 0:
-            if 3 < delta < 9 and self.result.track_valid:
-                self.ramp_confirm_count += 1
-                if self.ramp_confirm_count > 5:
-                    self.result.ramp_state = 1
-                    self.ramp_confirm_count = 0
-                    self.ramp_timeout_count = 0
-            else:
-                self.ramp_confirm_count = 0
-        elif state == 1:
-            self.ramp_timeout_count += 1
-            if self.ramp_timeout_count >= 100:
-                self.result.ramp_state = 0
-                self.ramp_timeout_count = 0
-            elif delta > 15:
-                self.result.ramp_state = 2
-        elif state == 2:
-            if 5 < delta < 9:
-                self.result.ramp_state = 3
-        elif state == 3:
-            if delta > 10:
-                self.result.ramp_state = 4
-                self.ramp_confirm_count = 0
-        elif state == 4:
-            if delta > 10:
-                self.ramp_confirm_count += 1
-                if self.ramp_confirm_count > 5:
-                    self.result.ramp_state = 5
-                    self.ramp_confirm_count = 0
-                    self.ramp_exit_count = 0
-            else:
-                self.ramp_confirm_count = 0
-        else:
-            self.ramp_exit_count += 1
-            if self.ramp_exit_count >= 20:
-                self.result.ramp_state = 0
-                self.ramp_exit_count = 0
-
-        self.result.ramp_active = int(1 <= self.result.ramp_state <= 4)
-
     def process(self, image):
         image = np.asarray(image, dtype=np.uint8)
         if image.shape != (IMAGE_H, IMAGE_W):
             raise ValueError(f"expected {(IMAGE_H, IMAGE_W)}, got {image.shape}")
 
-        ramp_state = self.result.ramp_state
         self.result.left_edge.fill(0)
         self.result.right_edge.fill(IMAGE_W - 1)
         self.result.center_line.fill(IMAGE_W // 2)
-        self.result.track_width.fill(0)
         self.result.edge_flags.fill(0)
         self.result.steering_error = 0
-        self.result.ramp_width_delta = 0
         self.result.track_valid = 0
-        self.result.ramp_state = ramp_state
 
         self._get_white_reference(image)
         self._find_reference_column(image)
         self._trace_edges(image)
         self._calculate_steering_error()
-        self._update_ramp_state()
         return self.result
 
 
@@ -378,8 +316,15 @@ class RouteController:
         self.steering_permille = int(steering * 1000.0)
         return steering
 
-    def speed_targets(self, ramp_active):
-        return NORMAL_SPEED, NORMAL_SPEED
+    def speed_targets(self):
+        steering_abs = min(abs(self.steering_permille), 1000)
+        minimum_target = min(NORMAL_SPEED, MIN_TURN_SPEED)
+        reduction_range = NORMAL_SPEED - minimum_target
+        target = NORMAL_SPEED - c_div(
+            steering_abs * reduction_range, 1000
+        )
+        target = limit_int(target, minimum_target, NORMAL_SPEED)
+        return target, target
 
     def update_speed(self, result, left_actual, right_actual):
         if not result.track_valid:
@@ -391,9 +336,7 @@ class RouteController:
             self.right_duty = 0
             return 0, 0, 0, 0
 
-        self.left_target, self.right_target = self.speed_targets(
-            result.ramp_active
-        )
+        self.left_target, self.right_target = self.speed_targets()
         self.left_duty = self.left_pid.update(
             self.left_target, left_actual
         )

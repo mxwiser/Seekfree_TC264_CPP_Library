@@ -244,13 +244,14 @@ static int route_find_right_edge(const uint8 *line, int seed,
 // 参数说明     image           MT9V03X 灰度图像首地址
 // 参数说明     result          写入左右边线、中心线和边线有效标志
 // 返回参数     void
-// 备注信息     只检测到单侧边线时，使用上一有效赛道宽度估算中心位置
+// 备注信息     单侧边线使用赛道宽度补线；中心突变过大时丢弃该行，抑制噪点干扰
 //-------------------------------------------------------------------------------------------------------------------
 static void route_trace_edges(const uint8 *image,
     route_image_result_t *result)
 {
     int predicted_center = result->reference_col;
     int estimated_width = MT9V03X_W - 20;
+    uint8 center_initialized = 0;
 
     for (int row = MT9V03X_H - 1;
         row >= (int)result->reference_row; --row)
@@ -270,22 +271,10 @@ static void route_trace_edges(const uint8 *image,
         const int right = route_find_right_edge(line, seed, result,
             &right_found);
 
-        if (left_found)
-        {
-            result->edge_flags[row] |= ROUTE_EDGE_LEFT_FOUND;
-        }
-        if (right_found)
-        {
-            result->edge_flags[row] |= ROUTE_EDGE_RIGHT_FOUND;
-        }
-        result->left_edge[row] = (uint8)left;
-        result->right_edge[row] = (uint8)right;
-
         int center = predicted_center;
         if (left_found && right_found
             && right - left >= ROUTE_MIN_TRACK_WIDTH)
         {
-            estimated_width = right - left;
             center = (left + right) / 2;
         }
         else if (left_found && !right_found)
@@ -302,8 +291,30 @@ static void route_trace_edges(const uint8 *image,
         }
 
         center = route_limit_int(center, 0, MT9V03X_W - 1);
+        const int center_jump = center > predicted_center
+            ? center - predicted_center : predicted_center - center;
+        if (center_initialized && center_jump > ROUTE_MAX_CENTER_JUMP)
+        {
+            continue;
+        }
+
+        if (left_found)
+        {
+            result->edge_flags[row] |= ROUTE_EDGE_LEFT_FOUND;
+        }
+        if (right_found)
+        {
+            result->edge_flags[row] |= ROUTE_EDGE_RIGHT_FOUND;
+        }
+        result->left_edge[row] = (uint8)left;
+        result->right_edge[row] = (uint8)right;
         result->center_line[row] = (uint8)center;
+        if (left_found && right_found)
+        {
+            estimated_width = right - left;
+        }
         predicted_center = center;
+        center_initialized = 1;
     }
 }
 

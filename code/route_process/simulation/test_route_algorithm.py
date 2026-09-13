@@ -3,6 +3,7 @@ import numpy as np
 from route_algorithm import (
     IMAGE_H,
     IMAGE_W,
+    MIN_TURN_SPEED,
     NORMAL_SPEED,
     SPEED_KI,
     SPEED_KP,
@@ -33,19 +34,22 @@ def main():
     algorithm = RouteImageAlgorithm()
     straight = algorithm.process(make_track())
     assert (straight.track_valid, straight.steering_error,
-            straight.reference_col, straight.reference_row,
-            int(straight.track_width[40]), int(straight.track_width[50])) == (
-                1, 0, 93, 3, 68, 80
+            straight.reference_col, straight.reference_row) == (
+                1, 0, 93, 3
             )
-    assert algorithm.process(make_track(30)).steering_error == 15
-    assert algorithm.process(make_track(-30)).steering_error == -15
+    assert algorithm.process(make_track(30)).steering_error == 17
+    assert algorithm.process(make_track(-30)).steering_error == -17
 
     algorithm.reset()
-    for _ in range(6):
-        ramp = algorithm.process(make_track(ramp_shape=True))
-    assert (ramp.ramp_width_delta, ramp.ramp_state, ramp.ramp_active) == (
-        6, 1, 1
-    )
+    noisy_track = make_track()
+    noisy_track[60, :] = 35
+    noisy_track[60, 102:121] = 210
+    noise_result = algorithm.process(noisy_track)
+    assert noise_result.edge_flags[60] == 0
+    assert noise_result.track_valid == 1
+
+    algorithm.reset()
+    assert algorithm.process(make_track(ramp_shape=True)).track_valid == 1
 
     algorithm.reset()
     assert algorithm.process(np.full((IMAGE_H, IMAGE_W), 35,
@@ -54,9 +58,10 @@ def main():
                                      dtype=np.uint8)).track_valid == 0
 
     controller = RouteController()
+    assert controller.speed_targets() == (NORMAL_SPEED, NORMAL_SPEED)
     controller.steering_permille = 1000
-    assert controller.speed_targets(False) == (NORMAL_SPEED, NORMAL_SPEED)
-    assert controller.speed_targets(True) == (NORMAL_SPEED, NORMAL_SPEED)
+    expected_minimum = min(NORMAL_SPEED, MIN_TURN_SPEED)
+    assert controller.speed_targets() == (expected_minimum, expected_minimum)
 
     steering_result = RouteImageResult(track_valid=1, steering_error=10)
     expected_steering = min(max(
@@ -71,7 +76,7 @@ def main():
     )
     assert first_duty == int(expected_direct_duty * 10.0 + 0.5) / 10.0
     assert pid.update(NORMAL_SPEED, 0) > first_duty
-    assert SpeedPid().update(NORMAL_SPEED, 3000) == 0.0
+    assert SpeedPid().update(NORMAL_SPEED, NORMAL_SPEED * 3) == 0.0
 
     pid = SpeedPid()
     plant_speed = 0.0
