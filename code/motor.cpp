@@ -25,6 +25,20 @@ static uint32 motor_percent_to_duty(int duty_percent)
     return (uint32)duty_percent * PWM_DUTY_MAX / 100U;
 }
 
+static uint32 motor_tenth_percent_to_duty(int duty_tenth_percent)
+{
+    if (duty_tenth_percent < 0)
+    {
+        duty_tenth_percent = 0;
+    }
+    else if (duty_tenth_percent > 1000)
+    {
+        duty_tenth_percent = 1000;
+    }
+
+    return (uint32)duty_tenth_percent * PWM_DUTY_MAX / 1000U;
+}
+
 void right_motor_init(int duty_percent)
 {
     gpio_init(RIGHT_MOTOR_DIR_PIN, GPO, GPIO_HIGH, GPO_PUSH_PULL);
@@ -36,6 +50,12 @@ void right_motor_set_duty(int duty_percent)
 {
     pwm_set_duty(RIGHT_MOTOR_PWM_CHANNEL,
         motor_percent_to_duty(duty_percent));
+}
+
+void right_motor_set_duty_x10(int duty_tenth_percent)
+{
+    pwm_set_duty(RIGHT_MOTOR_PWM_CHANNEL,
+        motor_tenth_percent_to_duty(duty_tenth_percent));
 }
 
 void right_motor_stop(void)
@@ -54,6 +74,12 @@ void left_motor_set_duty(int duty_percent)
 {
     pwm_set_duty(LEFT_MOTOR_PWM_CHANNEL,
         motor_percent_to_duty(duty_percent));
+}
+
+void left_motor_set_duty_x10(int duty_tenth_percent)
+{
+    pwm_set_duty(LEFT_MOTOR_PWM_CHANNEL,
+        motor_tenth_percent_to_duty(duty_tenth_percent));
 }
 
 void left_motor_stop(void)

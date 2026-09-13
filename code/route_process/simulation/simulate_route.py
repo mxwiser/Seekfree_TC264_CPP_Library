@@ -26,7 +26,6 @@ from route_algorithm import (
     IMAGE_H,
     IMAGE_W,
     NORMAL_SPEED,
-    RAMP_SPEED,
     RouteController,
     RouteImageAlgorithm,
 )
@@ -595,13 +594,14 @@ def simulate(source_path, output_dir, frame_count, fps, make_video=True):
         on_slope = 155 <= x < 400 and 350 <= y <= 590
         load = 0.56 if on_slope else 1.0
         speed_response = 1.0 - math.exp(-(1.0 / fps) / 0.28)
-        desired_left_speed = left_duty * 3.05 * load
-        desired_right_speed = right_duty * 3.05 * load
+        # Hardware calibration: 25% duty is about 3000 ticks per 100 ms.
+        desired_left_speed = left_duty * 120.0 * load
+        desired_right_speed = right_duty * 120.0 * load
         left_speed += (desired_left_speed - left_speed) * speed_response
         right_speed += (desired_right_speed - right_speed) * speed_response
 
         mean_ticks_100ms = (left_speed + right_speed) * 0.5
-        distance = mean_ticks_100ms * (10.0 / fps) * 0.18
+        distance = mean_ticks_100ms * (10.0 / fps) * 0.0048
         steering_angle = math.radians(20.0 * steering)
         heading += distance / 58.0 * math.tan(steering_angle)
         x += distance * math.cos(heading)

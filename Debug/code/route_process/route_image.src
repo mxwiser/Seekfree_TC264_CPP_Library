@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc22276c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\route_process -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/route_process/route_image.src cc22276a.ic"
+	.compiler_invocation	"ctc -f cc21980c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\route_process -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/route_process/route_image.src cc21980a.ic"
 	.compiler_name		"ctc"
 	;source	'../code/route_process/route_image.cpp'
 
@@ -12,32 +12,32 @@ $TC16X
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L123:
+.L87:
 _ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii:	.type	func
 	jge	d4,d5,.L2
-.L453:
+.L387:
 	mov	d2,d5
-.L337:
+.L280:
 	j	.L3
 .L2:
 	jge	d6,d4,.L4
-.L454:
+.L388:
 	mov	d2,d6
-.L338:
+.L281:
 	j	.L5
 .L4:
 	mov	d2,d4
-.L339:
+.L282:
 	j	.L6
 .L6:
 .L5:
 .L3:
 	ret
-.L217:
+.L168:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii,___ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L154:
+.L116:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh')
@@ -45,31 +45,31 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii_function_end:
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh
-.L125:
+.L89:
 _ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh:	.type	func
 	add	d15,d4,d5
-.L341:
+.L284:
 	jne	d15,#0,.L7
-.L459:
+.L393:
 	mov	d2,#0
-.L460:
+.L394:
 	j	.L8
 .L7:
 	sub	d4,d5
-.L340:
+.L283:
 	mul	d0,d4,#200
-.L461:
+.L395:
 	div	e2,d0,d15
-.L462:
+.L396:
 	j	.L9
 .L9:
 .L8:
 	ret
-.L221:
+.L172:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh,___ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh
-.L159:
+.L121:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t')
@@ -77,77 +77,77 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh_function_end:
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t
-.L127:
+.L91:
 _ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t:	.type	func
 	mov.aa	a15,a5
-.L343:
+.L286:
 	mov	d0,#0
-.L237:
+.L188:
 	mov	d1,#115
-.L345:
+.L288:
 	j	.L10
 .L11:
 	mul	d15,d1,#188
-.L467:
+.L401:
 	addsc.a	a2,a4,d15,#0
-.L242:
+.L193:
 	mov	d2,#0
-.L346:
+.L289:
 	j	.L12
 .L13:
 	addsc.a	a5,a2,d2,#0
 	ld.bu	d15,[a5]
-.L468:
+.L402:
 	add	d0,d15
-.L469:
+.L403:
 	add	d2,#1
 .L12:
 	mov	d15,#188
-.L470:
+.L404:
 	jlt	d2,d15,.L13
-.L240:
+.L191:
 	add	d1,#1
 .L10:
 	mov	d15,#120
-.L471:
+.L405:
 	jlt	d1,d15,.L11
-.L238:
+.L189:
 	mov	d15,#940
-.L472:
+.L406:
 	div.u	e8,d0,d15
-.L347:
+.L290:
 	mul	d0,d8,#7
-.L344:
+.L287:
 	mov	d15,#10
-.L473:
+.L407:
 	div	e4,d0,d15
-.L474:
+.L408:
 	mov	d5,#50
-.L475:
+.L409:
 	mov	d6,#255
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L342:
+.L285:
 	st.b	[a15],d2
-.L476:
+.L410:
 	mul	d0,d8,#13
-.L477:
+.L411:
 	mov	d15,#10
-.L478:
+.L412:
 	div	e4,d0,d15
-.L479:
+.L413:
 	mov	d5,#50
-.L480:
+.L414:
 	mov	d6,#255
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L481:
+.L415:
 	st.b	[a15]1,d2
-.L482:
+.L416:
 	ret
-.L226:
+.L177:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t,___ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t
-.L164:
+.L126:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t')
@@ -155,64 +155,64 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20ro
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t
-.L129:
+.L93:
 _ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t:	.type	func
 	mov.aa	a12,a4
-.L348:
+.L291:
 	mov.aa	a15,a5
-.L349:
+.L292:
 	mov	d8,#94
-.L350:
+.L293:
 	mov	d9,#119
-.L351:
+.L294:
 	mov	d10,#188
-.L252:
+.L203:
 	mov	d11,#3
-.L352:
+.L295:
 	j	.L14
 .L15:
 	mov	d12,#3
-.L257:
+.L208:
 	mov	d13,#119
-.L353:
+.L296:
 	j	.L16
 .L17:
 	mov	d15,#188
-.L487:
+.L421:
 	madd	d15,d11,d13,d15
-.L488:
+.L422:
 	addsc.a	a2,a12,d15,#0
 	ld.bu	d4,[a2]
-.L354:
+.L297:
 	add	d0,d13,#-3
-.L489:
+.L423:
 	mov	d15,#188
-.L490:
+.L424:
 	madd	d15,d11,d0,d15
-.L491:
+.L425:
 	addsc.a	a2,a12,d15,#0
 	ld.bu	d5,[a2]
-.L356:
+.L299:
 	ld.bu	d15,[a15]
-.L492:
+.L426:
 	jge	d4,d15,.L18
-.L493:
+.L427:
 	mov	d12,d13
-.L494:
+.L428:
 	j	.L19
 .L18:
 	ld.bu	d15,[a15]1
-.L495:
+.L429:
 	jlt	d15,d5,.L20
-.L496:
+.L430:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh
-.L355:
+.L298:
 	mov	d15,#30
-.L497:
+.L431:
 	jge	d15,d2,.L21
-.L498:
+.L432:
 	mov	d12,d13
-.L499:
+.L433:
 	j	.L22
 .L21:
 .L20:
@@ -222,58 +222,58 @@ _ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20ro
 .L19:
 .L22:
 	mov	d15,#94
-.L500:
+.L434:
 	jge	d15,d11,.L23
-.L501:
+.L435:
 	add	d15,d11,#-94
-.L502:
+.L436:
 	j	.L24
 .L23:
 	rsub	d15,d11,#94
 .L24:
 	jlt	d12,d9,.L25
-.L503:
+.L437:
 	jne	d12,d9,.L26
-.L357:
+.L300:
 	jge	d15,d10,.L27
 .L25:
 	mov	e8,d12,d11
-.L504:
+.L438:
 	mov	d10,d15
 .L27:
 .L26:
 	add	d11,#3
 .L14:
 	mov	d15,#185
-.L505:
+.L439:
 	jlt	d11,d15,.L15
-.L253:
+.L204:
 	mov	d5,#3
-.L506:
+.L440:
 	mov	d6,#184
-.L358:
+.L301:
 	mov	d4,d8
-.L359:
+.L302:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L360:
+.L303:
 	st.b	[a15]2,d2
-.L507:
+.L441:
 	mov	d5,#3
-.L508:
+.L442:
 	mov	d6,#100
-.L361:
+.L304:
 	mov	d4,d9
-.L362:
+.L305:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L363:
+.L306:
 	st.b	[a15]3,d2
-.L509:
+.L443:
 	ret
-.L244:
+.L195:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t,___ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t
-.L169:
+.L131:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih')
@@ -281,77 +281,77 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih
-.L131:
+.L95:
 _ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih:	.type	func
 	mov.aa	a15,a4
-.L366:
+.L309:
 	mov	d8,d5
-.L367:
+.L310:
 	mov	d5,#3
-.L365:
+.L308:
 	mov	d6,#184
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L364:
+.L307:
 	addsc.a	a2,a15,d2,#0
 	ld.bu	d15,[a2]
-.L514:
+.L448:
 	jlt	d15,d8,.L28
-.L515:
+.L449:
 	j	.L29
 .L28:
 	mov	d0,#1
-.L369:
+.L312:
 	j	.L30
 .L31:
 	sub	d15,d2,d0
-.L370:
+.L313:
 	add	d1,d2,d0
-.L372:
+.L315:
 	jlt	d15,#3,.L32
-.L516:
+.L450:
 	addsc.a	a2,a15,d15,#0
 	ld.bu	d3,[a2]
-.L517:
+.L451:
 	jlt	d3,d8,.L33
-.L518:
+.L452:
 	mov	d2,d15
-.L368:
+.L311:
 	j	.L34
 .L33:
 .L32:
 	mov	d15,#185
-.L371:
+.L314:
 	jge	d1,d15,.L35
-.L519:
+.L453:
 	addsc.a	a2,a15,d1,#0
 	ld.bu	d15,[a2]
-.L520:
+.L454:
 	jlt	d15,d8,.L36
-.L521:
+.L455:
 	mov	d2,d1
-.L373:
+.L316:
 	j	.L37
 .L36:
 .L35:
 	add	d0,#1
 .L30:
 	mov	d15,#24
-.L522:
+.L456:
 	jge	d15,d0,.L31
-.L265:
+.L216:
 	mov	d2,#-1
-.L374:
+.L317:
 	j	.L38
 .L38:
 .L37:
 .L34:
 .L29:
 	ret
-.L261:
+.L212:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih,___ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih
-.L174:
+.L136:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh')
@@ -359,79 +359,79 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih_functi
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh
-.L133:
+.L97:
 _ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh:	.type	func
 	mov.aa	a12,a4
-.L375:
+.L318:
 	mov.aa	a15,a5
-.L376:
+.L319:
 	mov.aa	a13,a6
-.L276:
+.L227:
 	mov	d15,d4
-.L377:
+.L320:
 	j	.L39
 .L40:
 	addsc.a	a2,a12,d15,#0
 	ld.bu	d4,[a2]
-.L379:
+.L322:
 	addsc.a	a2,a12,d15,#0
 	ld.bu	d5,[a2]-3
-.L381:
+.L324:
 	ld.bu	d0,[a15]
-.L527:
+.L461:
 	jge	d4,d0,.L41
-.L528:
+.L462:
 	mov	d0,#1
-.L529:
+.L463:
 	st.b	[a13],d0
-.L530:
+.L464:
 	add	d2,d15,#1
-.L531:
+.L465:
 	j	.L42
 .L41:
 	ld.bu	d0,[a15]
-.L532:
+.L466:
 	jlt	d5,d0,.L43
-.L533:
+.L467:
 	ld.bu	d0,[a15]1
-.L534:
+.L468:
 	jlt	d0,d5,.L44
-.L535:
+.L469:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh
-.L380:
+.L323:
 	mov	d0,#30
-.L536:
+.L470:
 	jge	d0,d2,.L45
 .L43:
 	mov	d0,#1
-.L537:
+.L471:
 	st.b	[a13],d0
-.L538:
+.L472:
 	mov	d2,d15
-.L382:
+.L325:
 	j	.L46
 .L45:
 .L44:
 	add	d15,#-1
 .L39:
 	jge	d15,#3,.L40
-.L277:
+.L228:
 	mov	d15,#0
-.L378:
+.L321:
 	st.b	[a13],d15
-.L539:
+.L473:
 	mov	d2,#0
-.L540:
+.L474:
 	j	.L47
 .L47:
 .L46:
 .L42:
 	ret
-.L269:
+.L220:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh,___ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh
-.L179:
+.L141:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh')
@@ -439,81 +439,81 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh
-.L135:
+.L99:
 _ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh:	.type	func
 	mov.aa	a12,a4
-.L383:
+.L326:
 	mov.aa	a13,a5
-.L384:
+.L327:
 	mov.aa	a14,a6
-.L288:
+.L239:
 	mov	d8,d4
-.L385:
+.L328:
 	j	.L48
 .L49:
 	addsc.a	a2,a12,d8,#0
 	ld.bu	d4,[a2]
-.L386:
+.L329:
 	addsc.a	a15,a12,d8,#0
 	ld.bu	d5,[a15]3
-.L388:
+.L331:
 	ld.bu	d15,[a13]
-.L545:
+.L479:
 	jge	d4,d15,.L50
-.L546:
+.L480:
 	mov	d15,#1
-.L547:
+.L481:
 	st.b	[a14],d15
-.L548:
+.L482:
 	add	d2,d8,#-1
-.L549:
+.L483:
 	j	.L51
 .L50:
 	ld.bu	d15,[a13]
-.L550:
+.L484:
 	jlt	d5,d15,.L52
-.L551:
+.L485:
 	ld.bu	d15,[a13]1
-.L552:
+.L486:
 	jlt	d15,d5,.L53
-.L553:
+.L487:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh
-.L387:
+.L330:
 	mov	d15,#30
-.L554:
+.L488:
 	jge	d15,d2,.L54
 .L52:
 	mov	d15,#1
-.L555:
+.L489:
 	st.b	[a14],d15
-.L556:
+.L490:
 	mov	d2,d8
-.L389:
+.L332:
 	j	.L55
 .L54:
 .L53:
 	add	d8,#1
 .L48:
 	mov	d15,#184
-.L557:
+.L491:
 	jge	d15,d8,.L49
-.L289:
+.L240:
 	mov	d15,#0
-.L558:
+.L492:
 	st.b	[a14],d15
-.L559:
+.L493:
 	mov	d2,#187
-.L560:
+.L494:
 	j	.L56
 .L56:
 .L55:
 .L51:
 	ret
-.L281:
+.L232:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh,___ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh
-.L184:
+.L146:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
@@ -521,154 +521,152 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20rout
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t
-.L137:
+.L101:
 _ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t:	.type	func
 	sub.a	a10,#8
-.L390:
+.L333:
 	mov.aa	a13,a4
-.L391:
+.L334:
 	mov.aa	a15,a5
-.L392:
+.L335:
 	mov	d9,#168
-.L298:
+.L336:
 	ld.bu	d10,[a15]2
-.L302:
+.L249:
 	mov	d11,#119
-.L394:
+.L337:
 	j	.L57
 .L58:
 	mul	d15,d11,#188
-.L565:
+.L499:
 	addsc.a	a12,a13,d15,#0
-.L395:
+.L338:
 	ld.bu	d5,[a15]
 	mov.aa	a4,a12
-.L397:
+.L339:
 	mov	d4,d10
-.L399:
+.L341:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih
-.L398:
+.L340:
 	mov	d8,d2
-.L401:
+.L343:
 	jge	d8,#0,.L59
-.L566:
+.L500:
 	j	.L60
 .L59:
 	mov	d0,#0
-.L567:
+.L501:
 	st.b	[a10],d0
-.L568:
+.L502:
 	mov	d15,#0
-.L569:
+.L503:
 	st.b	[a10]1,d15
-.L570:
+.L504:
 	lea	a6,[a10]0
 	mov.aa	a4,a12
-.L403:
+.L344:
 	mov	d4,d8
-.L400:
+.L342:
 	mov.aa	a5,a15
-.L405:
+.L346:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh
-.L404:
+.L345:
 	mov	d12,d2
-.L407:
+.L348:
 	lea	a6,[a10]1
 	mov.aa	a4,a12
-.L408:
+.L350:
 	mov	d4,d8
-.L409:
+.L351:
 	mov.aa	a5,a15
-.L410:
+.L352:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh
-.L406:
-	mov	d8,d2
-.L402:
+.L347:
 	ld.bu	d15,[a10]
-.L571:
+.L505:
 	jeq	d15,#0,.L61
-.L572:
+.L506:
 	addsc.a	a2,a15,d11,#0
 	addsc.a	a4,a15,d11,#0
-	ld.bu	d15,[a4]484
-.L573:
+	ld.bu	d15,[a4]364
+.L507:
 	or	d15,#1
-	st.b	[a2]484,d15
+	st.b	[a2]364,d15
 .L61:
 	ld.bu	d15,[a10]1
-.L574:
+.L508:
 	jeq	d15,#0,.L62
-.L575:
+.L509:
 	addsc.a	a2,a15,d11,#0
 	addsc.a	a4,a15,d11,#0
-	ld.bu	d15,[a4]484
-.L576:
+	ld.bu	d15,[a4]364
+.L510:
 	or	d15,#2
-	st.b	[a2]484,d15
+	st.b	[a2]364,d15
 .L62:
 	addsc.a	a2,a15,d11,#0
-.L577:
+.L511:
 	st.b	[a2]4,d12
-.L578:
+.L512:
 	addsc.a	a2,a15,d11,#0
-.L579:
-	st.b	[a2]124,d8
-.L580:
+.L513:
+	st.b	[a2]124,d2
+.L514:
 	ld.bu	d15,[a10]
-.L581:
+.L515:
 	jeq	d15,#0,.L63
-.L582:
+.L516:
 	ld.bu	d15,[a10]1
 	jeq	d15,#0,.L64
-.L583:
-	sub	d0,d8,d12
-.L584:
+.L517:
+	sub	d0,d2,d12
+.L518:
 	mov	d15,#12
-.L585:
+.L519:
 	jlt	d0,d15,.L65
-.L586:
-	sub	d9,d8,d12
-.L587:
-	add	d15,d12,d8
-.L588:
-	mov	d0,#2
-.L589:
-	div	e0,d15,d0
-.L412:
+.L520:
+	sub	d9,d2,d12
+.L521:
+	add	d12,d2
+.L349:
+	mov	d15,#2
+.L522:
+	div	e0,d12,d15
+.L354:
 	j	.L66
 .L65:
 .L64:
 .L63:
 	ld.bu	d15,[a10]
-.L590:
+.L523:
 	jeq	d15,#0,.L67
-.L591:
+.L524:
 	ld.bu	d15,[a10]1
-.L592:
+.L525:
 	jne	d15,#0,.L68
-.L593:
+.L526:
 	mov	d15,#2
-.L594:
+.L527:
 	div	e0,d9,d15
-.L413:
+.L355:
 	add	d0,d12
-.L393:
+.L528:
 	j	.L69
 .L68:
 .L67:
 	ld.bu	d15,[a10]
-.L595:
+.L529:
 	jne	d15,#0,.L70
-.L596:
+.L530:
 	ld.bu	d15,[a10]1
 	jeq	d15,#0,.L71
-.L597:
+.L531:
 	mov	d15,#2
-.L598:
+.L532:
 	div	e0,d9,d15
-.L599:
-	sub	d0,d8,d0
-.L414:
+.L533:
+	sub	d0,d2,d0
+.L356:
 	j	.L72
 .L71:
 .L70:
@@ -677,42 +675,31 @@ _ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_
 .L69:
 .L66:
 	mov	d5,#0
-.L600:
+.L534:
 	mov	d6,#187
 	mov	d4,d0
-.L415:
+.L357:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L411:
-	mov	d10,d2
-.L417:
+.L353:
 	addsc.a	a2,a15,d11,#0
-.L601:
-	st.b	[a2]244,d10
-.L602:
-	addsc.a	a12,a15,d11,#0
-.L396:
-	sub	d4,d8,d12
-.L603:
-	mov	d5,#0
-.L604:
-	mov	d6,#187
-	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L416:
-	st.b	[a12]364,d2
+.L535:
+	st.b	[a2]244,d2
+.L536:
+	mov	d10,d2
 .L60:
 .L73:
 	add	d11,#-1
 .L57:
 	ld.bu	d15,[a15]3
-.L605:
+.L537:
 	jge	d11,d15,.L58
-.L299:
+.L250:
 	ret
-.L293:
+.L244:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t,___ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t
-.L189:
+.L151:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
@@ -720,380 +707,86 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_imag
 	.align	2
 	
 ; Function _ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t
-.L139:
+.L103:
 _ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t:	.type	func
 	mov.aa	a15,a4
-.L419:
+.L359:
 	mov	d0,#0
-.L420:
+.L360:
 	mov	d1,#0
-.L421:
+.L361:
 	mov	d2,#0
-.L422:
+.L362:
 	ld.bu	d15,[a15]3
-.L423:
+.L363:
 	add	d15,#5
-.L610:
-	mov	d3,#30
-.L611:
+.L542:
+	mov	d3,#25
+.L543:
 	jge	d15,d3,.L74
-.L612:
-	mov	d15,#30
+.L544:
+	mov	d15,#25
 .L74:
 	j	.L75
 .L76:
 	addsc.a	a2,a15,d15,#0
-	ld.bu	d3,[a2]484
-.L613:
+	ld.bu	d3,[a2]364
+.L545:
 	jne	d3,#0,.L77
-.L614:
+.L546:
 	j	.L78
 .L77:
-	rsub	d3,d15,#100
-.L615:
-	mov	d4,#20
-.L616:
+	rsub	d3,d15,#90
+.L547:
+	mov	d4,#10
+.L548:
 	div	e4,d3,d4
-.L617:
+.L549:
 	add	d3,d4,#1
-.L425:
+.L365:
 	addsc.a	a2,a15,d15,#0
 	ld.bu	d4,[a2]244
-.L618:
+.L550:
 	add	d4,d4,#-94
-.L619:
+.L551:
 	madd	d0,d0,d4,d3
-.L620:
+.L552:
 	add	d1,d3
-.L621:
+.L553:
 	add	d2,#1
 .L78:
 	add	d15,#5
 .L75:
-	mov	d3,#100
-.L622:
+	mov	d3,#90
+.L554:
 	jlt	d3,d15,.L79
-.L623:
+.L555:
 	j	.L76
 .L79:
 	jlt	d2,#4,.L80
-.L624:
+.L556:
 	jlt	d1,#1,.L81
-.L625:
+.L557:
 	div	e4,d0,d1
-.L626:
+.L558:
 	mov	d5,#-60
-.L627:
+.L559:
 	mov	d6,#60
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii
-.L418:
-	st.h	[a15]604,d2
-.L628:
+.L358:
+	st.h	[a15]484,d2
+.L560:
 	mov	d15,#1
-.L424:
-	st.b	[a15]608,d15
+.L364:
+	st.b	[a15]486,d15
 .L81:
 .L80:
 	ret
-.L310:
+.L259:
 	
 ___ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t_function_end:
 	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t,___ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t
-.L194:
-	; End of function
-	
-	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t')
-	.sect	'.text.cpu0_dsram'
-	.align	2
-	
-; Function _ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t
-.L141:
-_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t:	.type	func
-	ld.bu	d15,[a4]524
-.L633:
-	jne	d15,#3,.L82
-.L634:
-	ld.bu	d15,[a4]534
-.L635:
-	jeq	d15,#3,.L83
-.L82:
-	ld.bu	d15,[a4]609
-.L636:
-	jlt	d15,#1,.L84
-.L637:
-	ld.bu	d15,[a4]609
-.L638:
-	jge	d15,#5,.L85
-.L639:
-	mov	d15,#1
-.L640:
-	j	.L86
-.L85:
-.L84:
-	mov	d15,#0
-.L86:
-	st.b	[a4]610,d15
-.L641:
-	j	.L87
-.L83:
-	ld.bu	d0,[a4]414
-.L642:
-	ld.bu	d15,[a4]404
-.L426:
-	sub	d0,d15
-.L643:
-	st.h	[a4]606,d0
-.L644:
-	ld.bu	d1,[a4]609
-.L645:
-	mov	d15,#0
-	jeq	d15,d1,.L88
-.L646:
-	mov	d15,#1
-	jeq	d15,d1,.L89
-.L647:
-	mov	d15,#2
-	jeq	d15,d1,.L90
-.L648:
-	mov	d15,#3
-	jeq	d15,d1,.L91
-.L649:
-	mov	d15,#4
-	jeq	d15,d1,.L92
-	j	.L93
-.L88:
-	jlt	d0,#4,.L94
-.L650:
-	mov	d15,#9
-.L651:
-	jge	d0,d15,.L95
-.L652:
-	ld.bu	d15,[a4]608
-	jeq	d15,#0,.L96
-.L653:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-	movh.a	a2,#@his(ramp_confirm_count)
-	lea	a2,[a2]@los(ramp_confirm_count)
-	ld.bu	d15,[a2]
-.L654:
-	add	d15,#1
-	st.b	[a15],d15
-.L655:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-	ld.bu	d15,[a15]
-.L656:
-	jlt	d15,#6,.L97
-.L657:
-	mov	d15,#1
-.L658:
-	st.b	[a4]609,d15
-.L659:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-.L660:
-	mov	d15,#0
-.L661:
-	st.b	[a15],d15
-.L662:
-	movh.a	a15,#@his(ramp_timeout_count)
-	lea	a15,[a15]@los(ramp_timeout_count)
-.L663:
-	mov	d15,#0
-.L664:
-	st.b	[a15],d15
-.L97:
-	j	.L98
-.L96:
-.L95:
-.L94:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-.L665:
-	mov	d15,#0
-.L666:
-	st.b	[a15],d15
-.L98:
-	j	.L99
-.L89:
-	movh.a	a15,#@his(ramp_timeout_count)
-	lea	a15,[a15]@los(ramp_timeout_count)
-	movh.a	a2,#@his(ramp_timeout_count)
-	lea	a2,[a2]@los(ramp_timeout_count)
-	ld.bu	d15,[a2]
-.L667:
-	add	d15,#1
-	st.b	[a15],d15
-.L668:
-	movh.a	a15,#@his(ramp_timeout_count)
-	lea	a15,[a15]@los(ramp_timeout_count)
-	ld.bu	d1,[a15]
-.L669:
-	mov	d15,#100
-.L670:
-	jlt	d1,d15,.L100
-.L671:
-	mov	d15,#0
-.L672:
-	st.b	[a4]609,d15
-.L673:
-	movh.a	a15,#@his(ramp_timeout_count)
-	lea	a15,[a15]@los(ramp_timeout_count)
-.L674:
-	mov	d15,#0
-.L675:
-	st.b	[a15],d15
-.L676:
-	j	.L101
-.L100:
-	mov	d15,#15
-.L677:
-	jge	d15,d0,.L102
-.L678:
-	mov	d15,#2
-.L679:
-	st.b	[a4]609,d15
-.L102:
-.L101:
-	j	.L103
-.L90:
-	jlt	d0,#6,.L104
-.L680:
-	mov	d15,#9
-.L681:
-	jge	d0,d15,.L105
-.L682:
-	mov	d15,#3
-.L683:
-	st.b	[a4]609,d15
-.L105:
-.L104:
-	j	.L106
-.L91:
-	mov	d15,#10
-.L684:
-	jge	d15,d0,.L107
-.L685:
-	mov	d15,#4
-.L686:
-	st.b	[a4]609,d15
-.L687:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-.L688:
-	mov	d15,#0
-.L689:
-	st.b	[a15],d15
-.L107:
-	j	.L108
-.L92:
-	mov	d15,#10
-.L690:
-	jge	d15,d0,.L109
-.L691:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-	movh.a	a2,#@his(ramp_confirm_count)
-	lea	a2,[a2]@los(ramp_confirm_count)
-	ld.bu	d15,[a2]
-.L692:
-	add	d15,#1
-	st.b	[a15],d15
-.L693:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-	ld.bu	d15,[a15]
-.L694:
-	jlt	d15,#6,.L110
-.L695:
-	mov	d15,#5
-.L696:
-	st.b	[a4]609,d15
-.L697:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-.L698:
-	mov	d15,#0
-.L699:
-	st.b	[a15],d15
-.L700:
-	movh.a	a15,#@his(ramp_exit_count)
-	lea	a15,[a15]@los(ramp_exit_count)
-.L701:
-	mov	d15,#0
-.L702:
-	st.b	[a15],d15
-.L110:
-	j	.L111
-.L109:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-.L703:
-	mov	d15,#0
-.L704:
-	st.b	[a15],d15
-.L111:
-	j	.L112
-.L93:
-	movh.a	a15,#@his(ramp_exit_count)
-	lea	a15,[a15]@los(ramp_exit_count)
-	movh.a	a2,#@his(ramp_exit_count)
-	lea	a2,[a2]@los(ramp_exit_count)
-	ld.bu	d15,[a2]
-.L705:
-	add	d15,#1
-	st.b	[a15],d15
-.L706:
-	movh.a	a15,#@his(ramp_exit_count)
-	lea	a15,[a15]@los(ramp_exit_count)
-	ld.bu	d0,[a15]
-.L427:
-	mov	d15,#20
-.L707:
-	jlt	d0,d15,.L113
-.L708:
-	mov	d15,#0
-.L709:
-	st.b	[a4]609,d15
-.L710:
-	movh.a	a15,#@his(ramp_exit_count)
-	lea	a15,[a15]@los(ramp_exit_count)
-.L711:
-	mov	d15,#0
-.L712:
-	st.b	[a15],d15
-.L113:
-	j	.L114
-.L99:
-.L103:
-.L106:
-.L108:
-.L112:
-.L114:
-	ld.bu	d15,[a4]609
-.L713:
-	jlt	d15,#1,.L115
-.L714:
-	ld.bu	d15,[a4]609
-.L715:
-	jge	d15,#5,.L116
-.L716:
-	mov	d15,#1
-.L717:
-	j	.L117
-.L116:
-.L115:
-	mov	d15,#0
-.L117:
-	st.b	[a4]610,d15
-.L87:
-	ret
-.L320:
-	
-___ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t_function_end:
-	.size	_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t,___ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t_function_end-_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t
-.L199:
+.L156:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z17route_image_resetP20route_image_result_t')
@@ -1102,111 +795,72 @@ ___ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_i
 	
 	.global	_Z17route_image_resetP20route_image_result_t
 ; Function _Z17route_image_resetP20route_image_result_t
-.L143:
+.L105:
 _Z17route_image_resetP20route_image_result_t:	.type	func
 	mov	d15,#50
-.L722:
+.L565:
 	st.b	[a4],d15
-.L723:
+.L566:
 	mov	d15,#255
-.L724:
+.L567:
 	st.b	[a4]1,d15
-.L725:
+.L568:
 	mov	d15,#94
-.L726:
+.L569:
 	st.b	[a4]2,d15
-.L727:
+.L570:
 	mov	d15,#119
-.L728:
+.L571:
 	st.b	[a4]3,d15
-.L729:
+.L572:
 	mov	d15,#0
-.L730:
-	st.h	[a4]604,d15
-.L731:
+.L573:
+	st.h	[a4]484,d15
+.L574:
 	mov	d15,#0
-.L732:
-	st.h	[a4]606,d15
-.L733:
+.L575:
+	st.b	[a4]486,d15
+.L271:
 	mov	d15,#0
-.L734:
-	st.b	[a4]608,d15
-.L735:
-	mov	d15,#0
-.L736:
-	st.b	[a4]609,d15
-.L737:
-	mov	d15,#0
-.L738:
-	st.b	[a4]610,d15
-.L327:
-	mov	d15,#0
-.L428:
-	j	.L118
-.L119:
+.L366:
+	j	.L82
+.L83:
 	addsc.a	a15,a4,d15,#0
-.L739:
+.L576:
 	mov	d0,#0
-.L740:
+.L577:
 	st.b	[a15]4,d0
-.L741:
+.L578:
 	addsc.a	a15,a4,d15,#0
-.L742:
+.L579:
 	mov	d0,#187
-.L743:
+.L580:
 	st.b	[a15]124,d0
-.L744:
+.L581:
 	addsc.a	a15,a4,d15,#0
-.L745:
+.L582:
 	mov	d0,#94
-.L746:
+.L583:
 	st.b	[a15]244,d0
-.L747:
+.L584:
 	addsc.a	a15,a4,d15,#0
-.L748:
+.L585:
 	mov	d0,#0
-.L749:
+.L586:
 	st.b	[a15]364,d0
-.L750:
-	addsc.a	a15,a4,d15,#0
-.L751:
-	mov	d0,#0
-.L752:
-	st.b	[a15]484,d0
-.L753:
+.L587:
 	add	d15,#1
-.L118:
+.L82:
 	mov	d0,#120
-.L754:
-	jlt	d15,d0,.L119
-.L328:
-	movh.a	a15,#@his(ramp_confirm_count)
-	lea	a15,[a15]@los(ramp_confirm_count)
-.L755:
-	mov	d15,#0
-.L429:
-	st.b	[a15],d15
-.L756:
-	movh.a	a15,#@his(ramp_timeout_count)
-	lea	a15,[a15]@los(ramp_timeout_count)
-.L757:
-	mov	d15,#0
-.L758:
-	st.b	[a15],d15
-.L759:
-	movh.a	a15,#@his(ramp_exit_count)
-	lea	a15,[a15]@los(ramp_exit_count)
-.L760:
-	mov	d15,#0
-.L761:
-	st.b	[a15],d15
-.L762:
+.L588:
+	jlt	d15,d0,.L83
+.L272:
 	ret
-.L325:
+.L269:
 	
 ___Z17route_image_resetP20route_image_result_t_function_end:
 	.size	_Z17route_image_resetP20route_image_result_t,___Z17route_image_resetP20route_image_result_t_function_end-_Z17route_image_resetP20route_image_result_t
-.L204:
+.L161:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z19route_image_processPKhP20route_image_result_t')
@@ -1215,115 +869,82 @@ ___Z17route_image_resetP20route_image_result_t_function_end:
 	
 	.global	_Z19route_image_processPKhP20route_image_result_t
 ; Function _Z19route_image_processPKhP20route_image_result_t
-.L145:
+.L107:
 _Z19route_image_processPKhP20route_image_result_t:	.type	func
 	mov.aa	a12,a4
-.L431:
+.L368:
 	mov.aa	a13,a5
-.L432:
-	ld.bu	d0,[a13]609
-.L334:
+.L277:
 	mov	d15,#0
-.L433:
-	j	.L120
-.L121:
+.L369:
+	j	.L84
+.L85:
 	addsc.a	a15,a13,d15,#0
-.L767:
-	mov	d1,#0
-.L768:
-	st.b	[a15]4,d1
-.L769:
+.L593:
+	mov	d0,#0
+.L594:
+	st.b	[a15]4,d0
+.L595:
 	addsc.a	a15,a13,d15,#0
-.L770:
-	mov	d1,#187
-.L771:
-	st.b	[a15]124,d1
-.L772:
+.L596:
+	mov	d0,#187
+.L597:
+	st.b	[a15]124,d0
+.L598:
 	addsc.a	a15,a13,d15,#0
-.L773:
-	mov	d1,#94
-.L774:
-	st.b	[a15]244,d1
-.L775:
+.L599:
+	mov	d0,#94
+.L600:
+	st.b	[a15]244,d0
+.L601:
 	addsc.a	a15,a13,d15,#0
-.L776:
-	mov	d1,#0
-.L777:
-	st.b	[a15]364,d1
-.L778:
-	addsc.a	a15,a13,d15,#0
-.L779:
-	mov	d1,#0
-.L780:
-	st.b	[a15]484,d1
-.L781:
+.L602:
+	mov	d0,#0
+.L603:
+	st.b	[a15]364,d0
+.L604:
 	add	d15,#1
-.L120:
-	mov	d1,#120
-.L782:
-	jlt	d15,d1,.L121
-.L335:
+.L84:
+	mov	d0,#120
+.L605:
+	jlt	d15,d0,.L85
+.L278:
 	mov	d15,#0
-.L434:
-	st.h	[a13]604,d15
-.L783:
+.L370:
+	st.h	[a13]484,d15
+.L606:
 	mov	d15,#0
-.L784:
-	st.h	[a13]606,d15
-.L785:
-	mov	d15,#0
-.L786:
-	st.b	[a13]608,d15
-.L787:
-	st.b	[a13]609,d0
-.L788:
+.L607:
+	st.b	[a13]486,d15
+.L608:
 	mov.aa	a4,a12
 	mov.aa	a5,a13
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t
-.L430:
+.L367:
 	mov.aa	a4,a12
-.L435:
+.L371:
 	mov.aa	a5,a13
-.L437:
+.L373:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t
-.L436:
+.L372:
 	mov.aa	a4,a12
-.L438:
+.L374:
 	mov.aa	a5,a13
-.L440:
+.L376:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t
-.L439:
+.L375:
 	mov.aa	a4,a13
-.L441:
+.L377:
 	call	_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t
-.L442:
-	mov.aa	a4,a13
-.L443:
-	call	_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t
-.L444:
+.L378:
 	ret
-.L330:
+.L274:
 	
 ___Z19route_image_processPKhP20route_image_result_t_function_end:
 	.size	_Z19route_image_processPKhP20route_image_result_t,___Z19route_image_processPKhP20route_image_result_t_function_end-_Z19route_image_processPKhP20route_image_result_t
-.L209:
+.L166:
 	; End of function
 	
-	.sdecl	'.data.cpu0_dsram',data,cluster('ramp_confirm_count')
-	.sect	'.data.cpu0_dsram'
-ramp_confirm_count:	.type	object
-	.size	ramp_confirm_count,1
-	.space	1
-	.sdecl	'.data.cpu0_dsram',data,cluster('ramp_timeout_count')
-	.sect	'.data.cpu0_dsram'
-ramp_timeout_count:	.type	object
-	.size	ramp_timeout_count,1
-	.space	1
-	.sdecl	'.data.cpu0_dsram',data,cluster('ramp_exit_count')
-	.sect	'.data.cpu0_dsram'
-ramp_exit_count:	.type	object
-	.size	ramp_exit_count,1
-	.space	1
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t','_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii'
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t','_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh'
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t','_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii'
@@ -1339,7 +960,6 @@ ramp_exit_count:	.type	object
 	.calls	'_Z19route_image_processPKhP20route_image_result_t','_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t'
 	.calls	'_Z19route_image_processPKhP20route_image_result_t','_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t'
 	.calls	'_Z19route_image_processPKhP20route_image_result_t','_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t'
-	.calls	'_Z19route_image_processPKhP20route_image_result_t','_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t'
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii','',0
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh','',0
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t','',0
@@ -1349,37 +969,36 @@ ramp_exit_count:	.type	object
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh','',0
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t','',8
 	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t','',0
-	.calls	'_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t','',0
 	.calls	'_Z17route_image_resetP20route_image_result_t','',0
 	.calls	'_Z19route_image_processPKhP20route_image_result_t','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L147:
-	.word	726
+.L109:
+	.word	629
 	.half	3
-	.word	.L148
+	.word	.L110
 	.byte	4
-.L146:
+.L108:
 	.byte	1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L149
-.L216:
+	.word	.L111
+.L167:
 	.byte	2
 	.byte	'int',0,4,5
-.L222:
+.L173:
 	.byte	2
 	.byte	'unsigned char',0,1,8,3
 	.word	199
-.L227:
+.L178:
 	.byte	4
 	.word	216
 	.byte	5,120
 	.word	199
 	.byte	6,119,0,2
 	.byte	'short int',0,2,5,7
-	.byte	'route_image_result_t',0,1,8,8,228,4,8
+	.byte	'route_image_result_t',0,1,8,8,232,3,8
 	.byte	'white_min',0
 	.word	199
 	.byte	1,2,35,0,8
@@ -1401,61 +1020,46 @@ ramp_exit_count:	.type	object
 	.byte	'center_line',0
 	.word	226
 	.byte	120,3,35,244,1,8
-	.byte	'track_width',0
-	.word	226
-	.byte	120,3,35,236,2,8
 	.byte	'edge_flags',0
 	.word	226
-	.byte	120,3,35,228,3,8
+	.byte	120,3,35,236,2,8
 	.byte	'steering_error',0
 	.word	235
-	.byte	2,3,35,220,4,8
-	.byte	'ramp_width_delta',0
-	.word	235
-	.byte	2,3,35,222,4,8
+	.byte	2,3,35,228,3,8
 	.byte	'track_valid',0
 	.word	199
-	.byte	1,3,35,224,4,8
-	.byte	'ramp_state',0
-	.word	199
-	.byte	1,3,35,225,4,8
-	.byte	'ramp_active',0
-	.word	199
-	.byte	1,3,35,226,4,0
-.L229:
+	.byte	1,3,35,230,3,0
+.L180:
 	.byte	4
 	.word	248
-.L231:
+.L182:
 	.byte	2
 	.byte	'unsigned long int',0,4,7
-.L233:
+.L184:
 	.byte	3
 	.word	192
-.L247:
+.L198:
 	.byte	3
 	.word	192
 	.byte	3
 	.word	248
-.L272:
+.L223:
 	.byte	4
-	.word	617
-.L274:
+	.word	525
+.L225:
 	.byte	4
 	.word	199
-.L286:
+.L237:
 	.byte	3
 	.word	192
-.L315:
+.L264:
 	.byte	3
 	.word	192
-.L322:
-	.byte	3
-	.word	199
 	.byte	9,1,4
-	.word	647
+	.word	550
 	.byte	10
 	.byte	'__codeptr',0,2,1,1
-	.word	649
+	.word	552
 	.byte	10
 	.byte	'uint8',0,3,105,23
 	.word	199
@@ -1463,23 +1067,23 @@ ramp_exit_count:	.type	object
 	.byte	'int16',0,4,55,22
 	.word	235
 	.byte	10
-	.byte	'route_image_result_t',0,1,25,37
+	.byte	'route_image_result_t',0,1,21,37
 	.word	248
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L148:
+.L110:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
 	.byte	0,0,5,1,1,11,15,73,19,0,0,6,33,0,47,15,0,0,7,19,1,3,8,58,15,59,15,57,15,11,15,0,0,8,13,0,3,8,73,19,11
 	.byte	15,56,9,0,0,9,21,0,54,15,0,0,10,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L149:
-	.word	.L446-.L445
-.L445:
+.L111:
+	.word	.L380-.L379
+.L379:
 	.half	3
-	.word	.L448-.L447
-.L447:
+	.word	.L382-.L381
+.L381:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std',0
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common',0,0
@@ -1487,922 +1091,1249 @@ ramp_exit_count:	.type	object
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0
 	.byte	'Platform_Types.h',0,1,0,0
 	.byte	'zf_common_typedef.h',0,2,0,0,0
-.L448:
-.L446:
+.L382:
+.L380:
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii')
 	.sect	'.debug_info'
-.L150:
+.L112:
 	.word	382
 	.half	3
-	.word	.L151
+	.word	.L113
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L153,.L152
+	.word	.L115,.L114
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
-	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii',0,1,13,12
-	.word	.L216
+	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii',0,1,16,12
+	.word	.L167
 	.byte	1,1
-	.word	.L123,.L217,.L122
+	.word	.L87,.L168,.L86
 	.byte	4
-	.byte	'__6249_32_value',0,1,13,81
-	.word	.L216,.L218
+	.byte	'__6246_32_value',0,1,16,81
+	.word	.L167,.L169
 	.byte	4
-	.byte	'__6249_43_minimum',0,1,13,103
-	.word	.L216,.L219
+	.byte	'__6246_43_minimum',0,1,16,103
+	.word	.L167,.L170
 	.byte	4
-	.byte	'__6249_56_maximum',0,1,13,127
-	.word	.L216,.L220
+	.byte	'__6246_56_maximum',0,1,16,127
+	.word	.L167,.L171
 	.byte	5
-	.word	.L123,.L217
+	.word	.L87,.L168
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii')
 	.sect	'.debug_abbrev'
-.L151:
+.L113:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii')
 	.sect	'.debug_line'
-.L152:
-	.word	.L450-.L449
-.L449:
+.L114:
+	.word	.L384-.L383
+.L383:
 	.half	3
-	.word	.L452-.L451
-.L451:
+	.word	.L386-.L385
+.L385:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L452:
+.L386:
 	.byte	5,1,7,0,5,2
-	.word	.L123
-	.byte	3,14,1,7,9
-	.half	.L453-.L123
+	.word	.L87
+	.byte	3,17,1,7,9
+	.half	.L387-.L87
 	.byte	3,2,1,9
-	.half	.L2-.L453
+	.half	.L2-.L387
 	.byte	3,2,1,7,9
-	.half	.L454-.L2
+	.half	.L388-.L2
 	.byte	3,2,1,9
-	.half	.L4-.L454
+	.half	.L4-.L388
 	.byte	3,2,1,9
 	.half	.L3-.L4
 	.byte	3,1,1,7,9
-	.half	.L154-.L3
+	.half	.L116-.L3
 	.byte	0,1,1
-.L450:
+.L384:
 	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii')
 	.sect	'.debug_ranges'
-.L153:
-	.word	-1,.L123,0,.L154-.L123,0,0
+.L115:
+	.word	-1,.L87,0,.L116-.L87,0,0
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh')
 	.sect	'.debug_info'
-.L155:
+.L117:
 	.word	378
 	.half	3
-	.word	.L156
+	.word	.L118
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L158,.L157
+	.word	.L120,.L119
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
-	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh',0,1,26,12
-	.word	.L216
+	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh',0,1,36,12
+	.word	.L167
 	.byte	1,1
-	.word	.L125,.L221,.L124
+	.word	.L89,.L172,.L88
 	.byte	4
-	.byte	'__6262_33_inside',0,1,26,81
-	.word	.L222,.L223
+	.byte	'__6266_33_inside',0,1,36,81
+	.word	.L173,.L174
 	.byte	4
-	.byte	'__6262_47_outside',0,1,26,106
-	.word	.L222,.L224
+	.byte	'__6266_47_outside',0,1,36,106
+	.word	.L173,.L175
 	.byte	5
-	.word	.L125,.L221
+	.word	.L89,.L172
 	.byte	6
-	.byte	'__6264_15_sum',0,1,28,10
-	.word	.L216,.L225
+	.byte	'__6268_15_sum',0,1,38,10
+	.word	.L167,.L176
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh')
 	.sect	'.debug_abbrev'
-.L156:
+.L118:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh')
 	.sect	'.debug_line'
-.L157:
-	.word	.L456-.L455
-.L455:
+.L119:
+	.word	.L390-.L389
+.L389:
 	.half	3
-	.word	.L458-.L457
-.L457:
+	.word	.L392-.L391
+.L391:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L458:
+.L392:
 	.byte	5,42,7,0,5,2
-	.word	.L125
-	.byte	3,27,1,5,1,9
-	.half	.L341-.L125
+	.word	.L89
+	.byte	3,37,1,5,1,9
+	.half	.L284-.L89
 	.byte	3,1,1,5,8,7,9
-	.half	.L459-.L341
+	.half	.L393-.L284
 	.byte	3,2,1,5,1,9
-	.half	.L460-.L459
+	.half	.L394-.L393
 	.byte	1,5,34,9
-	.half	.L7-.L460
+	.half	.L7-.L394
 	.byte	3,2,1,5,62,9
-	.half	.L340-.L7
+	.half	.L283-.L7
 	.byte	1,5,69,9
-	.half	.L461-.L340
+	.half	.L395-.L283
 	.byte	1,5,1,9
-	.half	.L462-.L461
+	.half	.L396-.L395
 	.byte	1,9
-	.half	.L8-.L462
+	.half	.L8-.L396
 	.byte	3,1,1,7,9
-	.half	.L159-.L8
+	.half	.L121-.L8
 	.byte	0,1,1
-.L456:
+.L390:
 	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh')
 	.sect	'.debug_ranges'
-.L158:
-	.word	-1,.L125,0,.L159-.L125,0,0
+.L120:
+	.word	-1,.L89,0,.L121-.L89,0,0
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t')
 	.sect	'.debug_info'
-.L160:
+.L122:
 	.word	614
 	.half	3
-	.word	.L161
+	.word	.L123
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L163,.L162
+	.word	.L125,.L124
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
 	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t',0,1
-	.byte	36,13,1,1
-	.word	.L127,.L226,.L126
+	.byte	53,13,1,1
+	.word	.L91,.L177,.L90
 	.byte	4
-	.byte	'__6272_52_image',0,1,36,124
-	.word	.L227,.L228
+	.byte	'__6283_52_image',0,1,53,124
+	.word	.L178,.L179
 	.byte	4
-	.byte	'__6273_27_result',0,1,37,23
-	.word	.L229,.L230
+	.byte	'__6284_27_result',0,1,54,23
+	.word	.L180,.L181
 	.byte	5
-	.word	.L127,.L226
+	.word	.L91,.L177
 	.byte	6
-	.byte	'__6275_12_sum',0,1,39,13
-	.word	.L231,.L232
+	.byte	'__6286_12_sum',0,1,56,13
+	.word	.L182,.L183
 	.byte	6
-	.byte	'__6276_15_first_row',0,1,40,16
-	.word	.L233,.L234
+	.byte	'__6287_15_first_row',0,1,57,16
+	.word	.L184,.L185
 	.byte	6
-	.byte	'__6287_15_point_count',0,1,51,10
-	.word	.L216,.L235
+	.byte	'__6298_15_point_count',0,1,68,10
+	.word	.L167,.L186
 	.byte	6
-	.byte	'__6288_15_reference',0,1,52,10
-	.word	.L216,.L236
+	.byte	'__6299_15_reference',0,1,69,10
+	.word	.L167,.L187
 	.byte	5
-	.word	.L237,.L238
+	.word	.L188,.L189
 	.byte	6
-	.byte	'__6278_14_row',0,1,42,10
-	.word	.L216,.L239
+	.byte	'__6289_14_row',0,1,59,10
+	.word	.L167,.L190
 	.byte	5
-	.word	.L11,.L240
+	.word	.L11,.L191
 	.byte	6
-	.byte	'__6280_22_line',0,1,44,19
-	.word	.L227,.L241
+	.byte	'__6291_22_line',0,1,61,19
+	.word	.L178,.L192
 	.byte	5
-	.word	.L242,.L240
+	.word	.L193,.L191
 	.byte	6
-	.byte	'__6281_18_col',0,1,45,10
-	.word	.L216,.L243
+	.byte	'__6292_18_col',0,1,62,10
+	.word	.L167,.L194
 	.byte	0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t')
 	.sect	'.debug_abbrev'
-.L161:
+.L123:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
 	.byte	15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t')
 	.sect	'.debug_line'
-.L162:
-	.word	.L464-.L463
-.L463:
+.L124:
+	.word	.L398-.L397
+.L397:
 	.half	3
-	.word	.L466-.L465
-.L465:
+	.word	.L400-.L399
+.L399:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L466:
+.L400:
 	.byte	5,13,7,0,5,2
-	.word	.L127
-	.byte	3,35,1,5,27,9
-	.half	.L343-.L127
+	.word	.L91
+	.byte	3,52,1,5,27,9
+	.half	.L286-.L91
 	.byte	3,3,1,5,15,9
-	.half	.L237-.L343
+	.half	.L188-.L286
 	.byte	3,3,1,5,50,9
-	.half	.L345-.L237
+	.half	.L288-.L188
 	.byte	1,5,52,9
-	.half	.L11-.L345
+	.half	.L11-.L288
 	.byte	3,2,1,5,35,9
-	.half	.L467-.L11
+	.half	.L401-.L11
 	.byte	1,5,15,9
-	.half	.L242-.L467
+	.half	.L193-.L401
 	.byte	3,1,1,5,48,9
-	.half	.L346-.L242
+	.half	.L289-.L193
 	.byte	1,5,49,9
-	.half	.L13-.L346
+	.half	.L13-.L289
 	.byte	3,2,1,5,15,9
-	.half	.L468-.L13
+	.half	.L402-.L13
 	.byte	1,5,50,9
-	.half	.L469-.L468
+	.half	.L403-.L402
 	.byte	3,126,1,5,44,9
-	.half	.L12-.L469
+	.half	.L12-.L403
 	.byte	1,5,48,9
-	.half	.L470-.L12
+	.half	.L404-.L12
 	.byte	1,5,52,7,9
-	.half	.L240-.L470
+	.half	.L191-.L404
 	.byte	3,125,1,5,46,9
-	.half	.L10-.L240
+	.half	.L10-.L191
 	.byte	1,5,50,9
-	.half	.L471-.L10
+	.half	.L405-.L10
 	.byte	1,5,46,7,9
-	.half	.L238-.L471
+	.half	.L189-.L405
 	.byte	3,10,1,5,44,9
-	.half	.L472-.L238
+	.half	.L406-.L189
 	.byte	1,5,128,1,9
-	.half	.L347-.L472
+	.half	.L290-.L406
 	.byte	3,1,1,5,135,1,9
-	.half	.L344-.L347
+	.half	.L287-.L290
 	.byte	1,5,133,1,9
-	.half	.L473-.L344
+	.half	.L407-.L287
 	.byte	1,5,140,1,9
-	.half	.L474-.L473
+	.half	.L408-.L407
 	.byte	1,5,144,1,9
-	.half	.L475-.L474
+	.half	.L409-.L408
 	.byte	1,5,31,9
-	.half	.L342-.L475
+	.half	.L285-.L409
 	.byte	1,5,128,1,9
-	.half	.L476-.L342
+	.half	.L410-.L285
 	.byte	3,3,1,5,136,1,9
-	.half	.L477-.L476
+	.half	.L411-.L410
 	.byte	1,5,134,1,9
-	.half	.L478-.L477
+	.half	.L412-.L411
 	.byte	1,5,141,1,9
-	.half	.L479-.L478
+	.half	.L413-.L412
 	.byte	1,5,145,1,9
-	.half	.L480-.L479
+	.half	.L414-.L413
 	.byte	1,5,31,9
-	.half	.L481-.L480
+	.half	.L415-.L414
 	.byte	1,5,1,9
-	.half	.L482-.L481
+	.half	.L416-.L415
 	.byte	3,3,1,7,9
-	.half	.L164-.L482
+	.half	.L126-.L416
 	.byte	0,1,1
-.L464:
+.L398:
 	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t')
 	.sect	'.debug_ranges'
-.L163:
-	.word	-1,.L127,0,.L164-.L127,0,0
+.L125:
+	.word	-1,.L91,0,.L126-.L91,0,0
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t')
 	.sect	'.debug_info'
-.L165:
+.L127:
 	.word	735
 	.half	3
-	.word	.L166
+	.word	.L128
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L168,.L167
+	.word	.L130,.L129
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
 	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t',0
-	.byte	1,61,13,1,1
-	.word	.L129,.L244,.L128
+	.byte	1,85,13,1,1
+	.word	.L93,.L195,.L92
 	.byte	4
-	.byte	'__6297_54_image',0,1,61,126
-	.word	.L227,.L245
+	.byte	'__6315_54_image',0,1,85,126
+	.word	.L178,.L196
 	.byte	4
-	.byte	'__6298_27_result',0,1,62,23
-	.word	.L229,.L246
+	.byte	'__6316_27_result',0,1,86,23
+	.word	.L180,.L197
 	.byte	5
-	.word	.L129,.L244
+	.word	.L93,.L195
 	.byte	6
-	.byte	'__6300_15_center',0,1,64,16
-	.word	.L247,.L248
+	.byte	'__6318_15_center',0,1,88,16
+	.word	.L198,.L199
 	.byte	6
-	.byte	'__6301_9_best_col',0,1,65,10
-	.word	.L216,.L249
+	.byte	'__6319_9_best_col',0,1,89,10
+	.word	.L167,.L200
 	.byte	6
-	.byte	'__6302_9_best_row',0,1,66,10
-	.word	.L216,.L250
+	.byte	'__6320_9_best_row',0,1,90,10
+	.word	.L167,.L201
 	.byte	6
-	.byte	'__6303_9_best_center_distance',0,1,67,10
-	.word	.L216,.L251
+	.byte	'__6321_9_best_center_distance',0,1,91,10
+	.word	.L167,.L202
 	.byte	5
-	.word	.L252,.L253
+	.word	.L203,.L204
 	.byte	6
-	.byte	'__6305_14_col',0,1,69,10
-	.word	.L216,.L254
+	.byte	'__6323_14_col',0,1,93,10
+	.word	.L167,.L205
 	.byte	5
 	.word	.L15,.L26
 	.byte	6
-	.byte	'__6309_13_remote_row',0,1,73,10
-	.word	.L216,.L255
+	.byte	'__6327_13_remote_row',0,1,97,10
+	.word	.L167,.L206
 	.byte	6
-	.byte	'__6333_19_center_distance',0,1,97,10
-	.word	.L216,.L256
+	.byte	'__6351_19_center_distance',0,1,121,10
+	.word	.L167,.L207
 	.byte	5
-	.word	.L257,.L22
+	.word	.L208,.L22
 	.byte	6
-	.byte	'__6310_18_row',0,1,74,10
-	.word	.L216,.L258
+	.byte	'__6328_18_row',0,1,98,10
+	.word	.L167,.L209
 	.byte	5
 	.word	.L17,.L20
 	.byte	6
-	.byte	'__6314_25_current',0,1,78,12
-	.word	.L222,.L259
+	.byte	'__6332_25_current',0,1,102,12
+	.word	.L173,.L210
 	.byte	6
-	.byte	'__6315_25_ahead',0,1,79,12
-	.word	.L222,.L260
+	.byte	'__6333_25_ahead',0,1,103,12
+	.word	.L173,.L211
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t')
 	.sect	'.debug_abbrev'
-.L166:
+.L128:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
 	.byte	15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t')
 	.sect	'.debug_line'
-.L167:
-	.word	.L484-.L483
-.L483:
+.L129:
+	.word	.L418-.L417
+.L417:
 	.half	3
-	.word	.L486-.L485
-.L485:
+	.word	.L420-.L419
+.L419:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L486:
+.L420:
 	.byte	5,13,7,0,5,2
-	.word	.L129
-	.byte	3,60,1,5,28,9
-	.half	.L349-.L129
+	.word	.L93
+	.byte	3,212,0,1,5,28,9
+	.half	.L292-.L93
 	.byte	3,4,1,9
-	.half	.L350-.L349
+	.half	.L293-.L292
 	.byte	3,1,1,5,40,9
-	.half	.L351-.L350
+	.half	.L294-.L293
 	.byte	3,1,1,5,15,9
-	.half	.L252-.L351
+	.half	.L203-.L294
 	.byte	3,2,1,5,48,9
-	.half	.L352-.L252
+	.half	.L295-.L203
 	.byte	1,5,31,9
-	.half	.L15-.L352
+	.half	.L15-.L295
 	.byte	3,4,1,5,15,9
-	.half	.L257-.L15
+	.half	.L208-.L15
 	.byte	3,1,1,5,48,9
-	.half	.L353-.L257
+	.half	.L296-.L208
 	.byte	1,5,56,9
-	.half	.L17-.L353
+	.half	.L17-.L296
 	.byte	3,4,1,5,61,9
-	.half	.L487-.L17
+	.half	.L421-.L17
 	.byte	1,5,37,9
-	.half	.L488-.L487
+	.half	.L422-.L421
 	.byte	1,5,53,9
-	.half	.L354-.L488
+	.half	.L297-.L422
 	.byte	3,1,1,5,60,9
-	.half	.L489-.L354
+	.half	.L423-.L297
 	.byte	1,5,65,9
-	.half	.L490-.L489
+	.half	.L424-.L423
 	.byte	1,5,35,9
-	.half	.L491-.L490
+	.half	.L425-.L424
 	.byte	1,5,55,9
-	.half	.L356-.L491
+	.half	.L299-.L425
 	.byte	3,3,1,5,1,9
-	.half	.L492-.L356
+	.half	.L426-.L299
 	.byte	1,5,22,7,9
-	.half	.L493-.L492
+	.half	.L427-.L426
 	.byte	3,2,1,5,1,9
-	.half	.L494-.L493
+	.half	.L428-.L427
 	.byte	3,1,1,5,55,9
-	.half	.L18-.L494
+	.half	.L18-.L428
 	.byte	3,3,1,5,5,9
-	.half	.L495-.L18
+	.half	.L429-.L18
 	.byte	1,5,156,1,7,9
-	.half	.L496-.L495
+	.half	.L430-.L429
 	.byte	1,5,176,1,9
-	.half	.L355-.L496
+	.half	.L298-.L430
 	.byte	1,5,174,1,9
-	.half	.L497-.L355
+	.half	.L431-.L298
 	.byte	1,5,22,7,9
-	.half	.L498-.L497
+	.half	.L432-.L431
 	.byte	3,4,1,5,1,9
-	.half	.L499-.L498
+	.half	.L433-.L432
 	.byte	3,1,1,5,64,9
-	.half	.L20-.L499
+	.half	.L20-.L433
 	.byte	3,109,1,5,48,9
 	.half	.L16-.L20
 	.byte	1,5,47,7,9
 	.half	.L22-.L16
 	.byte	3,23,1,5,30,9
-	.half	.L500-.L22
+	.half	.L434-.L22
 	.byte	1,5,68,7,9
-	.half	.L501-.L500
+	.half	.L435-.L434
 	.byte	1,5,74,9
-	.half	.L502-.L501
+	.half	.L436-.L435
 	.byte	1,5,80,9
-	.half	.L23-.L502
+	.half	.L23-.L436
 	.byte	1,5,5,9
 	.half	.L24-.L23
 	.byte	3,2,1,5,52,7,9
-	.half	.L503-.L24
+	.half	.L437-.L24
 	.byte	1,5,126,7,9
-	.half	.L357-.L503
+	.half	.L300-.L437
 	.byte	1,5,19,7,9
-	.half	.L25-.L357
+	.half	.L25-.L300
 	.byte	3,4,1,5,31,9
-	.half	.L504-.L25
+	.half	.L438-.L25
 	.byte	3,2,1,5,64,9
-	.half	.L26-.L504
+	.half	.L26-.L438
 	.byte	3,92,1,5,44,9
 	.half	.L14-.L26
 	.byte	1,5,48,9
-	.half	.L505-.L14
+	.half	.L439-.L14
 	.byte	1,5,129,1,7,9
-	.half	.L253-.L505
+	.half	.L204-.L439
 	.byte	3,40,1,5,132,1,9
-	.half	.L506-.L253
+	.half	.L440-.L204
 	.byte	1,5,35,9
-	.half	.L360-.L506
+	.half	.L303-.L440
 	.byte	1,5,129,1,9
-	.half	.L507-.L360
+	.half	.L441-.L303
 	.byte	3,3,1,5,132,1,9
-	.half	.L508-.L507
+	.half	.L442-.L441
 	.byte	1,5,35,9
-	.half	.L363-.L508
+	.half	.L306-.L442
 	.byte	1,5,1,9
-	.half	.L509-.L363
+	.half	.L443-.L306
 	.byte	3,2,1,7,9
-	.half	.L169-.L509
+	.half	.L131-.L443
 	.byte	0,1,1
-.L484:
+.L418:
 	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t')
 	.sect	'.debug_ranges'
-.L168:
-	.word	-1,.L129,0,.L169-.L129,0,0
+.L130:
+	.word	-1,.L93,0,.L131-.L93,0,0
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih')
 	.sect	'.debug_info'
-.L170:
-	.word	500
+.L132:
+	.word	505
 	.half	3
-	.word	.L171
+	.word	.L133
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L173,.L172
+	.word	.L135,.L134
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
-	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih',0,1,116,12
-	.word	.L216
+	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih',0,1,148,1,12
+	.word	.L167
 	.byte	1,1
-	.word	.L131,.L261,.L130
+	.word	.L95,.L212,.L94
 	.byte	4
-	.byte	'__6352_47_line',0,1,116,98
-	.word	.L227,.L262
+	.byte	'__6378_47_line',0,1,148,1,98
+	.word	.L178,.L213
 	.byte	4
-	.byte	'__6352_57_predicted',0,1,116,119
-	.word	.L216,.L263
+	.byte	'__6378_57_predicted',0,1,148,1,119
+	.word	.L167,.L214
 	.byte	4
-	.byte	'__6353_11_white_min',0,1,117,7
-	.word	.L222,.L264
+	.byte	'__6379_11_white_min',0,1,149,1,7
+	.word	.L173,.L215
 	.byte	5
-	.word	.L131,.L261
+	.word	.L95,.L212
 	.byte	5
-	.word	.L28,.L265
+	.word	.L28,.L216
 	.byte	6
-	.byte	'__6362_14_offset',0,1,126,10
-	.word	.L216,.L266
+	.byte	'__6388_14_offset',0,1,158,1,10
+	.word	.L167,.L217
 	.byte	5
 	.word	.L31,.L35
 	.byte	6
-	.byte	'__6364_19_left',0,1,128,1,10
-	.word	.L216,.L267
+	.byte	'__6390_19_left',0,1,160,1,10
+	.word	.L167,.L218
 	.byte	6
-	.byte	'__6365_19_right',0,1,129,1,10
-	.word	.L216,.L268
+	.byte	'__6391_19_right',0,1,161,1,10
+	.word	.L167,.L219
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih')
 	.sect	'.debug_abbrev'
-.L171:
+.L133:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih')
 	.sect	'.debug_line'
-.L172:
-	.word	.L511-.L510
-.L510:
+.L134:
+	.word	.L445-.L444
+.L444:
 	.half	3
-	.word	.L513-.L512
-.L512:
+	.word	.L447-.L446
+.L446:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L513:
+.L447:
 	.byte	5,12,7,0,5,2
-	.word	.L131
-	.byte	3,243,0,1,5,109,9
-	.half	.L367-.L131
+	.word	.L95
+	.byte	3,147,1,1,5,109,9
+	.half	.L310-.L95
 	.byte	3,3,1,5,112,9
-	.half	.L365-.L367
+	.half	.L308-.L310
 	.byte	1,5,26,9
-	.half	.L364-.L365
+	.half	.L307-.L308
 	.byte	3,2,1,5,1,9
-	.half	.L514-.L364
+	.half	.L448-.L307
 	.byte	1,7,9
-	.half	.L515-.L514
+	.half	.L449-.L448
 	.byte	3,2,1,5,18,9
-	.half	.L28-.L515
+	.half	.L28-.L449
 	.byte	3,3,1,5,54,9
-	.half	.L369-.L28
+	.half	.L312-.L28
 	.byte	1,5,39,9
-	.half	.L31-.L369
+	.half	.L31-.L312
 	.byte	3,2,1,5,40,9
-	.half	.L370-.L31
+	.half	.L313-.L31
 	.byte	3,1,1,5,5,9
-	.half	.L372-.L370
+	.half	.L315-.L313
 	.byte	3,1,1,5,52,7,9
-	.half	.L516-.L372
+	.half	.L450-.L315
 	.byte	1,5,71,9
-	.half	.L517-.L516
+	.half	.L451-.L450
 	.byte	1,5,1,7,9
-	.half	.L518-.L517
+	.half	.L452-.L451
 	.byte	3,2,1,5,24,9
-	.half	.L32-.L518
+	.half	.L32-.L452
 	.byte	3,2,1,5,5,9
-	.half	.L371-.L32
+	.half	.L314-.L32
 	.byte	1,5,54,7,9
-	.half	.L519-.L371
+	.half	.L453-.L314
 	.byte	1,5,74,9
-	.half	.L520-.L519
+	.half	.L454-.L453
 	.byte	1,5,1,7,9
-	.half	.L521-.L520
+	.half	.L455-.L454
 	.byte	3,3,1,5,56,9
-	.half	.L35-.L521
+	.half	.L35-.L455
 	.byte	3,117,1,5,51,9
 	.half	.L30-.L35
 	.byte	1,5,54,9
-	.half	.L522-.L30
+	.half	.L456-.L30
 	.byte	1,5,9,7,9
-	.half	.L265-.L522
+	.half	.L216-.L456
 	.byte	3,14,1,5,1,9
-	.half	.L374-.L265
+	.half	.L317-.L216
 	.byte	1,9
-	.half	.L29-.L374
+	.half	.L29-.L317
 	.byte	3,1,1,7,9
-	.half	.L174-.L29
+	.half	.L136-.L29
 	.byte	0,1,1
-.L511:
+.L445:
 	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih')
 	.sect	'.debug_ranges'
-.L173:
-	.word	-1,.L131,0,.L174-.L131,0,0
+.L135:
+	.word	-1,.L95,0,.L136-.L95,0,0
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_info'
-.L175:
+.L137:
 	.word	552
 	.half	3
-	.word	.L176
+	.word	.L138
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L178,.L177
+	.word	.L140,.L139
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
 	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh',0,1
-	.byte	143,1,12
-	.word	.L216
+	.byte	183,1,12
+	.word	.L167
 	.byte	1,1
-	.word	.L133,.L269,.L132
+	.word	.L97,.L220,.L96
 	.byte	4
-	.byte	'__6379_46_line',0,1,143,1,122
-	.word	.L227,.L270
+	.byte	'__6413_46_line',0,1,183,1,122
+	.word	.L178,.L221
 	.byte	4
-	.byte	'__6379_56_seed',0,1,143,1,143,1
-	.word	.L216,.L271
+	.byte	'__6413_56_seed',0,1,183,1,143,1
+	.word	.L167,.L222
 	.byte	4
-	.byte	'__6380_33_result',0,1,144,1,29
-	.word	.L272,.L273
+	.byte	'__6414_33_result',0,1,184,1,29
+	.word	.L223,.L224
 	.byte	4
-	.byte	'__6380_48_found',0,1,144,1,55
-	.word	.L274,.L275
+	.byte	'__6414_48_found',0,1,184,1,55
+	.word	.L225,.L226
 	.byte	5
-	.word	.L133,.L269
+	.word	.L97,.L220
 	.byte	5
-	.word	.L276,.L277
+	.word	.L227,.L228
 	.byte	6
-	.byte	'__6382_14_col',0,1,146,1,10
-	.word	.L216,.L278
+	.byte	'__6416_14_col',0,1,186,1,10
+	.word	.L167,.L229
 	.byte	5
 	.word	.L40,.L44
 	.byte	6
-	.byte	'__6384_21_inside',0,1,148,1,12
-	.word	.L222,.L279
+	.byte	'__6418_21_inside',0,1,188,1,12
+	.word	.L173,.L230
 	.byte	6
-	.byte	'__6385_21_outside',0,1,149,1,12
-	.word	.L222,.L280
+	.byte	'__6419_21_outside',0,1,189,1,12
+	.word	.L173,.L231
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_abbrev'
-.L176:
+.L138:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_line'
-.L177:
-	.word	.L524-.L523
-.L523:
+.L139:
+	.word	.L458-.L457
+.L457:
 	.half	3
-	.word	.L526-.L525
-.L525:
+	.word	.L460-.L459
+.L459:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L526:
+.L460:
 	.byte	5,12,7,0,5,2
-	.word	.L133
-	.byte	3,142,1,1,5,15,9
-	.half	.L276-.L133
+	.word	.L97
+	.byte	3,182,1,1,5,15,9
+	.half	.L227-.L97
 	.byte	3,3,1,5,60,9
-	.half	.L377-.L276
+	.half	.L320-.L227
 	.byte	1,5,35,9
-	.half	.L40-.L377
+	.half	.L40-.L320
 	.byte	3,2,1,5,36,9
-	.half	.L379-.L40
+	.half	.L322-.L40
 	.byte	3,1,1,5,54,9
-	.half	.L381-.L379
+	.half	.L324-.L322
 	.byte	3,1,1,5,1,9
-	.half	.L527-.L381
+	.half	.L461-.L324
 	.byte	1,5,23,7,9
-	.half	.L528-.L527
+	.half	.L462-.L461
 	.byte	3,2,1,5,20,9
-	.half	.L529-.L528
+	.half	.L463-.L462
 	.byte	1,5,22,9
-	.half	.L530-.L529
+	.half	.L464-.L463
 	.byte	3,1,1,5,1,9
-	.half	.L531-.L530
+	.half	.L465-.L464
 	.byte	1,5,56,9
-	.half	.L41-.L531
+	.half	.L41-.L465
 	.byte	3,2,1,5,5,9
-	.half	.L532-.L41
+	.half	.L466-.L41
 	.byte	1,5,127,7,9
-	.half	.L533-.L532
+	.half	.L467-.L466
 	.byte	1,5,75,9
-	.half	.L534-.L533
+	.half	.L468-.L467
 	.byte	1,5,227,1,7,9
-	.half	.L535-.L534
+	.half	.L469-.L468
 	.byte	1,5,249,1,9
-	.half	.L380-.L535
+	.half	.L323-.L469
 	.byte	1,5,247,1,9
-	.half	.L536-.L380
+	.half	.L470-.L323
 	.byte	1,5,23,7,9
-	.half	.L43-.L536
+	.half	.L43-.L470
 	.byte	3,5,1,5,20,9
-	.half	.L537-.L43
+	.half	.L471-.L43
 	.byte	1,5,1,9
-	.half	.L538-.L537
+	.half	.L472-.L471
 	.byte	3,1,1,5,62,9
-	.half	.L44-.L538
+	.half	.L44-.L472
 	.byte	3,113,1,5,60,9
 	.half	.L39-.L44
 	.byte	1,5,23,7,9
-	.half	.L277-.L39
+	.half	.L228-.L39
 	.byte	3,18,1,5,20,9
-	.half	.L378-.L277
+	.half	.L321-.L228
 	.byte	1,5,8,9
-	.half	.L539-.L378
+	.half	.L473-.L321
 	.byte	3,1,1,5,1,9
-	.half	.L540-.L539
+	.half	.L474-.L473
 	.byte	1,9
-	.half	.L42-.L540
+	.half	.L42-.L474
 	.byte	3,1,1,7,9
-	.half	.L179-.L42
+	.half	.L141-.L42
 	.byte	0,1,1
-.L524:
+.L458:
 	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_ranges'
-.L178:
-	.word	-1,.L133,0,.L179-.L133,0,0
+.L140:
+	.word	-1,.L97,0,.L141-.L97,0,0
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_info'
-.L180:
+.L142:
 	.word	581
 	.half	3
-	.word	.L181
+	.word	.L143
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L183,.L182
+	.word	.L145,.L144
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
 	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh',0,1
-	.byte	168,1,12
-	.word	.L216
+	.byte	216,1,12
+	.word	.L167
 	.byte	1,1
-	.word	.L135,.L281,.L134
+	.word	.L99,.L232,.L98
 	.byte	4
-	.byte	'__6404_47_line',0,1,168,1,123
-	.word	.L227,.L282
+	.byte	'__6446_47_line',0,1,216,1,123
+	.word	.L178,.L233
 	.byte	4
-	.byte	'__6404_57_seed',0,1,168,1,144,1
-	.word	.L216,.L283
+	.byte	'__6446_57_seed',0,1,216,1,144,1
+	.word	.L167,.L234
 	.byte	4
-	.byte	'__6405_33_result',0,1,169,1,29
-	.word	.L272,.L284
+	.byte	'__6447_33_result',0,1,217,1,29
+	.word	.L223,.L235
 	.byte	4
-	.byte	'__6405_48_found',0,1,169,1,55
-	.word	.L274,.L285
+	.byte	'__6447_48_found',0,1,217,1,55
+	.word	.L225,.L236
 	.byte	5
-	.word	.L135,.L281
+	.word	.L99,.L232
 	.byte	6
-	.byte	'__6407_15_last',0,1,171,1,16
-	.word	.L286,.L287
+	.byte	'__6449_15_last',0,1,219,1,16
+	.word	.L237,.L238
 	.byte	5
-	.word	.L288,.L289
+	.word	.L239,.L240
 	.byte	6
-	.byte	'__6408_14_col',0,1,172,1,10
-	.word	.L216,.L290
+	.byte	'__6450_14_col',0,1,220,1,10
+	.word	.L167,.L241
 	.byte	5
 	.word	.L49,.L53
 	.byte	6
-	.byte	'__6410_21_inside',0,1,174,1,12
-	.word	.L222,.L291
+	.byte	'__6452_21_inside',0,1,222,1,12
+	.word	.L173,.L242
 	.byte	6
-	.byte	'__6411_21_outside',0,1,175,1,12
-	.word	.L222,.L292
+	.byte	'__6453_21_outside',0,1,223,1,12
+	.word	.L173,.L243
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_abbrev'
-.L181:
+.L143:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_line'
-.L182:
-	.word	.L542-.L541
-.L541:
+.L144:
+	.word	.L476-.L475
+.L475:
 	.half	3
-	.word	.L544-.L543
-.L543:
+	.word	.L478-.L477
+.L477:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L544:
+.L478:
 	.byte	5,12,7,0,5,2
-	.word	.L135
-	.byte	3,167,1,1,5,15,9
-	.half	.L288-.L135
+	.word	.L99
+	.byte	3,215,1,1,5,15,9
+	.half	.L239-.L99
 	.byte	3,4,1,5,62,9
-	.half	.L385-.L288
+	.half	.L328-.L239
 	.byte	1,5,35,9
-	.half	.L49-.L385
+	.half	.L49-.L328
 	.byte	3,2,1,5,36,9
-	.half	.L386-.L49
+	.half	.L329-.L49
 	.byte	3,1,1,5,54,9
-	.half	.L388-.L386
+	.half	.L331-.L329
 	.byte	3,1,1,5,1,9
-	.half	.L545-.L388
+	.half	.L479-.L331
 	.byte	1,5,23,7,9
-	.half	.L546-.L545
+	.half	.L480-.L479
 	.byte	3,2,1,5,20,9
-	.half	.L547-.L546
+	.half	.L481-.L480
 	.byte	1,5,22,9
-	.half	.L548-.L547
+	.half	.L482-.L481
 	.byte	3,1,1,5,1,9
-	.half	.L549-.L548
+	.half	.L483-.L482
 	.byte	1,5,56,9
-	.half	.L50-.L549
+	.half	.L50-.L483
 	.byte	3,2,1,5,5,9
-	.half	.L550-.L50
+	.half	.L484-.L50
 	.byte	1,5,127,7,9
-	.half	.L551-.L550
+	.half	.L485-.L484
 	.byte	1,5,75,9
-	.half	.L552-.L551
+	.half	.L486-.L485
 	.byte	1,5,227,1,7,9
-	.half	.L553-.L552
+	.half	.L487-.L486
 	.byte	1,5,249,1,9
-	.half	.L387-.L553
+	.half	.L330-.L487
 	.byte	1,5,247,1,9
-	.half	.L554-.L387
+	.half	.L488-.L330
 	.byte	1,5,23,7,9
-	.half	.L52-.L554
+	.half	.L52-.L488
 	.byte	3,5,1,5,20,9
-	.half	.L555-.L52
+	.half	.L489-.L52
 	.byte	1,5,1,9
-	.half	.L556-.L555
+	.half	.L490-.L489
 	.byte	3,1,1,5,64,9
-	.half	.L53-.L556
+	.half	.L53-.L490
 	.byte	3,113,1,5,58,9
 	.half	.L48-.L53
 	.byte	1,5,62,9
-	.half	.L557-.L48
+	.half	.L491-.L48
 	.byte	1,5,23,7,9
-	.half	.L289-.L557
+	.half	.L240-.L491
 	.byte	3,18,1,5,20,9
-	.half	.L558-.L289
+	.half	.L492-.L240
 	.byte	1,5,8,9
-	.half	.L559-.L558
+	.half	.L493-.L492
 	.byte	3,1,1,5,1,9
-	.half	.L560-.L559
+	.half	.L494-.L493
 	.byte	1,9
-	.half	.L51-.L560
+	.half	.L51-.L494
 	.byte	3,1,1,7,9
-	.half	.L184-.L51
+	.half	.L146-.L51
 	.byte	0,1,1
-.L542:
+.L476:
 	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_ranges'
-.L183:
-	.word	-1,.L135,0,.L184-.L135,0,0
+.L145:
+	.word	-1,.L99,0,.L146-.L99,0,0
 	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
 	.sect	'.debug_info'
-.L185:
-	.word	708
+.L147:
+	.word	712
 	.half	3
-	.word	.L186
+	.word	.L148
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L188,.L187
+	.word	.L150,.L149
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
-	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t',0,1,194,1,13
+	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t',0,1,249,1,13
 	.byte	1,1
-	.word	.L137,.L293,.L136
+	.word	.L101,.L244,.L100
 	.byte	4
-	.byte	'__6430_44_image',0,1,194,1,116
-	.word	.L227,.L294
+	.byte	'__6479_44_image',0,1,249,1,116
+	.word	.L178,.L245
 	.byte	4
-	.byte	'__6431_27_result',0,1,195,1,23
-	.word	.L229,.L295
+	.byte	'__6480_27_result',0,1,250,1,23
+	.word	.L180,.L246
 	.byte	5
-	.word	.L137,.L293
+	.word	.L101,.L244
 	.byte	6
-	.byte	'__6433_9_predicted_center',0,1,197,1,10
-	.word	.L216,.L296
+	.byte	'__6482_9_predicted_center',0,1,252,1,10
+	.word	.L167,.L247
 	.byte	6
-	.byte	'__6434_9_estimated_width',0,1,198,1,10
-	.word	.L216,.L297
+	.byte	'__6483_9_estimated_width',0,1,253,1,10
+	.word	.L167,.L248
 	.byte	5
-	.word	.L298,.L299
+	.word	.L249,.L250
 	.byte	6
-	.byte	'__6436_14_row',0,1,200,1,10
-	.word	.L216,.L300
-	.byte	7
-	.word	.L301
+	.byte	'__6485_14_row',0,1,255,1,10
+	.word	.L167,.L251
+	.byte	5
+	.word	.L58,.L73
 	.byte	6
-	.byte	'__6439_22_line',0,1,203,1,19
-	.word	.L227,.L303
+	.byte	'__6488_22_line',0,1,130,2,19
+	.word	.L178,.L252
 	.byte	6
-	.byte	'__6440_19_seed',0,1,204,1,10
-	.word	.L216,.L304
+	.byte	'__6489_19_seed',0,1,131,2,10
+	.word	.L167,.L253
 	.byte	6
-	.byte	'__6447_15_left_found',0,1,211,1,12
-	.word	.L222,.L305
+	.byte	'__6496_15_left_found',0,1,138,2,12
+	.word	.L173,.L254
 	.byte	6
-	.byte	'__6448_15_right_found',0,1,212,1,12
-	.word	.L222,.L306
+	.byte	'__6497_15_right_found',0,1,139,2,12
+	.word	.L173,.L255
 	.byte	6
-	.byte	'__6449_19_left',0,1,213,1,10
-	.word	.L216,.L307
+	.byte	'__6498_19_left',0,1,140,2,10
+	.word	.L167,.L256
 	.byte	6
-	.byte	'__6451_19_right',0,1,215,1,10
-	.word	.L216,.L308
+	.byte	'__6500_19_right',0,1,142,2,10
+	.word	.L167,.L257
 	.byte	6
-	.byte	'__6465_13_center',0,1,229,1,10
-	.word	.L216,.L309
+	.byte	'__6514_13_center',0,1,156,2,10
+	.word	.L167,.L258
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
 	.sect	'.debug_abbrev'
-.L186:
+.L148:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
-	.byte	15,59,15,57,15,73,16,2,6,0,0,7,11,1,85,6,0,0,0
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
 	.sect	'.debug_line'
-.L187:
+.L149:
+	.word	.L496-.L495
+.L495:
+	.half	3
+	.word	.L498-.L497
+.L497:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
+.L498:
+	.byte	5,13,7,0,5,2
+	.word	.L101
+	.byte	3,248,1,1,5,35,9
+	.half	.L335-.L101
+	.byte	3,4,1,5,52,9
+	.half	.L336-.L335
+	.byte	3,127,1,5,15,9
+	.half	.L249-.L336
+	.byte	3,3,1,5,88,9
+	.half	.L337-.L249
+	.byte	1,5,52,9
+	.half	.L58-.L337
+	.byte	3,3,1,5,35,9
+	.half	.L499-.L58
+	.byte	1,5,151,1,9
+	.half	.L338-.L499
+	.byte	3,1,1,5,16,9
+	.half	.L340-.L338
+	.byte	1,5,1,9
+	.half	.L343-.L340
+	.byte	3,2,1,7,9
+	.half	.L500-.L343
+	.byte	3,2,1,5,25,9
+	.half	.L59-.L500
+	.byte	3,3,1,5,22,9
+	.half	.L501-.L59
+	.byte	1,5,26,9
+	.half	.L502-.L501
+	.byte	3,1,1,5,23,9
+	.half	.L503-.L502
+	.byte	1,5,199,1,9
+	.half	.L504-.L503
+	.byte	3,1,1,5,16,9
+	.half	.L345-.L504
+	.byte	1,5,201,1,9
+	.half	.L348-.L345
+	.byte	3,2,1,5,5,9
+	.half	.L347-.L348
+	.byte	3,3,1,5,1,9
+	.half	.L505-.L347
+	.byte	1,5,34,7,9
+	.half	.L506-.L505
+	.byte	3,2,1,5,51,9
+	.half	.L507-.L506
+	.byte	1,5,5,9
+	.half	.L61-.L507
+	.byte	3,2,1,5,1,9
+	.half	.L508-.L61
+	.byte	1,5,34,7,9
+	.half	.L509-.L508
+	.byte	3,2,1,5,51,9
+	.half	.L510-.L509
+	.byte	1,5,33,9
+	.half	.L62-.L510
+	.byte	3,2,1,5,50,9
+	.half	.L511-.L62
+	.byte	1,5,34,9
+	.half	.L512-.L511
+	.byte	3,1,1,5,51,9
+	.half	.L513-.L512
+	.byte	1,5,7,9
+	.half	.L514-.L513
+	.byte	3,3,1,5,6,9
+	.half	.L515-.L514
+	.byte	1,5,33,7,9
+	.half	.L516-.L515
+	.byte	1,5,78,9
+	.half	.L517-.L516
+	.byte	1,5,99,9
+	.half	.L518-.L517
+	.byte	1,5,96,9
+	.half	.L519-.L518
+	.byte	1,5,45,7,9
+	.half	.L520-.L519
+	.byte	3,3,1,5,37,9
+	.half	.L521-.L520
+	.byte	3,1,1,5,58,9
+	.half	.L349-.L521
+	.byte	1,5,56,9
+	.half	.L522-.L349
+	.byte	1,5,62,9
+	.half	.L354-.L522
+	.byte	3,127,1,5,6,9
+	.half	.L63-.L354
+	.byte	3,3,1,5,5,9
+	.half	.L523-.L63
+	.byte	1,5,34,7,9
+	.half	.L524-.L523
+	.byte	1,5,33,9
+	.half	.L525-.L524
+	.byte	1,5,66,7,9
+	.half	.L526-.L525
+	.byte	3,2,1,5,64,9
+	.half	.L527-.L526
+	.byte	1,5,36,9
+	.half	.L355-.L527
+	.byte	1,5,69,9
+	.half	.L528-.L355
+	.byte	1,5,8,9
+	.half	.L67-.L528
+	.byte	3,2,1,5,7,9
+	.half	.L529-.L67
+	.byte	1,5,35,7,9
+	.half	.L530-.L529
+	.byte	1,5,67,9
+	.half	.L531-.L530
+	.byte	3,2,1,5,65,9
+	.half	.L532-.L531
+	.byte	1,5,37,9
+	.half	.L533-.L532
+	.byte	1,5,70,9
+	.half	.L356-.L533
+	.byte	1,5,1,9
+	.half	.L70-.L356
+	.byte	3,4,1,5,103,9
+	.half	.L66-.L70
+	.byte	3,3,1,5,106,9
+	.half	.L534-.L66
+	.byte	1,5,35,9
+	.half	.L353-.L534
+	.byte	3,1,1,5,52,9
+	.half	.L535-.L353
+	.byte	1,5,27,9
+	.half	.L536-.L535
+	.byte	3,1,1,5,90,9
+	.half	.L73-.L536
+	.byte	3,77,1,5,70,9
+	.half	.L57-.L73
+	.byte	1,5,88,9
+	.half	.L537-.L57
+	.byte	1,5,1,7,9
+	.half	.L250-.L537
+	.byte	3,53,1,7,9
+	.half	.L151-.L250
+	.byte	0,1,1
+.L496:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
+	.sect	'.debug_ranges'
+.L150:
+	.word	-1,.L101,0,.L151-.L101,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
+	.sect	'.debug_info'
+.L152:
+	.word	607
+	.half	3
+	.word	.L153
+	.byte	4,1
+	.byte	'../code/route_process/route_image.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L155,.L154
+	.byte	2
+	.word	.L108
+	.byte	3
+	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t',0
+	.byte	1,188,2,13,1,1
+	.word	.L103,.L259,.L102
+	.byte	4
+	.byte	'__6546_66_result',0,1,188,2,135,1
+	.word	.L180,.L260
+	.byte	5
+	.word	.L103,.L259
+	.byte	6
+	.byte	'__6548_9_weighted_error',0,1,190,2,10
+	.word	.L167,.L261
+	.byte	6
+	.byte	'__6549_9_weight_sum',0,1,191,2,10
+	.word	.L167,.L262
+	.byte	6
+	.byte	'__6550_9_usable_rows',0,1,192,2,10
+	.word	.L167,.L263
+	.byte	6
+	.byte	'__6551_15_image_center',0,1,193,2,16
+	.word	.L264,.L265
+	.byte	6
+	.byte	'__6552_9_first_row',0,1,194,2,10
+	.word	.L167,.L266
+	.byte	5
+	.word	.L74,.L79
+	.byte	6
+	.byte	'__6559_14_row',0,1,201,2,10
+	.word	.L167,.L267
+	.byte	5
+	.word	.L76,.L78
+	.byte	6
+	.byte	'__6568_19_weight',0,1,210,2,10
+	.word	.L167,.L268
+	.byte	0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
+	.sect	'.debug_abbrev'
+.L153:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
+	.sect	'.debug_line'
+.L154:
+	.word	.L539-.L538
+.L538:
+	.half	3
+	.word	.L541-.L540
+.L540:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
+.L541:
+	.byte	5,13,7,0,5,2
+	.word	.L103
+	.byte	3,187,2,1,5,34,9
+	.half	.L359-.L103
+	.byte	3,2,1,5,30,9
+	.half	.L360-.L359
+	.byte	3,1,1,5,31,9
+	.half	.L361-.L360
+	.byte	3,1,1,5,46,9
+	.half	.L362-.L361
+	.byte	3,2,1,5,64,9
+	.half	.L363-.L362
+	.byte	1,5,26,9
+	.half	.L542-.L363
+	.byte	3,2,1,5,1,9
+	.half	.L543-.L542
+	.byte	1,5,20,7,9
+	.half	.L544-.L543
+	.byte	3,2,1,5,92,9
+	.half	.L74-.L544
+	.byte	3,3,1,5,44,9
+	.half	.L76-.L74
+	.byte	3,3,1,5,1,9
+	.half	.L545-.L76
+	.byte	1,7,9
+	.half	.L546-.L545
+	.byte	3,2,1,5,30,9
+	.half	.L77-.L546
+	.byte	3,4,1,5,49,9
+	.half	.L547-.L77
+	.byte	1,5,47,9
+	.half	.L548-.L547
+	.byte	1,5,23,9
+	.half	.L549-.L548
+	.byte	1,5,70,9
+	.half	.L365-.L549
+	.byte	3,1,1,5,88,9
+	.half	.L550-.L365
+	.byte	1,5,25,9
+	.half	.L551-.L550
+	.byte	1,5,21,9
+	.half	.L552-.L551
+	.byte	3,2,1,5,1,9
+	.half	.L553-.L552
+	.byte	3,1,1,5,108,9
+	.half	.L78-.L553
+	.byte	3,115,1,5,63,9
+	.half	.L75-.L78
+	.byte	1,5,45,9
+	.half	.L554-.L75
+	.byte	1,5,85,7,9
+	.half	.L555-.L554
+	.byte	1,5,5,9
+	.half	.L79-.L555
+	.byte	3,16,1,5,57,7,9
+	.half	.L556-.L79
+	.byte	1,5,136,1,7,9
+	.half	.L557-.L556
+	.byte	3,2,1,5,161,1,9
+	.half	.L558-.L557
+	.byte	1,5,167,1,9
+	.half	.L559-.L558
+	.byte	1,5,36,9
+	.half	.L358-.L559
+	.byte	1,9
+	.half	.L560-.L358
+	.byte	3,2,1,5,33,9
+	.half	.L364-.L560
+	.byte	1,5,1,9
+	.half	.L80-.L364
+	.byte	3,2,1,7,9
+	.half	.L156-.L80
+	.byte	0,1,1
+.L539:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
+	.sect	'.debug_ranges'
+.L155:
+	.word	-1,.L103,0,.L156-.L103,0,0
+	.sdecl	'.debug_info',debug,cluster('_Z17route_image_resetP20route_image_result_t')
+	.sect	'.debug_info'
+.L157:
+	.word	341
+	.half	3
+	.word	.L158
+	.byte	4,1
+	.byte	'../code/route_process/route_image.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L160,.L159
+	.byte	2
+	.word	.L108
+	.byte	3
+	.byte	'_Z17route_image_resetP20route_image_result_t',0,1,231,2,6,1,1,1
+	.word	.L105,.L269,.L104
+	.byte	4
+	.byte	'__6589_46_result',0,1,231,2,74
+	.word	.L180,.L270
+	.byte	5
+	.word	.L105,.L269
+	.byte	5
+	.word	.L271,.L272
+	.byte	6
+	.byte	'__6598_14_row',0,1,240,2,10
+	.word	.L167,.L273
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Z17route_image_resetP20route_image_result_t')
+	.sect	'.debug_abbrev'
+.L158:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Z17route_image_resetP20route_image_result_t')
+	.sect	'.debug_line'
+.L159:
 	.word	.L562-.L561
 .L561:
 	.half	3
@@ -2411,1544 +2342,769 @@ ramp_exit_count:	.type	object
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
 .L564:
-	.byte	5,13,7,0,5,2
-	.word	.L137
-	.byte	3,193,1,1,5,35,9
-	.half	.L392-.L137
-	.byte	3,4,1,5,52,9
-	.half	.L298-.L392
-	.byte	3,127,1,5,15,9
-	.half	.L302-.L298
-	.byte	3,3,1,5,88,9
-	.half	.L394-.L302
-	.byte	1,5,52,9
-	.half	.L58-.L394
-	.byte	3,3,1,5,35,9
-	.half	.L565-.L58
-	.byte	1,5,151,1,9
-	.half	.L395-.L565
-	.byte	3,1,1,5,16,9
-	.half	.L398-.L395
-	.byte	1,5,1,9
-	.half	.L401-.L398
-	.byte	3,2,1,7,9
-	.half	.L566-.L401
-	.byte	3,2,1,5,25,9
-	.half	.L59-.L566
-	.byte	3,3,1,5,22,9
-	.half	.L567-.L59
-	.byte	1,5,26,9
+	.byte	5,34,7,0,5,2
+	.word	.L105
+	.byte	3,232,2,1,5,31,9
+	.half	.L565-.L105
+	.byte	1,5,34,9
+	.half	.L566-.L565
+	.byte	3,1,1,5,31,9
+	.half	.L567-.L566
+	.byte	1,5,38,9
 	.half	.L568-.L567
-	.byte	3,1,1,5,23,9
+	.byte	3,1,1,5,35,9
 	.half	.L569-.L568
-	.byte	1,5,199,1,9
+	.byte	1,5,38,9
 	.half	.L570-.L569
-	.byte	3,1,1,5,16,9
-	.half	.L404-.L570
-	.byte	1,5,201,1,9
-	.half	.L407-.L404
-	.byte	3,2,1,5,17,9
-	.half	.L406-.L407
-	.byte	1,5,5,9
-	.half	.L402-.L406
-	.byte	3,3,1,5,1,9
-	.half	.L571-.L402
-	.byte	1,5,34,7,9
+	.byte	3,1,1,5,35,9
+	.half	.L571-.L570
+	.byte	1,5,39,9
 	.half	.L572-.L571
-	.byte	3,2,1,5,51,9
+	.byte	3,1,1,5,36,9
 	.half	.L573-.L572
-	.byte	1,5,5,9
-	.half	.L61-.L573
-	.byte	3,2,1,5,1,9
-	.half	.L574-.L61
-	.byte	1,5,34,7,9
+	.byte	1,9
+	.half	.L574-.L573
+	.byte	3,1,1,5,33,9
 	.half	.L575-.L574
-	.byte	3,2,1,5,51,9
-	.half	.L576-.L575
+	.byte	1,5,15,9
+	.half	.L271-.L575
+	.byte	3,2,1,5,48,9
+	.half	.L366-.L271
 	.byte	1,5,33,9
-	.half	.L62-.L576
-	.byte	3,2,1,5,50,9
-	.half	.L577-.L62
+	.half	.L83-.L366
+	.byte	3,2,1,5,53,9
+	.half	.L576-.L83
+	.byte	1,5,50,9
+	.half	.L577-.L576
 	.byte	1,5,34,9
 	.half	.L578-.L577
-	.byte	3,1,1,5,51,9
+	.byte	3,1,1,5,54,9
 	.half	.L579-.L578
-	.byte	1,5,7,9
+	.byte	1,5,51,9
 	.half	.L580-.L579
-	.byte	3,3,1,5,6,9
+	.byte	1,5,35,9
 	.half	.L581-.L580
-	.byte	1,5,33,7,9
+	.byte	3,1,1,5,55,9
 	.half	.L582-.L581
-	.byte	1,5,78,9
-	.half	.L583-.L582
-	.byte	1,5,99,9
-	.half	.L584-.L583
-	.byte	1,5,96,9
-	.half	.L585-.L584
-	.byte	1,5,45,7,9
-	.half	.L586-.L585
-	.byte	3,3,1,5,37,9
-	.half	.L587-.L586
-	.byte	3,1,1,5,58,9
-	.half	.L588-.L587
-	.byte	1,5,56,9
-	.half	.L589-.L588
-	.byte	1,5,62,9
-	.half	.L412-.L589
-	.byte	3,127,1,5,6,9
-	.half	.L63-.L412
-	.byte	3,3,1,5,5,9
-	.half	.L590-.L63
-	.byte	1,5,34,7,9
-	.half	.L591-.L590
-	.byte	1,5,33,9
-	.half	.L592-.L591
-	.byte	1,5,66,7,9
-	.half	.L593-.L592
-	.byte	3,2,1,5,64,9
-	.half	.L594-.L593
-	.byte	1,5,36,9
-	.half	.L413-.L594
-	.byte	1,5,69,9
-	.half	.L393-.L413
-	.byte	1,5,8,9
-	.half	.L67-.L393
-	.byte	3,2,1,5,7,9
-	.half	.L595-.L67
-	.byte	1,5,35,7,9
-	.half	.L596-.L595
-	.byte	1,5,67,9
-	.half	.L597-.L596
-	.byte	3,2,1,5,65,9
-	.half	.L598-.L597
-	.byte	1,5,37,9
-	.half	.L599-.L598
-	.byte	1,5,70,9
-	.half	.L414-.L599
-	.byte	1,5,1,9
-	.half	.L70-.L414
-	.byte	3,4,1,5,103,9
-	.half	.L66-.L70
-	.byte	3,3,1,5,106,9
-	.half	.L600-.L66
-	.byte	1,5,18,9
-	.half	.L411-.L600
-	.byte	1,5,35,9
-	.half	.L417-.L411
-	.byte	3,1,1,5,52,9
-	.half	.L601-.L417
-	.byte	1,5,35,9
-	.half	.L602-.L601
-	.byte	3,1,1,5,144,1,9
-	.half	.L396-.L602
-	.byte	1,5,163,1,9
-	.half	.L603-.L396
-	.byte	1,5,166,1,9
-	.half	.L604-.L603
 	.byte	1,5,52,9
-	.half	.L416-.L604
-	.byte	1,5,90,9
-	.half	.L73-.L416
-	.byte	3,77,1,5,70,9
-	.half	.L57-.L73
-	.byte	1,5,88,9
-	.half	.L605-.L57
+	.half	.L583-.L582
+	.byte	1,5,34,9
+	.half	.L584-.L583
+	.byte	3,1,1,5,54,9
+	.half	.L585-.L584
+	.byte	1,5,51,9
+	.half	.L586-.L585
+	.byte	1,5,50,9
+	.half	.L587-.L586
+	.byte	3,123,1,5,44,9
+	.half	.L82-.L587
+	.byte	1,5,48,9
+	.half	.L588-.L82
 	.byte	1,5,1,7,9
-	.half	.L299-.L605
-	.byte	3,55,1,7,9
-	.half	.L189-.L299
+	.half	.L272-.L588
+	.byte	3,7,1,7,9
+	.half	.L161-.L272
 	.byte	0,1,1
 .L562:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
-	.sect	'.debug_ranges'
-.L188:
-	.word	-1,.L137,0,.L189-.L137,0,0
-.L301:
-	.word	-1,.L137,.L298-.L137,.L302-.L137,.L58-.L137,.L73-.L137,0,0
-	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
-	.sect	'.debug_info'
-.L190:
-	.word	607
-	.half	3
-	.word	.L191
-	.byte	4,1
-	.byte	'../code/route_process/route_image.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L193,.L192
-	.byte	2
-	.word	.L146
-	.byte	3
-	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t',0
-	.byte	1,129,2,13,1,1
-	.word	.L139,.L310,.L138
-	.byte	4
-	.byte	'__6493_66_result',0,1,129,2,135,1
-	.word	.L229,.L311
-	.byte	5
-	.word	.L139,.L310
-	.byte	6
-	.byte	'__6495_9_weighted_error',0,1,131,2,10
-	.word	.L216,.L312
-	.byte	6
-	.byte	'__6496_9_weight_sum',0,1,132,2,10
-	.word	.L216,.L313
-	.byte	6
-	.byte	'__6497_9_usable_rows',0,1,133,2,10
-	.word	.L216,.L314
-	.byte	6
-	.byte	'__6498_15_image_center',0,1,134,2,16
-	.word	.L315,.L316
-	.byte	6
-	.byte	'__6499_9_first_row',0,1,135,2,10
-	.word	.L216,.L317
-	.byte	5
-	.word	.L74,.L79
-	.byte	6
-	.byte	'__6506_14_row',0,1,142,2,10
-	.word	.L216,.L318
-	.byte	5
-	.word	.L76,.L78
-	.byte	6
-	.byte	'__6515_19_weight',0,1,151,2,10
-	.word	.L216,.L319
-	.byte	0,0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
-	.sect	'.debug_abbrev'
-.L191:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
-	.byte	15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
-	.sect	'.debug_line'
-.L192:
-	.word	.L607-.L606
-.L606:
-	.half	3
-	.word	.L609-.L608
-.L608:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L609:
-	.byte	5,13,7,0,5,2
-	.word	.L139
-	.byte	3,128,2,1,5,34,9
-	.half	.L419-.L139
-	.byte	3,2,1,5,30,9
-	.half	.L420-.L419
-	.byte	3,1,1,5,31,9
-	.half	.L421-.L420
-	.byte	3,1,1,5,46,9
-	.half	.L422-.L421
-	.byte	3,2,1,5,64,9
-	.half	.L423-.L422
-	.byte	1,5,26,9
-	.half	.L610-.L423
-	.byte	3,2,1,5,1,9
-	.half	.L611-.L610
-	.byte	1,5,20,7,9
-	.half	.L612-.L611
-	.byte	3,2,1,5,93,9
-	.half	.L74-.L612
-	.byte	3,3,1,5,44,9
-	.half	.L76-.L74
-	.byte	3,3,1,5,1,9
-	.half	.L613-.L76
-	.byte	1,7,9
-	.half	.L614-.L613
-	.byte	3,2,1,5,31,9
-	.half	.L77-.L614
-	.byte	3,4,1,5,50,9
-	.half	.L615-.L77
-	.byte	1,5,48,9
-	.half	.L616-.L615
-	.byte	1,5,23,9
-	.half	.L617-.L616
-	.byte	1,5,70,9
-	.half	.L425-.L617
-	.byte	3,1,1,5,88,9
-	.half	.L618-.L425
-	.byte	1,5,25,9
-	.half	.L619-.L618
-	.byte	1,5,21,9
-	.half	.L620-.L619
-	.byte	3,2,1,5,1,9
-	.half	.L621-.L620
-	.byte	3,1,1,5,109,9
-	.half	.L78-.L621
-	.byte	3,115,1,5,63,9
-	.half	.L75-.L78
-	.byte	1,5,45,9
-	.half	.L622-.L75
-	.byte	1,5,86,7,9
-	.half	.L623-.L622
-	.byte	1,5,5,9
-	.half	.L79-.L623
-	.byte	3,16,1,5,57,7,9
-	.half	.L624-.L79
-	.byte	1,5,136,1,7,9
-	.half	.L625-.L624
-	.byte	3,2,1,5,161,1,9
-	.half	.L626-.L625
-	.byte	1,5,167,1,9
-	.half	.L627-.L626
-	.byte	1,5,36,9
-	.half	.L418-.L627
-	.byte	1,9
-	.half	.L628-.L418
-	.byte	3,2,1,5,33,9
-	.half	.L424-.L628
-	.byte	1,5,1,9
-	.half	.L80-.L424
-	.byte	3,2,1,7,9
-	.half	.L194-.L80
-	.byte	0,1,1
-.L607:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
-	.sect	'.debug_ranges'
-.L193:
-	.word	-1,.L139,0,.L194-.L139,0,0
-	.sdecl	'.debug_info',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t')
-	.sect	'.debug_info'
-.L195:
-	.word	414
-	.half	3
-	.word	.L196
-	.byte	4,1
-	.byte	'../code/route_process/route_image.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L198,.L197
-	.byte	2
-	.word	.L146
-	.byte	3
-	.byte	'_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t',0,1,166
-	.byte	2,13,1,1
-	.word	.L141,.L320,.L140
-	.byte	4
-	.byte	'__6530_59_result',0,1,166,2,128,1
-	.word	.L229,.L321
-	.byte	5
-	.word	.L141,.L320
-	.byte	6
-	.byte	'__6532_17_both_edges',0,1,168,2,18
-	.word	.L322,.L323
-	.byte	6
-	.byte	'__6542_15_delta',0,1,178,2,10
-	.word	.L216,.L324
-	.byte	0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t')
-	.sect	'.debug_abbrev'
-.L196:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
-	.byte	15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t')
-	.sect	'.debug_line'
-.L197:
-	.word	.L630-.L629
-.L629:
-	.half	3
-	.word	.L632-.L631
-.L631:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L632:
-	.byte	5,45,7,0,5,2
-	.word	.L141
-	.byte	3,169,2,1,5,5,9
-	.half	.L633-.L141
-	.byte	1,5,101,7,9
-	.half	.L634-.L633
-	.byte	1,5,108,9
-	.half	.L635-.L634
-	.byte	1,5,69,7,9
-	.half	.L82-.L635
-	.byte	3,3,1,5,45,9
-	.half	.L636-.L82
-	.byte	1,5,117,7,9
-	.half	.L637-.L636
-	.byte	1,5,132,1,9
-	.half	.L638-.L637
-	.byte	1,5,139,1,7,9
-	.half	.L639-.L638
-	.byte	1,5,144,1,9
-	.half	.L640-.L639
-	.byte	1,5,139,1,9
-	.half	.L84-.L640
-	.byte	1,5,33,9
-	.half	.L86-.L84
-	.byte	1,5,1,9
-	.half	.L641-.L86
-	.byte	3,2,1,5,60,9
-	.half	.L83-.L641
-	.byte	3,3,1,5,109,9
-	.half	.L642-.L83
-	.byte	1,5,67,9
-	.half	.L426-.L642
-	.byte	1,5,38,9
-	.half	.L643-.L426
-	.byte	3,2,1,5,31,9
-	.half	.L644-.L643
-	.byte	3,2,1,5,6,9
-	.half	.L645-.L644
-	.byte	3,2,1,9
-	.half	.L646-.L645
-	.byte	3,16,1,9
-	.half	.L647-.L646
-	.byte	3,12,1,9
-	.half	.L648-.L647
-	.byte	3,7,1,9
-	.half	.L649-.L648
-	.byte	3,8,1,9
-	.half	.L88-.L649
-	.byte	3,86,1,5,50,7,9
-	.half	.L650-.L88
-	.byte	1,5,48,9
-	.half	.L651-.L650
-	.byte	1,5,74,7,9
-	.half	.L652-.L651
-	.byte	1,5,14,9
-	.half	.L653-.L652
-	.byte	3,2,1,5,12,9
-	.half	.L654-.L653
-	.byte	1,5,14,9
-	.half	.L655-.L654
-	.byte	1,5,1,9
-	.half	.L656-.L655
-	.byte	1,5,35,7,9
-	.half	.L657-.L656
-	.byte	3,2,1,5,32,9
-	.half	.L658-.L657
-	.byte	1,5,1,9
-	.half	.L659-.L658
-	.byte	3,1,1,5,23,9
-	.half	.L660-.L659
-	.byte	1,5,20,9
-	.half	.L661-.L660
-	.byte	1,5,1,9
-	.half	.L662-.L661
-	.byte	3,1,1,5,23,9
-	.half	.L663-.L662
-	.byte	1,5,20,9
-	.half	.L664-.L663
-	.byte	1,5,1,9
-	.half	.L97-.L664
-	.byte	3,124,1,9
-	.half	.L94-.L97
-	.byte	3,9,1,5,23,9
-	.half	.L665-.L94
-	.byte	1,5,20,9
-	.half	.L666-.L665
-	.byte	1,5,1,9
-	.half	.L98-.L666
-	.byte	3,2,1,5,14,9
-	.half	.L89-.L98
-	.byte	3,3,1,5,12,9
-	.half	.L667-.L89
-	.byte	1,5,14,9
-	.half	.L668-.L667
-	.byte	1,5,38,9
-	.half	.L669-.L668
-	.byte	1,5,1,9
-	.half	.L670-.L669
-	.byte	1,5,35,7,9
-	.half	.L671-.L670
-	.byte	3,2,1,5,32,9
-	.half	.L672-.L671
-	.byte	1,5,1,9
-	.half	.L673-.L672
-	.byte	3,1,1,5,23,9
-	.half	.L674-.L673
-	.byte	1,5,20,9
-	.half	.L675-.L674
-	.byte	1,5,45,9
-	.half	.L676-.L675
-	.byte	3,127,1,5,23,9
-	.half	.L100-.L676
-	.byte	3,3,1,5,1,9
-	.half	.L677-.L100
-	.byte	1,5,35,7,9
-	.half	.L678-.L677
-	.byte	3,2,1,5,32,9
-	.half	.L679-.L678
-	.byte	1,5,1,9
-	.half	.L101-.L679
-	.byte	3,2,1,5,5,9
-	.half	.L90-.L101
-	.byte	3,3,1,5,49,7,9
-	.half	.L680-.L90
-	.byte	1,5,47,9
-	.half	.L681-.L680
-	.byte	1,5,35,7,9
-	.half	.L682-.L681
-	.byte	3,2,1,5,32,9
-	.half	.L683-.L682
-	.byte	1,5,1,9
-	.half	.L104-.L683
-	.byte	3,2,1,5,23,9
-	.half	.L91-.L104
-	.byte	3,3,1,5,1,9
-	.half	.L684-.L91
-	.byte	1,5,35,7,9
-	.half	.L685-.L684
-	.byte	3,2,1,5,32,9
-	.half	.L686-.L685
-	.byte	1,5,1,9
-	.half	.L687-.L686
-	.byte	3,1,1,5,23,9
-	.half	.L688-.L687
-	.byte	1,5,20,9
-	.half	.L689-.L688
-	.byte	1,5,1,9
-	.half	.L107-.L689
-	.byte	3,2,1,5,23,9
-	.half	.L92-.L107
-	.byte	3,3,1,5,1,9
-	.half	.L690-.L92
-	.byte	1,5,14,7,9
-	.half	.L691-.L690
-	.byte	3,2,1,5,12,9
-	.half	.L692-.L691
-	.byte	1,5,14,9
-	.half	.L693-.L692
-	.byte	1,5,1,9
-	.half	.L694-.L693
-	.byte	1,5,35,7,9
-	.half	.L695-.L694
-	.byte	3,2,1,5,32,9
-	.half	.L696-.L695
-	.byte	1,5,1,9
-	.half	.L697-.L696
-	.byte	3,1,1,5,23,9
-	.half	.L698-.L697
-	.byte	1,5,20,9
-	.half	.L699-.L698
-	.byte	1,5,1,9
-	.half	.L700-.L699
-	.byte	3,1,1,5,20,9
-	.half	.L701-.L700
-	.byte	1,5,17,9
-	.half	.L702-.L701
-	.byte	1,5,1,9
-	.half	.L110-.L702
-	.byte	3,124,1,9
-	.half	.L109-.L110
-	.byte	3,9,1,5,23,9
-	.half	.L703-.L109
-	.byte	1,5,20,9
-	.half	.L704-.L703
-	.byte	1,5,1,9
-	.half	.L111-.L704
-	.byte	3,2,1,5,14,9
-	.half	.L93-.L111
-	.byte	3,3,1,5,12,9
-	.half	.L705-.L93
-	.byte	1,5,14,9
-	.half	.L706-.L705
-	.byte	1,5,35,9
-	.half	.L427-.L706
-	.byte	1,5,1,9
-	.half	.L707-.L427
-	.byte	1,5,35,7,9
-	.half	.L708-.L707
-	.byte	3,2,1,5,32,9
-	.half	.L709-.L708
-	.byte	1,5,1,9
-	.half	.L710-.L709
-	.byte	3,1,1,5,20,9
-	.half	.L711-.L710
-	.byte	1,5,17,9
-	.half	.L712-.L711
-	.byte	1,5,1,9
-	.half	.L113-.L712
-	.byte	3,2,1,5,69,9
-	.half	.L114-.L113
-	.byte	3,3,1,5,45,9
-	.half	.L713-.L114
-	.byte	1,5,117,7,9
-	.half	.L714-.L713
-	.byte	1,5,132,1,9
-	.half	.L715-.L714
-	.byte	1,5,139,1,7,9
-	.half	.L716-.L715
-	.byte	1,5,144,1,9
-	.half	.L717-.L716
-	.byte	1,5,139,1,9
-	.half	.L115-.L717
-	.byte	1,5,33,9
-	.half	.L117-.L115
-	.byte	1,5,1,9
-	.half	.L87-.L117
-	.byte	3,2,1,7,9
-	.half	.L199-.L87
-	.byte	0,1,1
-.L630:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t')
-	.sect	'.debug_ranges'
-.L198:
-	.word	-1,.L141,0,.L199-.L141,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z17route_image_resetP20route_image_result_t')
-	.sect	'.debug_info'
-.L200:
-	.word	341
-	.half	3
-	.word	.L201
-	.byte	4,1
-	.byte	'../code/route_process/route_image.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L203,.L202
-	.byte	2
-	.word	.L146
-	.byte	3
-	.byte	'_Z17route_image_resetP20route_image_result_t',0,1,128,3,6,1,1,1
-	.word	.L143,.L325,.L142
-	.byte	4
-	.byte	'__6620_46_result',0,1,128,3,74
-	.word	.L229,.L326
-	.byte	5
-	.word	.L143,.L325
-	.byte	5
-	.word	.L327,.L328
-	.byte	6
-	.byte	'__6632_14_row',0,1,140,3,10
-	.word	.L216,.L329
-	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_Z17route_image_resetP20route_image_result_t')
-	.sect	'.debug_abbrev'
-.L201:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
-	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_Z17route_image_resetP20route_image_result_t')
-	.sect	'.debug_line'
-.L202:
-	.word	.L719-.L718
-.L718:
-	.half	3
-	.word	.L721-.L720
-.L720:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L721:
-	.byte	5,34,7,0,5,2
-	.word	.L143
-	.byte	3,129,3,1,5,31,9
-	.half	.L722-.L143
-	.byte	1,5,34,9
-	.half	.L723-.L722
-	.byte	3,1,1,5,31,9
-	.half	.L724-.L723
-	.byte	1,5,38,9
-	.half	.L725-.L724
-	.byte	3,1,1,5,35,9
-	.half	.L726-.L725
-	.byte	1,5,38,9
-	.half	.L727-.L726
-	.byte	3,1,1,5,35,9
-	.half	.L728-.L727
-	.byte	1,5,39,9
-	.half	.L729-.L728
-	.byte	3,1,1,5,36,9
-	.half	.L730-.L729
-	.byte	1,5,41,9
-	.half	.L731-.L730
-	.byte	3,1,1,5,38,9
-	.half	.L732-.L731
-	.byte	1,5,36,9
-	.half	.L733-.L732
-	.byte	3,1,1,5,33,9
-	.half	.L734-.L733
-	.byte	1,5,35,9
-	.half	.L735-.L734
-	.byte	3,1,1,5,32,9
-	.half	.L736-.L735
-	.byte	1,5,36,9
-	.half	.L737-.L736
-	.byte	3,1,1,5,33,9
-	.half	.L738-.L737
-	.byte	1,5,15,9
-	.half	.L327-.L738
-	.byte	3,2,1,5,48,9
-	.half	.L428-.L327
-	.byte	1,5,33,9
-	.half	.L119-.L428
-	.byte	3,2,1,5,53,9
-	.half	.L739-.L119
-	.byte	1,5,50,9
-	.half	.L740-.L739
-	.byte	1,5,34,9
-	.half	.L741-.L740
-	.byte	3,1,1,5,54,9
-	.half	.L742-.L741
-	.byte	1,5,51,9
-	.half	.L743-.L742
-	.byte	1,5,35,9
-	.half	.L744-.L743
-	.byte	3,1,1,5,55,9
-	.half	.L745-.L744
-	.byte	1,5,52,9
-	.half	.L746-.L745
-	.byte	1,5,35,9
-	.half	.L747-.L746
-	.byte	3,1,1,5,55,9
-	.half	.L748-.L747
-	.byte	1,5,52,9
-	.half	.L749-.L748
-	.byte	1,5,34,9
-	.half	.L750-.L749
-	.byte	3,1,1,5,54,9
-	.half	.L751-.L750
-	.byte	1,5,51,9
-	.half	.L752-.L751
-	.byte	1,5,50,9
-	.half	.L753-.L752
-	.byte	3,122,1,5,44,9
-	.half	.L118-.L753
-	.byte	1,5,48,9
-	.half	.L754-.L118
-	.byte	1,5,1,7,9
-	.half	.L328-.L754
-	.byte	3,9,1,5,23,9
-	.half	.L755-.L328
-	.byte	1,5,20,9
-	.half	.L429-.L755
-	.byte	1,5,1,9
-	.half	.L756-.L429
-	.byte	3,1,1,5,23,9
-	.half	.L757-.L756
-	.byte	1,5,20,9
-	.half	.L758-.L757
-	.byte	1,5,1,9
-	.half	.L759-.L758
-	.byte	3,1,1,5,20,9
-	.half	.L760-.L759
-	.byte	1,5,17,9
-	.half	.L761-.L760
-	.byte	1,5,1,9
-	.half	.L762-.L761
-	.byte	3,1,1,7,9
-	.half	.L204-.L762
-	.byte	0,1,1
-.L719:
 	.sdecl	'.debug_ranges',debug,cluster('_Z17route_image_resetP20route_image_result_t')
 	.sect	'.debug_ranges'
-.L203:
-	.word	-1,.L143,0,.L204-.L143,0,0
+.L160:
+	.word	-1,.L105,0,.L161-.L105,0,0
 	.sdecl	'.debug_info',debug,cluster('_Z19route_image_processPKhP20route_image_result_t')
 	.sect	'.debug_info'
-.L205:
-	.word	418
+.L162:
+	.word	375
 	.half	3
-	.word	.L206
+	.word	.L163
 	.byte	4,1
 	.byte	'../code/route_process/route_image.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L208,.L207
+	.word	.L165,.L164
 	.byte	2
-	.word	.L146
+	.word	.L108
 	.byte	3
-	.byte	'_Z19route_image_processPKhP20route_image_result_t',0,1,154,3,6,1,1,1
-	.word	.L145,.L330,.L144
+	.byte	'_Z19route_image_processPKhP20route_image_result_t',0,1,128,3,6,1,1,1
+	.word	.L107,.L274,.L106
 	.byte	4
-	.byte	'__6646_39_image',0,1,154,3,70
-	.word	.L227,.L331
+	.byte	'__6614_39_image',0,1,128,3,70
+	.word	.L178,.L275
 	.byte	4
-	.byte	'__6646_68_result',0,1,154,3,110
-	.word	.L229,.L332
+	.byte	'__6614_68_result',0,1,128,3,110
+	.word	.L180,.L276
 	.byte	5
-	.word	.L145,.L330
-	.byte	6
-	.byte	'__6648_17_previous_ramp_state',0,1,156,3,12
-	.word	.L222,.L333
+	.word	.L107,.L274
 	.byte	5
-	.word	.L334,.L335
+	.word	.L277,.L278
 	.byte	6
-	.byte	'__6650_14_row',0,1,158,3,10
-	.word	.L216,.L336
+	.byte	'__6616_14_row',0,1,130,3,10
+	.word	.L167,.L279
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_Z19route_image_processPKhP20route_image_result_t')
 	.sect	'.debug_abbrev'
-.L206:
+.L163:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_Z19route_image_processPKhP20route_image_result_t')
 	.sect	'.debug_line'
-.L207:
-	.word	.L764-.L763
-.L763:
+.L164:
+	.word	.L590-.L589
+.L589:
 	.half	3
-	.word	.L766-.L765
-.L765:
+	.word	.L592-.L591
+.L591:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_image.cpp',0,0,0,0,0
-.L766:
+.L592:
 	.byte	5,6,7,0,5,2
-	.word	.L145
-	.byte	3,153,3,1,5,50,9
-	.half	.L432-.L145
-	.byte	3,2,1,5,15,9
-	.half	.L334-.L432
+	.word	.L107
+	.byte	3,255,2,1,5,15,9
+	.half	.L277-.L107
 	.byte	3,2,1,5,48,9
-	.half	.L433-.L334
+	.half	.L369-.L277
 	.byte	1,5,33,9
-	.half	.L121-.L433
+	.half	.L85-.L369
 	.byte	3,2,1,5,53,9
-	.half	.L767-.L121
+	.half	.L593-.L85
 	.byte	1,5,50,9
-	.half	.L768-.L767
+	.half	.L594-.L593
 	.byte	1,5,34,9
-	.half	.L769-.L768
+	.half	.L595-.L594
 	.byte	3,1,1,5,54,9
-	.half	.L770-.L769
+	.half	.L596-.L595
 	.byte	1,5,51,9
-	.half	.L771-.L770
+	.half	.L597-.L596
 	.byte	1,5,35,9
-	.half	.L772-.L771
+	.half	.L598-.L597
 	.byte	3,1,1,5,55,9
-	.half	.L773-.L772
+	.half	.L599-.L598
 	.byte	1,5,52,9
-	.half	.L774-.L773
-	.byte	1,5,35,9
-	.half	.L775-.L774
-	.byte	3,1,1,5,55,9
-	.half	.L776-.L775
-	.byte	1,5,52,9
-	.half	.L777-.L776
+	.half	.L600-.L599
 	.byte	1,5,34,9
-	.half	.L778-.L777
+	.half	.L601-.L600
 	.byte	3,1,1,5,54,9
-	.half	.L779-.L778
+	.half	.L602-.L601
 	.byte	1,5,51,9
-	.half	.L780-.L779
+	.half	.L603-.L602
 	.byte	1,5,50,9
-	.half	.L781-.L780
-	.byte	3,122,1,5,44,9
-	.half	.L120-.L781
+	.half	.L604-.L603
+	.byte	3,123,1,5,44,9
+	.half	.L84-.L604
 	.byte	1,5,48,9
-	.half	.L782-.L120
+	.half	.L605-.L84
 	.byte	1,5,39,7,9
-	.half	.L335-.L782
-	.byte	3,8,1,5,36,9
-	.half	.L434-.L335
-	.byte	1,5,41,9
-	.half	.L783-.L434
-	.byte	3,1,1,5,38,9
-	.half	.L784-.L783
-	.byte	1,5,36,9
-	.half	.L785-.L784
+	.half	.L278-.L605
+	.byte	3,7,1,5,36,9
+	.half	.L370-.L278
+	.byte	1,9
+	.half	.L606-.L370
 	.byte	3,1,1,5,33,9
-	.half	.L786-.L785
-	.byte	1,5,32,9
-	.half	.L787-.L786
-	.byte	3,1,1,5,115,9
-	.half	.L788-.L787
+	.half	.L607-.L606
+	.byte	1,5,115,9
+	.half	.L608-.L607
 	.byte	3,2,1,5,117,9
-	.half	.L430-.L788
+	.half	.L367-.L608
 	.byte	3,1,1,5,107,9
-	.half	.L436-.L430
+	.half	.L372-.L367
 	.byte	3,1,1,5,100,9
-	.half	.L439-.L436
-	.byte	3,1,1,5,93,9
-	.half	.L442-.L439
+	.half	.L375-.L372
 	.byte	3,1,1,5,1,9
-	.half	.L444-.L442
+	.half	.L378-.L375
 	.byte	3,1,1,7,9
-	.half	.L209-.L444
+	.half	.L166-.L378
 	.byte	0,1,1
-.L764:
+.L590:
 	.sdecl	'.debug_ranges',debug,cluster('_Z19route_image_processPKhP20route_image_result_t')
 	.sect	'.debug_ranges'
-.L208:
-	.word	-1,.L145,0,.L209-.L145,0,0
-	.sdecl	'.debug_info',debug,cluster('ramp_confirm_count')
-	.sect	'.debug_info'
-.L210:
-	.word	223
-	.half	3
-	.word	.L211
-	.byte	4,1
-	.byte	'../code/route_process/route_image.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L146
-	.byte	3
-	.byte	'ramp_confirm_count',0,2,9,14
-	.word	.L222
-	.byte	5,3
-	.word	ramp_confirm_count
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('ramp_confirm_count')
-	.sect	'.debug_abbrev'
-.L211:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('ramp_timeout_count')
-	.sect	'.debug_info'
-.L212:
-	.word	223
-	.half	3
-	.word	.L213
-	.byte	4,1
-	.byte	'../code/route_process/route_image.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L146
-	.byte	3
-	.byte	'ramp_timeout_count',0,2,10,14
-	.word	.L222
-	.byte	5,3
-	.word	ramp_timeout_count
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('ramp_timeout_count')
-	.sect	'.debug_abbrev'
-.L213:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('ramp_exit_count')
-	.sect	'.debug_info'
-.L214:
-	.word	220
-	.half	3
-	.word	.L215
-	.byte	4,1
-	.byte	'../code/route_process/route_image.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L146
-	.byte	3
-	.byte	'ramp_exit_count',0,2,11,14
-	.word	.L222
-	.byte	5,3
-	.word	ramp_exit_count
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('ramp_exit_count')
-	.sect	'.debug_abbrev'
-.L215:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+.L165:
+	.word	-1,.L107,0,.L166-.L107,0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z17route_image_resetP20route_image_result_t')
 	.sect	'.debug_loc'
-.L142:
-	.word	-1,.L143,0,.L325-.L143
+.L104:
+	.word	-1,.L105,0,.L269-.L105
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L326:
-	.word	-1,.L143,0,.L325-.L143
+.L270:
+	.word	-1,.L105,0,.L269-.L105
 	.half	1
 	.byte	100
 	.word	0,0
-.L329:
-	.word	-1,.L143,.L428-.L143,.L429-.L143
+.L273:
+	.word	-1,.L105,.L366-.L105,.L269-.L105
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z19route_image_processPKhP20route_image_result_t')
 	.sect	'.debug_loc'
-.L144:
-	.word	-1,.L145,0,.L330-.L145
+.L106:
+	.word	-1,.L107,0,.L274-.L107
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L331:
-	.word	-1,.L145,0,.L430-.L145
+.L275:
+	.word	-1,.L107,0,.L367-.L107
 	.half	1
 	.byte	100
-	.word	.L431-.L145,.L330-.L145
+	.word	.L368-.L107,.L274-.L107
 	.half	1
 	.byte	108
-	.word	.L435-.L145,.L436-.L145
+	.word	.L371-.L107,.L372-.L107
 	.half	1
 	.byte	100
-	.word	.L438-.L145,.L439-.L145
+	.word	.L374-.L107,.L375-.L107
 	.half	1
 	.byte	100
 	.word	0,0
-.L332:
-	.word	-1,.L145,0,.L430-.L145
+.L276:
+	.word	-1,.L107,0,.L367-.L107
 	.half	1
 	.byte	101
-	.word	.L432-.L145,.L330-.L145
+	.word	.L277-.L107,.L274-.L107
 	.half	1
 	.byte	109
-	.word	.L437-.L145,.L436-.L145
+	.word	.L373-.L107,.L372-.L107
 	.half	1
 	.byte	101
-	.word	.L440-.L145,.L439-.L145
+	.word	.L376-.L107,.L375-.L107
 	.half	1
 	.byte	101
-	.word	.L441-.L145,.L442-.L145
-	.half	1
-	.byte	100
-	.word	.L443-.L145,.L444-.L145
+	.word	.L377-.L107,.L378-.L107
 	.half	1
 	.byte	100
 	.word	0,0
-.L333:
-	.word	-1,.L145,.L334-.L145,.L430-.L145
-	.half	5
-	.byte	144,32,157,32,0
-	.word	0,0
-.L336:
-	.word	-1,.L145,.L433-.L145,.L434-.L145
+.L279:
+	.word	-1,.L107,.L369-.L107,.L370-.L107
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh')
 	.sect	'.debug_loc'
-.L124:
-	.word	-1,.L125,0,.L221-.L125
+.L88:
+	.word	-1,.L89,0,.L172-.L89
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L223:
-	.word	-1,.L125,0,.L340-.L125
+.L174:
+	.word	-1,.L89,0,.L283-.L89
 	.half	1
 	.byte	84
 	.word	0,0
-.L224:
-	.word	-1,.L125,0,.L221-.L125
+.L175:
+	.word	-1,.L89,0,.L172-.L89
 	.half	1
 	.byte	85
 	.word	0,0
-.L225:
-	.word	-1,.L125,.L341-.L125,.L221-.L125
+.L176:
+	.word	-1,.L89,.L284-.L89,.L172-.L89
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii')
 	.sect	'.debug_loc'
-.L122:
-	.word	-1,.L123,0,.L217-.L123
+.L86:
+	.word	-1,.L87,0,.L168-.L87
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L218:
-	.word	-1,.L123,0,.L217-.L123
+.L169:
+	.word	-1,.L87,0,.L168-.L87
 	.half	1
 	.byte	84
-	.word	.L339-.L123,.L3-.L123
+	.word	.L282-.L87,.L3-.L87
 	.half	1
 	.byte	82
 	.word	0,0
-.L219:
-	.word	-1,.L123,0,.L217-.L123
+.L170:
+	.word	-1,.L87,0,.L168-.L87
 	.half	1
 	.byte	85
-	.word	.L337-.L123,.L2-.L123
+	.word	.L280-.L87,.L2-.L87
 	.half	1
 	.byte	82
 	.word	0,0
-.L220:
-	.word	-1,.L123,0,.L217-.L123
+.L171:
+	.word	-1,.L87,0,.L168-.L87
 	.half	1
 	.byte	86
-	.word	.L338-.L123,.L4-.L123
+	.word	.L281-.L87,.L4-.L87
 	.half	1
 	.byte	82
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
 	.sect	'.debug_loc'
-.L136:
-	.word	-1,.L137,0,.L390-.L137
+.L100:
+	.word	-1,.L101,0,.L333-.L101
 	.half	2
 	.byte	138,0
-	.word	.L390-.L137,.L293-.L137
+	.word	.L333-.L101,.L244-.L101
 	.half	2
 	.byte	138,8
-	.word	.L293-.L137,.L293-.L137
+	.word	.L244-.L101,.L244-.L101
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L294:
-	.word	-1,.L137,0,.L58-.L137
+.L245:
+	.word	-1,.L101,0,.L58-.L101
 	.half	1
 	.byte	100
-	.word	.L391-.L137,.L293-.L137
+	.word	.L334-.L101,.L244-.L101
 	.half	1
 	.byte	109
 	.word	0,0
-.L295:
-	.word	-1,.L137,0,.L58-.L137
+.L246:
+	.word	-1,.L101,0,.L58-.L101
 	.half	1
 	.byte	101
-	.word	.L392-.L137,.L293-.L137
+	.word	.L335-.L101,.L244-.L101
 	.half	1
 	.byte	111
-	.word	.L405-.L137,.L404-.L137
+	.word	.L346-.L101,.L345-.L101
 	.half	1
 	.byte	101
-	.word	.L410-.L137,.L406-.L137
+	.word	.L352-.L101,.L347-.L101
 	.half	1
 	.byte	101
 	.word	0,0
-.L296:
+.L247:
+	.word	-1,.L101,.L249-.L101,.L244-.L101
+	.half	1
+	.byte	90
+	.word	.L341-.L101,.L340-.L101
+	.half	1
+	.byte	84
 	.word	0,0
-.L297:
-	.word	-1,.L137,.L298-.L137,.L293-.L137
+.L248:
+	.word	-1,.L101,.L336-.L101,.L244-.L101
 	.half	1
 	.byte	89
 	.word	0,0
-.L300:
-	.word	-1,.L137,.L394-.L137,.L293-.L137
+.L251:
+	.word	-1,.L101,.L337-.L101,.L244-.L101
 	.half	1
 	.byte	91
 	.word	0,0
-.L303:
-	.word	-1,.L137,.L395-.L137,.L396-.L137
+.L252:
+	.word	-1,.L101,.L338-.L101,.L57-.L101
 	.half	1
 	.byte	108
-	.word	.L397-.L137,.L398-.L137
+	.word	.L339-.L101,.L340-.L101
 	.half	1
 	.byte	100
-	.word	.L403-.L137,.L404-.L137
+	.word	.L344-.L101,.L345-.L101
 	.half	1
 	.byte	100
-	.word	.L408-.L137,.L406-.L137
+	.word	.L350-.L101,.L347-.L101
 	.half	1
 	.byte	100
 	.word	0,0
-.L304:
-	.word	-1,.L137,.L398-.L137,.L400-.L137
+.L253:
+	.word	-1,.L101,.L340-.L101,.L342-.L101
 	.half	1
 	.byte	82
-	.word	.L401-.L137,.L402-.L137
+	.word	.L343-.L101,.L57-.L101
 	.half	1
 	.byte	88
-	.word	.L400-.L137,.L404-.L137
+	.word	.L342-.L101,.L345-.L101
 	.half	1
 	.byte	84
-	.word	.L409-.L137,.L406-.L137
+	.word	.L351-.L101,.L347-.L101
 	.half	1
 	.byte	84
 	.word	0,0
-.L305:
-	.word	-1,.L137,0,.L293-.L137
+.L254:
+	.word	-1,.L101,0,.L244-.L101
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L306:
-	.word	-1,.L137,0,.L293-.L137
+.L255:
+	.word	-1,.L101,0,.L244-.L101
 	.half	2
 	.byte	145,121
 	.word	0,0
-.L307:
-	.word	-1,.L137,.L404-.L137,.L406-.L137
+.L256:
+	.word	-1,.L101,.L345-.L101,.L347-.L101
 	.half	1
 	.byte	82
-	.word	.L407-.L137,.L73-.L137
+	.word	.L348-.L101,.L349-.L101
+	.half	1
+	.byte	92
+	.word	.L63-.L101,.L66-.L101
 	.half	1
 	.byte	92
 	.word	0,0
-.L308:
-	.word	-1,.L137,.L406-.L137,.L411-.L137
+.L257:
+	.word	-1,.L101,.L347-.L101,.L353-.L101
 	.half	1
 	.byte	82
-	.word	.L402-.L137,.L73-.L137
-	.half	1
-	.byte	88
 	.word	0,0
-.L309:
-	.word	-1,.L137,.L302-.L137,.L393-.L137
-	.half	1
-	.byte	90
-	.word	.L399-.L137,.L398-.L137
+.L258:
+	.word	-1,.L101,.L354-.L101,.L63-.L101
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L355-.L101,.L67-.L101
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L356-.L101,.L70-.L101
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L66-.L101,.L353-.L101
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L357-.L101,.L353-.L101
 	.half	1
 	.byte	84
-	.word	.L412-.L137,.L63-.L137
-	.half	5
-	.byte	144,32,157,32,0
-	.word	.L413-.L137,.L67-.L137
-	.half	5
-	.byte	144,32,157,32,0
-	.word	.L67-.L137,.L414-.L137
-	.half	1
-	.byte	90
-	.word	.L414-.L137,.L70-.L137
-	.half	5
-	.byte	144,32,157,32,0
-	.word	.L70-.L137,.L66-.L137
-	.half	1
-	.byte	90
-	.word	.L66-.L137,.L411-.L137
-	.half	5
-	.byte	144,32,157,32,0
-	.word	.L415-.L137,.L411-.L137
-	.half	1
-	.byte	84
-	.word	.L411-.L137,.L416-.L137
+	.word	.L353-.L101,.L73-.L101
 	.half	1
 	.byte	82
-	.word	.L417-.L137,.L293-.L137
-	.half	1
-	.byte	90
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_loc'
-.L132:
-	.word	-1,.L133,0,.L269-.L133
+.L96:
+	.word	-1,.L97,0,.L220-.L97
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L270:
-	.word	-1,.L133,0,.L40-.L133
+.L221:
+	.word	-1,.L97,0,.L40-.L97
 	.half	1
 	.byte	100
-	.word	.L375-.L133,.L269-.L133
+	.word	.L318-.L97,.L220-.L97
 	.half	1
 	.byte	108
 	.word	0,0
-.L271:
-	.word	-1,.L133,0,.L40-.L133
+.L222:
+	.word	-1,.L97,0,.L40-.L97
 	.half	1
 	.byte	84
 	.word	0,0
-.L273:
-	.word	-1,.L133,0,.L40-.L133
+.L224:
+	.word	-1,.L97,0,.L40-.L97
 	.half	1
 	.byte	101
-	.word	.L376-.L133,.L269-.L133
+	.word	.L319-.L97,.L220-.L97
 	.half	1
 	.byte	111
 	.word	0,0
-.L275:
-	.word	-1,.L133,0,.L40-.L133
+.L226:
+	.word	-1,.L97,0,.L40-.L97
 	.half	1
 	.byte	102
-	.word	.L276-.L133,.L269-.L133
+	.word	.L227-.L97,.L220-.L97
 	.half	1
 	.byte	109
 	.word	0,0
-.L278:
-	.word	-1,.L133,.L377-.L133,.L378-.L133
+.L229:
+	.word	-1,.L97,.L320-.L97,.L321-.L97
 	.half	1
 	.byte	95
-	.word	.L382-.L133,.L44-.L133
+	.word	.L325-.L97,.L44-.L97
 	.half	1
 	.byte	82
 	.word	0,0
-.L279:
-	.word	-1,.L133,.L379-.L133,.L380-.L133
+.L230:
+	.word	-1,.L97,.L322-.L97,.L323-.L97
 	.half	1
 	.byte	84
 	.word	0,0
-.L280:
-	.word	-1,.L133,.L381-.L133,.L380-.L133
+.L231:
+	.word	-1,.L97,.L324-.L97,.L323-.L97
 	.half	1
 	.byte	85
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_loc'
-.L134:
-	.word	-1,.L135,0,.L281-.L135
+.L98:
+	.word	-1,.L99,0,.L232-.L99
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L282:
-	.word	-1,.L135,0,.L49-.L135
+.L233:
+	.word	-1,.L99,0,.L49-.L99
 	.half	1
 	.byte	100
-	.word	.L383-.L135,.L281-.L135
+	.word	.L326-.L99,.L232-.L99
 	.half	1
 	.byte	108
 	.word	0,0
-.L283:
-	.word	-1,.L135,0,.L49-.L135
+.L234:
+	.word	-1,.L99,0,.L49-.L99
 	.half	1
 	.byte	84
 	.word	0,0
-.L284:
-	.word	-1,.L135,0,.L49-.L135
+.L235:
+	.word	-1,.L99,0,.L49-.L99
 	.half	1
 	.byte	101
-	.word	.L384-.L135,.L281-.L135
+	.word	.L327-.L99,.L232-.L99
 	.half	1
 	.byte	109
 	.word	0,0
-.L285:
-	.word	-1,.L135,0,.L49-.L135
+.L236:
+	.word	-1,.L99,0,.L49-.L99
 	.half	1
 	.byte	102
-	.word	.L288-.L135,.L281-.L135
+	.word	.L239-.L99,.L232-.L99
 	.half	1
 	.byte	110
 	.word	0,0
-.L287:
+.L238:
 	.word	0,0
-.L290:
-	.word	-1,.L135,.L385-.L135,.L281-.L135
+.L241:
+	.word	-1,.L99,.L328-.L99,.L232-.L99
 	.half	1
 	.byte	88
-	.word	.L389-.L135,.L53-.L135
+	.word	.L332-.L99,.L53-.L99
 	.half	1
 	.byte	82
 	.word	0,0
-.L291:
-	.word	-1,.L135,.L386-.L135,.L387-.L135
+.L242:
+	.word	-1,.L99,.L329-.L99,.L330-.L99
 	.half	1
 	.byte	84
 	.word	0,0
-.L292:
-	.word	-1,.L135,.L388-.L135,.L387-.L135
+.L243:
+	.word	-1,.L99,.L331-.L99,.L330-.L99
 	.half	1
 	.byte	85
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih')
 	.sect	'.debug_loc'
-.L130:
-	.word	-1,.L131,0,.L261-.L131
+.L94:
+	.word	-1,.L95,0,.L212-.L95
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L262:
-	.word	-1,.L131,0,.L364-.L131
+.L213:
+	.word	-1,.L95,0,.L307-.L95
 	.half	1
 	.byte	100
-	.word	.L366-.L131,.L261-.L131
+	.word	.L309-.L95,.L212-.L95
 	.half	1
 	.byte	111
 	.word	0,0
-.L263:
-	.word	-1,.L131,0,.L364-.L131
+.L214:
+	.word	-1,.L95,0,.L307-.L95
 	.half	1
 	.byte	84
-	.word	.L364-.L131,.L368-.L131
+	.word	.L307-.L95,.L311-.L95
 	.half	1
 	.byte	82
-	.word	.L32-.L131,.L373-.L131
+	.word	.L32-.L95,.L316-.L95
 	.half	1
 	.byte	82
-	.word	.L35-.L131,.L374-.L131
+	.word	.L35-.L95,.L317-.L95
 	.half	1
 	.byte	82
 	.word	0,0
-.L264:
-	.word	-1,.L131,0,.L365-.L131
+.L215:
+	.word	-1,.L95,0,.L308-.L95
 	.half	1
 	.byte	85
-	.word	.L367-.L131,.L261-.L131
+	.word	.L310-.L95,.L212-.L95
 	.half	1
 	.byte	88
 	.word	0,0
-.L266:
-	.word	-1,.L131,.L369-.L131,.L29-.L131
+.L217:
+	.word	-1,.L95,.L312-.L95,.L29-.L95
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L267:
-	.word	-1,.L131,.L370-.L131,.L371-.L131
+.L218:
+	.word	-1,.L95,.L313-.L95,.L314-.L95
 	.half	1
 	.byte	95
-	.word	.L368-.L131,.L32-.L131
+	.word	.L311-.L95,.L32-.L95
 	.half	1
 	.byte	82
 	.word	0,0
-.L268:
-	.word	-1,.L131,.L372-.L131,.L30-.L131
+.L219:
+	.word	-1,.L95,.L315-.L95,.L30-.L95
 	.half	1
 	.byte	81
-	.word	.L373-.L131,.L35-.L131
+	.word	.L316-.L95,.L35-.L95
 	.half	1
 	.byte	82
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t')
-	.sect	'.debug_loc'
-.L140:
-	.word	-1,.L141,0,.L320-.L141
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L321:
-	.word	-1,.L141,0,.L320-.L141
-	.half	1
-	.byte	100
-	.word	0,0
-.L323:
-	.word	0,0
-.L324:
-	.word	-1,.L141,.L426-.L141,.L427-.L141
-	.half	5
-	.byte	144,32,157,32,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t')
 	.sect	'.debug_loc'
-.L126:
-	.word	-1,.L127,0,.L226-.L127
+.L90:
+	.word	-1,.L91,0,.L177-.L91
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L228:
-	.word	-1,.L127,0,.L342-.L127
+.L179:
+	.word	-1,.L91,0,.L285-.L91
 	.half	1
 	.byte	100
 	.word	0,0
-.L230:
-	.word	-1,.L127,0,.L11-.L127
+.L181:
+	.word	-1,.L91,0,.L11-.L91
 	.half	1
 	.byte	101
-	.word	.L343-.L127,.L226-.L127
+	.word	.L286-.L91,.L177-.L91
 	.half	1
 	.byte	111
 	.word	0,0
-.L232:
-	.word	-1,.L127,.L237-.L127,.L344-.L127
+.L183:
+	.word	-1,.L91,.L188-.L91,.L287-.L91
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L234:
+.L185:
 	.word	0,0
-.L239:
-	.word	-1,.L127,.L345-.L127,.L342-.L127
+.L190:
+	.word	-1,.L91,.L288-.L91,.L285-.L91
 	.half	1
 	.byte	81
 	.word	0,0
-.L241:
-	.word	-1,.L127,.L242-.L127,.L10-.L127
+.L192:
+	.word	-1,.L91,.L193-.L91,.L10-.L91
 	.half	1
 	.byte	98
 	.word	0,0
-.L243:
-	.word	-1,.L127,.L346-.L127,.L10-.L127
+.L194:
+	.word	-1,.L91,.L289-.L91,.L10-.L91
 	.half	1
 	.byte	82
 	.word	0,0
-.L235:
+.L186:
 	.word	0,0
-.L236:
-	.word	-1,.L127,.L347-.L127,.L226-.L127
+.L187:
+	.word	-1,.L91,.L290-.L91,.L177-.L91
 	.half	1
 	.byte	88
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t')
 	.sect	'.debug_loc'
-.L128:
-	.word	-1,.L129,0,.L244-.L129
+.L92:
+	.word	-1,.L93,0,.L195-.L93
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L245:
-	.word	-1,.L129,0,.L15-.L129
+.L196:
+	.word	-1,.L93,0,.L15-.L93
 	.half	1
 	.byte	100
-	.word	.L348-.L129,.L244-.L129
+	.word	.L291-.L93,.L195-.L93
 	.half	1
 	.byte	108
 	.word	0,0
-.L246:
-	.word	-1,.L129,0,.L15-.L129
+.L197:
+	.word	-1,.L93,0,.L15-.L93
 	.half	1
 	.byte	101
-	.word	.L349-.L129,.L244-.L129
+	.word	.L292-.L93,.L195-.L93
 	.half	1
 	.byte	111
 	.word	0,0
-.L248:
+.L199:
 	.word	0,0
-.L249:
-	.word	-1,.L129,.L350-.L129,.L15-.L129
+.L200:
+	.word	-1,.L93,.L293-.L93,.L15-.L93
 	.half	1
 	.byte	88
-	.word	.L358-.L129,.L359-.L129
+	.word	.L301-.L93,.L302-.L93
 	.half	1
 	.byte	88
-	.word	.L359-.L129,.L360-.L129
+	.word	.L302-.L93,.L303-.L93
 	.half	1
 	.byte	84
 	.word	0,0
-.L250:
-	.word	-1,.L129,.L351-.L129,.L15-.L129
+.L201:
+	.word	-1,.L93,.L294-.L93,.L15-.L93
 	.half	1
 	.byte	89
-	.word	.L24-.L129,.L357-.L129
+	.word	.L24-.L93,.L300-.L93
 	.half	1
 	.byte	89
-	.word	.L361-.L129,.L362-.L129
+	.word	.L304-.L93,.L305-.L93
 	.half	1
 	.byte	89
-	.word	.L362-.L129,.L363-.L129
+	.word	.L305-.L93,.L306-.L93
 	.half	1
 	.byte	84
 	.word	0,0
-.L251:
-	.word	-1,.L129,.L252-.L129,.L244-.L129
+.L202:
+	.word	-1,.L93,.L203-.L93,.L195-.L93
 	.half	1
 	.byte	90
 	.word	0,0
-.L254:
-	.word	-1,.L129,.L352-.L129,.L244-.L129
+.L205:
+	.word	-1,.L93,.L295-.L93,.L195-.L93
 	.half	1
 	.byte	91
 	.word	0,0
-.L255:
-	.word	-1,.L129,.L257-.L129,.L14-.L129
+.L206:
+	.word	-1,.L93,.L208-.L93,.L14-.L93
 	.half	1
 	.byte	92
 	.word	0,0
-.L258:
-	.word	-1,.L129,.L353-.L129,.L14-.L129
+.L209:
+	.word	-1,.L93,.L296-.L93,.L14-.L93
 	.half	1
 	.byte	93
 	.word	0,0
-.L259:
-	.word	-1,.L129,.L354-.L129,.L355-.L129
+.L210:
+	.word	-1,.L93,.L297-.L93,.L298-.L93
 	.half	1
 	.byte	84
 	.word	0,0
-.L260:
-	.word	-1,.L129,.L356-.L129,.L355-.L129
+.L211:
+	.word	-1,.L93,.L299-.L93,.L298-.L93
 	.half	1
 	.byte	85
 	.word	0,0
-.L256:
+.L207:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
 	.sect	'.debug_loc'
-.L138:
-	.word	-1,.L139,0,.L310-.L139
+.L102:
+	.word	-1,.L103,0,.L259-.L103
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L311:
-	.word	-1,.L139,0,.L418-.L139
+.L260:
+	.word	-1,.L103,0,.L358-.L103
 	.half	1
 	.byte	100
-	.word	.L419-.L139,.L310-.L139
+	.word	.L359-.L103,.L259-.L103
 	.half	1
 	.byte	111
 	.word	0,0
-.L312:
-	.word	-1,.L139,.L420-.L139,.L418-.L139
+.L261:
+	.word	-1,.L103,.L360-.L103,.L358-.L103
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L313:
-	.word	-1,.L139,.L421-.L139,.L418-.L139
+.L262:
+	.word	-1,.L103,.L361-.L103,.L358-.L103
 	.half	1
 	.byte	81
 	.word	0,0
-.L314:
-	.word	-1,.L139,.L422-.L139,.L418-.L139
+.L263:
+	.word	-1,.L103,.L362-.L103,.L358-.L103
 	.half	1
 	.byte	82
 	.word	0,0
-.L316:
+.L265:
 	.word	0,0
-.L317:
-	.word	-1,.L139,.L423-.L139,.L424-.L139
+.L266:
+	.word	-1,.L103,.L363-.L103,.L364-.L103
 	.half	1
 	.byte	95
 	.word	0,0
-.L318:
+.L267:
 	.word	0,0
-.L319:
-	.word	-1,.L139,.L425-.L139,.L78-.L139
+.L268:
+	.word	-1,.L103,.L365-.L103,.L78-.L103
 	.half	1
 	.byte	83
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L789:
+.L609:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -3956,58 +3112,53 @@ ramp_exit_count:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089615route_limit_intEiii')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L789,.L123,.L217-.L123
+	.word	.L609,.L87,.L168-.L87
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089614route_contrastEhh')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L789,.L125,.L221-.L125
+	.word	.L609,.L89,.L172-.L89
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089625route_get_white_referenceEPKhP20route_image_result_t')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L789,.L127,.L226-.L127
+	.word	.L609,.L91,.L177-.L91
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089627route_find_reference_columnEPKhP20route_image_result_t')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L789,.L129,.L244-.L129
+	.word	.L609,.L93,.L195-.L93
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_white_seedEPKhih')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L789,.L131,.L261-.L131
+	.word	.L609,.L95,.L212-.L95
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089620route_find_left_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L789,.L133,.L269-.L133
+	.word	.L609,.L97,.L220-.L97
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089621route_find_right_edgeEPKhiPK20route_image_result_tPh')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L789,.L135,.L281-.L135
+	.word	.L609,.L99,.L232-.L99
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089617route_trace_edgesEPKhP20route_image_result_t')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L789,.L137,.L293-.L137
+	.word	.L609,.L101,.L244-.L101
 	.byte	4
-	.word	(.L390-.L137)/2
+	.word	(.L333-.L101)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L293-.L390)/2
+	.word	(.L244-.L333)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089630route_calculate_steering_errorEP20route_image_result_t')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L789,.L139,.L310-.L139
-	.sdecl	'.debug_frame',debug,cluster('_ZN37_INTERNAL_15_route_image_cpp_5116089623route_update_ramp_stateEP20route_image_result_t')
-	.sect	'.debug_frame'
-	.word	20
-	.word	.L789,.L141,.L320-.L141
-	.byte	8,19,8,21,8,22,8,23
+	.word	.L609,.L103,.L259-.L103
 	.sdecl	'.debug_frame',debug,cluster('_Z17route_image_resetP20route_image_result_t')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L789,.L143,.L325-.L143
+	.word	.L609,.L105,.L269-.L105
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('_Z19route_image_processPKhP20route_image_result_t')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L789,.L145,.L330-.L145
+	.word	.L609,.L107,.L274-.L107
 	; Module end

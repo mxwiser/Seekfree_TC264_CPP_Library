@@ -18,8 +18,8 @@ void route_process_frame(void);
 // Runs the two encoder speed loops. Call after encoder_update_100ms().
 void route_speed_control_100ms(void);
 
-// Targets are encoder pulse counts per 100 ms.
-void route_process_set_speed(int normal_ticks, int ramp_ticks);
+// Target is encoder pulse count per 100 ms for the whole track.
+void route_process_set_speed(int target_ticks);
 
 #ifdef __cplusplus
 }

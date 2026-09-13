@@ -43,15 +43,12 @@ MIN_TRACK_WIDTH = _cpp_config_number("ROUTE_MIN_TRACK_WIDTH", 12)
 
 STEERING_KP = _cpp_config_number("ROUTE_STEERING_KP", 0.025)
 STEERING_KD = _cpp_config_number("ROUTE_STEERING_KD", 0.012)
-STEERING_FILTER = _cpp_config_number("ROUTE_STEERING_FILTER", 0.35)
 
-NORMAL_SPEED = _cpp_config_number("ROUTE_NORMAL_SPEED_TICKS_100MS", 80)
-RAMP_SPEED = _cpp_config_number("ROUTE_RAMP_SPEED_TICKS_100MS", 65)
-TURN_REDUCTION = _cpp_config_number("ROUTE_TURN_SPEED_REDUCTION_TICKS", 20)
-SPEED_KP = _cpp_config_number("ROUTE_SPEED_KP", 0.30)
-SPEED_KI = _cpp_config_number("ROUTE_SPEED_KI", 0.05)
+NORMAL_SPEED = _cpp_config_number("ROUTE_NORMAL_SPEED_TICKS_100MS", 3000)
+SPEED_KP = _cpp_config_number("ROUTE_SPEED_KP", 0.006)
+SPEED_KI = _cpp_config_number("ROUTE_SPEED_KI", 0.0020)
 SPEED_KD = _cpp_config_number("ROUTE_SPEED_KD", 0.00)
-MAX_DUTY = _cpp_config_number("ROUTE_MOTOR_MAX_DUTY_PERCENT", 60)
+MAX_DUTY = _cpp_config_number("ROUTE_MOTOR_MAX_DUTY_PERCENT", 45)
 
 
 def c_div(numerator, denominator):
@@ -331,28 +328,27 @@ class RouteImageAlgorithm:
 
 
 @dataclass
-class IncrementalPid:
+class SpeedPid:
+    integral: float = 0.0
     last_error: float = 0.0
-    previous_error: float = 0.0
-    output: float = 0.0
 
     def reset(self):
+        self.integral = 0.0
         self.last_error = 0.0
-        self.previous_error = 0.0
-        self.output = 0.0
 
     def update(self, target, actual):
-        error = float(target - actual)
-        self.output += (
-            SPEED_KP * (error - self.last_error)
-            + SPEED_KI * error
-            + SPEED_KD * (error - 2.0 * self.last_error
-                          + self.previous_error)
+        actual = abs(actual)
+        error = float(target) - float(actual)
+        self.integral += SPEED_KI * error
+        raw_output = (
+            SPEED_KP * error
+            + self.integral
+            + SPEED_KD * (error - self.last_error)
         )
-        self.output = min(max(self.output, 0.0), float(MAX_DUTY))
-        self.previous_error = self.last_error
+        output = min(max(raw_output, 0.0), float(MAX_DUTY))
+        self.integral += output - raw_output
         self.last_error = error
-        return int(self.output + 0.5)
+        return int(output * 10.0 + 0.5) / 10.0
 
 
 class RouteController:
@@ -360,48 +356,49 @@ class RouteController:
 
     def __init__(self):
         self.last_image_error = 0.0
-        self.filtered_steering = 0.0
         self.steering_permille = 0
-        self.left_pid = IncrementalPid()
-        self.right_pid = IncrementalPid()
+        self.left_target = 0
+        self.right_target = 0
+        self.left_duty = 0
+        self.right_duty = 0
+        self.left_pid = SpeedPid()
+        self.right_pid = SpeedPid()
 
     def update_steering(self, result):
         if not result.track_valid:
             self.last_image_error = 0.0
-            self.filtered_steering = 0.0
             self.steering_permille = 0
             return 0.0
         error = float(result.steering_error)
-        raw = STEERING_KP * error + STEERING_KD * (
+        steering = STEERING_KP * error + STEERING_KD * (
             error - self.last_image_error
         )
-        self.filtered_steering += STEERING_FILTER * (
-            raw - self.filtered_steering
-        )
-        self.filtered_steering = min(max(self.filtered_steering, -1.0), 1.0)
+        steering = min(max(steering, -1.0), 1.0)
         self.last_image_error = error
-        self.steering_permille = int(self.filtered_steering * 1000.0)
-        return self.filtered_steering
+        self.steering_permille = int(steering * 1000.0)
+        return steering
 
     def speed_targets(self, ramp_active):
-        target = RAMP_SPEED if ramp_active else NORMAL_SPEED
-        left_target = target
-        right_target = target
-        reduction = c_div(
-            abs(self.steering_permille) * TURN_REDUCTION, 1000
-        )
-        if self.steering_permille > 0:
-            right_target -= reduction
-        else:
-            left_target -= reduction
-        return max(left_target, 0), max(right_target, 0)
+        return NORMAL_SPEED, NORMAL_SPEED
 
     def update_speed(self, result, left_actual, right_actual):
         if not result.track_valid:
             self.left_pid.reset()
             self.right_pid.reset()
+            self.left_target = 0
+            self.right_target = 0
+            self.left_duty = 0
+            self.right_duty = 0
             return 0, 0, 0, 0
-        left_target, right_target = self.speed_targets(result.ramp_active)
-        left_duty = self.left_pid.update(left_target, left_actual)
-        right_duty = self.right_pid.update(right_target, right_actual)
-        return left_target, right_target, left_duty, right_duty
+
+        self.left_target, self.right_target = self.speed_targets(
+            result.ramp_active
+        )
+        self.left_duty = self.left_pid.update(
+            self.left_target, left_actual
+        )
+        self.right_duty = self.right_pid.update(
+            self.right_target, right_actual
+        )
+        return (self.left_target, self.right_target,
+                self.left_duty, self.right_duty)

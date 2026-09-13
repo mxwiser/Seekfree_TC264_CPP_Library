@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc35604c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\route_process -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/motor.src cc35604a.ic"
+	.compiler_invocation	"ctc -f cc4896c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\route_process -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/motor.src cc4896a.ic"
 	.compiler_name		"ctc"
 	;source	'../code/motor.cpp'
 
@@ -12,37 +12,75 @@ $TC16X
 	.align	2
 	
 ; Function _ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi
-.L7:
+.L11:
 _ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi:	.type	func
 	jge	d4,#0,.L2
-.L92:
+.L126:
 	mov	d4,#0
-.L93:
+.L127:
 	j	.L3
 .L2:
 	mov	d15,#100
-.L94:
+.L128:
 	jge	d15,d4,.L4
-.L95:
+.L129:
 	mov	d4,#100
 .L4:
 .L3:
 	mov	d15,#10000
-.L96:
+.L130:
 	mul	d4,d15
-.L73:
+.L104:
 	mov	d15,#100
-.L97:
+.L131:
 	div.u	e2,d4,d15
-.L98:
+.L132:
 	j	.L5
 .L5:
 	ret
-.L60:
+.L85:
 	
 ___ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi_function_end:
 	.size	_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi,___ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi_function_end-_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi
-.L28:
+.L38:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+; Function _ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi
+.L13:
+_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi:	.type	func
+	jge	d4,#0,.L6
+.L137:
+	mov	d4,#0
+.L138:
+	j	.L7
+.L6:
+	mov	d15,#1000
+.L139:
+	jge	d15,d4,.L8
+.L140:
+	mov	d4,#1000
+.L8:
+.L7:
+	mov	d15,#10000
+.L141:
+	mul	d4,d15
+.L105:
+	mov	d15,#1000
+.L142:
+	div.u	e2,d4,d15
+.L143:
+	j	.L9
+.L9:
+	ret
+.L88:
+	
+___ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi_function_end:
+	.size	_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi,___ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi_function_end-_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi
+.L43:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z16right_motor_initi')
@@ -51,36 +89,36 @@ ___ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi_function_end:
 	
 	.global	_Z16right_motor_initi
 ; Function _Z16right_motor_initi
-.L9:
+.L15:
 _Z16right_motor_initi:	.type	func
 	mov	d15,d4
-.L75:
+.L107:
 	mov	d4,#70
-.L74:
+.L106:
 	mov	d5,#1
-.L103:
+.L148:
 	mov	d6,#1
-.L104:
+.L149:
 	mov	d7,#3
 	call	gpio_init
-.L105:
+.L150:
 	mov	d4,d15
-.L76:
+.L108:
 	call	_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi
-.L77:
+.L109:
 	mov	d4,#43
-.L106:
+.L151:
 	mov	d5,#2000
-.L107:
+.L152:
 	mov	d6,d2
 	call	pwm_init
-.L108:
+.L153:
 	ret
-.L63:
+.L90:
 	
 ___Z16right_motor_initi_function_end:
 	.size	_Z16right_motor_initi,___Z16right_motor_initi_function_end-_Z16right_motor_initi
-.L33:
+.L48:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z20right_motor_set_dutyi')
@@ -89,21 +127,44 @@ ___Z16right_motor_initi_function_end:
 	
 	.global	_Z20right_motor_set_dutyi
 ; Function _Z20right_motor_set_dutyi
-.L11:
+.L17:
 _Z20right_motor_set_dutyi:	.type	func
 	call	_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi
-.L78:
+.L110:
 	mov	d4,#43
-.L113:
+.L158:
 	mov	d5,d2
 	call	pwm_set_duty
-.L114:
+.L159:
 	ret
-.L65:
+.L92:
 	
 ___Z20right_motor_set_dutyi_function_end:
 	.size	_Z20right_motor_set_dutyi,___Z20right_motor_set_dutyi_function_end-_Z20right_motor_set_dutyi
-.L38:
+.L53:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('_Z24right_motor_set_duty_x10i')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+	.global	_Z24right_motor_set_duty_x10i
+; Function _Z24right_motor_set_duty_x10i
+.L19:
+_Z24right_motor_set_duty_x10i:	.type	func
+	call	_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi
+.L111:
+	mov	d4,#43
+.L164:
+	mov	d5,d2
+	call	pwm_set_duty
+.L165:
+	ret
+.L94:
+	
+___Z24right_motor_set_duty_x10i_function_end:
+	.size	_Z24right_motor_set_duty_x10i,___Z24right_motor_set_duty_x10i_function_end-_Z24right_motor_set_duty_x10i
+.L58:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z16right_motor_stopv')
@@ -112,19 +173,19 @@ ___Z20right_motor_set_dutyi_function_end:
 	
 	.global	_Z16right_motor_stopv
 ; Function _Z16right_motor_stopv
-.L13:
+.L21:
 _Z16right_motor_stopv:	.type	func
 	mov	d4,#43
-.L119:
+.L170:
 	mov	d5,#0
 	call	pwm_set_duty
-.L120:
+.L171:
 	ret
-.L67:
+.L96:
 	
 ___Z16right_motor_stopv_function_end:
 	.size	_Z16right_motor_stopv,___Z16right_motor_stopv_function_end-_Z16right_motor_stopv
-.L43:
+.L63:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z15left_motor_initi')
@@ -133,36 +194,36 @@ ___Z16right_motor_stopv_function_end:
 	
 	.global	_Z15left_motor_initi
 ; Function _Z15left_motor_initi
-.L15:
+.L23:
 _Z15left_motor_initi:	.type	func
 	mov	d15,d4
-.L80:
+.L113:
 	mov	d4,#68
-.L79:
+.L112:
 	mov	d5,#1
-.L125:
+.L176:
 	mov	d6,#1
-.L126:
+.L177:
 	mov	d7,#3
 	call	gpio_init
-.L127:
+.L178:
 	mov	d4,d15
-.L81:
+.L114:
 	call	_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi
-.L82:
+.L115:
 	mov	d4,#35
-.L128:
+.L179:
 	mov	d5,#2000
-.L129:
+.L180:
 	mov	d6,d2
 	call	pwm_init
-.L130:
+.L181:
 	ret
-.L68:
+.L97:
 	
 ___Z15left_motor_initi_function_end:
 	.size	_Z15left_motor_initi,___Z15left_motor_initi_function_end-_Z15left_motor_initi
-.L48:
+.L68:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z19left_motor_set_dutyi')
@@ -171,21 +232,44 @@ ___Z15left_motor_initi_function_end:
 	
 	.global	_Z19left_motor_set_dutyi
 ; Function _Z19left_motor_set_dutyi
-.L17:
+.L25:
 _Z19left_motor_set_dutyi:	.type	func
 	call	_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi
-.L83:
+.L116:
 	mov	d4,#35
-.L135:
+.L186:
 	mov	d5,d2
 	call	pwm_set_duty
-.L136:
+.L187:
 	ret
-.L70:
+.L99:
 	
 ___Z19left_motor_set_dutyi_function_end:
 	.size	_Z19left_motor_set_dutyi,___Z19left_motor_set_dutyi_function_end-_Z19left_motor_set_dutyi
-.L53:
+.L73:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('_Z23left_motor_set_duty_x10i')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+	.global	_Z23left_motor_set_duty_x10i
+; Function _Z23left_motor_set_duty_x10i
+.L27:
+_Z23left_motor_set_duty_x10i:	.type	func
+	call	_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi
+.L117:
+	mov	d4,#35
+.L192:
+	mov	d5,d2
+	call	pwm_set_duty
+.L193:
+	ret
+.L101:
+	
+___Z23left_motor_set_duty_x10i_function_end:
+	.size	_Z23left_motor_set_duty_x10i,___Z23left_motor_set_duty_x10i_function_end-_Z23left_motor_set_duty_x10i
+.L78:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_Z15left_motor_stopv')
@@ -194,19 +278,19 @@ ___Z19left_motor_set_dutyi_function_end:
 	
 	.global	_Z15left_motor_stopv
 ; Function _Z15left_motor_stopv
-.L19:
+.L29:
 _Z15left_motor_stopv:	.type	func
 	mov	d4,#35
-.L141:
+.L198:
 	mov	d5,#0
 	call	pwm_set_duty
-.L142:
+.L199:
 	ret
-.L72:
+.L103:
 	
 ___Z15left_motor_stopv_function_end:
 	.size	_Z15left_motor_stopv,___Z15left_motor_stopv_function_end-_Z15left_motor_stopv
-.L58:
+.L83:
 	; End of function
 	
 	.calls	'_Z16right_motor_initi','gpio_init'
@@ -214,36 +298,43 @@ ___Z15left_motor_stopv_function_end:
 	.calls	'_Z16right_motor_initi','pwm_init'
 	.calls	'_Z20right_motor_set_dutyi','_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi'
 	.calls	'_Z20right_motor_set_dutyi','pwm_set_duty'
+	.calls	'_Z24right_motor_set_duty_x10i','_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi'
+	.calls	'_Z24right_motor_set_duty_x10i','pwm_set_duty'
 	.calls	'_Z16right_motor_stopv','pwm_set_duty'
 	.calls	'_Z15left_motor_initi','gpio_init'
 	.calls	'_Z15left_motor_initi','_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi'
 	.calls	'_Z15left_motor_initi','pwm_init'
 	.calls	'_Z19left_motor_set_dutyi','_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi'
 	.calls	'_Z19left_motor_set_dutyi','pwm_set_duty'
+	.calls	'_Z23left_motor_set_duty_x10i','_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi'
+	.calls	'_Z23left_motor_set_duty_x10i','pwm_set_duty'
 	.calls	'_Z15left_motor_stopv','pwm_set_duty'
 	.calls	'_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi','',0
+	.calls	'_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi','',0
 	.calls	'_Z16right_motor_initi','',0
 	.calls	'_Z20right_motor_set_dutyi','',0
+	.calls	'_Z24right_motor_set_duty_x10i','',0
 	.calls	'_Z16right_motor_stopv','',0
 	.calls	'_Z15left_motor_initi','',0
 	.calls	'_Z19left_motor_set_dutyi','',0
+	.calls	'_Z23left_motor_set_duty_x10i','',0
 	.extern	gpio_init
 	.extern	pwm_init
 	.extern	pwm_set_duty
 	.calls	'_Z15left_motor_stopv','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L21:
+.L31:
 	.word	5884
 	.half	3
-	.word	.L22
+	.word	.L32
 	.byte	4
-.L20:
+.L30:
 	.byte	1
 	.byte	'../code/motor.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L23
+	.word	.L33
 	.byte	2
 	.byte	'gpio_pin_enum',0,1,43,6,2,3
 	.byte	'P00_0',0,0,3
@@ -650,7 +741,7 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'ATOM3_CH7_P11_12',0,169,1,3
 	.byte	'ATOM3_CH7_P13_2',0,170,1,3
 	.byte	'ATOM3_CH7_P20_7',0,171,1,0
-.L59:
+.L84:
 	.byte	4
 	.byte	'unsigned long int',0,4,7,5
 	.byte	'pwm_init',0,2,85,13,1,1,1,1,6
@@ -670,7 +761,7 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'duty',0,2,86,57
 	.word	5606
 	.byte	0
-.L61:
+.L86:
 	.byte	4
 	.byte	'int',0,4,5,7,1,8
 	.word	5741
@@ -698,18 +789,18 @@ ___Z15left_motor_stopv_function_end:
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L22:
+.L32:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,4,1,3,8,58,15,59,15,57,15,11,15,0,0,3,40,0,3,8,28,13,0
 	.byte	0,4,36,0,3,8,11,15,62,15,0,0,5,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15
 	.byte	59,15,57,15,73,19,0,0,7,21,0,54,15,0,0,8,15,0,73,19,0,0,9,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L23:
-	.word	.L85-.L84
-.L84:
+.L33:
+	.word	.L119-.L118
+.L118:
 	.half	3
-	.word	.L87-.L86
-.L86:
+	.word	.L121-.L120
+.L120:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver',0,0
 	.byte	'zf_driver_gpio.h',0,1,0,0
@@ -717,150 +808,12 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'../code/motor.cpp',0,0,0,0
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\Cpu/Std/Platform_Types.h',0
 	.byte	0,0,0,0
-.L87:
-.L85:
+.L121:
+.L119:
 	.sdecl	'.debug_info',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
 	.sect	'.debug_info'
-.L24:
-	.word	307
-	.half	3
-	.word	.L25
-	.byte	4,1
-	.byte	'../code/motor.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L27,.L26
-	.byte	2
-	.word	.L20
-	.byte	3
-	.byte	'_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi',0,1,14,15
-	.word	.L59
-	.byte	1,1
-	.word	.L7,.L60,.L6
-	.byte	4
-	.byte	'__67859_41_duty_percent',0,1,14,81
-	.word	.L61,.L62
-	.byte	5
-	.word	.L7,.L60
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
-	.sect	'.debug_abbrev'
-.L25:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
-	.sect	'.debug_line'
-.L26:
-	.word	.L89-.L88
-.L88:
-	.half	3
-	.word	.L91-.L90
-.L90:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../code/motor.cpp',0,0,0,0,0
-.L91:
-	.byte	5,1,7,0,5,2
-	.word	.L7
-	.byte	3,15,1,5,25,7,9
-	.half	.L92-.L7
-	.byte	3,2,1,5,28,9
-	.half	.L93-.L92
-	.byte	1,5,31,9
-	.half	.L2-.L93
-	.byte	3,2,1,5,1,9
-	.half	.L94-.L2
-	.byte	1,5,25,7,9
-	.half	.L95-.L94
-	.byte	3,2,1,5,45,9
-	.half	.L3-.L95
-	.byte	3,3,1,5,43,9
-	.half	.L96-.L3
-	.byte	1,5,56,9
-	.half	.L73-.L96
-	.byte	1,5,54,9
-	.half	.L97-.L73
-	.byte	1,5,1,9
-	.half	.L98-.L97
-	.byte	1,9
-	.half	.L5-.L98
-	.byte	3,1,1,7,9
-	.half	.L28-.L5
-	.byte	0,1,1
-.L89:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
-	.sect	'.debug_ranges'
-.L27:
-	.word	-1,.L7,0,.L28-.L7,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z16right_motor_initi')
-	.sect	'.debug_info'
-.L29:
-	.word	265
-	.half	3
-	.word	.L30
-	.byte	4,1
-	.byte	'../code/motor.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L32,.L31
-	.byte	2
-	.word	.L20
-	.byte	3
-	.byte	'_Z16right_motor_initi',0,1,28,6,1,1,1
-	.word	.L9,.L63,.L8
-	.byte	4
-	.byte	'__67873_27_duty_percent',0,1,28,33
-	.word	.L61,.L64
-	.byte	5
-	.word	.L9,.L63
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_Z16right_motor_initi')
-	.sect	'.debug_abbrev'
-.L30:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_Z16right_motor_initi')
-	.sect	'.debug_line'
-.L31:
-	.word	.L100-.L99
-.L99:
-	.half	3
-	.word	.L102-.L101
-.L101:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../code/motor.cpp',0,0,0,0,0
-.L102:
-	.byte	5,6,7,0,5,2
-	.word	.L9
-	.byte	3,27,1,5,11,9
-	.half	.L75-.L9
-	.byte	3,2,1,5,18,9
-	.half	.L74-.L75
-	.byte	1,5,24,9
-	.half	.L103-.L74
-	.byte	1,5,36,9
-	.half	.L104-.L103
-	.byte	1,5,97,9
-	.half	.L105-.L104
-	.byte	3,1,1,5,10,9
-	.half	.L77-.L105
-	.byte	1,5,27,9
-	.half	.L106-.L77
-	.byte	1,5,96,9
-	.half	.L107-.L106
-	.byte	1,5,1,9
-	.half	.L108-.L107
-	.byte	3,2,1,7,9
-	.half	.L33-.L108
-	.byte	0,1,1
-.L100:
-	.sdecl	'.debug_ranges',debug,cluster('_Z16right_motor_initi')
-	.sect	'.debug_ranges'
-.L32:
-	.word	-1,.L9,0,.L33-.L9,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z20right_motor_set_dutyi')
-	.sect	'.debug_info'
 .L34:
-	.word	269
+	.word	307
 	.half	3
 	.word	.L35
 	.byte	4,1
@@ -869,52 +822,70 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L37,.L36
 	.byte	2
-	.word	.L20
+	.word	.L30
 	.byte	3
-	.byte	'_Z20right_motor_set_dutyi',0,1,35,6,1,1,1
-	.word	.L11,.L65,.L10
+	.byte	'_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi',0,1,14,15
+	.word	.L84
+	.byte	1,1
+	.word	.L11,.L85,.L10
 	.byte	4
-	.byte	'__67880_31_duty_percent',0,1,35,37
-	.word	.L61,.L66
+	.byte	'__67863_41_duty_percent',0,1,14,81
+	.word	.L86,.L87
 	.byte	5
-	.word	.L11,.L65
+	.word	.L11,.L85
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_Z20right_motor_set_dutyi')
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
 	.sect	'.debug_abbrev'
 .L35:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_Z20right_motor_set_dutyi')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
 	.sect	'.debug_line'
 .L36:
-	.word	.L110-.L109
-.L109:
+	.word	.L123-.L122
+.L122:
 	.half	3
-	.word	.L112-.L111
-.L111:
+	.word	.L125-.L124
+.L124:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/motor.cpp',0,0,0,0,0
-.L112:
-	.byte	5,93,7,0,5,2
+.L125:
+	.byte	5,1,7,0,5,2
 	.word	.L11
-	.byte	3,36,1,5,14,9
-	.half	.L78-.L11
-	.byte	1,5,92,9
-	.half	.L113-.L78
+	.byte	3,15,1,5,25,7,9
+	.half	.L126-.L11
+	.byte	3,2,1,5,28,9
+	.half	.L127-.L126
+	.byte	1,5,31,9
+	.half	.L2-.L127
+	.byte	3,2,1,5,1,9
+	.half	.L128-.L2
+	.byte	1,5,25,7,9
+	.half	.L129-.L128
+	.byte	3,2,1,5,45,9
+	.half	.L3-.L129
+	.byte	3,3,1,5,43,9
+	.half	.L130-.L3
+	.byte	1,5,56,9
+	.half	.L104-.L130
+	.byte	1,5,54,9
+	.half	.L131-.L104
 	.byte	1,5,1,9
-	.half	.L114-.L113
-	.byte	3,2,1,7,9
-	.half	.L38-.L114
+	.half	.L132-.L131
+	.byte	1,9
+	.half	.L5-.L132
+	.byte	3,1,1,7,9
+	.half	.L38-.L5
 	.byte	0,1,1
-.L110:
-	.sdecl	'.debug_ranges',debug,cluster('_Z20right_motor_set_dutyi')
+.L123:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
 	.sect	'.debug_ranges'
 .L37:
 	.word	-1,.L11,0,.L38-.L11,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z16right_motor_stopv')
+	.sdecl	'.debug_info',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi')
 	.sect	'.debug_info'
 .L39:
-	.word	229
+	.word	319
 	.half	3
 	.word	.L40
 	.byte	4,1
@@ -923,47 +894,70 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L42,.L41
 	.byte	2
-	.word	.L20
+	.word	.L30
 	.byte	3
-	.byte	'_Z16right_motor_stopv',0,1,41,6,1,1,1
-	.word	.L13,.L67,.L12
+	.byte	'_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi',0,1,28,15
+	.word	.L84
+	.byte	1,1
+	.word	.L13,.L88,.L12
 	.byte	4
-	.word	.L13,.L67
+	.byte	'__67877_47_duty_tenth_percent',0,1,28,87
+	.word	.L86,.L89
+	.byte	5
+	.word	.L13,.L88
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_Z16right_motor_stopv')
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi')
 	.sect	'.debug_abbrev'
 .L40:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_Z16right_motor_stopv')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi')
 	.sect	'.debug_line'
 .L41:
-	.word	.L116-.L115
-.L115:
+	.word	.L134-.L133
+.L133:
 	.half	3
-	.word	.L118-.L117
-.L117:
+	.word	.L136-.L135
+.L135:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/motor.cpp',0,0,0,0,0
-.L118:
-	.byte	5,14,7,0,5,2
+.L136:
+	.byte	5,1,7,0,5,2
 	.word	.L13
-	.byte	3,42,1,5,31,9
-	.half	.L119-.L13
+	.byte	3,29,1,5,31,7,9
+	.half	.L137-.L13
+	.byte	3,2,1,5,34,9
+	.half	.L138-.L137
+	.byte	1,5,37,9
+	.half	.L6-.L138
+	.byte	3,2,1,5,1,9
+	.half	.L139-.L6
+	.byte	1,5,31,7,9
+	.half	.L140-.L139
+	.byte	3,2,1,5,51,9
+	.half	.L7-.L140
+	.byte	3,3,1,5,49,9
+	.half	.L141-.L7
+	.byte	1,5,62,9
+	.half	.L105-.L141
+	.byte	1,5,60,9
+	.half	.L142-.L105
 	.byte	1,5,1,9
-	.half	.L120-.L119
+	.half	.L143-.L142
+	.byte	1,9
+	.half	.L9-.L143
 	.byte	3,1,1,7,9
-	.half	.L43-.L120
+	.half	.L43-.L9
 	.byte	0,1,1
-.L116:
-	.sdecl	'.debug_ranges',debug,cluster('_Z16right_motor_stopv')
+.L134:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi')
 	.sect	'.debug_ranges'
 .L42:
 	.word	-1,.L13,0,.L43-.L13,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z15left_motor_initi')
+	.sdecl	'.debug_info',debug,cluster('_Z16right_motor_initi')
 	.sect	'.debug_info'
 .L44:
-	.word	264
+	.word	265
 	.half	3
 	.word	.L45
 	.byte	4,1
@@ -972,64 +966,64 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L47,.L46
 	.byte	2
-	.word	.L20
+	.word	.L30
 	.byte	3
-	.byte	'_Z15left_motor_initi',0,1,46,6,1,1,1
-	.word	.L15,.L68,.L14
+	.byte	'_Z16right_motor_initi',0,1,42,6,1,1,1
+	.word	.L15,.L90,.L14
 	.byte	4
-	.byte	'__67891_26_duty_percent',0,1,46,32
-	.word	.L61,.L69
+	.byte	'__67891_27_duty_percent',0,1,42,33
+	.word	.L86,.L91
 	.byte	5
-	.word	.L15,.L68
+	.word	.L15,.L90
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_Z15left_motor_initi')
+	.sdecl	'.debug_abbrev',debug,cluster('_Z16right_motor_initi')
 	.sect	'.debug_abbrev'
 .L45:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_Z15left_motor_initi')
+	.sdecl	'.debug_line',debug,cluster('_Z16right_motor_initi')
 	.sect	'.debug_line'
 .L46:
-	.word	.L122-.L121
-.L121:
+	.word	.L145-.L144
+.L144:
 	.half	3
-	.word	.L124-.L123
-.L123:
+	.word	.L147-.L146
+.L146:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/motor.cpp',0,0,0,0,0
-.L124:
+.L147:
 	.byte	5,6,7,0,5,2
 	.word	.L15
-	.byte	3,45,1,5,11,9
-	.half	.L80-.L15
+	.byte	3,41,1,5,11,9
+	.half	.L107-.L15
 	.byte	3,2,1,5,18,9
-	.half	.L79-.L80
+	.half	.L106-.L107
 	.byte	1,5,24,9
-	.half	.L125-.L79
+	.half	.L148-.L106
 	.byte	1,5,36,9
-	.half	.L126-.L125
+	.half	.L149-.L148
 	.byte	1,5,97,9
-	.half	.L127-.L126
+	.half	.L150-.L149
 	.byte	3,1,1,5,10,9
-	.half	.L82-.L127
+	.half	.L109-.L150
 	.byte	1,5,27,9
-	.half	.L128-.L82
+	.half	.L151-.L109
 	.byte	1,5,96,9
-	.half	.L129-.L128
+	.half	.L152-.L151
 	.byte	1,5,1,9
-	.half	.L130-.L129
+	.half	.L153-.L152
 	.byte	3,2,1,7,9
-	.half	.L48-.L130
+	.half	.L48-.L153
 	.byte	0,1,1
-.L122:
-	.sdecl	'.debug_ranges',debug,cluster('_Z15left_motor_initi')
+.L145:
+	.sdecl	'.debug_ranges',debug,cluster('_Z16right_motor_initi')
 	.sect	'.debug_ranges'
 .L47:
 	.word	-1,.L15,0,.L48-.L15,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z19left_motor_set_dutyi')
+	.sdecl	'.debug_info',debug,cluster('_Z20right_motor_set_dutyi')
 	.sect	'.debug_info'
 .L49:
-	.word	268
+	.word	269
 	.half	3
 	.word	.L50
 	.byte	4,1
@@ -1038,52 +1032,52 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L52,.L51
 	.byte	2
-	.word	.L20
+	.word	.L30
 	.byte	3
-	.byte	'_Z19left_motor_set_dutyi',0,1,53,6,1,1,1
-	.word	.L17,.L70,.L16
+	.byte	'_Z20right_motor_set_dutyi',0,1,49,6,1,1,1
+	.word	.L17,.L92,.L16
 	.byte	4
-	.byte	'__67898_30_duty_percent',0,1,53,36
-	.word	.L61,.L71
+	.byte	'__67898_31_duty_percent',0,1,49,37
+	.word	.L86,.L93
 	.byte	5
-	.word	.L17,.L70
+	.word	.L17,.L92
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_Z19left_motor_set_dutyi')
+	.sdecl	'.debug_abbrev',debug,cluster('_Z20right_motor_set_dutyi')
 	.sect	'.debug_abbrev'
 .L50:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_Z19left_motor_set_dutyi')
+	.sdecl	'.debug_line',debug,cluster('_Z20right_motor_set_dutyi')
 	.sect	'.debug_line'
 .L51:
-	.word	.L132-.L131
-.L131:
+	.word	.L155-.L154
+.L154:
 	.half	3
-	.word	.L134-.L133
-.L133:
+	.word	.L157-.L156
+.L156:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/motor.cpp',0,0,0,0,0
-.L134:
+.L157:
 	.byte	5,93,7,0,5,2
 	.word	.L17
-	.byte	3,54,1,5,14,9
-	.half	.L83-.L17
+	.byte	3,50,1,5,14,9
+	.half	.L110-.L17
 	.byte	1,5,92,9
-	.half	.L135-.L83
+	.half	.L158-.L110
 	.byte	1,5,1,9
-	.half	.L136-.L135
+	.half	.L159-.L158
 	.byte	3,2,1,7,9
-	.half	.L53-.L136
+	.half	.L53-.L159
 	.byte	0,1,1
-.L132:
-	.sdecl	'.debug_ranges',debug,cluster('_Z19left_motor_set_dutyi')
+.L155:
+	.sdecl	'.debug_ranges',debug,cluster('_Z20right_motor_set_dutyi')
 	.sect	'.debug_ranges'
 .L52:
 	.word	-1,.L17,0,.L53-.L17,0,0
-	.sdecl	'.debug_info',debug,cluster('_Z15left_motor_stopv')
+	.sdecl	'.debug_info',debug,cluster('_Z24right_motor_set_duty_x10i')
 	.sect	'.debug_info'
 .L54:
-	.word	228
+	.word	279
 	.half	3
 	.word	.L55
 	.byte	4,1
@@ -1092,132 +1086,445 @@ ___Z15left_motor_stopv_function_end:
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L57,.L56
 	.byte	2
-	.word	.L20
+	.word	.L30
 	.byte	3
-	.byte	'_Z15left_motor_stopv',0,1,59,6,1,1,1
-	.word	.L19,.L72,.L18
+	.byte	'_Z24right_motor_set_duty_x10i',0,1,55,6,1,1,1
+	.word	.L19,.L94,.L18
 	.byte	4
-	.word	.L19,.L72
+	.byte	'__67904_35_duty_tenth_percent',0,1,55,41
+	.word	.L86,.L95
+	.byte	5
+	.word	.L19,.L94
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Z24right_motor_set_duty_x10i')
+	.sect	'.debug_abbrev'
+.L55:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Z24right_motor_set_duty_x10i')
+	.sect	'.debug_line'
+.L56:
+	.word	.L161-.L160
+.L160:
+	.half	3
+	.word	.L163-.L162
+.L162:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/motor.cpp',0,0,0,0,0
+.L163:
+	.byte	5,99,7,0,5,2
+	.word	.L19
+	.byte	3,56,1,5,14,9
+	.half	.L111-.L19
+	.byte	1,5,98,9
+	.half	.L164-.L111
+	.byte	1,5,1,9
+	.half	.L165-.L164
+	.byte	3,2,1,7,9
+	.half	.L58-.L165
+	.byte	0,1,1
+.L161:
+	.sdecl	'.debug_ranges',debug,cluster('_Z24right_motor_set_duty_x10i')
+	.sect	'.debug_ranges'
+.L57:
+	.word	-1,.L19,0,.L58-.L19,0,0
+	.sdecl	'.debug_info',debug,cluster('_Z16right_motor_stopv')
+	.sect	'.debug_info'
+.L59:
+	.word	229
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../code/motor.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L62,.L61
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'_Z16right_motor_stopv',0,1,61,6,1,1,1
+	.word	.L21,.L96,.L20
+	.byte	4
+	.word	.L21,.L96
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Z16right_motor_stopv')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Z16right_motor_stopv')
+	.sect	'.debug_line'
+.L61:
+	.word	.L167-.L166
+.L166:
+	.half	3
+	.word	.L169-.L168
+.L168:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/motor.cpp',0,0,0,0,0
+.L169:
+	.byte	5,14,7,0,5,2
+	.word	.L21
+	.byte	3,62,1,5,31,9
+	.half	.L170-.L21
+	.byte	1,5,1,9
+	.half	.L171-.L170
+	.byte	3,1,1,7,9
+	.half	.L63-.L171
+	.byte	0,1,1
+.L167:
+	.sdecl	'.debug_ranges',debug,cluster('_Z16right_motor_stopv')
+	.sect	'.debug_ranges'
+.L62:
+	.word	-1,.L21,0,.L63-.L21,0,0
+	.sdecl	'.debug_info',debug,cluster('_Z15left_motor_initi')
+	.sect	'.debug_info'
+.L64:
+	.word	264
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../code/motor.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L67,.L66
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'_Z15left_motor_initi',0,1,66,6,1,1,1
+	.word	.L23,.L97,.L22
+	.byte	4
+	.byte	'__67915_26_duty_percent',0,1,66,32
+	.word	.L86,.L98
+	.byte	5
+	.word	.L23,.L97
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Z15left_motor_initi')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Z15left_motor_initi')
+	.sect	'.debug_line'
+.L66:
+	.word	.L173-.L172
+.L172:
+	.half	3
+	.word	.L175-.L174
+.L174:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/motor.cpp',0,0,0,0,0
+.L175:
+	.byte	5,6,7,0,5,2
+	.word	.L23
+	.byte	3,193,0,1,5,11,9
+	.half	.L113-.L23
+	.byte	3,2,1,5,18,9
+	.half	.L112-.L113
+	.byte	1,5,24,9
+	.half	.L176-.L112
+	.byte	1,5,36,9
+	.half	.L177-.L176
+	.byte	1,5,97,9
+	.half	.L178-.L177
+	.byte	3,1,1,5,10,9
+	.half	.L115-.L178
+	.byte	1,5,27,9
+	.half	.L179-.L115
+	.byte	1,5,96,9
+	.half	.L180-.L179
+	.byte	1,5,1,9
+	.half	.L181-.L180
+	.byte	3,2,1,7,9
+	.half	.L68-.L181
+	.byte	0,1,1
+.L173:
+	.sdecl	'.debug_ranges',debug,cluster('_Z15left_motor_initi')
+	.sect	'.debug_ranges'
+.L67:
+	.word	-1,.L23,0,.L68-.L23,0,0
+	.sdecl	'.debug_info',debug,cluster('_Z19left_motor_set_dutyi')
+	.sect	'.debug_info'
+.L69:
+	.word	268
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'../code/motor.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L72,.L71
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'_Z19left_motor_set_dutyi',0,1,73,6,1,1,1
+	.word	.L25,.L99,.L24
+	.byte	4
+	.byte	'__67922_30_duty_percent',0,1,73,36
+	.word	.L86,.L100
+	.byte	5
+	.word	.L25,.L99
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Z19left_motor_set_dutyi')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Z19left_motor_set_dutyi')
+	.sect	'.debug_line'
+.L71:
+	.word	.L183-.L182
+.L182:
+	.half	3
+	.word	.L185-.L184
+.L184:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/motor.cpp',0,0,0,0,0
+.L185:
+	.byte	5,93,7,0,5,2
+	.word	.L25
+	.byte	3,202,0,1,5,14,9
+	.half	.L116-.L25
+	.byte	1,5,92,9
+	.half	.L186-.L116
+	.byte	1,5,1,9
+	.half	.L187-.L186
+	.byte	3,2,1,7,9
+	.half	.L73-.L187
+	.byte	0,1,1
+.L183:
+	.sdecl	'.debug_ranges',debug,cluster('_Z19left_motor_set_dutyi')
+	.sect	'.debug_ranges'
+.L72:
+	.word	-1,.L25,0,.L73-.L25,0,0
+	.sdecl	'.debug_info',debug,cluster('_Z23left_motor_set_duty_x10i')
+	.sect	'.debug_info'
+.L74:
+	.word	278
+	.half	3
+	.word	.L75
+	.byte	4,1
+	.byte	'../code/motor.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L77,.L76
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'_Z23left_motor_set_duty_x10i',0,1,79,6,1,1,1
+	.word	.L27,.L101,.L26
+	.byte	4
+	.byte	'__67928_34_duty_tenth_percent',0,1,79,40
+	.word	.L86,.L102
+	.byte	5
+	.word	.L27,.L101
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_Z23left_motor_set_duty_x10i')
+	.sect	'.debug_abbrev'
+.L75:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_Z23left_motor_set_duty_x10i')
+	.sect	'.debug_line'
+.L76:
+	.word	.L189-.L188
+.L188:
+	.half	3
+	.word	.L191-.L190
+.L190:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/motor.cpp',0,0,0,0,0
+.L191:
+	.byte	5,99,7,0,5,2
+	.word	.L27
+	.byte	3,208,0,1,5,14,9
+	.half	.L117-.L27
+	.byte	1,5,98,9
+	.half	.L192-.L117
+	.byte	1,5,1,9
+	.half	.L193-.L192
+	.byte	3,2,1,7,9
+	.half	.L78-.L193
+	.byte	0,1,1
+.L189:
+	.sdecl	'.debug_ranges',debug,cluster('_Z23left_motor_set_duty_x10i')
+	.sect	'.debug_ranges'
+.L77:
+	.word	-1,.L27,0,.L78-.L27,0,0
+	.sdecl	'.debug_info',debug,cluster('_Z15left_motor_stopv')
+	.sect	'.debug_info'
+.L79:
+	.word	228
+	.half	3
+	.word	.L80
+	.byte	4,1
+	.byte	'../code/motor.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L82,.L81
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'_Z15left_motor_stopv',0,1,85,6,1,1,1
+	.word	.L29,.L103,.L28
+	.byte	4
+	.word	.L29,.L103
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('_Z15left_motor_stopv')
 	.sect	'.debug_abbrev'
-.L55:
+.L80:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('_Z15left_motor_stopv')
 	.sect	'.debug_line'
-.L56:
-	.word	.L138-.L137
-.L137:
+.L81:
+	.word	.L195-.L194
+.L194:
 	.half	3
-	.word	.L140-.L139
-.L139:
+	.word	.L197-.L196
+.L196:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/motor.cpp',0,0,0,0,0
-.L140:
+.L197:
 	.byte	5,14,7,0,5,2
-	.word	.L19
-	.byte	3,60,1,5,31,9
-	.half	.L141-.L19
+	.word	.L29
+	.byte	3,214,0,1,5,31,9
+	.half	.L198-.L29
 	.byte	1,5,1,9
-	.half	.L142-.L141
+	.half	.L199-.L198
 	.byte	3,1,1,7,9
-	.half	.L58-.L142
+	.half	.L83-.L199
 	.byte	0,1,1
-.L138:
+.L195:
 	.sdecl	'.debug_ranges',debug,cluster('_Z15left_motor_stopv')
 	.sect	'.debug_ranges'
-.L57:
-	.word	-1,.L19,0,.L58-.L19,0,0
+.L82:
+	.word	-1,.L29,0,.L83-.L29,0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z15left_motor_initi')
 	.sect	'.debug_loc'
-.L14:
-	.word	-1,.L15,0,.L68-.L15
+.L22:
+	.word	-1,.L23,0,.L97-.L23
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L69:
-	.word	-1,.L15,0,.L79-.L15
+.L98:
+	.word	-1,.L23,0,.L112-.L23
 	.half	1
 	.byte	84
-	.word	.L80-.L15,.L68-.L15
+	.word	.L113-.L23,.L97-.L23
 	.half	1
 	.byte	95
-	.word	.L81-.L15,.L82-.L15
+	.word	.L114-.L23,.L115-.L23
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z15left_motor_stopv')
 	.sect	'.debug_loc'
-.L18:
-	.word	-1,.L19,0,.L72-.L19
+.L28:
+	.word	-1,.L29,0,.L103-.L29
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z16right_motor_initi')
 	.sect	'.debug_loc'
-.L8:
-	.word	-1,.L9,0,.L63-.L9
+.L14:
+	.word	-1,.L15,0,.L90-.L15
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L64:
-	.word	-1,.L9,0,.L74-.L9
+.L91:
+	.word	-1,.L15,0,.L106-.L15
 	.half	1
 	.byte	84
-	.word	.L75-.L9,.L63-.L9
+	.word	.L107-.L15,.L90-.L15
 	.half	1
 	.byte	95
-	.word	.L76-.L9,.L77-.L9
+	.word	.L108-.L15,.L109-.L15
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z16right_motor_stopv')
 	.sect	'.debug_loc'
-.L12:
-	.word	-1,.L13,0,.L67-.L13
+.L20:
+	.word	-1,.L21,0,.L96-.L21
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z19left_motor_set_dutyi')
 	.sect	'.debug_loc'
-.L16:
-	.word	-1,.L17,0,.L70-.L17
+.L24:
+	.word	-1,.L25,0,.L99-.L25
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L71:
-	.word	-1,.L17,0,.L83-.L17
+.L100:
+	.word	-1,.L25,0,.L116-.L25
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_Z20right_motor_set_dutyi')
 	.sect	'.debug_loc'
-.L10:
-	.word	-1,.L11,0,.L65-.L11
+.L16:
+	.word	-1,.L17,0,.L92-.L17
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L66:
-	.word	-1,.L11,0,.L78-.L11
+.L93:
+	.word	-1,.L17,0,.L110-.L17
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_Z23left_motor_set_duty_x10i')
+	.sect	'.debug_loc'
+.L26:
+	.word	-1,.L27,0,.L101-.L27
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L102:
+	.word	-1,.L27,0,.L117-.L27
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_Z24right_motor_set_duty_x10i')
+	.sect	'.debug_loc'
+.L18:
+	.word	-1,.L19,0,.L94-.L19
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L95:
+	.word	-1,.L19,0,.L111-.L19
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
 	.sect	'.debug_loc'
-.L6:
-	.word	-1,.L7,0,.L60-.L7
+.L10:
+	.word	-1,.L11,0,.L85-.L11
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L62:
-	.word	-1,.L7,0,.L73-.L7
+.L87:
+	.word	-1,.L11,0,.L104-.L11
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi')
+	.sect	'.debug_loc'
+.L12:
+	.word	-1,.L13,0,.L88-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L89:
+	.word	-1,.L13,0,.L105-.L13
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L143:
+.L200:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -1225,30 +1532,43 @@ ___Z15left_motor_stopv_function_end:
 	.sdecl	'.debug_frame',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb21motor_percent_to_dutyEi')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L143,.L7,.L60-.L7
+	.word	.L200,.L11,.L85-.L11
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('_ZN30_INTERNAL_9_motor_cpp_47ce21bb27motor_tenth_percent_to_dutyEi')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L200,.L13,.L88-.L13
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('_Z16right_motor_initi')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L143,.L9,.L63-.L9
+	.word	.L200,.L15,.L90-.L15
 	.sdecl	'.debug_frame',debug,cluster('_Z20right_motor_set_dutyi')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L143,.L11,.L65-.L11
+	.word	.L200,.L17,.L92-.L17
+	.sdecl	'.debug_frame',debug,cluster('_Z24right_motor_set_duty_x10i')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L200,.L19,.L94-.L19
 	.sdecl	'.debug_frame',debug,cluster('_Z16right_motor_stopv')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L143,.L13,.L67-.L13
+	.word	.L200,.L21,.L96-.L21
 	.sdecl	'.debug_frame',debug,cluster('_Z15left_motor_initi')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L143,.L15,.L68-.L15
+	.word	.L200,.L23,.L97-.L23
 	.sdecl	'.debug_frame',debug,cluster('_Z19left_motor_set_dutyi')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L143,.L17,.L70-.L17
+	.word	.L200,.L25,.L99-.L25
+	.sdecl	'.debug_frame',debug,cluster('_Z23left_motor_set_duty_x10i')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L200,.L27,.L101-.L27
 	.sdecl	'.debug_frame',debug,cluster('_Z15left_motor_stopv')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L143,.L19,.L72-.L19
+	.word	.L200,.L29,.L103-.L29
 	; Module end

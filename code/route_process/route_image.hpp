@@ -14,14 +14,10 @@ typedef struct
     uint8 left_edge[MT9V03X_H];
     uint8 right_edge[MT9V03X_H];
     uint8 center_line[MT9V03X_H];
-    uint8 track_width[MT9V03X_H];
     uint8 edge_flags[MT9V03X_H];
 
     int16 steering_error;
-    int16 ramp_width_delta;
     uint8 track_valid;
-    uint8 ramp_state;
-    uint8 ramp_active;
 } route_image_result_t;
 
 void route_image_reset(route_image_result_t *result);

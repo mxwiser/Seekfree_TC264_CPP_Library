@@ -6,10 +6,13 @@
 #define ROUTE_EDGE_LEFT_FOUND   (0x01U)
 #define ROUTE_EDGE_RIGHT_FOUND  (0x02U)
 
-static uint8 ramp_confirm_count = 0;
-static uint8 ramp_timeout_count = 0;
-static uint8 ramp_exit_count = 0;
-
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     将整数限制在指定的闭区间内
+// 参数说明     value           待限制的数值
+// 参数说明     minimum         允许的最小值
+// 参数说明     maximum         允许的最大值
+// 返回参数     int             限幅后的数值
+//-------------------------------------------------------------------------------------------------------------------
 static int route_limit_int(int value, int minimum, int maximum)
 {
     if (value < minimum)
@@ -23,6 +26,13 @@ static int route_limit_int(int value, int minimum, int maximum)
     return value;
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     计算赛道内外两个像素的归一化亮度对比度
+// 参数说明     inside          赛道内部像素灰度值
+// 参数说明     outside         赛道外部像素灰度值
+// 返回参数     int             归一化对比度，正值表示内部比外部更亮
+// 备注信息     使用差值除以灰度和，可减小整体环境亮度变化造成的影响
+//-------------------------------------------------------------------------------------------------------------------
 static int route_contrast(uint8 inside, uint8 outside)
 {
     const int sum = (int)inside + (int)outside;
@@ -33,6 +43,13 @@ static int route_contrast(uint8 inside, uint8 outside)
     return ((int)inside - (int)outside) * 200 / sum;
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     根据图像底部若干行的平均灰度生成白色赛道判定阈值
+// 参数说明     image           MT9V03X 灰度图像首地址
+// 参数说明     result          图像处理结果，写入 white_min 和 white_max
+// 返回参数     void
+// 备注信息     阈值会被限制在 ROUTE_BLACK_FLOOR 到 255 之间
+//-------------------------------------------------------------------------------------------------------------------
 static void route_get_white_reference(const uint8 *image,
     route_image_result_t *result)
 {
@@ -58,6 +75,13 @@ static void route_get_white_reference(const uint8 *image,
         ROUTE_BLACK_FLOOR, 255);
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     在图像中寻找最适合作为边线追踪起点的参考列和参考行
+// 参数说明     image           MT9V03X 灰度图像首地址
+// 参数说明     result          图像处理结果，读取白色阈值并写入参考坐标
+// 返回参数     void
+// 备注信息     从图像底部向上寻找灰度突变；候选位置相同时优先选择靠近图像中心的列
+//-------------------------------------------------------------------------------------------------------------------
 static void route_find_reference_column(const uint8 *image,
     route_image_result_t *result)
 {
@@ -113,6 +137,14 @@ static void route_find_reference_column(const uint8 *image,
         ROUTE_CONTRAST_OFFSET, MT9V03X_H - 20);
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     在当前图像行内寻找一个属于白色赛道区域的搜索种子点
+// 参数说明     line            当前图像行的首地址
+// 参数说明     predicted       根据上一行中心位置预测的种子列
+// 参数说明     white_min       白色赛道的最低灰度阈值
+// 返回参数     int             找到时返回种子列，未找到时返回 -1
+// 备注信息     先检查预测位置，再在 ROUTE_SEED_SEARCH_RANGE 范围内向左右交替搜索
+//-------------------------------------------------------------------------------------------------------------------
 static int route_find_white_seed(const uint8 *line, int predicted,
     uint8 white_min)
 {
@@ -140,6 +172,14 @@ static int route_find_white_seed(const uint8 *line, int predicted,
     return -1;
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     从白色种子点向左搜索赛道左边界
+// 参数说明     line            当前图像行的首地址
+// 参数说明     seed            当前行的白色种子列
+// 参数说明     result          图像处理结果，提供动态白色阈值
+// 参数说明     found           输出边界有效标志，1 表示找到，0 表示未找到
+// 返回参数     int             左边界所在列；未找到时返回图像最左列
+//-------------------------------------------------------------------------------------------------------------------
 static int route_find_left_edge(const uint8 *line, int seed,
     const route_image_result_t *result, uint8 *found)
 {
@@ -165,6 +205,14 @@ static int route_find_left_edge(const uint8 *line, int seed,
     return 0;
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     从白色种子点向右搜索赛道右边界
+// 参数说明     line            当前图像行的首地址
+// 参数说明     seed            当前行的白色种子列
+// 参数说明     result          图像处理结果，提供动态白色阈值
+// 参数说明     found           输出边界有效标志，1 表示找到，0 表示未找到
+// 返回参数     int             右边界所在列；未找到时返回图像最右列
+//-------------------------------------------------------------------------------------------------------------------
 static int route_find_right_edge(const uint8 *line, int seed,
     const route_image_result_t *result, uint8 *found)
 {
@@ -191,6 +239,13 @@ static int route_find_right_edge(const uint8 *line, int seed,
     return MT9V03X_W - 1;
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     从图像底部向参考行逐行追踪左右边线并计算赛道中心线
+// 参数说明     image           MT9V03X 灰度图像首地址
+// 参数说明     result          写入左右边线、中心线和边线有效标志
+// 返回参数     void
+// 备注信息     只检测到单侧边线时，使用上一有效赛道宽度估算中心位置
+//-------------------------------------------------------------------------------------------------------------------
 static void route_trace_edges(const uint8 *image,
     route_image_result_t *result)
 {
@@ -248,12 +303,16 @@ static void route_trace_edges(const uint8 *image,
 
         center = route_limit_int(center, 0, MT9V03X_W - 1);
         result->center_line[row] = (uint8)center;
-        result->track_width[row] = (uint8)route_limit_int(right - left,
-            0, MT9V03X_W - 1);
         predicted_center = center;
     }
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     根据多行赛道中心计算用于舵机控制的横向偏差
+// 参数说明     result          读取中心线和边线标志，写入 steering_error 与 track_valid
+// 返回参数     void
+// 备注信息     对较远处的图像行赋予更大权重，使车辆能够在进入弯道前提前转向
+//-------------------------------------------------------------------------------------------------------------------
 static void route_calculate_steering_error(route_image_result_t *result)
 {
     int weighted_error = 0;
@@ -262,12 +321,12 @@ static void route_calculate_steering_error(route_image_result_t *result)
     const int image_center = MT9V03X_W / 2;
     int first_row = result->reference_row + 5;
 
-    if (first_row < 30)
+    if (first_row < 25)
     {
-        first_row = 30;
+        first_row = 25;
     }
 
-    for (int row = first_row; row <= 100 && row < MT9V03X_H;
+    for (int row = first_row; row <= 90 && row < MT9V03X_H;
         row += 5)
     {
         if (result->edge_flags[row] == 0)
@@ -276,7 +335,7 @@ static void route_calculate_steering_error(route_image_result_t *result)
         }
 
         // Far rows receive more weight so the vehicle turns before the bend.
-        const int weight = 1 + (100 - row) / 20;
+        const int weight = 1 + (90 - row) / 10;
         weighted_error += ((int)result->center_line[row] - image_center)
             * weight;
         weight_sum += weight;
@@ -291,96 +350,12 @@ static void route_calculate_steering_error(route_image_result_t *result)
     }
 }
 
-static void route_update_ramp_state(route_image_result_t *result)
-{
-    const uint8 both_edges = ROUTE_EDGE_LEFT_FOUND
-        | ROUTE_EDGE_RIGHT_FOUND;
-    if (result->edge_flags[40] != both_edges
-        || result->edge_flags[50] != both_edges)
-    {
-        result->ramp_active = (result->ramp_state >= 1
-            && result->ramp_state <= 4) ? 1U : 0U;
-        return;
-    }
-
-    const int delta = (int)result->track_width[50]
-        - (int)result->track_width[40];
-    result->ramp_width_delta = (int16)delta;
-
-    switch (result->ramp_state)
-    {
-        case 0:
-            if (delta > 3 && delta < 9 && result->track_valid)
-            {
-                if (++ramp_confirm_count > 5)
-                {
-                    result->ramp_state = 1;
-                    ramp_confirm_count = 0;
-                    ramp_timeout_count = 0;
-                }
-            }
-            else
-            {
-                ramp_confirm_count = 0;
-            }
-            break;
-
-        case 1:
-            if (++ramp_timeout_count >= 100)
-            {
-                result->ramp_state = 0;
-                ramp_timeout_count = 0;
-            }
-            else if (delta > 15)
-            {
-                result->ramp_state = 2;
-            }
-            break;
-
-        case 2:
-            if (delta > 5 && delta < 9)
-            {
-                result->ramp_state = 3;
-            }
-            break;
-
-        case 3:
-            if (delta > 10)
-            {
-                result->ramp_state = 4;
-                ramp_confirm_count = 0;
-            }
-            break;
-
-        case 4:
-            if (delta > 10)
-            {
-                if (++ramp_confirm_count > 5)
-                {
-                    result->ramp_state = 5;
-                    ramp_confirm_count = 0;
-                    ramp_exit_count = 0;
-                }
-            }
-            else
-            {
-                ramp_confirm_count = 0;
-            }
-            break;
-
-        default:
-            if (++ramp_exit_count >= 20)
-            {
-                result->ramp_state = 0;
-                ramp_exit_count = 0;
-            }
-            break;
-    }
-
-    result->ramp_active = (result->ramp_state >= 1
-        && result->ramp_state <= 4) ? 1U : 0U;
-}
-
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     初始化图像处理结果
+// 参数说明     result          需要初始化的图像处理结果结构体
+// 返回参数     void
+// 备注信息     应在首次处理摄像头图像前调用
+//-------------------------------------------------------------------------------------------------------------------
 void route_image_reset(route_image_result_t *result)
 {
     result->white_min = ROUTE_BLACK_FLOOR;
@@ -388,47 +363,40 @@ void route_image_reset(route_image_result_t *result)
     result->reference_col = MT9V03X_W / 2;
     result->reference_row = MT9V03X_H - 1;
     result->steering_error = 0;
-    result->ramp_width_delta = 0;
     result->track_valid = 0;
-    result->ramp_state = 0;
-    result->ramp_active = 0;
 
     for (int row = 0; row < MT9V03X_H; ++row)
     {
         result->left_edge[row] = 0;
         result->right_edge[row] = MT9V03X_W - 1;
         result->center_line[row] = MT9V03X_W / 2;
-        result->track_width[row] = 0;
         result->edge_flags[row] = 0;
     }
-
-    ramp_confirm_count = 0;
-    ramp_timeout_count = 0;
-    ramp_exit_count = 0;
 }
 
+//-------------------------------------------------------------------------------------------------------------------
+// 函数简介     完成一帧赛道图像的全部处理流程
+// 参数说明     image           MT9V03X 灰度图像首地址
+// 参数说明     result          保存阈值、边线、中心线和转向偏差
+// 返回参数     void
+// 备注信息     依次执行动态阈值、参考点搜索、边线追踪和转向偏差计算
+//-------------------------------------------------------------------------------------------------------------------
 void route_image_process(const uint8 *image, route_image_result_t *result)
 {
-    const uint8 previous_ramp_state = result->ramp_state;
-
     for (int row = 0; row < MT9V03X_H; ++row)
     {
         result->left_edge[row] = 0;
         result->right_edge[row] = MT9V03X_W - 1;
         result->center_line[row] = MT9V03X_W / 2;
-        result->track_width[row] = 0;
         result->edge_flags[row] = 0;
     }
     result->steering_error = 0;
-    result->ramp_width_delta = 0;
     result->track_valid = 0;
-    result->ramp_state = previous_ramp_state;
 
     route_get_white_reference(image, result);
     route_find_reference_column(image, result);
     route_trace_edges(image, result);
     route_calculate_steering_error(result);
-    route_update_ramp_state(result);
 }
 
 #pragma section all restore

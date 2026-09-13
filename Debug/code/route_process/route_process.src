@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc23112c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\route_process -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/route_process/route_process.src cc23112a.ic"
+	.compiler_invocation	"ctc -f cc18312c -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\route_process -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o code/route_process/route_process.src cc18312a.ic"
 	.compiler_name		"ctc"
 	;source	'../code/route_process/route_process.cpp'
 
@@ -12,32 +12,32 @@ $TC16X
 	.align	2
 	
 ; Function _ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
-.L32:
+.L35:
 _ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii:	.type	func
-	jge	d4,#0,.L2
-.L211:
+	jge	d4,d5,.L2
+.L231:
 	mov	d2,d5
-.L180:
+.L190:
 	j	.L3
 .L2:
 	jge	d6,d4,.L4
-.L212:
+.L232:
 	mov	d2,d6
-.L181:
+.L191:
 	j	.L5
 .L4:
 	mov	d2,d4
-.L182:
+.L192:
 	j	.L6
 .L6:
 .L5:
 .L3:
 	ret
-.L139:
+.L143:
 	
 ___ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii_function_end:
 	.size	_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii,___ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii_function_end-_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
-.L61:
+.L66:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
@@ -45,38 +45,38 @@ ___ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii_function_end
 	.align	2
 	
 ; Function _ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff
-.L34:
+.L37:
 _ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff:	.type	func
 	cmp.f	d15,d4,d5
 	extr.u	d15,d15,#0,#1
-.L217:
+.L237:
 	jeq	d15,#0,.L7
-.L218:
+.L238:
 	mov	d2,d5
-.L183:
+.L193:
 	j	.L8
 .L7:
 	cmp.f	d15,d4,d6
 	extr.u	d15,d15,#2,#1
-.L219:
+.L239:
 	jeq	d15,#0,.L9
-.L220:
+.L240:
 	mov	d2,d6
-.L184:
+.L194:
 	j	.L10
 .L9:
 	mov	d2,d4
-.L185:
+.L195:
 	j	.L11
 .L11:
 .L10:
 .L8:
 	ret
-.L144:
+.L148:
 	
 ___ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff_function_end:
 	.size	_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff,___ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff_function_end-_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff
-.L66:
+.L71:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
@@ -84,26 +84,101 @@ ___ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff_function_e
 	.align	2
 	
 ; Function _ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L36:
+.L39:
 _ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t:	.type	func
 	mov	d15,#0
-.L225:
+.L245:
 	st.w	[a4],d15
-.L226:
+.L246:
 	mov	d15,#0
-.L227:
+.L247:
 	st.w	[a4]4,d15
-.L228:
-	mov	d15,#0
-.L229:
-	st.w	[a4]8,d15
-.L230:
+.L248:
 	ret
-.L148:
+.L152:
 	
 ___ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t_function_end:
 	.size	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t,___ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t_function_end-_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L71:
+.L76:
+	; End of function
+	
+	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii')
+	.sect	'.text.cpu0_dsram'
+	.align	2
+	
+; Function _ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii
+.L41:
+_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii:	.type	func
+	mov.aa	a15,a4
+.L199:
+	jge	d5,#0,.L12
+.L253:
+	rsub	d5,#0
+.L254:
+	j	.L13
+.L12:
+.L13:
+	itof	d15,d4
+.L255:
+	itof	d0,d5
+.L256:
+	sub.f	d8,d15,d0
+.L200:
+	mov	d0,#4719
+	addih	d0,d0,#15107
+.L257:
+	ld.w	d1,[a15]
+.L258:
+	madd.f	d0,d1,d8,d0
+	st.w	[a15],d0
+.L259:
+	ld.w	d15,[a15]4
+.L260:
+	sub.f	d0,d8,d15
+.L261:
+	mov	d1,#0
+.L262:
+	mov.u	d2,#39846
+	addih	d2,d2,#15300
+.L263:
+	ld.w	d15,[a15]
+.L264:
+	madd.f	d15,d15,d8,d2
+.L265:
+	madd.f	d15,d15,d0,d1
+.L201:
+	mov	d5,#0
+.L197:
+	movh	d6,#17056
+	mov	d4,d15
+.L198:
+	call	_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff
+.L196:
+	ld.w	d0,[a15]
+.L266:
+	sub.f	d15,d2,d15
+.L202:
+	add.f	d15,d0,d15
+	st.w	[a15],d15
+.L267:
+	st.w	[a15]4,d8
+.L268:
+	movh	d15,#16672
+.L269:
+	movh	d0,#16128
+.L270:
+	madd.f	d15,d0,d2,d15
+.L271:
+	ftoiz	d2,d15
+.L203:
+	j	.L14
+.L14:
+	ret
+.L155:
+	
+___ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii_function_end:
+	.size	_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii,___ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii_function_end-_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii
+.L81:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
@@ -111,159 +186,111 @@ ___ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_s
 	.align	2
 	
 ; Function _ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv
-.L38:
+.L43:
 _ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv:	.type	func
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L235:
-	ld.bu	d15,[a15]608
-.L236:
-	jne	d15,#0,.L12
-.L237:
+.L276:
+	ld.bu	d15,[a15]486
+.L277:
+	jne	d15,#0,.L15
+.L278:
 	movh.a	a15,#@his(route_track_valid)
 	lea	a15,[a15]@los(route_track_valid)
-.L238:
+.L279:
 	mov	d15,#0
-.L239:
+.L280:
 	st.b	[a15],d15
-.L240:
+.L281:
 	movh.a	a15,#@his(route_steering_permille)
 	lea	a15,[a15]@los(route_steering_permille)
-.L241:
+.L282:
 	mov	d15,#0
-.L242:
+.L283:
 	st.h	[a15],d15
-.L243:
+.L284:
 	movh.a	a15,#@his(route_last_image_error)
 	lea	a15,[a15]@los(route_last_image_error)
-.L244:
+.L285:
 	mov	d15,#0
-.L245:
+.L286:
 	st.w	[a15],d15
-.L246:
-	movh.a	a15,#@his(route_filtered_steering)
-	lea	a15,[a15]@los(route_filtered_steering)
-.L247:
-	mov	d15,#0
-.L248:
-	st.w	[a15],d15
-.L249:
+.L287:
 	mov	d4,#0
 	call	_Z9car_anglef
-.L250:
-	j	.L13
-.L12:
+.L288:
+	j	.L16
+.L15:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L251:
-	ld.h	d15,[a15]604
-.L252:
-	itof	d8,d15
-.L186:
-	mov.u	d15,#52429
-	addih	d15,d15,#15564
-.L253:
+.L289:
+	ld.h	d15,[a15]484
+.L290:
+	itof	d15,d15
+.L204:
+	mov.u	d0,#49807
+	addih	d0,d0,#15477
+.L291:
 	movh.a	a15,#@his(route_last_image_error)
 	lea	a15,[a15]@los(route_last_image_error)
-	ld.w	d0,[a15]
-.L254:
-	sub.f	d0,d8,d0
-.L255:
-	mov.u	d1,#39846
-	addih	d1,d1,#15428
-.L256:
-	mul.f	d0,d0,d1
-.L257:
-	madd.f	d15,d0,d8,d15
-.L187:
-	movh.a	a15,#@his(route_filtered_steering)
-	lea	a15,[a15]@los(route_filtered_steering)
-.L258:
-	movh.a	a2,#@his(route_filtered_steering)
-	lea	a2,[a2]@los(route_filtered_steering)
-	ld.w	d0,[a2]
-.L259:
-	sub.f	d15,d15,d0
-.L188:
-	mov	d0,#13107
-	addih	d0,d0,#16051
-.L260:
-	movh.a	a2,#@his(route_filtered_steering)
-	lea	a2,[a2]@los(route_filtered_steering)
-	ld.w	d1,[a2]
-.L261:
-	madd.f	d15,d1,d15,d0
-	st.w	[a15],d15
-.L262:
-	movh.a	a15,#@his(route_filtered_steering)
-	lea	a15,[a15]@los(route_filtered_steering)
-.L263:
-	movh.a	a2,#@his(route_filtered_steering)
-	lea	a2,[a2]@los(route_filtered_steering)
-	ld.w	d4,[a2]
-.L264:
+	ld.w	d1,[a15]
+.L292:
+	sub.f	d1,d15,d1
+.L293:
+	mov.u	d2,#55050
+	addih	d2,d2,#15523
+.L294:
+	mul.f	d1,d1,d2
+.L295:
+	madd.f	d4,d1,d15,d0
+.L296:
 	movh	d5,#49024
-.L265:
+.L297:
 	movh	d6,#16256
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff
-.L266:
-	st.w	[a15],d2
-.L267:
+.L206:
+	mov	d8,d2
+.L208:
 	movh.a	a15,#@his(route_last_image_error)
 	lea	a15,[a15]@los(route_last_image_error)
-.L268:
-	st.w	[a15],d8
-.L269:
+.L298:
+	st.w	[a15],d15
+.L299:
 	movh.a	a15,#@his(route_steering_permille)
 	lea	a15,[a15]@los(route_steering_permille)
-.L270:
-	movh.a	a2,#@his(route_filtered_steering)
-	lea	a2,[a2]@los(route_filtered_steering)
-	ld.w	d15,[a2]
-.L271:
-	movh	d0,#17530
-.L272:
-	mul.f	d4,d15,d0
-.L273:
+.L300:
+	movh	d15,#17530
+.L205:
+	mul.f	d4,d8,d15
+.L301:
 	call	__f_ftos
-.L274:
+.L207:
 	st.h	[a15],d2
-.L275:
+.L302:
 	movh.a	a15,#@his(route_track_valid)
 	lea	a15,[a15]@los(route_track_valid)
-.L276:
+.L303:
 	mov	d15,#1
-.L277:
+.L304:
 	st.b	[a15],d15
-.L278:
-	movh.a	a15,#@his(route_ramp_active)
-	lea	a15,[a15]@los(route_ramp_active)
-.L279:
-	movh.a	a2,#@his(route_image_result)
-	lea	a2,[a2]@los(route_image_result)
-.L280:
-	ld.bu	d15,[a2]610
-.L281:
-	st.b	[a15],d15
-.L282:
+.L305:
 	movh.a	a15,#@his(route_enabled)
 	lea	a15,[a15]@los(route_enabled)
 	ld.bu	d15,[a15]
-.L283:
-	jeq	d15,#0,.L14
-.L284:
-	movh.a	a15,#@his(route_filtered_steering)
-	lea	a15,[a15]@los(route_filtered_steering)
-	ld.w	d4,[a15]
+.L306:
+	jeq	d15,#0,.L17
+.L307:
+	mov	d4,d8
+.L209:
 	call	_Z9car_anglef
-.L14:
-.L13:
+.L17:
+.L16:
 	ret
-.L151:
+.L162:
 	
 ___ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv_function_end:
 	.size	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv,___ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv_function_end-_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv
-.L76:
+.L86:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
@@ -271,224 +298,200 @@ ___ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv_function
 	.align	2
 	
 ; Function _ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv
-.L40:
+.L45:
 _ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv:	.type	func
 	sub.a	a10,#16
-.L189:
+.L210:
 	mov	d15,#188
 	st.h	[a10],d15
-.L289:
+.L312:
 	mov	d15,#120
 	st.h	[a10]4,d15
-.L290:
+.L313:
 	mov	d15,#0
 	st.b	[a10]8,d15
-.L291:
+.L314:
 	mov	d4,#0
-.L292:
+.L315:
 	mov	d5,#0
-.L293:
+.L316:
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L294:
+.L317:
 	mov	d6,#188
-.L295:
+.L318:
 	mov	d7,#120
 	call	ips200_show_gray_image
-.L155:
+.L166:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L296:
+.L319:
 	ld.bu	d15,[a15]3
-.L190:
-	j	.L15
-.L16:
+.L211:
+	j	.L18
+.L19:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L297:
+.L320:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d0,[a15]484
-.L298:
-	jz.t	d0:0,.L17
-.L299:
+	ld.bu	d0,[a15]364
+.L321:
+	jz.t	d0:0,.L20
+.L322:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L300:
+.L323:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d4,[a15]4
-.L301:
+.L324:
 	extr.u	d5,d15,#0,#16
-.L302:
+.L325:
 	mov.u	d6,#63488
 	call	ips200_draw_point
-.L17:
+.L20:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L303:
+.L326:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d0,[a15]484
-.L304:
-	jz.t	d0:1,.L18
-.L305:
+	ld.bu	d0,[a15]364
+.L327:
+	jz.t	d0:1,.L21
+.L328:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L306:
+.L329:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d4,[a15]124
-.L307:
+.L330:
 	extr.u	d5,d15,#0,#16
-.L308:
+.L331:
 	mov.u	d6,#63488
 	call	ips200_draw_point
-.L18:
+.L21:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L309:
+.L332:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d0,[a15]484
-.L310:
-	jeq	d0,#0,.L19
-.L311:
+	ld.bu	d0,[a15]364
+.L333:
+	jeq	d0,#0,.L22
+.L334:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L312:
+.L335:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d4,[a15]244
-.L313:
+.L336:
 	extr.u	d5,d15,#0,#16
-.L314:
+.L337:
 	mov	d6,#2016
 	call	ips200_draw_point
-.L19:
+.L22:
 	add	d15,#2
-.L15:
+.L18:
 	mov	d0,#120
-.L315:
-	jlt	d15,d0,.L16
-.L156:
+.L338:
+	jlt	d15,d0,.L19
+.L167:
 	mov	d4,#0
-.L316:
+.L339:
 	mov	d5,#128
-.L317:
+.L340:
 	movh.a	a4,#@his(.1.str)
 	lea	a4,[a4]@los(.1.str)
-.L318:
+.L341:
 	call	ips200_show_string
-.L319:
+.L342:
 	mov	d4,#80
-.L320:
+.L343:
 	mov	d5,#128
-.L321:
+.L344:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L322:
-	ld.h	d6,[a15]604
-.L323:
+.L345:
+	ld.h	d6,[a15]484
+.L346:
 	mov	d7,#4
 	call	ips200_show_int
-.L324:
+.L347:
 	mov	d4,#0
-.L325:
+.L348:
 	mov	d5,#144
-.L326:
+.L349:
 	movh.a	a4,#@his(.2.str)
 	lea	a4,[a4]@los(.2.str)
-.L327:
+.L350:
 	call	ips200_show_string
-.L328:
+.L351:
 	mov	d4,#64
-.L329:
+.L352:
 	mov	d5,#144
-.L330:
+.L353:
 	movh.a	a15,#@his(route_image_result)
 	lea	a15,[a15]@los(route_image_result)
-.L331:
+.L354:
 	ld.bu	d6,[a15]
-.L332:
+.L355:
 	mov	d7,#3
 	call	ips200_show_uint
-.L333:
+.L356:
 	mov	d4,#0
-.L334:
+.L357:
 	mov	d5,#160
-.L335:
+.L358:
 	movh.a	a4,#@his(.3.str)
 	lea	a4,[a4]@los(.3.str)
-.L336:
-	call	ips200_show_string
-.L337:
-	mov	d4,#48
-.L338:
-	mov	d5,#160
-.L339:
-	movh.a	a15,#@his(route_image_result)
-	lea	a15,[a15]@los(route_image_result)
-.L340:
-	ld.bu	d6,[a15]609
-.L341:
-	mov	d7,#1
-	call	ips200_show_uint
-.L342:
-	mov	d4,#72
-.L343:
-	mov	d5,#160
-.L344:
-	movh.a	a4,#@his(.4.str)
-	lea	a4,[a4]@los(.4.str)
-.L345:
-	call	ips200_show_string
-.L346:
-	mov	d4,#96
-.L347:
-	mov	d5,#160
-.L348:
-	movh.a	a15,#@his(route_image_result)
-	lea	a15,[a15]@los(route_image_result)
-.L349:
-	ld.h	d6,[a15]606
-.L350:
-	mov	d7,#3
-	call	ips200_show_int
-.L351:
-	mov	d4,#0
-.L352:
-	mov	d5,#176
-.L353:
-	movh.a	a4,#@his(.5.str)
-	lea	a4,[a4]@los(.5.str)
-.L354:
-	call	ips200_show_string
-.L355:
-	movh.a	a15,#@his(route_left_duty)
-	lea	a15,[a15]@los(route_left_duty)
-	ld.h	d6,[a15]
-.L356:
-	mov	d4,#80
-.L357:
-	mov	d5,#176
-.L358:
-	mov	d7,#3
-	call	ips200_show_int
 .L359:
-	movh.a	a15,#@his(route_right_duty)
-	lea	a15,[a15]@los(route_right_duty)
-	ld.h	d6,[a15]
+	call	ips200_show_string
 .L360:
-	mov	d4,#112
+	movh.a	a15,#@his(route_left_duty_x10)
+	lea	a15,[a15]@los(route_left_duty_x10)
+	ld.h	d15,[a15]
+.L212:
+	itof	d15,d15
 .L361:
-	mov	d5,#176
+	movh	d0,#16672
 .L362:
-	mov	d7,#3
-	call	ips200_show_int
+	div.f	d6,d15,d0
 .L363:
-	call	encoder_display
+	mov	d15,#1
+	st.b	[a10],d15
 .L364:
+	mov	d4,#80
+.L365:
+	mov	d5,#160
+.L366:
+	mov	d7,#2
+	call	ips200_show_float
+.L367:
+	movh.a	a15,#@his(route_right_duty_x10)
+	lea	a15,[a15]@los(route_right_duty_x10)
+	ld.h	d15,[a15]
+.L368:
+	itof	d15,d15
+.L369:
+	movh	d0,#16672
+.L370:
+	div.f	d6,d15,d0
+.L371:
+	mov	d15,#1
+	st.b	[a10],d15
+.L372:
+	mov	d4,#128
+.L373:
+	mov	d5,#160
+.L374:
+	mov	d7,#2
+	call	ips200_show_float
+.L375:
+	call	encoder_display
+.L376:
 	ret
-.L154:
+.L165:
 	
 ___ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv_function_end:
 	.size	_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv,___ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv_function_end-_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv
-.L81:
+.L91:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('route_process_init')
@@ -497,88 +500,74 @@ ___ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv_function_end
 	
 	.global	route_process_init
 ; Function route_process_init
-.L42:
+.L47:
 route_process_init:	.type	func
 	movh.a	a4,#@his(route_image_result)
 	lea	a4,[a4]@los(route_image_result)
 	call	_Z17route_image_resetP20route_image_result_t
-.L369:
+.L381:
 	movh.a	a4,#@his(left_speed_pid)
 	lea	a4,[a4]@los(left_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L370:
+.L382:
 	movh.a	a4,#@his(right_speed_pid)
 	lea	a4,[a4]@los(right_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L371:
+.L383:
 	movh.a	a15,#@his(route_track_valid)
 	lea	a15,[a15]@los(route_track_valid)
-.L372:
-	mov	d15,#0
-.L373:
-	st.b	[a15],d15
-.L374:
-	movh.a	a15,#@his(route_ramp_active)
-	lea	a15,[a15]@los(route_ramp_active)
-.L375:
-	mov	d15,#0
-.L376:
-	st.b	[a15],d15
-.L377:
-	movh.a	a15,#@his(route_steering_permille)
-	lea	a15,[a15]@los(route_steering_permille)
-.L378:
-	mov	d15,#0
-.L379:
-	st.h	[a15],d15
-.L380:
-	movh.a	a15,#@his(route_left_duty)
-	lea	a15,[a15]@los(route_left_duty)
-.L381:
-	mov	d15,#0
-.L382:
-	st.h	[a15],d15
-.L383:
-	movh.a	a15,#@his(route_right_duty)
-	lea	a15,[a15]@los(route_right_duty)
 .L384:
 	mov	d15,#0
 .L385:
-	st.h	[a15],d15
+	st.b	[a15],d15
 .L386:
-	movh.a	a15,#@his(route_last_image_error)
-	lea	a15,[a15]@los(route_last_image_error)
+	movh.a	a15,#@his(route_steering_permille)
+	lea	a15,[a15]@los(route_steering_permille)
 .L387:
 	mov	d15,#0
 .L388:
-	st.w	[a15],d15
+	st.h	[a15],d15
 .L389:
-	movh.a	a15,#@his(route_filtered_steering)
-	lea	a15,[a15]@los(route_filtered_steering)
+	movh.a	a15,#@his(route_left_duty_x10)
+	lea	a15,[a15]@los(route_left_duty_x10)
 .L390:
 	mov	d15,#0
 .L391:
-	st.w	[a15],d15
+	st.h	[a15],d15
 .L392:
-	movh.a	a15,#@his(route_enabled)
-	lea	a15,[a15]@los(route_enabled)
+	movh.a	a15,#@his(route_right_duty_x10)
+	lea	a15,[a15]@los(route_right_duty_x10)
 .L393:
 	mov	d15,#0
 .L394:
-	st.b	[a15],d15
+	st.h	[a15],d15
 .L395:
+	movh.a	a15,#@his(route_last_image_error)
+	lea	a15,[a15]@los(route_last_image_error)
+.L396:
+	mov	d15,#0
+.L397:
+	st.w	[a15],d15
+.L398:
+	movh.a	a15,#@his(route_enabled)
+	lea	a15,[a15]@los(route_enabled)
+.L399:
+	mov	d15,#0
+.L400:
+	st.b	[a15],d15
+.L401:
 	mov	d4,#0
 	call	_Z15left_motor_initi
-.L396:
+.L402:
 	mov	d4,#0
 	call	_Z16right_motor_initi
-.L397:
+.L403:
 	ret
-.L158:
+.L169:
 	
 __route_process_init_function_end:
 	.size	route_process_init,__route_process_init_function_end-route_process_init
-.L86:
+.L96:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('route_process_start')
@@ -587,29 +576,29 @@ __route_process_init_function_end:
 	
 	.global	route_process_start
 ; Function route_process_start
-.L44:
+.L49:
 route_process_start:	.type	func
 	movh.a	a4,#@his(left_speed_pid)
 	lea	a4,[a4]@los(left_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L402:
+.L408:
 	movh.a	a4,#@his(right_speed_pid)
 	lea	a4,[a4]@los(right_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L403:
+.L409:
 	movh.a	a15,#@his(route_enabled)
 	lea	a15,[a15]@los(route_enabled)
-.L404:
+.L410:
 	mov	d15,#1
-.L405:
+.L411:
 	st.b	[a15],d15
-.L406:
+.L412:
 	ret
-.L159:
+.L170:
 	
 __route_process_start_function_end:
 	.size	route_process_start,__route_process_start_function_end-route_process_start
-.L91:
+.L101:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('route_process_stop')
@@ -618,50 +607,50 @@ __route_process_start_function_end:
 	
 	.global	route_process_stop
 ; Function route_process_stop
-.L46:
+.L51:
 route_process_stop:	.type	func
 	movh.a	a15,#@his(route_enabled)
 	lea	a15,[a15]@los(route_enabled)
-.L411:
-	mov	d15,#0
-.L412:
-	st.b	[a15],d15
-.L413:
-	movh.a	a15,#@his(route_left_duty)
-	lea	a15,[a15]@los(route_left_duty)
-.L414:
-	mov	d15,#0
-.L415:
-	st.h	[a15],d15
-.L416:
-	movh.a	a15,#@his(route_right_duty)
-	lea	a15,[a15]@los(route_right_duty)
 .L417:
 	mov	d15,#0
 .L418:
-	st.h	[a15],d15
+	st.b	[a15],d15
 .L419:
-	call	_Z15left_motor_stopv
+	movh.a	a15,#@his(route_left_duty_x10)
+	lea	a15,[a15]@los(route_left_duty_x10)
 .L420:
-	call	_Z16right_motor_stopv
+	mov	d15,#0
 .L421:
+	st.h	[a15],d15
+.L422:
+	movh.a	a15,#@his(route_right_duty_x10)
+	lea	a15,[a15]@los(route_right_duty_x10)
+.L423:
+	mov	d15,#0
+.L424:
+	st.h	[a15],d15
+.L425:
+	call	_Z15left_motor_stopv
+.L426:
+	call	_Z16right_motor_stopv
+.L427:
 	mov	d4,#0
 	call	_Z9car_anglef
-.L422:
+.L428:
 	movh.a	a4,#@his(left_speed_pid)
 	lea	a4,[a4]@los(left_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L423:
+.L429:
 	movh.a	a4,#@his(right_speed_pid)
 	lea	a4,[a4]@los(right_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L424:
+.L430:
 	ret
-.L160:
+.L171:
 	
 __route_process_stop_function_end:
 	.size	route_process_stop,__route_process_stop_function_end-route_process_stop
-.L96:
+.L106:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('route_process_set_speed')
@@ -670,38 +659,24 @@ __route_process_stop_function_end:
 	
 	.global	route_process_set_speed
 ; Function route_process_set_speed
-.L48:
+.L53:
 route_process_set_speed:	.type	func
-	mov	d15,d5
-.L193:
 	movh.a	a15,#@his(route_normal_speed_ticks)
 	lea	a15,[a15]@los(route_normal_speed_ticks)
-.L429:
+.L435:
 	mov	d5,#0
-.L192:
+.L436:
 	mov	d6,#30000
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
-.L191:
+.L213:
 	st.h	[a15],d2
-.L430:
-	movh.a	a15,#@his(route_ramp_speed_ticks)
-	lea	a15,[a15]@los(route_ramp_speed_ticks)
-.L431:
-	mov	d5,#0
-.L432:
-	mov	d6,#30000
-	mov	d4,d15
-.L194:
-	call	_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
-.L195:
-	st.h	[a15],d2
-.L433:
+.L437:
 	ret
-.L161:
+.L172:
 	
 __route_process_set_speed_function_end:
 	.size	route_process_set_speed,__route_process_set_speed_function_end-route_process_set_speed
-.L101:
+.L111:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('route_process_frame')
@@ -710,40 +685,40 @@ __route_process_set_speed_function_end:
 	
 	.global	route_process_frame
 ; Function route_process_frame
-.L50:
+.L55:
 route_process_frame:	.type	func
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
 	ld.bu	d15,[a15]
-.L438:
-	jne	d15,#0,.L20
-.L439:
-	j	.L21
-.L20:
+.L442:
+	jne	d15,#0,.L23
+.L443:
+	j	.L24
+.L23:
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L440:
+.L444:
 	movh.a	a5,#@his(route_image_result)
 	lea	a5,[a5]@los(route_image_result)
 	call	_Z19route_image_processPKhP20route_image_result_t
-.L441:
+.L445:
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv
-.L442:
+.L446:
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv
-.L443:
+.L447:
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
-.L444:
+.L448:
 	mov	d15,#0
-.L445:
+.L449:
 	st.b	[a15],d15
-.L21:
+.L24:
 	ret
-.L164:
+.L174:
 	
 __route_process_frame_function_end:
 	.size	route_process_frame,__route_process_frame_function_end-route_process_frame
-.L106:
+.L116:
 	; End of function
 	
 	.sdecl	'.text.cpu0_dsram',code,cluster('route_speed_control_100ms')
@@ -752,138 +727,201 @@ __route_process_frame_function_end:
 	
 	.global	route_speed_control_100ms
 ; Function route_speed_control_100ms
-.L52:
+.L57:
 route_speed_control_100ms:	.type	func
 	movh.a	a15,#@his(route_enabled)
 	lea	a15,[a15]@los(route_enabled)
 	ld.bu	d15,[a15]
-.L450:
-	jeq	d15,#0,.L22
-.L451:
-	movh.a	a15,#@his(route_track_valid)
-	lea	a15,[a15]@los(route_track_valid)
-	ld.bu	d15,[a15]
-.L452:
-	jne	d15,#0,.L23
-.L22:
-	movh.a	a15,#@his(route_left_duty)
-	lea	a15,[a15]@los(route_left_duty)
-.L453:
-	mov	d15,#0
 .L454:
-	st.h	[a15],d15
+	jne	d15,#0,.L25
 .L455:
-	movh.a	a15,#@his(route_right_duty)
-	lea	a15,[a15]@los(route_right_duty)
+	movh.a	a15,#@his(route_left_duty_x10)
+	lea	a15,[a15]@los(route_left_duty_x10)
 .L456:
 	mov	d15,#0
 .L457:
 	st.h	[a15],d15
 .L458:
-	call	_Z15left_motor_stopv
+	movh.a	a15,#@his(route_right_duty_x10)
+	lea	a15,[a15]@los(route_right_duty_x10)
 .L459:
-	call	_Z16right_motor_stopv
+	mov	d15,#0
 .L460:
+	st.h	[a15],d15
+.L461:
+	call	_Z15left_motor_stopv
+.L462:
+	call	_Z16right_motor_stopv
+.L463:
 	movh.a	a4,#@his(left_speed_pid)
 	lea	a4,[a4]@los(left_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L461:
+.L464:
 	movh.a	a4,#@his(right_speed_pid)
 	lea	a4,[a4]@los(right_speed_pid)
 	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
-.L462:
-	j	.L24
-.L23:
-	movh.a	a15,#@his(route_ramp_active)
-	lea	a15,[a15]@los(route_ramp_active)
-	ld.bu	d15,[a15]
-.L463:
-	jeq	d15,#0,.L25
-.L464:
-	movh.a	a15,#@his(route_ramp_speed_ticks)
-	lea	a15,[a15]@los(route_ramp_speed_ticks)
-	ld.h	d4,[a15]
-.L196:
+.L465:
 	j	.L26
 .L25:
+	movh.a	a15,#@his(route_track_valid)
+	lea	a15,[a15]@los(route_track_valid)
+	ld.bu	d15,[a15]
+.L466:
+	jne	d15,#0,.L27
+.L467:
+	movh.a	a15,#@his(route_left_duty_x10)
+	lea	a15,[a15]@los(route_left_duty_x10)
+.L468:
+	mov	d15,#0
+.L469:
+	st.h	[a15],d15
+.L470:
+	movh.a	a15,#@his(route_right_duty_x10)
+	lea	a15,[a15]@los(route_right_duty_x10)
+.L471:
+	mov	d15,#0
+.L472:
+	st.h	[a15],d15
+.L473:
+	call	_Z15left_motor_stopv
+.L474:
+	call	_Z16right_motor_stopv
+.L475:
+	movh.a	a4,#@his(left_speed_pid)
+	lea	a4,[a4]@los(left_speed_pid)
+	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
+.L476:
+	movh.a	a4,#@his(right_speed_pid)
+	lea	a4,[a4]@los(right_speed_pid)
+	call	_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t
+.L477:
+	j	.L28
+.L27:
+	movh.a	a15,#@his(route_steering_permille)
+	lea	a15,[a15]@los(route_steering_permille)
+	ld.h	d4,[a15]
+.L214:
+	jge	d4,#0,.L29
+.L478:
+	rsub	d4,#0
+.L479:
+	j	.L30
+.L29:
+.L30:
+	mov	d5,#0
+.L480:
+	mov	d6,#1000
+	call	_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
+.L215:
 	movh.a	a15,#@his(route_normal_speed_ticks)
 	lea	a15,[a15]@los(route_normal_speed_ticks)
 	ld.h	d4,[a15]
-.L26:
-	mov	d15,d4
-.L198:
-	movh.a	a15,#@his(route_steering_permille)
-	lea	a15,[a15]@los(route_steering_permille)
-	ld.h	d0,[a15]
-.L199:
-	jge	d0,#0,.L27
-.L465:
-	mov	d1,d0
-.L466:
-	rsub	d1,#0
-.L467:
-	j	.L28
-.L27:
-	mov	d1,d0
+.L217:
+	movh.a	a15,#@his(route_normal_speed_ticks)
+	lea	a15,[a15]@los(route_normal_speed_ticks)
+	ld.h	d15,[a15]
+.L481:
+	mov	d0,#1000
+.L482:
+	jge	d15,d0,.L31
+.L483:
+	movh.a	a15,#@his(route_normal_speed_ticks)
+	lea	a15,[a15]@los(route_normal_speed_ticks)
+	ld.h	d5,[a15]
+.L484:
+	j	.L32
+.L31:
+	mov	d5,#1000
+.L32:
+	movh.a	a15,#@his(route_normal_speed_ticks)
+	lea	a15,[a15]@los(route_normal_speed_ticks)
+	ld.h	d15,[a15]
+.L219:
+	sub	d15,d5
+.L485:
+	jlt	d15,#1,.L33
+.L486:
+	mul	d2,d15
+.L216:
+	mov	d15,#1000
+.L220:
+	div	e0,d2,d15
+.L487:
+	sub	d4,d0
+.L33:
+	movh.a	a15,#@his(route_normal_speed_ticks)
+	lea	a15,[a15]@los(route_normal_speed_ticks)
+	ld.h	d6,[a15]
+.L488:
+	call	_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
+.L218:
+	mov	d15,d2
+.L222:
+	call	encoder_get_left_count_100ms
+.L221:
+	movh.a	a15,#@his(route_left_duty_x10)
+	lea	a15,[a15]@los(route_left_duty_x10)
+.L489:
+	movh.a	a4,#@his(left_speed_pid)
+	lea	a4,[a4]@los(left_speed_pid)
+.L490:
+	mov	e4,d2,d15
+	call	_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii
+.L491:
+	st.h	[a15],d2
+.L492:
+	call	encoder_get_right_count_100ms
+.L493:
+	movh.a	a15,#@his(route_right_duty_x10)
+	lea	a15,[a15]@los(route_right_duty_x10)
+.L494:
+	movh.a	a4,#@his(right_speed_pid)
+	lea	a4,[a4]@los(right_speed_pid)
+.L495:
+	mov	e4,d2,d15
+	call	_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii
+.L496:
+	st.h	[a15],d2
+.L497:
+	movh.a	a15,#@his(route_left_duty_x10)
+	lea	a15,[a15]@los(route_left_duty_x10)
+	ld.h	d4,[a15]
+.L498:
+	call	_Z23left_motor_set_duty_x10i
+.L499:
+	movh.a	a15,#@his(route_right_duty_x10)
+	lea	a15,[a15]@los(route_right_duty_x10)
+	ld.h	d4,[a15]
+.L500:
+	call	_Z24right_motor_set_duty_x10i
 .L28:
-	mul	d1,d1,#20
-.L468:
-	mov	d2,#1000
-.L469:
-	div	e2,d1,d2
-.L200:
-	jlt	d0,#1,.L29
-.L470:
-	sub	d15,d4,d2
-.L471:
-	j	.L30
-.L29:
-	sub	d4,d2
-.L30:
-	mov	d5,#0
-.L472:
-	mov	d6,#30000
-	call	_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
-.L197:
-	mov	d5,#0
-.L473:
-	mov	d6,#30000
-	mov	d4,d15
-.L201:
-	call	_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii
-.L202:
-	mov	d4,#25
-	call	_Z19left_motor_set_dutyi
-.L474:
-	mov	d4,#25
-	call	_Z20right_motor_set_dutyi
-.L24:
+.L26:
 	ret
-.L165:
+.L175:
 	
 __route_speed_control_100ms_function_end:
 	.size	route_speed_control_100ms,__route_speed_control_100ms_function_end-route_speed_control_100ms
-.L111:
+.L121:
 	; End of function
 	
 	.sdecl	'.bss.cpu0_dsram',data,cluster('route_image_result')
 	.sect	'.bss.cpu0_dsram'
 	.align	4
 route_image_result:	.type	object
-	.size	route_image_result,612
-	.space	612
+	.size	route_image_result,488
+	.space	488
 	.sdecl	'.bss.cpu0_dsram',data,cluster('left_speed_pid')
 	.sect	'.bss.cpu0_dsram'
 	.align	4
 left_speed_pid:	.type	object
-	.size	left_speed_pid,12
-	.space	12
+	.size	left_speed_pid,8
+	.space	8
 	.sdecl	'.bss.cpu0_dsram',data,cluster('right_speed_pid')
 	.sect	'.bss.cpu0_dsram'
 	.align	4
 right_speed_pid:	.type	object
-	.size	right_speed_pid,12
-	.space	12
+	.size	right_speed_pid,8
+	.space	8
 	.sdecl	'.data.cpu0_dsram',data,cluster('route_enabled')
 	.sect	'.data.cpu0_dsram'
 route_enabled:	.type	object
@@ -894,52 +932,35 @@ route_enabled:	.type	object
 route_track_valid:	.type	object
 	.size	route_track_valid,1
 	.space	1
-	.sdecl	'.data.cpu0_dsram',data,cluster('route_ramp_active')
-	.sect	'.data.cpu0_dsram'
-route_ramp_active:	.type	object
-	.size	route_ramp_active,1
-	.space	1
 	.sdecl	'.data.cpu0_dsram',data,cluster('route_steering_permille')
 	.sect	'.data.cpu0_dsram'
 	.align	2
 route_steering_permille:	.type	object
 	.size	route_steering_permille,2
 	.space	2
-	.sdecl	'.data.cpu0_dsram',data,cluster('route_left_duty')
+	.sdecl	'.data.cpu0_dsram',data,cluster('route_left_duty_x10')
 	.sect	'.data.cpu0_dsram'
 	.align	2
-route_left_duty:	.type	object
-	.size	route_left_duty,2
+route_left_duty_x10:	.type	object
+	.size	route_left_duty_x10,2
 	.space	2
-	.sdecl	'.data.cpu0_dsram',data,cluster('route_right_duty')
+	.sdecl	'.data.cpu0_dsram',data,cluster('route_right_duty_x10')
 	.sect	'.data.cpu0_dsram'
 	.align	2
-route_right_duty:	.type	object
-	.size	route_right_duty,2
+route_right_duty_x10:	.type	object
+	.size	route_right_duty_x10,2
 	.space	2
 	.sdecl	'.data.cpu0_dsram',data,cluster('route_normal_speed_ticks')
 	.sect	'.data.cpu0_dsram'
 	.align	2
 route_normal_speed_ticks:	.type	object
 	.size	route_normal_speed_ticks,2
-	.half	80
-	.sdecl	'.data.cpu0_dsram',data,cluster('route_ramp_speed_ticks')
-	.sect	'.data.cpu0_dsram'
-	.align	2
-route_ramp_speed_ticks:	.type	object
-	.size	route_ramp_speed_ticks,2
-	.half	65
+	.half	3500
 	.sdecl	'.data.cpu0_dsram',data,cluster('route_last_image_error')
 	.sect	'.data.cpu0_dsram'
 	.align	2
 route_last_image_error:	.type	object
 	.size	route_last_image_error,4
-	.space	4
-	.sdecl	'.data.cpu0_dsram',data,cluster('route_filtered_steering')
-	.sect	'.data.cpu0_dsram'
-	.align	2
-route_filtered_steering:	.type	object
-	.size	route_filtered_steering,4
 	.space	4
 	.sdecl	'.rodata.cpu0_dsram',data,rom
 	.sect	'.rodata.cpu0_dsram'
@@ -958,24 +979,12 @@ route_filtered_steering:	.type	object
 	.sdecl	'.rodata.cpu0_dsram',data,rom
 	.sect	'.rodata.cpu0_dsram'
 .3.str:	.type	object
-	.size	.3.str,6
-	.byte	82,65,77,80
-	.byte	58
-	.space	1
-	.sdecl	'.rodata.cpu0_dsram',data,rom
-	.sect	'.rodata.cpu0_dsram'
-.4.str:	.type	object
-	.size	.4.str,4
-	.byte	68,87,58
-	.space	1
-	.sdecl	'.rodata.cpu0_dsram',data,rom
-	.sect	'.rodata.cpu0_dsram'
-.5.str:	.type	object
-	.size	.5.str,10
+	.size	.3.str,10
 	.byte	68,85,84,89,32,76,47,82
 	.byte	58
 	.space	1
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv','__f_ftos'
+	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii','_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff'
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv','_Z9car_anglef'
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv','_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff'
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv','ips200_show_gray_image'
@@ -983,6 +992,7 @@ route_filtered_steering:	.type	object
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv','ips200_show_string'
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv','ips200_show_int'
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv','ips200_show_uint'
+	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv','ips200_show_float'
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv','encoder_display'
 	.calls	'route_process_init','_Z17route_image_resetP20route_image_result_t'
 	.calls	'route_process_init','_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t'
@@ -1001,11 +1011,15 @@ route_filtered_steering:	.type	object
 	.calls	'route_speed_control_100ms','_Z16right_motor_stopv'
 	.calls	'route_speed_control_100ms','_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t'
 	.calls	'route_speed_control_100ms','_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii'
-	.calls	'route_speed_control_100ms','_Z19left_motor_set_dutyi'
-	.calls	'route_speed_control_100ms','_Z20right_motor_set_dutyi'
+	.calls	'route_speed_control_100ms','encoder_get_left_count_100ms'
+	.calls	'route_speed_control_100ms','_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii'
+	.calls	'route_speed_control_100ms','encoder_get_right_count_100ms'
+	.calls	'route_speed_control_100ms','_Z23left_motor_set_duty_x10i'
+	.calls	'route_speed_control_100ms','_Z24right_motor_set_duty_x10i'
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii','',0
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff','',0
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t','',0
+	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii','',0
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv','',0
 	.calls	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv','',16
 	.calls	'route_process_init','',0
@@ -1016,17 +1030,20 @@ route_filtered_steering:	.type	object
 	.extern	_Z17route_image_resetP20route_image_result_t
 	.extern	_Z19route_image_processPKhP20route_image_result_t
 	.extern	encoder_display
+	.extern	encoder_get_left_count_100ms
+	.extern	encoder_get_right_count_100ms
 	.extern	_Z16right_motor_initi
-	.extern	_Z20right_motor_set_dutyi
+	.extern	_Z24right_motor_set_duty_x10i
 	.extern	_Z16right_motor_stopv
 	.extern	_Z15left_motor_initi
-	.extern	_Z19left_motor_set_dutyi
+	.extern	_Z23left_motor_set_duty_x10i
 	.extern	_Z15left_motor_stopv
 	.extern	_Z9car_anglef
 	.extern	ips200_draw_point
 	.extern	ips200_show_string
 	.extern	ips200_show_int
 	.extern	ips200_show_uint
+	.extern	ips200_show_float
 	.extern	ips200_show_gray_image
 	.extern	mt9v03x_finish_flag
 	.extern	mt9v03x_image
@@ -1034,25 +1051,25 @@ route_filtered_steering:	.type	object
 	.calls	'route_speed_control_100ms','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L54:
-	.word	1980
+.L59:
+	.word	2058
 	.half	3
-	.word	.L55
+	.word	.L60
 	.byte	4
-.L53:
+.L58:
 	.byte	1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L56
+	.word	.L61
 	.byte	2
 	.byte	'unsigned char',0,1,8,3,120
 	.word	194
 	.byte	4,119,0,2
 	.byte	'short int',0,2,5
-.L170:
+.L182:
 	.byte	5
-	.byte	'route_image_result_t',0,1,8,8,228,4,6
+	.byte	'route_image_result_t',0,1,8,8,232,3,6
 	.byte	'white_min',0
 	.word	194
 	.byte	1,2,35,0,6
@@ -1074,257 +1091,261 @@ route_filtered_steering:	.type	object
 	.byte	'center_line',0
 	.word	211
 	.byte	120,3,35,244,1,6
-	.byte	'track_width',0
-	.word	211
-	.byte	120,3,35,236,2,6
 	.byte	'edge_flags',0
 	.word	211
-	.byte	120,3,35,228,3,6
+	.byte	120,3,35,236,2,6
 	.byte	'steering_error',0
 	.word	220
-	.byte	2,3,35,220,4,6
-	.byte	'ramp_width_delta',0
-	.word	220
-	.byte	2,3,35,222,4,6
+	.byte	2,3,35,228,3,6
 	.byte	'track_valid',0
 	.word	194
-	.byte	1,3,35,224,4,6
-	.byte	'ramp_state',0
-	.word	194
-	.byte	1,3,35,225,4,6
-	.byte	'ramp_active',0
-	.word	194
-	.byte	1,3,35,226,4,0,7
+	.byte	1,3,35,230,3,0,7
 	.word	233
 	.byte	8
-	.byte	'_Z17route_image_resetP20route_image_result_t',0,1,27,13,1,1,1,1,9
-	.byte	'result',0,1,27,80
-	.word	566
+	.byte	'_Z17route_image_resetP20route_image_result_t',0,1,23,13,1,1,1,1,9
+	.byte	'result',0,1,23,80
+	.word	474
 	.byte	0,10
 	.word	194
 	.byte	7
-	.word	640
+	.word	548
 	.byte	8
-	.byte	'_Z19route_image_processPKhP20route_image_result_t',0,1,28,13,1,1,1,1,9
-	.byte	'image',0,1,28,76
-	.word	645
+	.byte	'_Z19route_image_processPKhP20route_image_result_t',0,1,24,13,1,1,1,1,9
+	.byte	'image',0,1,24,76
+	.word	553
 	.byte	9
-	.byte	'result',0,1,28,105
-	.word	566
+	.byte	'result',0,1,24,105
+	.word	474
 	.byte	0,11
-	.byte	'encoder_display',0,2,19,13,1,1,1,1
-.L138:
+	.byte	'encoder_display',0,2,19,13,1,1,1,1,12
+	.byte	'encoder_get_left_count_100ms',0,2,23,14
+	.word	220
+	.byte	1,1,1,1,12
+	.byte	'encoder_get_right_count_100ms',0,2,24,14
+	.word	220
+	.byte	1,1,1,1
+.L142:
 	.byte	2
 	.byte	'int',0,4,5,8
 	.byte	'_Z16right_motor_initi',0,3,5,13,1,1,1,1,9
 	.byte	'duty_percent',0,3,5,39
-	.word	762
+	.word	753
 	.byte	0,8
-	.byte	'_Z20right_motor_set_dutyi',0,3,6,13,1,1,1,1,9
-	.byte	'duty_percent',0,3,6,43
-	.word	762
+	.byte	'_Z24right_motor_set_duty_x10i',0,3,8,13,1,1,1,1,9
+	.byte	'duty_tenth_percent',0,3,8,47
+	.word	753
 	.byte	0,11
-	.byte	'_Z16right_motor_stopv',0,3,7,13,1,1,1,1,8
-	.byte	'_Z15left_motor_initi',0,3,10,13,1,1,1,1,9
-	.byte	'duty_percent',0,3,10,38
-	.word	762
+	.byte	'_Z16right_motor_stopv',0,3,9,13,1,1,1,1,8
+	.byte	'_Z15left_motor_initi',0,3,12,13,1,1,1,1,9
+	.byte	'duty_percent',0,3,12,38
+	.word	753
 	.byte	0,8
-	.byte	'_Z19left_motor_set_dutyi',0,3,11,13,1,1,1,1,9
-	.byte	'duty_percent',0,3,11,42
-	.word	762
+	.byte	'_Z23left_motor_set_duty_x10i',0,3,15,13,1,1,1,1,9
+	.byte	'duty_tenth_percent',0,3,15,46
+	.word	753
 	.byte	0,11
-	.byte	'_Z15left_motor_stopv',0,3,12,13,1,1,1,1
-.L143:
+	.byte	'_Z15left_motor_stopv',0,3,16,13,1,1,1,1
+.L147:
 	.byte	2
 	.byte	'float',0,4,4,8
 	.byte	'_Z9car_anglef',0,4,12,13,1,1,1,1,9
 	.byte	'i',0,4,12,33
-	.word	1042
+	.word	1053
 	.byte	0,2
 	.byte	'unsigned short int',0,2,7,10
-	.word	1084
+	.word	1095
 	.byte	8
 	.byte	'ips200_draw_point',0,5,173,1,13,1,1,1,1,9
 	.byte	'x',0,5,173,1,38
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'y',0,5,173,1,48
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'color',0,5,173,1,64
-	.word	1106
+	.word	1117
 	.byte	0,2
 	.byte	'char',0,1,6,10
-	.word	1176
+	.word	1187
 	.byte	7
-	.word	1184
+	.word	1195
 	.byte	8
 	.byte	'ips200_show_string',0,5,177,1,13,1,1,1,1,9
 	.byte	'x',0,5,177,1,39
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'y',0,5,177,1,49
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'dat',0,5,177,1,64
-	.word	1189
+	.word	1200
 	.byte	0,10
-	.word	762
+	.word	753
 	.byte	8
 	.byte	'ips200_show_int',0,5,178,1,13,1,1,1,1,9
 	.byte	'x',0,5,178,1,36
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'y',0,5,178,1,46
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'dat',0,5,178,1,61
-	.word	1258
+	.word	1269
 	.byte	9
 	.byte	'num',0,5,178,1,72
 	.word	194
 	.byte	0,2
 	.byte	'unsigned long int',0,4,7,10
-	.word	1337
+	.word	1348
 	.byte	8
 	.byte	'ips200_show_uint',0,5,179,1,13,1,1,1,1,9
 	.byte	'x',0,5,179,1,37
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'y',0,5,179,1,47
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'dat',0,5,179,1,63
-	.word	1358
+	.word	1369
 	.byte	9
 	.byte	'num',0,5,179,1,74
+	.word	194
+	.byte	0,10
+	.word	1053
+	.byte	8
+	.byte	'ips200_show_float',0,5,180,1,13,1,1,1,1,9
+	.byte	'x',0,5,180,1,38
+	.word	1095
+	.byte	9
+	.byte	'y',0,5,180,1,48
+	.word	1095
+	.byte	9
+	.byte	'dat',0,5,180,1,64
+	.word	1449
+	.byte	9
+	.byte	'num',0,5,180,1,75
+	.word	194
+	.byte	9
+	.byte	'pointnum',0,5,180,1,86
 	.word	194
 	.byte	0,8
 	.byte	'ips200_show_gray_image',0,5,183,1,13,1,1,1,1,9
 	.byte	'x',0,5,183,1,43
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'y',0,5,183,1,53
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'image',0,5,183,1,69
-	.word	645
+	.word	553
 	.byte	9
 	.byte	'width',0,5,183,1,83
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'height',0,5,183,1,97
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'dis_width',0,5,183,1,112
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'dis_height',0,5,183,1,130,1
-	.word	1084
+	.word	1095
 	.byte	9
 	.byte	'threshold',0,5,183,1,148,1
 	.word	194
 	.byte	0
-.L171:
+.L183:
 	.byte	5
-	.byte	'route_speed_pid_t',0,6,12,8,12,6
-	.byte	'last_error',0
-	.word	1042
+	.byte	'route_speed_pid_t',0,6,12,8,8,6
+	.byte	'integral',0
+	.word	1053
 	.byte	4,2,35,0,6
-	.byte	'previous_error',0
-	.word	1042
-	.byte	4,2,35,4,6
-	.byte	'output',0
-	.word	1042
-	.byte	4,2,35,8,0
-.L149:
+	.byte	'last_error',0
+	.word	1053
+	.byte	4,2,35,4,0
+.L153:
 	.byte	7
-	.word	1599
-	.byte	12,1,7
-	.word	1688
-	.byte	13
+	.word	1709
+	.byte	13,1,7
+	.word	1776
+	.byte	14
 	.byte	'__codeptr',0,6,1,1
-	.word	1690
-	.byte	13
+	.word	1778
+	.byte	14
 	.byte	'uint8',0,7,105,23
 	.word	194
-	.byte	13
+	.byte	14
 	.byte	'uint16',0,7,109,24
-	.word	1084
-	.byte	13
+	.word	1095
+	.byte	14
 	.byte	'uint32',0,7,113,23
-	.word	1337
-	.byte	13
+	.word	1348
+	.byte	14
 	.byte	'int16',0,8,55,22
 	.word	220
-	.byte	13
+	.byte	14
 	.byte	'int32',0,8,56,20
-	.word	762
-	.byte	14
-	.word	194
-	.byte	13
-	.byte	'vuint8',0,8,59,24
-	.word	1785
-	.byte	13
-	.byte	'route_image_result_t',0,1,25,37
-	.word	233
-	.byte	13
-	.byte	'route_speed_pid_t',0,6,16,34
-	.word	1599
-	.byte	14
-	.word	194
+	.word	753
 	.byte	15
+	.word	194
+	.byte	14
+	.byte	'vuint8',0,8,59,24
+	.word	1873
+	.byte	14
+	.byte	'route_image_result_t',0,1,21,37
+	.word	233
+	.byte	14
+	.byte	'route_speed_pid_t',0,6,15,34
+	.word	1709
+	.byte	15
+	.word	194
+	.byte	16
 	.byte	'mt9v03x_finish_flag',0,9,136,1,15
-	.word	1860
+	.word	1948
 	.byte	1,1,3,188,1
 	.word	194
 	.byte	4,187,1,0,3,160,176,1
-	.word	1896
-	.byte	4,119,0,15
+	.word	1984
+	.byte	4,119,0,16
 	.byte	'mt9v03x_image',0,9,137,1,14
-	.word	1907
+	.word	1995
 	.byte	1,1
-.L172:
-	.byte	14
+.L184:
+	.byte	15
 	.word	194
-.L173:
-	.byte	14
+.L185:
+	.byte	15
 	.word	194
-.L174:
-	.byte	14
-	.word	194
-.L175:
-	.byte	14
+.L186:
+	.byte	15
 	.word	220
-.L176:
-	.byte	14
+.L187:
+	.byte	15
 	.word	220
-.L177:
-	.byte	14
+.L188:
+	.byte	15
 	.word	220
-.L178:
-	.byte	14
-	.word	220
-.L179:
-	.byte	14
+.L189:
+	.byte	15
 	.word	220
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L55:
+.L60:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,1,1,11,15,73,19,0,0,4,33,0
 	.byte	47,15,0,0,5,19,1,3,8,58,15,59,15,57,15,11,15,0,0,6,13,0,3,8,73,19,11,15,56,9,0,0,7,15,0,73,19,0,0,8,46
 	.byte	1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,9,5,0,3,8,58,15,59,15,57,15,73,19,0,0,10,38,0,73,19
-	.byte	0,0,11,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,12,21,0,54,15,0,0,13,22,0,3,8,58,15,59,15
-	.byte	57,15,73,19,0,0,14,53,0,73,19,0,0,15,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.byte	0,0,11,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,12,46,0,3,8,58,15,59,15,57,15,73,19,54,15
+	.byte	39,12,63,12,60,12,0,0,13,21,0,54,15,0,0,14,22,0,3,8,58,15,59,15,57,15,73,19,0,0,15,53,0,73,19,0,0,16,52
+	.byte	0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L56:
-	.word	.L204-.L203
-.L203:
+.L61:
+	.word	.L224-.L223
+.L223:
 	.half	3
-	.word	.L206-.L205
-.L205:
+	.word	.L226-.L225
+.L225:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\code',0
 	.byte	'D:\\\\Projects\\\\TCCAR\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device',0
@@ -1339,78 +1360,12 @@ route_filtered_steering:	.type	object
 	.byte	'Platform_Types.h',0,3,0,0
 	.byte	'zf_common_typedef.h',0,4,0,0
 	.byte	'zf_device_mt9v03x.h',0,2,0,0,0
-.L206:
-.L204:
+.L226:
+.L224:
 	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
 	.sect	'.debug_info'
-.L57:
-	.word	390
-	.half	3
-	.word	.L58
-	.byte	4,1
-	.byte	'../code/route_process/route_process.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L60,.L59
-	.byte	2
-	.word	.L53
-	.byte	3
-	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii',0,1,36,12
-	.word	.L138
-	.byte	1,1
-	.word	.L32,.L139,.L31
-	.byte	4
-	.byte	'__68020_32_value',0,1,36,83
-	.word	.L138,.L140
-	.byte	4
-	.byte	'__68020_43_minimum',0,1,36,106
-	.word	.L138,.L141
-	.byte	4
-	.byte	'__68020_56_maximum',0,1,36,131,1
-	.word	.L138,.L142
-	.byte	5
-	.word	.L32,.L139
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
-	.sect	'.debug_abbrev'
-.L58:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
-	.sect	'.debug_line'
-.L59:
-	.word	.L208-.L207
-.L207:
-	.half	3
-	.word	.L210-.L209
-.L209:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L210:
-	.byte	5,1,7,0,5,2
-	.word	.L32
-	.byte	3,37,1,7,9
-	.half	.L211-.L32
-	.byte	3,2,1,9
-	.half	.L2-.L211
-	.byte	3,2,1,7,9
-	.half	.L212-.L2
-	.byte	3,2,1,9
-	.half	.L4-.L212
-	.byte	3,2,1,9
-	.half	.L3-.L4
-	.byte	3,1,1,7,9
-	.half	.L61-.L3
-	.byte	0,1,1
-.L208:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
-	.sect	'.debug_ranges'
-.L60:
-	.word	-1,.L32,0,.L61-.L32,0,0
-	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
-	.sect	'.debug_info'
 .L62:
-	.word	392
+	.word	390
 	.half	3
 	.word	.L63
 	.byte	4,1
@@ -1419,68 +1374,64 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L65,.L64
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff',0,1,49,14
-	.word	.L143
+	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii',0,1,32,12
+	.word	.L142
 	.byte	1,1
-	.word	.L34,.L144,.L33
+	.word	.L35,.L143,.L34
 	.byte	4
-	.byte	'__68033_38_value',0,1,49,89
-	.word	.L143,.L145
+	.byte	'__68014_32_value',0,1,32,83
+	.word	.L142,.L144
 	.byte	4
-	.byte	'__68033_51_minimum',0,1,49,114
-	.word	.L143,.L146
+	.byte	'__68014_43_minimum',0,1,32,106
+	.word	.L142,.L145
 	.byte	4
-	.byte	'__68033_66_maximum',0,1,49,141,1
-	.word	.L143,.L147
+	.byte	'__68014_56_maximum',0,1,32,131,1
+	.word	.L142,.L146
 	.byte	5
-	.word	.L34,.L144
+	.word	.L35,.L143
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
 	.sect	'.debug_abbrev'
 .L63:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
+	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
 	.sect	'.debug_line'
 .L64:
-	.word	.L214-.L213
-.L213:
+	.word	.L228-.L227
+.L227:
 	.half	3
-	.word	.L216-.L215
-.L215:
+	.word	.L230-.L229
+.L229:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L216:
-	.byte	5,22,7,0,5,2
-	.word	.L34
-	.byte	3,50,1,5,1,9
-	.half	.L217-.L34
-	.byte	1,7,9
-	.half	.L218-.L217
-	.byte	3,2,1,5,22,9
-	.half	.L7-.L218
-	.byte	3,2,1,5,1,9
-	.half	.L219-.L7
-	.byte	1,7,9
-	.half	.L220-.L219
+.L230:
+	.byte	5,1,7,0,5,2
+	.word	.L35
+	.byte	3,33,1,7,9
+	.half	.L231-.L35
 	.byte	3,2,1,9
-	.half	.L9-.L220
+	.half	.L2-.L231
+	.byte	3,2,1,7,9
+	.half	.L232-.L2
 	.byte	3,2,1,9
-	.half	.L8-.L9
+	.half	.L4-.L232
+	.byte	3,2,1,9
+	.half	.L3-.L4
 	.byte	3,1,1,7,9
-	.half	.L66-.L8
+	.half	.L66-.L3
 	.byte	0,1,1
-.L214:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
+.L228:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
 	.sect	'.debug_ranges'
 .L65:
-	.word	-1,.L34,0,.L66-.L34,0,0
-	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
+	.word	-1,.L35,0,.L66-.L35,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
 	.sect	'.debug_info'
 .L67:
-	.word	344
+	.word	392
 	.half	3
 	.word	.L68
 	.byte	4,1
@@ -1489,59 +1440,68 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L70,.L69
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t',0,1,62,13,1
-	.byte	1
-	.word	.L36,.L148,.L35
+	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff',0,1,45,14
+	.word	.L147
+	.byte	1,1
+	.word	.L37,.L148,.L36
 	.byte	4
-	.byte	'__68046_54_pid',0,1,62,122
-	.word	.L149,.L150
+	.byte	'__68027_38_value',0,1,45,89
+	.word	.L147,.L149
+	.byte	4
+	.byte	'__68027_51_minimum',0,1,45,114
+	.word	.L147,.L150
+	.byte	4
+	.byte	'__68027_66_maximum',0,1,45,141,1
+	.word	.L147,.L151
 	.byte	5
-	.word	.L36,.L148
+	.word	.L37,.L148
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
 	.sect	'.debug_abbrev'
 .L68:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
 	.sect	'.debug_line'
 .L69:
-	.word	.L222-.L221
-.L221:
+	.word	.L234-.L233
+.L233:
 	.half	3
-	.word	.L224-.L223
-.L223:
+	.word	.L236-.L235
+.L235:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L224:
-	.byte	5,33,7,0,5,2
-	.word	.L36
-	.byte	3,63,1,5,30,9
-	.half	.L225-.L36
-	.byte	1,5,37,9
-	.half	.L226-.L225
-	.byte	3,1,1,5,34,9
-	.half	.L227-.L226
-	.byte	1,5,29,9
-	.half	.L228-.L227
-	.byte	3,1,1,5,26,9
-	.half	.L229-.L228
-	.byte	1,5,1,9
-	.half	.L230-.L229
+.L236:
+	.byte	5,22,7,0,5,2
+	.word	.L37
+	.byte	3,46,1,5,1,9
+	.half	.L237-.L37
+	.byte	1,7,9
+	.half	.L238-.L237
+	.byte	3,2,1,5,22,9
+	.half	.L7-.L238
+	.byte	3,2,1,5,1,9
+	.half	.L239-.L7
+	.byte	1,7,9
+	.half	.L240-.L239
+	.byte	3,2,1,9
+	.half	.L9-.L240
+	.byte	3,2,1,9
+	.half	.L8-.L9
 	.byte	3,1,1,7,9
-	.half	.L71-.L230
+	.half	.L71-.L8
 	.byte	0,1,1
-.L222:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
+.L234:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
 	.sect	'.debug_ranges'
 .L70:
-	.word	-1,.L36,0,.L71-.L36,0,0
-	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
+	.word	-1,.L37,0,.L71-.L37,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
 	.sect	'.debug_info'
 .L72:
-	.word	364
+	.word	344
 	.half	3
 	.word	.L73
 	.byte	4,1
@@ -1550,159 +1510,55 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L75,.L74
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv',0,1,84,13,1,1
-	.word	.L38,.L151,.L37
+	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t',0,1,58,13,1
+	.byte	1
+	.word	.L39,.L152,.L38
 	.byte	4
-	.word	.L38,.L151
+	.byte	'__68040_54_pid',0,1,58,122
+	.word	.L153,.L154
 	.byte	5
-	.byte	'__68080_17_error',0,1,96,12
-	.word	.L143,.L152
-	.byte	5
-	.byte	'__68081_17_raw_steering',0,1,97,12
-	.word	.L143,.L153
-	.byte	0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
+	.word	.L39,.L152
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
 	.sect	'.debug_abbrev'
 .L73:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
 	.sect	'.debug_line'
 .L74:
-	.word	.L232-.L231
-.L231:
+	.word	.L242-.L241
+.L241:
 	.half	3
-	.word	.L234-.L233
-.L233:
+	.word	.L244-.L243
+.L243:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L234:
-	.byte	5,7,7,0,5,2
-	.word	.L38
-	.byte	3,213,0,1,5,25,9
-	.half	.L235-.L38
-	.byte	1,5,6,9
-	.half	.L236-.L235
-	.byte	1,5,1,7,9
-	.half	.L237-.L236
-	.byte	3,2,1,5,22,9
-	.half	.L238-.L237
-	.byte	1,5,19,9
-	.half	.L239-.L238
-	.byte	1,5,1,9
-	.half	.L240-.L239
-	.byte	3,1,1,5,28,9
-	.half	.L241-.L240
-	.byte	1,5,25,9
-	.half	.L242-.L241
-	.byte	1,5,1,9
-	.half	.L243-.L242
-	.byte	3,1,1,5,27,9
-	.half	.L244-.L243
-	.byte	1,5,24,9
-	.half	.L245-.L244
-	.byte	1,5,1,9
+.L244:
+	.byte	5,31,7,0,5,2
+	.word	.L39
+	.byte	3,59,1,5,28,9
+	.half	.L245-.L39
+	.byte	1,5,33,9
 	.half	.L246-.L245
-	.byte	3,1,1,5,28,9
+	.byte	3,1,1,5,30,9
 	.half	.L247-.L246
-	.byte	1,5,25,9
+	.byte	1,5,1,9
 	.half	.L248-.L247
-	.byte	1,5,16,9
-	.half	.L249-.L248
-	.byte	3,1,1,5,1,9
-	.half	.L250-.L249
-	.byte	3,1,1,5,29,9
-	.half	.L12-.L250
-	.byte	3,3,1,5,47,9
-	.half	.L251-.L12
-	.byte	1,5,21,9
-	.half	.L252-.L251
-	.byte	1,5,30,9
-	.half	.L186-.L252
-	.byte	3,1,1,5,107,9
-	.half	.L253-.L186
-	.byte	1,5,105,9
-	.half	.L254-.L253
-	.byte	1,5,70,9
-	.half	.L255-.L254
-	.byte	1,5,85,9
-	.half	.L256-.L255
-	.byte	1,5,66,9
-	.half	.L257-.L256
-	.byte	1,5,1,9
-	.half	.L187-.L257
-	.byte	3,2,1,5,73,9
-	.half	.L258-.L187
-	.byte	1,5,71,9
-	.half	.L259-.L258
-	.byte	1,5,30,9
-	.half	.L188-.L259
-	.byte	1,5,1,9
-	.half	.L260-.L188
-	.byte	1,5,25,9
-	.half	.L261-.L260
-	.byte	1,5,1,9
-	.half	.L262-.L261
-	.byte	3,2,1,5,96,9
-	.half	.L263-.L262
-	.byte	1,5,122,9
-	.half	.L264-.L263
-	.byte	1,5,131,1,9
-	.half	.L265-.L264
-	.byte	1,5,25,9
-	.half	.L266-.L265
-	.byte	1,5,1,9
-	.half	.L267-.L266
-	.byte	3,2,1,5,24,9
-	.half	.L268-.L267
-	.byte	1,5,1,9
-	.half	.L269-.L268
-	.byte	3,2,1,5,36,9
-	.half	.L270-.L269
-	.byte	1,5,63,9
-	.half	.L271-.L270
-	.byte	1,5,60,9
-	.half	.L272-.L271
-	.byte	1,5,28,9
-	.half	.L273-.L272
-	.byte	1,5,25,9
-	.half	.L274-.L273
-	.byte	1,5,1,9
-	.half	.L275-.L274
-	.byte	3,1,1,5,22,9
-	.half	.L276-.L275
-	.byte	1,5,19,9
-	.half	.L277-.L276
-	.byte	1,5,1,9
-	.half	.L278-.L277
-	.byte	3,1,1,5,22,9
-	.half	.L279-.L278
-	.byte	1,5,40,9
-	.half	.L280-.L279
-	.byte	1,5,19,9
-	.half	.L281-.L280
-	.byte	1,5,5,9
-	.half	.L282-.L281
-	.byte	3,1,1,5,1,9
-	.half	.L283-.L282
-	.byte	1,5,15,7,9
-	.half	.L284-.L283
-	.byte	3,2,1,5,1,9
-	.half	.L13-.L284
-	.byte	3,2,1,7,9
-	.half	.L76-.L13
+	.byte	3,1,1,7,9
+	.half	.L76-.L248
 	.byte	0,1,1
-.L232:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
+.L242:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
 	.sect	'.debug_ranges'
 .L75:
-	.word	-1,.L38,0,.L76-.L38,0,0
-	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
+	.word	-1,.L39,0,.L76-.L39,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii')
 	.sect	'.debug_info'
 .L77:
-	.word	332
+	.word	504
 	.half	3
 	.word	.L78
 	.byte	4,1
@@ -1711,218 +1567,120 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L80,.L79
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv',0,1,114,13,1,1
-	.word	.L40,.L154,.L39
+	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii',0,1,64,12
+	.word	.L142
+	.byte	1,1
+	.word	.L41,.L155,.L40
 	.byte	4
-	.word	.L40,.L154
+	.byte	'__68046_54_pid',0,1,64,124
+	.word	.L153,.L156
 	.byte	4
-	.word	.L155,.L156
+	.byte	'__68047_9_target',0,1,65,5
+	.word	.L142,.L157
+	.byte	4
+	.byte	'__68047_21_actual',0,1,65,28
+	.word	.L142,.L158
 	.byte	5
-	.byte	'__68103_14_row',0,1,119,10
-	.word	.L138,.L157
-	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
+	.word	.L41,.L155
+	.byte	6
+	.byte	'__68050_17_error',0,1,68,12
+	.word	.L147,.L159
+	.byte	6
+	.byte	'__68052_17_raw_output',0,1,70,12
+	.word	.L147,.L160
+	.byte	6
+	.byte	'__68055_17_output',0,1,73,12
+	.word	.L147,.L161
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii')
 	.sect	'.debug_abbrev'
 .L78:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii')
 	.sect	'.debug_line'
 .L79:
-	.word	.L286-.L285
-.L285:
+	.word	.L250-.L249
+.L249:
 	.half	3
-	.word	.L288-.L287
-.L287:
+	.word	.L252-.L251
+.L251:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L288:
-	.byte	5,13,7,0,5,2
-	.word	.L40
-	.byte	3,241,0,1,5,120,9
-	.half	.L189-.L40
-	.byte	3,2,1,5,136,1,9
-	.half	.L289-.L189
-	.byte	1,5,152,1,9
-	.half	.L290-.L289
-	.byte	1,5,25,9
-	.half	.L291-.L290
-	.byte	1,5,39,9
-	.half	.L292-.L291
-	.byte	1,5,68,9
-	.half	.L293-.L292
-	.byte	1,5,88,9
-	.half	.L294-.L293
-	.byte	1,5,104,9
-	.half	.L295-.L294
-	.byte	1,5,25,9
-	.half	.L155-.L295
-	.byte	3,3,1,5,43,9
-	.half	.L296-.L155
-	.byte	1,5,90,9
-	.half	.L190-.L296
-	.byte	1,5,19,9
-	.half	.L16-.L190
-	.byte	3,3,1,5,50,9
-	.half	.L297-.L16
-	.byte	1,5,1,9
-	.half	.L298-.L297
-	.byte	1,5,31,7,9
-	.half	.L299-.L298
-	.byte	3,2,1,5,61,9
-	.half	.L300-.L299
-	.byte	1,5,82,9
-	.half	.L301-.L300
-	.byte	1,5,108,9
-	.half	.L302-.L301
-	.byte	1,5,19,9
-	.half	.L17-.L302
-	.byte	3,3,1,5,50,9
-	.half	.L303-.L17
-	.byte	1,5,1,9
-	.half	.L304-.L303
-	.byte	1,5,31,7,9
-	.half	.L305-.L304
-	.byte	3,2,1,5,62,9
-	.half	.L306-.L305
-	.byte	1,5,83,9
-	.half	.L307-.L306
-	.byte	1,5,109,9
-	.half	.L308-.L307
-	.byte	1,5,7,9
-	.half	.L18-.L308
-	.byte	3,3,1,5,38,9
-	.half	.L309-.L18
-	.byte	1,5,1,9
-	.half	.L310-.L309
-	.byte	1,5,31,7,9
-	.half	.L311-.L310
-	.byte	3,2,1,5,63,9
-	.half	.L312-.L311
-	.byte	1,5,84,9
-	.half	.L313-.L312
-	.byte	1,5,110,9
-	.half	.L314-.L313
-	.byte	1,5,107,9
-	.half	.L19-.L314
-	.byte	3,113,1,5,86,9
-	.half	.L15-.L19
-	.byte	1,5,90,9
-	.half	.L315-.L15
-	.byte	1,5,21,7,9
-	.half	.L156-.L315
-	.byte	3,20,1,5,35,9
-	.half	.L316-.L156
-	.byte	1,5,65,9
-	.half	.L317-.L316
-	.byte	1,5,51,9
-	.half	.L318-.L317
-	.byte	1,5,18,9
-	.half	.L319-.L318
-	.byte	3,1,1,5,33,9
-	.half	.L320-.L319
-	.byte	1,5,57,9
-	.half	.L321-.L320
-	.byte	1,5,75,9
-	.half	.L322-.L321
-	.byte	1,5,95,9
-	.half	.L323-.L322
-	.byte	1,5,21,9
-	.half	.L324-.L323
-	.byte	3,1,1,5,35,9
-	.half	.L325-.L324
-	.byte	1,5,65,9
-	.half	.L326-.L325
-	.byte	1,5,51,9
-	.half	.L327-.L326
-	.byte	1,5,19,9
-	.half	.L328-.L327
-	.byte	3,1,1,5,34,9
-	.half	.L329-.L328
-	.byte	1,5,59,9
-	.half	.L330-.L329
-	.byte	1,5,77,9
-	.half	.L331-.L330
-	.byte	1,5,92,9
-	.half	.L332-.L331
-	.byte	1,5,21,9
-	.half	.L333-.L332
-	.byte	3,1,1,5,35,9
-	.half	.L334-.L333
-	.byte	1,5,65,9
-	.half	.L335-.L334
-	.byte	1,5,51,9
-	.half	.L336-.L335
-	.byte	1,5,19,9
-	.half	.L337-.L336
-	.byte	3,1,1,5,34,9
-	.half	.L338-.L337
-	.byte	1,5,59,9
-	.half	.L339-.L338
-	.byte	1,5,77,9
-	.half	.L340-.L339
-	.byte	1,5,93,9
-	.half	.L341-.L340
-	.byte	1,5,21,9
-	.half	.L342-.L341
-	.byte	3,1,1,5,36,9
-	.half	.L343-.L342
-	.byte	1,5,66,9
-	.half	.L344-.L343
-	.byte	1,5,52,9
-	.half	.L345-.L344
-	.byte	1,5,18,9
-	.half	.L346-.L345
-	.byte	3,1,1,5,33,9
-	.half	.L347-.L346
-	.byte	1,5,57,9
-	.half	.L348-.L347
-	.byte	1,5,75,9
-	.half	.L349-.L348
-	.byte	1,5,97,9
-	.half	.L350-.L349
-	.byte	1,5,21,9
-	.half	.L351-.L350
-	.byte	3,1,1,5,35,9
-	.half	.L352-.L351
-	.byte	1,5,65,9
-	.half	.L353-.L352
-	.byte	1,5,51,9
-	.half	.L354-.L353
-	.byte	1,5,56,9
-	.half	.L355-.L354
-	.byte	3,1,1,5,18,9
-	.half	.L356-.L355
+.L252:
+	.byte	5,12,7,0,5,2
+	.word	.L41
+	.byte	3,63,1,5,22,9
+	.half	.L199-.L41
+	.byte	3,3,1,5,49,7,9
+	.half	.L253-.L199
+	.byte	1,5,69,9
+	.half	.L254-.L253
+	.byte	1,5,22,9
+	.half	.L13-.L254
+	.byte	3,1,1,5,50,9
+	.half	.L255-.L13
+	.byte	1,5,47,9
+	.half	.L256-.L255
 	.byte	1,5,33,9
-	.half	.L357-.L356
-	.byte	1,5,75,9
-	.half	.L358-.L357
-	.byte	1,5,57,9
-	.half	.L359-.L358
-	.byte	3,1,1,5,18,9
-	.half	.L360-.L359
-	.byte	1,5,34,9
-	.half	.L361-.L360
-	.byte	1,5,77,9
-	.half	.L362-.L361
+	.half	.L200-.L256
+	.byte	3,1,1,5,16,9
+	.half	.L257-.L200
+	.byte	1,5,28,9
+	.half	.L258-.L257
+	.byte	1,5,143,1,9
+	.half	.L259-.L258
+	.byte	3,1,1,5,126,9
+	.half	.L260-.L259
+	.byte	1,5,100,9
+	.half	.L261-.L260
+	.byte	1,5,29,9
+	.half	.L262-.L261
+	.byte	1,5,83,9
+	.half	.L263-.L262
+	.byte	1,5,66,9
+	.half	.L264-.L263
+	.byte	1,5,96,9
+	.half	.L265-.L264
+	.byte	1,5,114,9
+	.half	.L201-.L265
+	.byte	3,3,1,5,122,9
+	.half	.L197-.L201
 	.byte	1,5,16,9
-	.half	.L363-.L362
-	.byte	3,1,1,5,1,9
-	.half	.L364-.L363
+	.half	.L196-.L197
+	.byte	3,4,1,5,50,9
+	.half	.L266-.L196
+	.byte	1,5,28,9
+	.half	.L202-.L266
+	.byte	1,5,30,9
+	.half	.L267-.L202
+	.byte	3,1,1,5,36,9
+	.half	.L268-.L267
+	.byte	3,1,1,5,47,9
+	.half	.L269-.L268
+	.byte	1,5,44,9
+	.half	.L270-.L269
+	.byte	1,5,8,9
+	.half	.L271-.L270
+	.byte	1,5,1,9
+	.half	.L203-.L271
+	.byte	1,9
+	.half	.L14-.L203
 	.byte	3,1,1,7,9
-	.half	.L81-.L364
+	.half	.L81-.L14
 	.byte	0,1,1
-.L286:
-	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
+.L250:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii')
 	.sect	'.debug_ranges'
 .L80:
-	.word	-1,.L40,0,.L81-.L40,0,0
-	.sdecl	'.debug_info',debug,cluster('route_process_init')
+	.word	-1,.L41,0,.L81-.L41,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
 	.sect	'.debug_info'
 .L82:
-	.word	249
+	.word	360
 	.half	3
 	.word	.L83
 	.byte	4,1
@@ -1931,101 +1689,127 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L85,.L84
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_process_init',0,1,153,1,6,1,1,1
-	.word	.L42,.L158,.L41
+	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv',0,1,82,13,1,1
+	.word	.L43,.L162,.L42
 	.byte	4
-	.word	.L42,.L158
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('route_process_init')
+	.word	.L43,.L162
+	.byte	5
+	.byte	'__68075_17_error',0,1,93,12
+	.word	.L147,.L163
+	.byte	5
+	.byte	'__68076_17_steering',0,1,94,12
+	.word	.L147,.L164
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
 	.sect	'.debug_abbrev'
 .L83:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('route_process_init')
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
 	.sect	'.debug_line'
 .L84:
-	.word	.L366-.L365
-.L365:
+	.word	.L273-.L272
+.L272:
 	.half	3
-	.word	.L368-.L367
-.L367:
+	.word	.L275-.L274
+.L274:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L368:
-	.byte	5,48,7,0,5,2
-	.word	.L42
-	.byte	3,154,1,1,5,92,9
-	.half	.L369-.L42
-	.byte	3,1,1,9
-	.half	.L370-.L369
-	.byte	3,1,1,5,1,9
-	.half	.L371-.L370
-	.byte	3,1,1,5,22,9
-	.half	.L372-.L371
+.L275:
+	.byte	5,7,7,0,5,2
+	.word	.L43
+	.byte	3,211,0,1,5,25,9
+	.half	.L276-.L43
+	.byte	1,5,6,9
+	.half	.L277-.L276
+	.byte	1,5,1,7,9
+	.half	.L278-.L277
+	.byte	3,2,1,5,22,9
+	.half	.L279-.L278
 	.byte	1,5,19,9
-	.half	.L373-.L372
+	.half	.L280-.L279
 	.byte	1,5,1,9
-	.half	.L374-.L373
-	.byte	3,1,1,5,22,9
-	.half	.L375-.L374
-	.byte	1,5,19,9
-	.half	.L376-.L375
-	.byte	1,5,1,9
-	.half	.L377-.L376
+	.half	.L281-.L280
 	.byte	3,1,1,5,28,9
-	.half	.L378-.L377
+	.half	.L282-.L281
 	.byte	1,5,25,9
-	.half	.L379-.L378
+	.half	.L283-.L282
 	.byte	1,5,1,9
-	.half	.L380-.L379
-	.byte	3,1,1,5,20,9
-	.half	.L381-.L380
-	.byte	1,5,17,9
-	.half	.L382-.L381
-	.byte	1,5,1,9
-	.half	.L383-.L382
-	.byte	3,1,1,5,21,9
-	.half	.L384-.L383
-	.byte	1,5,18,9
-	.half	.L385-.L384
-	.byte	1,5,1,9
-	.half	.L386-.L385
+	.half	.L284-.L283
 	.byte	3,1,1,5,27,9
-	.half	.L387-.L386
+	.half	.L285-.L284
 	.byte	1,5,24,9
-	.half	.L388-.L387
-	.byte	1,5,1,9
-	.half	.L389-.L388
-	.byte	3,1,1,5,28,9
-	.half	.L390-.L389
-	.byte	1,5,25,9
-	.half	.L391-.L390
-	.byte	1,5,1,9
-	.half	.L392-.L391
-	.byte	3,1,1,5,18,9
-	.half	.L393-.L392
-	.byte	1,5,15,9
-	.half	.L394-.L393
-	.byte	1,5,22,9
-	.half	.L395-.L394
-	.byte	3,2,1,5,23,9
-	.half	.L396-.L395
+	.half	.L286-.L285
+	.byte	1,5,16,9
+	.half	.L287-.L286
 	.byte	3,1,1,5,1,9
-	.half	.L397-.L396
-	.byte	3,1,1,7,9
-	.half	.L86-.L397
+	.half	.L288-.L287
+	.byte	3,1,1,5,29,9
+	.half	.L15-.L288
+	.byte	3,3,1,5,47,9
+	.half	.L289-.L15
+	.byte	1,5,21,9
+	.half	.L290-.L289
+	.byte	1,5,95,9
+	.half	.L204-.L290
+	.byte	3,1,1,5,173,1,9
+	.half	.L291-.L204
+	.byte	1,5,171,1,9
+	.half	.L292-.L291
+	.byte	1,5,135,1,9
+	.half	.L293-.L292
+	.byte	1,5,151,1,9
+	.half	.L294-.L293
+	.byte	1,5,131,1,9
+	.half	.L295-.L294
+	.byte	1,5,201,1,9
+	.half	.L296-.L295
+	.byte	1,5,210,1,9
+	.half	.L297-.L296
+	.byte	1,5,21,9
+	.half	.L206-.L297
+	.byte	1,5,1,9
+	.half	.L208-.L206
+	.byte	3,4,1,5,24,9
+	.half	.L298-.L208
+	.byte	1,5,1,9
+	.half	.L299-.L298
+	.byte	3,2,1,5,59,9
+	.half	.L300-.L299
+	.byte	1,5,56,9
+	.half	.L205-.L300
+	.byte	1,5,28,9
+	.half	.L301-.L205
+	.byte	1,5,25,9
+	.half	.L207-.L301
+	.byte	1,5,1,9
+	.half	.L302-.L207
+	.byte	3,1,1,5,22,9
+	.half	.L303-.L302
+	.byte	1,5,19,9
+	.half	.L304-.L303
+	.byte	1,5,5,9
+	.half	.L305-.L304
+	.byte	3,1,1,5,1,9
+	.half	.L306-.L305
+	.byte	1,5,15,7,9
+	.half	.L307-.L306
+	.byte	3,2,1,5,1,9
+	.half	.L16-.L307
+	.byte	3,2,1,7,9
+	.half	.L86-.L16
 	.byte	0,1,1
-.L366:
-	.sdecl	'.debug_ranges',debug,cluster('route_process_init')
+.L273:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
 	.sect	'.debug_ranges'
 .L85:
-	.word	-1,.L42,0,.L86-.L42,0,0
-	.sdecl	'.debug_info',debug,cluster('route_process_start')
+	.word	-1,.L43,0,.L86-.L43,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
 	.sect	'.debug_info'
 .L87:
-	.word	250
+	.word	332
 	.half	3
 	.word	.L88
 	.byte	4,1
@@ -2034,50 +1818,195 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L90,.L89
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_process_start',0,1,171,1,6,1,1,1
-	.word	.L44,.L159,.L43
+	.byte	'_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv',0,1,108,13,1,1
+	.word	.L45,.L165,.L44
 	.byte	4
-	.word	.L44,.L159
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('route_process_start')
+	.word	.L45,.L165
+	.byte	4
+	.word	.L166,.L167
+	.byte	5
+	.byte	'__68095_14_row',0,1,113,10
+	.word	.L142,.L168
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
 	.sect	'.debug_abbrev'
 .L88:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('route_process_start')
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
 	.sect	'.debug_line'
 .L89:
-	.word	.L399-.L398
-.L398:
+	.word	.L309-.L308
+.L308:
 	.half	3
-	.word	.L401-.L400
-.L400:
+	.word	.L311-.L310
+.L310:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L401:
-	.byte	5,92,7,0,5,2
-	.word	.L44
-	.byte	3,172,1,1,9
-	.half	.L402-.L44
-	.byte	3,1,1,5,1,9
-	.half	.L403-.L402
-	.byte	3,1,1,5,18,9
-	.half	.L404-.L403
-	.byte	1,5,15,9
-	.half	.L405-.L404
+.L311:
+	.byte	5,13,7,0,5,2
+	.word	.L45
+	.byte	3,235,0,1,5,120,9
+	.half	.L210-.L45
+	.byte	3,2,1,5,136,1,9
+	.half	.L312-.L210
+	.byte	1,5,152,1,9
+	.half	.L313-.L312
+	.byte	1,5,25,9
+	.half	.L314-.L313
+	.byte	1,5,39,9
+	.half	.L315-.L314
+	.byte	1,5,68,9
+	.half	.L316-.L315
+	.byte	1,5,88,9
+	.half	.L317-.L316
+	.byte	1,5,104,9
+	.half	.L318-.L317
+	.byte	1,5,25,9
+	.half	.L166-.L318
+	.byte	3,3,1,5,43,9
+	.half	.L319-.L166
+	.byte	1,5,90,9
+	.half	.L211-.L319
+	.byte	1,5,19,9
+	.half	.L19-.L211
+	.byte	3,3,1,5,50,9
+	.half	.L320-.L19
 	.byte	1,5,1,9
-	.half	.L406-.L405
+	.half	.L321-.L320
+	.byte	1,5,31,7,9
+	.half	.L322-.L321
+	.byte	3,2,1,5,61,9
+	.half	.L323-.L322
+	.byte	1,5,82,9
+	.half	.L324-.L323
+	.byte	1,5,108,9
+	.half	.L325-.L324
+	.byte	1,5,19,9
+	.half	.L20-.L325
+	.byte	3,3,1,5,50,9
+	.half	.L326-.L20
+	.byte	1,5,1,9
+	.half	.L327-.L326
+	.byte	1,5,31,7,9
+	.half	.L328-.L327
+	.byte	3,2,1,5,62,9
+	.half	.L329-.L328
+	.byte	1,5,83,9
+	.half	.L330-.L329
+	.byte	1,5,109,9
+	.half	.L331-.L330
+	.byte	1,5,7,9
+	.half	.L21-.L331
+	.byte	3,3,1,5,38,9
+	.half	.L332-.L21
+	.byte	1,5,1,9
+	.half	.L333-.L332
+	.byte	1,5,31,7,9
+	.half	.L334-.L333
+	.byte	3,2,1,5,63,9
+	.half	.L335-.L334
+	.byte	1,5,84,9
+	.half	.L336-.L335
+	.byte	1,5,110,9
+	.half	.L337-.L336
+	.byte	1,5,107,9
+	.half	.L22-.L337
+	.byte	3,113,1,5,86,9
+	.half	.L18-.L22
+	.byte	1,5,90,9
+	.half	.L338-.L18
+	.byte	1,5,21,7,9
+	.half	.L167-.L338
+	.byte	3,20,1,5,35,9
+	.half	.L339-.L167
+	.byte	1,5,65,9
+	.half	.L340-.L339
+	.byte	1,5,51,9
+	.half	.L341-.L340
+	.byte	1,5,18,9
+	.half	.L342-.L341
+	.byte	3,1,1,5,33,9
+	.half	.L343-.L342
+	.byte	1,5,57,9
+	.half	.L344-.L343
+	.byte	1,5,75,9
+	.half	.L345-.L344
+	.byte	1,5,95,9
+	.half	.L346-.L345
+	.byte	1,5,21,9
+	.half	.L347-.L346
+	.byte	3,1,1,5,35,9
+	.half	.L348-.L347
+	.byte	1,5,65,9
+	.half	.L349-.L348
+	.byte	1,5,51,9
+	.half	.L350-.L349
+	.byte	1,5,19,9
+	.half	.L351-.L350
+	.byte	3,1,1,5,34,9
+	.half	.L352-.L351
+	.byte	1,5,59,9
+	.half	.L353-.L352
+	.byte	1,5,77,9
+	.half	.L354-.L353
+	.byte	1,5,92,9
+	.half	.L355-.L354
+	.byte	1,5,21,9
+	.half	.L356-.L355
+	.byte	3,1,1,5,35,9
+	.half	.L357-.L356
+	.byte	1,5,65,9
+	.half	.L358-.L357
+	.byte	1,5,51,9
+	.half	.L359-.L358
+	.byte	1,5,60,9
+	.half	.L360-.L359
+	.byte	3,1,1,5,52,9
+	.half	.L212-.L360
+	.byte	1,5,84,9
+	.half	.L361-.L212
+	.byte	1,5,81,9
+	.half	.L362-.L361
+	.byte	1,5,106,9
+	.half	.L363-.L362
+	.byte	1,5,20,9
+	.half	.L364-.L363
+	.byte	1,5,35,9
+	.half	.L365-.L364
+	.byte	1,5,93,9
+	.half	.L366-.L365
+	.byte	1,5,61,9
+	.half	.L367-.L366
+	.byte	3,2,1,5,53,9
+	.half	.L368-.L367
+	.byte	1,5,86,9
+	.half	.L369-.L368
+	.byte	1,5,83,9
+	.half	.L370-.L369
+	.byte	1,5,108,9
+	.half	.L371-.L370
+	.byte	1,5,20,9
+	.half	.L372-.L371
+	.byte	1,5,36,9
+	.half	.L373-.L372
+	.byte	1,5,95,9
+	.half	.L374-.L373
+	.byte	1,5,16,9
+	.half	.L375-.L374
+	.byte	3,2,1,5,1,9
+	.half	.L376-.L375
 	.byte	3,1,1,7,9
-	.half	.L91-.L406
+	.half	.L91-.L376
 	.byte	0,1,1
-.L399:
-	.sdecl	'.debug_ranges',debug,cluster('route_process_start')
+.L309:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
 	.sect	'.debug_ranges'
 .L90:
-	.word	-1,.L44,0,.L91-.L44,0,0
-	.sdecl	'.debug_info',debug,cluster('route_process_stop')
+	.word	-1,.L45,0,.L91-.L45,0,0
+	.sdecl	'.debug_info',debug,cluster('route_process_init')
 	.sect	'.debug_info'
 .L92:
 	.word	249
@@ -2089,71 +2018,89 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L95,.L94
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_process_stop',0,1,178,1,6,1,1,1
-	.word	.L46,.L160,.L45
+	.byte	'route_process_init',0,1,145,1,6,1,1,1
+	.word	.L47,.L169,.L46
 	.byte	4
-	.word	.L46,.L160
+	.word	.L47,.L169
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('route_process_stop')
+	.sdecl	'.debug_abbrev',debug,cluster('route_process_init')
 	.sect	'.debug_abbrev'
 .L93:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('route_process_stop')
+	.sdecl	'.debug_line',debug,cluster('route_process_init')
 	.sect	'.debug_line'
 .L94:
-	.word	.L408-.L407
-.L407:
+	.word	.L378-.L377
+.L377:
 	.half	3
-	.word	.L410-.L409
-.L409:
+	.word	.L380-.L379
+.L379:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L410:
-	.byte	5,1,7,0,5,2
-	.word	.L46
-	.byte	3,179,1,1,5,18,9
-	.half	.L411-.L46
-	.byte	1,5,15,9
-	.half	.L412-.L411
-	.byte	1,5,1,9
-	.half	.L413-.L412
-	.byte	3,1,1,5,20,9
-	.half	.L414-.L413
-	.byte	1,5,17,9
-	.half	.L415-.L414
-	.byte	1,5,1,9
-	.half	.L416-.L415
-	.byte	3,1,1,5,21,9
-	.half	.L417-.L416
-	.byte	1,5,18,9
-	.half	.L418-.L417
-	.byte	1,5,21,9
-	.half	.L419-.L418
-	.byte	3,1,1,5,22,9
-	.half	.L420-.L419
-	.byte	3,1,1,5,16,9
-	.half	.L421-.L420
-	.byte	3,1,1,5,92,9
-	.half	.L422-.L421
+.L380:
+	.byte	5,48,7,0,5,2
+	.word	.L47
+	.byte	3,146,1,1,5,92,9
+	.half	.L381-.L47
 	.byte	3,1,1,9
-	.half	.L423-.L422
+	.half	.L382-.L381
 	.byte	3,1,1,5,1,9
-	.half	.L424-.L423
+	.half	.L383-.L382
+	.byte	3,1,1,5,22,9
+	.half	.L384-.L383
+	.byte	1,5,19,9
+	.half	.L385-.L384
+	.byte	1,5,1,9
+	.half	.L386-.L385
+	.byte	3,1,1,5,28,9
+	.half	.L387-.L386
+	.byte	1,5,25,9
+	.half	.L388-.L387
+	.byte	1,5,1,9
+	.half	.L389-.L388
+	.byte	3,1,1,5,24,9
+	.half	.L390-.L389
+	.byte	1,5,21,9
+	.half	.L391-.L390
+	.byte	1,5,1,9
+	.half	.L392-.L391
+	.byte	3,1,1,5,25,9
+	.half	.L393-.L392
+	.byte	1,5,22,9
+	.half	.L394-.L393
+	.byte	1,5,1,9
+	.half	.L395-.L394
+	.byte	3,1,1,5,27,9
+	.half	.L396-.L395
+	.byte	1,5,24,9
+	.half	.L397-.L396
+	.byte	1,5,1,9
+	.half	.L398-.L397
+	.byte	3,1,1,5,18,9
+	.half	.L399-.L398
+	.byte	1,5,15,9
+	.half	.L400-.L399
+	.byte	1,5,22,9
+	.half	.L401-.L400
+	.byte	3,2,1,5,23,9
+	.half	.L402-.L401
+	.byte	3,1,1,5,1,9
+	.half	.L403-.L402
 	.byte	3,1,1,7,9
-	.half	.L96-.L424
+	.half	.L96-.L403
 	.byte	0,1,1
-.L408:
-	.sdecl	'.debug_ranges',debug,cluster('route_process_stop')
+.L378:
+	.sdecl	'.debug_ranges',debug,cluster('route_process_init')
 	.sect	'.debug_ranges'
 .L95:
-	.word	-1,.L46,0,.L96-.L46,0,0
-	.sdecl	'.debug_info',debug,cluster('route_process_set_speed')
+	.word	-1,.L47,0,.L96-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('route_process_start')
 	.sect	'.debug_info'
 .L97:
-	.word	326
+	.word	250
 	.half	3
 	.word	.L98
 	.byte	4,1
@@ -2162,67 +2109,53 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L100,.L99
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_process_set_speed',0,1,190,1,6,1,1,1
-	.word	.L48,.L161,.L47
+	.byte	'route_process_start',0,1,161,1,6,1,1,1
+	.word	.L49,.L170,.L48
 	.byte	4
-	.byte	'__68174_34_normal_ticks',0,1,190,1,35
-	.word	.L138,.L162
-	.byte	4
-	.byte	'__68174_52_ramp_ticks',0,1,190,1,65
-	.word	.L138,.L163
-	.byte	5
-	.word	.L48,.L161
+	.word	.L49,.L170
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('route_process_set_speed')
+	.sdecl	'.debug_abbrev',debug,cluster('route_process_start')
 	.sect	'.debug_abbrev'
 .L98:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('route_process_set_speed')
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('route_process_start')
 	.sect	'.debug_line'
 .L99:
-	.word	.L426-.L425
-.L425:
+	.word	.L405-.L404
+.L404:
 	.half	3
-	.word	.L428-.L427
-.L427:
+	.word	.L407-.L406
+.L406:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L428:
-	.byte	5,6,7,0,5,2
-	.word	.L48
-	.byte	3,189,1,1,5,1,9
-	.half	.L193-.L48
-	.byte	3,2,1,5,128,1,9
-	.half	.L429-.L193
-	.byte	1,5,131,1,9
-	.half	.L192-.L429
-	.byte	1,5,26,9
-	.half	.L191-.L192
+.L407:
+	.byte	5,92,7,0,5,2
+	.word	.L49
+	.byte	3,162,1,1,9
+	.half	.L408-.L49
+	.byte	3,1,1,5,1,9
+	.half	.L409-.L408
+	.byte	3,1,1,5,18,9
+	.half	.L410-.L409
+	.byte	1,5,15,9
+	.half	.L411-.L410
 	.byte	1,5,1,9
-	.half	.L430-.L191
-	.byte	3,1,1,5,124,9
-	.half	.L431-.L430
-	.byte	1,5,127,9
-	.half	.L432-.L431
-	.byte	1,5,24,9
-	.half	.L195-.L432
-	.byte	1,5,1,9
-	.half	.L433-.L195
+	.half	.L412-.L411
 	.byte	3,1,1,7,9
-	.half	.L101-.L433
+	.half	.L101-.L412
 	.byte	0,1,1
-.L426:
-	.sdecl	'.debug_ranges',debug,cluster('route_process_set_speed')
+.L405:
+	.sdecl	'.debug_ranges',debug,cluster('route_process_start')
 	.sect	'.debug_ranges'
 .L100:
-	.word	-1,.L48,0,.L101-.L48,0,0
-	.sdecl	'.debug_info',debug,cluster('route_process_frame')
+	.word	-1,.L49,0,.L101-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('route_process_stop')
 	.sect	'.debug_info'
 .L102:
-	.word	250
+	.word	249
 	.half	3
 	.word	.L103
 	.byte	4,1
@@ -2231,63 +2164,71 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L105,.L104
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_process_frame',0,1,196,1,6,1,1,1
-	.word	.L50,.L164,.L49
+	.byte	'route_process_stop',0,1,168,1,6,1,1,1
+	.word	.L51,.L171,.L50
 	.byte	4
-	.word	.L50,.L164
+	.word	.L51,.L171
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('route_process_frame')
+	.sdecl	'.debug_abbrev',debug,cluster('route_process_stop')
 	.sect	'.debug_abbrev'
 .L103:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('route_process_frame')
+	.sdecl	'.debug_line',debug,cluster('route_process_stop')
 	.sect	'.debug_line'
 .L104:
-	.word	.L435-.L434
-.L434:
+	.word	.L414-.L413
+.L413:
 	.half	3
-	.word	.L437-.L436
-.L436:
+	.word	.L416-.L415
+.L415:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L437:
-	.byte	5,7,7,0,5,2
-	.word	.L50
-	.byte	3,197,1,1,5,6,9
-	.half	.L438-.L50
-	.byte	1,5,1,7,9
-	.half	.L439-.L438
-	.byte	3,2,1,5,67,9
-	.half	.L20-.L439
-	.byte	3,3,1,5,88,9
-	.half	.L440-.L20
-	.byte	1,5,70,9
-	.half	.L441-.L440
-	.byte	3,2,1,5,66,9
-	.half	.L442-.L441
-	.byte	3,1,1,5,1,9
-	.half	.L443-.L442
-	.byte	3,1,1,5,24,9
-	.half	.L444-.L443
-	.byte	1,5,21,9
-	.half	.L445-.L444
+.L416:
+	.byte	5,1,7,0,5,2
+	.word	.L51
+	.byte	3,169,1,1,5,18,9
+	.half	.L417-.L51
+	.byte	1,5,15,9
+	.half	.L418-.L417
 	.byte	1,5,1,9
-	.half	.L21-.L445
+	.half	.L419-.L418
+	.byte	3,1,1,5,24,9
+	.half	.L420-.L419
+	.byte	1,5,21,9
+	.half	.L421-.L420
+	.byte	1,5,1,9
+	.half	.L422-.L421
+	.byte	3,1,1,5,25,9
+	.half	.L423-.L422
+	.byte	1,5,22,9
+	.half	.L424-.L423
+	.byte	1,5,21,9
+	.half	.L425-.L424
+	.byte	3,1,1,5,22,9
+	.half	.L426-.L425
+	.byte	3,1,1,5,16,9
+	.half	.L427-.L426
+	.byte	3,1,1,5,92,9
+	.half	.L428-.L427
+	.byte	3,1,1,9
+	.half	.L429-.L428
+	.byte	3,1,1,5,1,9
+	.half	.L430-.L429
 	.byte	3,1,1,7,9
-	.half	.L106-.L21
+	.half	.L106-.L430
 	.byte	0,1,1
-.L435:
-	.sdecl	'.debug_ranges',debug,cluster('route_process_frame')
+.L414:
+	.sdecl	'.debug_ranges',debug,cluster('route_process_stop')
 	.sect	'.debug_ranges'
 .L105:
-	.word	-1,.L50,0,.L106-.L50,0,0
-	.sdecl	'.debug_info',debug,cluster('route_speed_control_100ms')
+	.word	-1,.L51,0,.L106-.L51,0,0
+	.sdecl	'.debug_info',debug,cluster('route_process_set_speed')
 	.sect	'.debug_info'
 .L107:
-	.word	395
+	.word	291
 	.half	3
 	.word	.L108
 	.byte	4,1
@@ -2296,279 +2237,347 @@ route_filtered_steering:	.type	object
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
 	.word	.L110,.L109
 	.byte	2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_speed_control_100ms',0,1,210,1,6,1,1,1
-	.word	.L52,.L165,.L51
+	.byte	'route_process_set_speed',0,1,180,1,6,1,1,1
+	.word	.L53,.L172,.L52
 	.byte	4
-	.word	.L52,.L165
+	.byte	'__68162_34_target_ticks',0,1,180,1,35
+	.word	.L142,.L173
 	.byte	5
-	.byte	'__68207_9_left_target',0,1,223,1,10
-	.word	.L138,.L166
-	.byte	5
-	.byte	'__68209_9_right_target',0,1,225,1,10
-	.word	.L138,.L167
-	.byte	5
-	.byte	'__68210_15_steering',0,1,226,1,10
-	.word	.L138,.L168
-	.byte	5
-	.byte	'__68211_15_reduction',0,1,227,1,10
-	.word	.L138,.L169
-	.byte	0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('route_speed_control_100ms')
+	.word	.L53,.L172
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('route_process_set_speed')
 	.sect	'.debug_abbrev'
 .L108:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('route_speed_control_100ms')
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('route_process_set_speed')
 	.sect	'.debug_line'
 .L109:
-	.word	.L447-.L446
-.L446:
+	.word	.L432-.L431
+.L431:
 	.half	3
-	.word	.L449-.L448
-.L448:
+	.word	.L434-.L433
+.L433:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
-.L449:
-	.byte	5,8,7,0,5,2
-	.word	.L52
-	.byte	3,211,1,1,5,7,9
-	.half	.L450-.L52
-	.byte	1,5,30,7,9
-	.half	.L451-.L450
-	.byte	1,5,29,9
-	.half	.L452-.L451
-	.byte	1,5,1,7,9
-	.half	.L22-.L452
-	.byte	3,2,1,5,20,9
-	.half	.L453-.L22
-	.byte	1,5,17,9
-	.half	.L454-.L453
-	.byte	1,5,1,9
-	.half	.L455-.L454
-	.byte	3,1,1,5,21,9
-	.half	.L456-.L455
-	.byte	1,5,18,9
-	.half	.L457-.L456
-	.byte	1,5,21,9
-	.half	.L458-.L457
-	.byte	3,1,1,5,22,9
-	.half	.L459-.L458
-	.byte	3,1,1,5,92,9
-	.half	.L460-.L459
-	.byte	3,1,1,9
-	.half	.L461-.L460
-	.byte	3,1,1,5,1,9
-	.half	.L462-.L461
-	.byte	3,1,1,5,33,9
-	.half	.L23-.L462
-	.byte	3,3,1,5,32,9
-	.half	.L463-.L23
-	.byte	1,5,54,7,9
-	.half	.L464-.L463
-	.byte	1,5,77,9
-	.half	.L196-.L464
-	.byte	1,5,79,9
-	.half	.L25-.L196
-	.byte	1,5,24,9
-	.half	.L26-.L25
-	.byte	3,2,1,5,29,9
-	.half	.L198-.L26
-	.byte	3,1,1,5,27,9
-	.half	.L199-.L198
-	.byte	3,1,1,5,57,7,9
-	.half	.L465-.L199
-	.byte	1,5,56,9
-	.half	.L466-.L465
-	.byte	1,5,78,9
-	.half	.L467-.L466
-	.byte	1,5,53,9
-	.half	.L27-.L467
-	.byte	1,5,101,9
-	.half	.L28-.L27
-	.byte	1,5,109,9
-	.half	.L468-.L28
-	.byte	1,5,107,9
-	.half	.L469-.L468
-	.byte	1,5,1,9
-	.half	.L200-.L469
-	.byte	3,3,1,5,24,7,9
-	.half	.L470-.L200
-	.byte	3,2,1,5,47,9
-	.half	.L471-.L470
-	.byte	1,5,23,9
-	.half	.L29-.L471
-	.byte	3,4,1,5,115,9
-	.half	.L30-.L29
-	.byte	3,2,1,5,118,9
-	.half	.L472-.L30
-	.byte	1,5,117,9
-	.half	.L197-.L472
-	.byte	3,1,1,5,120,9
-	.half	.L473-.L197
+.L434:
+	.byte	5,1,7,0,5,2
+	.word	.L53
+	.byte	3,181,1,1,5,128,1,9
+	.half	.L435-.L53
+	.byte	1,5,131,1,9
+	.half	.L436-.L435
 	.byte	1,5,26,9
-	.half	.L202-.L473
-	.byte	3,6,1,5,27,9
-	.half	.L474-.L202
-	.byte	3,1,1,5,1,9
-	.half	.L24-.L474
+	.half	.L213-.L436
+	.byte	1,5,1,9
+	.half	.L437-.L213
 	.byte	3,1,1,7,9
-	.half	.L111-.L24
+	.half	.L111-.L437
 	.byte	0,1,1
-.L447:
-	.sdecl	'.debug_ranges',debug,cluster('route_speed_control_100ms')
+.L432:
+	.sdecl	'.debug_ranges',debug,cluster('route_process_set_speed')
 	.sect	'.debug_ranges'
 .L110:
-	.word	-1,.L52,0,.L111-.L52,0,0
-	.sdecl	'.debug_info',debug,cluster('route_image_result')
+	.word	-1,.L53,0,.L111-.L53,0,0
+	.sdecl	'.debug_info',debug,cluster('route_process_frame')
 	.sect	'.debug_info'
 .L112:
-	.word	225
+	.word	250
 	.half	3
 	.word	.L113
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L115,.L114
+	.byte	2
+	.word	.L58
 	.byte	3
-	.byte	'route_image_result',0,6,18,29
-	.word	.L170
-	.byte	5,3
-	.word	route_image_result
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_image_result')
+	.byte	'route_process_frame',0,1,185,1,6,1,1,1
+	.word	.L55,.L174,.L54
+	.byte	4
+	.word	.L55,.L174
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('route_process_frame')
 	.sect	'.debug_abbrev'
 .L113:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('left_speed_pid')
-	.sect	'.debug_info'
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('route_process_frame')
+	.sect	'.debug_line'
 .L114:
-	.word	221
+	.word	.L439-.L438
+.L438:
 	.half	3
-	.word	.L115
-	.byte	4,1
-	.byte	'../code/route_process/route_process.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
-	.byte	3
-	.byte	'left_speed_pid',0,6,19,26
-	.word	.L171
-	.byte	5,3
-	.word	left_speed_pid
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('left_speed_pid')
-	.sect	'.debug_abbrev'
+	.word	.L441-.L440
+.L440:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
+.L441:
+	.byte	5,7,7,0,5,2
+	.word	.L55
+	.byte	3,186,1,1,5,6,9
+	.half	.L442-.L55
+	.byte	1,5,1,7,9
+	.half	.L443-.L442
+	.byte	3,2,1,5,67,9
+	.half	.L23-.L443
+	.byte	3,3,1,5,88,9
+	.half	.L444-.L23
+	.byte	1,5,70,9
+	.half	.L445-.L444
+	.byte	3,2,1,5,66,9
+	.half	.L446-.L445
+	.byte	3,1,1,5,1,9
+	.half	.L447-.L446
+	.byte	3,1,1,5,24,9
+	.half	.L448-.L447
+	.byte	1,5,21,9
+	.half	.L449-.L448
+	.byte	1,5,1,9
+	.half	.L24-.L449
+	.byte	3,1,1,7,9
+	.half	.L116-.L24
+	.byte	0,1,1
+.L439:
+	.sdecl	'.debug_ranges',debug,cluster('route_process_frame')
+	.sect	'.debug_ranges'
 .L115:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('right_speed_pid')
+	.word	-1,.L55,0,.L116-.L55,0,0
+	.sdecl	'.debug_info',debug,cluster('route_speed_control_100ms')
 	.sect	'.debug_info'
-.L116:
-	.word	222
-	.half	3
-	.word	.L117
-	.byte	4,1
-	.byte	'../code/route_process/route_process.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
-	.byte	3
-	.byte	'right_speed_pid',0,6,20,26
-	.word	.L171
-	.byte	5,3
-	.word	right_speed_pid
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('right_speed_pid')
-	.sect	'.debug_abbrev'
 .L117:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_enabled')
-	.sect	'.debug_info'
+	.word	484
+	.half	3
+	.word	.L118
+	.byte	4,1
+	.byte	'../code/route_process/route_process.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L120,.L119
+	.byte	2
+	.word	.L58
+	.byte	3
+	.byte	'route_speed_control_100ms',0,1,199,1,6,1,1,1
+	.word	.L57,.L175,.L56
+	.byte	4
+	.word	.L57,.L175
+	.byte	5
+	.byte	'__68205_9_steering_abs',0,1,223,1,10
+	.word	.L142,.L176
+	.byte	5
+	.byte	'__68209_9_target',0,1,227,1,10
+	.word	.L142,.L177
+	.byte	5
+	.byte	'__68210_15_minimum_turn_target',0,1,228,1,10
+	.word	.L142,.L178
+	.byte	5
+	.byte	'__68213_15_speed_reduction_range',0,1,231,1,10
+	.word	.L142,.L179
+	.byte	5
+	.byte	'__68223_9_left_target',0,1,241,1,10
+	.word	.L142,.L180
+	.byte	5
+	.byte	'__68224_9_right_target',0,1,242,1,10
+	.word	.L142,.L181
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('route_speed_control_100ms')
+	.sect	'.debug_abbrev'
 .L118:
-	.word	220
-	.half	3
-	.word	.L119
-	.byte	4,1
-	.byte	'../code/route_process/route_process.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
-	.byte	3
-	.byte	'route_enabled',0,6,22,23
-	.word	.L172
-	.byte	5,3
-	.word	route_enabled
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_enabled')
-	.sect	'.debug_abbrev'
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('route_speed_control_100ms')
+	.sect	'.debug_line'
 .L119:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_track_valid')
-	.sect	'.debug_info'
-.L120:
-	.word	224
+	.word	.L451-.L450
+.L450:
 	.half	3
-	.word	.L121
-	.byte	4,1
-	.byte	'../code/route_process/route_process.cpp',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
-	.byte	3
-	.byte	'route_track_valid',0,6,23,23
-	.word	.L173
-	.byte	5,3
-	.word	route_track_valid
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_track_valid')
-	.sect	'.debug_abbrev'
-.L121:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_ramp_active')
+	.word	.L453-.L452
+.L452:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/route_process/route_process.cpp',0,0,0,0,0
+.L453:
+	.byte	5,7,7,0,5,2
+	.word	.L57
+	.byte	3,200,1,1,5,6,9
+	.half	.L454-.L57
+	.byte	1,5,1,7,9
+	.half	.L455-.L454
+	.byte	3,2,1,5,24,9
+	.half	.L456-.L455
+	.byte	1,5,21,9
+	.half	.L457-.L456
+	.byte	1,5,1,9
+	.half	.L458-.L457
+	.byte	3,1,1,5,25,9
+	.half	.L459-.L458
+	.byte	1,5,22,9
+	.half	.L460-.L459
+	.byte	1,5,21,9
+	.half	.L461-.L460
+	.byte	3,1,1,5,22,9
+	.half	.L462-.L461
+	.byte	3,1,1,5,92,9
+	.half	.L463-.L462
+	.byte	3,1,1,9
+	.half	.L464-.L463
+	.byte	3,1,1,5,1,9
+	.half	.L465-.L464
+	.byte	3,1,1,5,7,9
+	.half	.L25-.L465
+	.byte	3,3,1,5,6,9
+	.half	.L466-.L25
+	.byte	1,5,1,7,9
+	.half	.L467-.L466
+	.byte	3,2,1,5,24,9
+	.half	.L468-.L467
+	.byte	1,5,21,9
+	.half	.L469-.L468
+	.byte	1,5,1,9
+	.half	.L470-.L469
+	.byte	3,1,1,5,25,9
+	.half	.L471-.L470
+	.byte	1,5,22,9
+	.half	.L472-.L471
+	.byte	1,5,21,9
+	.half	.L473-.L472
+	.byte	3,1,1,5,22,9
+	.half	.L474-.L473
+	.byte	3,1,1,5,92,9
+	.half	.L475-.L474
+	.byte	3,1,1,9
+	.half	.L476-.L475
+	.byte	3,1,1,5,1,9
+	.half	.L477-.L476
+	.byte	3,1,1,5,32,9
+	.half	.L27-.L477
+	.byte	3,3,1,5,27,9
+	.half	.L214-.L27
+	.byte	3,1,1,5,59,7,9
+	.half	.L478-.L214
+	.byte	1,5,84,9
+	.half	.L479-.L478
+	.byte	1,5,117,9
+	.half	.L30-.L479
+	.byte	3,1,1,5,120,9
+	.half	.L480-.L30
+	.byte	1,5,26,9
+	.half	.L215-.L480
+	.byte	3,2,1,5,42,9
+	.half	.L217-.L215
+	.byte	3,1,1,5,70,9
+	.half	.L481-.L217
+	.byte	1,5,35,9
+	.half	.L482-.L481
+	.byte	1,5,84,7,9
+	.half	.L483-.L482
+	.byte	1,5,110,9
+	.half	.L484-.L483
+	.byte	1,5,76,9
+	.half	.L31-.L484
+	.byte	1,5,43,9
+	.half	.L32-.L31
+	.byte	3,3,1,5,69,9
+	.half	.L219-.L32
+	.byte	1,5,1,9
+	.half	.L485-.L219
+	.byte	3,2,1,5,46,7,9
+	.half	.L486-.L485
+	.byte	3,2,1,5,84,9
+	.half	.L216-.L486
+	.byte	1,5,82,9
+	.half	.L220-.L216
+	.byte	1,5,18,9
+	.half	.L487-.L220
+	.byte	1,5,143,1,9
+	.half	.L33-.L487
+	.byte	3,2,1,5,138,1,9
+	.half	.L488-.L33
+	.byte	1,5,18,9
+	.half	.L218-.L488
+	.byte	1,5,201,1,9
+	.half	.L222-.L218
+	.byte	3,7,1,5,1,9
+	.half	.L221-.L222
+	.byte	1,5,126,9
+	.half	.L489-.L221
+	.byte	1,5,167,1,9
+	.half	.L490-.L489
+	.byte	1,5,21,9
+	.half	.L491-.L490
+	.byte	1,5,205,1,9
+	.half	.L492-.L491
+	.byte	3,2,1,5,1,9
+	.half	.L493-.L492
+	.byte	1,5,127,9
+	.half	.L494-.L493
+	.byte	1,5,170,1,9
+	.half	.L495-.L494
+	.byte	1,5,22,9
+	.half	.L496-.L495
+	.byte	1,5,36,9
+	.half	.L497-.L496
+	.byte	3,2,1,5,31,9
+	.half	.L498-.L497
+	.byte	1,5,37,9
+	.half	.L499-.L498
+	.byte	3,1,1,5,32,9
+	.half	.L500-.L499
+	.byte	1,5,1,9
+	.half	.L26-.L500
+	.byte	3,1,1,7,9
+	.half	.L121-.L26
+	.byte	0,1,1
+.L451:
+	.sdecl	'.debug_ranges',debug,cluster('route_speed_control_100ms')
+	.sect	'.debug_ranges'
+.L120:
+	.word	-1,.L57,0,.L121-.L57,0,0
+	.sdecl	'.debug_info',debug,cluster('route_image_result')
 	.sect	'.debug_info'
 .L122:
-	.word	224
+	.word	225
 	.half	3
 	.word	.L123
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_ramp_active',0,6,24,23
-	.word	.L174
+	.byte	'route_image_result',0,6,17,29
+	.word	.L182
 	.byte	5,3
-	.word	route_ramp_active
+	.word	route_image_result
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_ramp_active')
+	.sdecl	'.debug_abbrev',debug,cluster('route_image_result')
 	.sect	'.debug_abbrev'
 .L123:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_steering_permille')
+	.sdecl	'.debug_info',debug,cluster('left_speed_pid')
 	.sect	'.debug_info'
 .L124:
-	.word	230
+	.word	221
 	.half	3
 	.word	.L125
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_steering_permille',0,6,25,23
-	.word	.L175
+	.byte	'left_speed_pid',0,6,18,26
+	.word	.L183
 	.byte	5,3
-	.word	route_steering_permille
+	.word	left_speed_pid
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_steering_permille')
+	.sdecl	'.debug_abbrev',debug,cluster('left_speed_pid')
 	.sect	'.debug_abbrev'
 .L125:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_left_duty')
+	.sdecl	'.debug_info',debug,cluster('right_speed_pid')
 	.sect	'.debug_info'
 .L126:
 	.word	222
@@ -2578,318 +2587,402 @@ route_filtered_steering:	.type	object
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_left_duty',0,6,26,23
-	.word	.L176
+	.byte	'right_speed_pid',0,6,19,26
+	.word	.L183
 	.byte	5,3
-	.word	route_left_duty
+	.word	right_speed_pid
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_left_duty')
+	.sdecl	'.debug_abbrev',debug,cluster('right_speed_pid')
 	.sect	'.debug_abbrev'
 .L127:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_right_duty')
+	.sdecl	'.debug_info',debug,cluster('route_enabled')
 	.sect	'.debug_info'
 .L128:
-	.word	223
+	.word	220
 	.half	3
 	.word	.L129
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_right_duty',0,6,27,23
-	.word	.L177
+	.byte	'route_enabled',0,6,21,23
+	.word	.L184
 	.byte	5,3
-	.word	route_right_duty
+	.word	route_enabled
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_right_duty')
+	.sdecl	'.debug_abbrev',debug,cluster('route_enabled')
 	.sect	'.debug_abbrev'
 .L129:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_normal_speed_ticks')
+	.sdecl	'.debug_info',debug,cluster('route_track_valid')
 	.sect	'.debug_info'
 .L130:
-	.word	231
+	.word	224
 	.half	3
 	.word	.L131
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_normal_speed_ticks',0,6,28,23
-	.word	.L178
+	.byte	'route_track_valid',0,6,22,23
+	.word	.L185
 	.byte	5,3
-	.word	route_normal_speed_ticks
+	.word	route_track_valid
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_normal_speed_ticks')
+	.sdecl	'.debug_abbrev',debug,cluster('route_track_valid')
 	.sect	'.debug_abbrev'
 .L131:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_ramp_speed_ticks')
+	.sdecl	'.debug_info',debug,cluster('route_steering_permille')
 	.sect	'.debug_info'
 .L132:
-	.word	229
+	.word	230
 	.half	3
 	.word	.L133
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_ramp_speed_ticks',0,6,30,23
-	.word	.L179
+	.byte	'route_steering_permille',0,6,23,23
+	.word	.L186
 	.byte	5,3
-	.word	route_ramp_speed_ticks
+	.word	route_steering_permille
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_ramp_speed_ticks')
+	.sdecl	'.debug_abbrev',debug,cluster('route_steering_permille')
 	.sect	'.debug_abbrev'
 .L133:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_last_image_error')
+	.sdecl	'.debug_info',debug,cluster('route_left_duty_x10')
 	.sect	'.debug_info'
 .L134:
-	.word	229
+	.word	226
 	.half	3
 	.word	.L135
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_last_image_error',0,6,33,14
-	.word	.L143
+	.byte	'route_left_duty_x10',0,6,25,23
+	.word	.L187
 	.byte	5,3
-	.word	route_last_image_error
+	.word	route_left_duty_x10
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_last_image_error')
+	.sdecl	'.debug_abbrev',debug,cluster('route_left_duty_x10')
 	.sect	'.debug_abbrev'
 .L135:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('route_filtered_steering')
+	.sdecl	'.debug_info',debug,cluster('route_right_duty_x10')
 	.sect	'.debug_info'
 .L136:
-	.word	230
+	.word	227
 	.half	3
 	.word	.L137
 	.byte	4,1
 	.byte	'../code/route_process/route_process.cpp',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L53
+	.word	.L58
 	.byte	3
-	.byte	'route_filtered_steering',0,6,34,14
-	.word	.L143
+	.byte	'route_right_duty_x10',0,6,26,23
+	.word	.L188
 	.byte	5,3
-	.word	route_filtered_steering
+	.word	route_right_duty_x10
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('route_filtered_steering')
+	.sdecl	'.debug_abbrev',debug,cluster('route_right_duty_x10')
 	.sect	'.debug_abbrev'
 .L137:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('route_normal_speed_ticks')
+	.sect	'.debug_info'
+.L138:
+	.word	231
+	.half	3
+	.word	.L139
+	.byte	4,1
+	.byte	'../code/route_process/route_process.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
+	.word	.L58
+	.byte	3
+	.byte	'route_normal_speed_ticks',0,6,27,23
+	.word	.L189
+	.byte	5,3
+	.word	route_normal_speed_ticks
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('route_normal_speed_ticks')
+	.sect	'.debug_abbrev'
+.L139:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('route_last_image_error')
+	.sect	'.debug_info'
+.L140:
+	.word	229
+	.half	3
+	.word	.L141
+	.byte	4,1
+	.byte	'../code/route_process/route_process.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Projects\\TCCAR\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1,2
+	.word	.L58
+	.byte	3
+	.byte	'route_last_image_error',0,6,30,14
+	.word	.L147
+	.byte	5,3
+	.word	route_last_image_error
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('route_last_image_error')
+	.sect	'.debug_abbrev'
+.L141:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
 	.sect	'.debug_loc'
-.L31:
-	.word	-1,.L32,0,.L139-.L32
+.L34:
+	.word	-1,.L35,0,.L143-.L35
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L140:
-	.word	-1,.L32,0,.L139-.L32
+.L144:
+	.word	-1,.L35,0,.L143-.L35
 	.half	1
 	.byte	84
-	.word	.L182-.L32,.L3-.L32
+	.word	.L192-.L35,.L3-.L35
 	.half	1
 	.byte	82
 	.word	0,0
-.L141:
-	.word	-1,.L32,0,.L139-.L32
+.L145:
+	.word	-1,.L35,0,.L143-.L35
 	.half	1
 	.byte	85
-	.word	.L180-.L32,.L2-.L32
+	.word	.L190-.L35,.L2-.L35
 	.half	1
 	.byte	82
 	.word	0,0
-.L142:
-	.word	-1,.L32,0,.L139-.L32
+.L146:
+	.word	-1,.L35,0,.L143-.L35
 	.half	1
 	.byte	86
-	.word	.L181-.L32,.L4-.L32
+	.word	.L191-.L35,.L4-.L35
 	.half	1
 	.byte	82
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
 	.sect	'.debug_loc'
-.L39:
-	.word	-1,.L40,0,.L189-.L40
+.L44:
+	.word	-1,.L45,0,.L210-.L45
 	.half	2
 	.byte	138,0
-	.word	.L189-.L40,.L154-.L40
+	.word	.L210-.L45,.L165-.L45
 	.half	2
 	.byte	138,16
-	.word	.L154-.L40,.L154-.L40
+	.word	.L165-.L45,.L165-.L45
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L157:
-	.word	-1,.L40,.L190-.L40,.L154-.L40
+.L168:
+	.word	-1,.L45,.L211-.L45,.L212-.L45
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
 	.sect	'.debug_loc'
-.L33:
-	.word	-1,.L34,0,.L144-.L34
+.L36:
+	.word	-1,.L37,0,.L148-.L37
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L145:
-	.word	-1,.L34,0,.L144-.L34
+.L149:
+	.word	-1,.L37,0,.L148-.L37
 	.half	1
 	.byte	84
-	.word	.L185-.L34,.L8-.L34
+	.word	.L195-.L37,.L8-.L37
 	.half	1
 	.byte	82
 	.word	0,0
-.L146:
-	.word	-1,.L34,0,.L144-.L34
+.L150:
+	.word	-1,.L37,0,.L148-.L37
 	.half	1
 	.byte	85
-	.word	.L183-.L34,.L7-.L34
+	.word	.L193-.L37,.L7-.L37
 	.half	1
 	.byte	82
 	.word	0,0
-.L147:
-	.word	-1,.L34,0,.L144-.L34
+.L151:
+	.word	-1,.L37,0,.L148-.L37
 	.half	1
 	.byte	86
-	.word	.L184-.L34,.L9-.L34
+	.word	.L194-.L37,.L9-.L37
 	.half	1
 	.byte	82
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
 	.sect	'.debug_loc'
-.L35:
-	.word	-1,.L36,0,.L148-.L36
+.L38:
+	.word	-1,.L39,0,.L152-.L39
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L150:
-	.word	-1,.L36,0,.L148-.L36
+.L154:
+	.word	-1,.L39,0,.L152-.L39
 	.half	1
 	.byte	100
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
 	.sect	'.debug_loc'
-.L37:
-	.word	-1,.L38,0,.L151-.L38
+.L42:
+	.word	-1,.L43,0,.L162-.L43
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L152:
-	.word	-1,.L38,.L186-.L38,.L13-.L38
-	.half	1
-	.byte	88
-	.word	0,0
-.L153:
-	.word	-1,.L38,.L187-.L38,.L188-.L38
+.L163:
+	.word	-1,.L43,.L204-.L43,.L205-.L43
 	.half	1
 	.byte	95
 	.word	0,0
+.L164:
+	.word	-1,.L43,.L206-.L43,.L207-.L43
+	.half	1
+	.byte	82
+	.word	.L208-.L43,.L16-.L43
+	.half	1
+	.byte	88
+	.word	.L209-.L43,.L16-.L43
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii')
+	.sect	'.debug_loc'
+.L40:
+	.word	-1,.L41,0,.L155-.L41
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L156:
+	.word	-1,.L41,0,.L196-.L41
+	.half	1
+	.byte	100
+	.word	.L199-.L41,.L155-.L41
+	.half	1
+	.byte	111
+	.word	0,0
+.L158:
+	.word	-1,.L41,0,.L197-.L41
+	.half	1
+	.byte	85
+	.word	0,0
+.L157:
+	.word	-1,.L41,0,.L198-.L41
+	.half	1
+	.byte	84
+	.word	0,0
+.L159:
+	.word	-1,.L41,.L200-.L41,.L155-.L41
+	.half	1
+	.byte	88
+	.word	0,0
+.L160:
+	.word	-1,.L41,.L201-.L41,.L202-.L41
+	.half	1
+	.byte	95
+	.word	.L198-.L41,.L196-.L41
+	.half	1
+	.byte	84
+	.word	0,0
+.L161:
+	.word	-1,.L41,.L196-.L41,.L203-.L41
+	.half	1
+	.byte	82
+	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('route_process_frame')
 	.sect	'.debug_loc'
-.L49:
-	.word	-1,.L50,0,.L164-.L50
+.L54:
+	.word	-1,.L55,0,.L174-.L55
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('route_process_init')
 	.sect	'.debug_loc'
-.L41:
-	.word	-1,.L42,0,.L158-.L42
+.L46:
+	.word	-1,.L47,0,.L169-.L47
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('route_process_set_speed')
 	.sect	'.debug_loc'
-.L162:
-	.word	-1,.L48,0,.L191-.L48
+.L173:
+	.word	-1,.L53,0,.L213-.L53
 	.half	1
 	.byte	84
 	.word	0,0
-.L163:
-	.word	-1,.L48,0,.L192-.L48
-	.half	1
-	.byte	85
-	.word	.L193-.L48,.L161-.L48
-	.half	1
-	.byte	95
-	.word	.L194-.L48,.L195-.L48
-	.half	1
-	.byte	84
-	.word	0,0
-.L47:
-	.word	-1,.L48,0,.L161-.L48
+.L52:
+	.word	-1,.L53,0,.L172-.L53
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('route_process_start')
 	.sect	'.debug_loc'
-.L43:
-	.word	-1,.L44,0,.L159-.L44
+.L48:
+	.word	-1,.L49,0,.L170-.L49
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('route_process_stop')
 	.sect	'.debug_loc'
-.L45:
-	.word	-1,.L46,0,.L160-.L46
+.L50:
+	.word	-1,.L51,0,.L171-.L51
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('route_speed_control_100ms')
 	.sect	'.debug_loc'
-.L166:
-	.word	-1,.L52,.L196-.L52,.L25-.L52
+.L176:
+	.word	-1,.L57,.L214-.L57,.L215-.L57
 	.half	1
 	.byte	84
-	.word	.L26-.L52,.L197-.L52
-	.half	1
-	.byte	84
-	.word	0,0
-.L167:
-	.word	-1,.L52,.L198-.L52,.L24-.L52
-	.half	1
-	.byte	95
-	.word	.L201-.L52,.L202-.L52
-	.half	1
-	.byte	84
-	.word	0,0
-.L168:
-	.word	-1,.L52,.L199-.L52,.L197-.L52
-	.half	5
-	.byte	144,32,157,32,0
-	.word	0,0
-.L169:
-	.word	-1,.L52,.L200-.L52,.L197-.L52
+	.word	.L215-.L57,.L216-.L57
 	.half	1
 	.byte	82
 	.word	0,0
-.L51:
-	.word	-1,.L52,0,.L165-.L52
+.L177:
+	.word	-1,.L57,.L217-.L57,.L218-.L57
+	.half	1
+	.byte	84
+	.word	.L218-.L57,.L221-.L57
+	.half	1
+	.byte	82
+	.word	.L222-.L57,.L26-.L57
+	.half	1
+	.byte	95
+	.word	0,0
+.L178:
+	.word	0,0
+.L179:
+	.word	-1,.L57,.L219-.L57,.L220-.L57
+	.half	1
+	.byte	95
+	.word	0,0
+.L180:
+	.word	0,0
+.L181:
+	.word	0,0
+.L56:
+	.word	-1,.L57,0,.L175-.L57
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L475:
+.L501:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -2897,53 +2990,57 @@ route_filtered_steering:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b315route_limit_intEiii')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L475,.L32,.L139-.L32
+	.word	.L501,.L35,.L143-.L35
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_limit_floatEfff')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L475,.L34,.L144-.L34
+	.word	.L501,.L37,.L148-.L37
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_reset_speed_pidEP17route_speed_pid_t')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L475,.L36,.L148-.L36
+	.word	.L501,.L39,.L152-.L39
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b322route_update_speed_pidEP17route_speed_pid_tii')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L501,.L41,.L155-.L41
 	.sdecl	'.debug_frame',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b321route_update_steeringEv')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L475,.L38,.L151-.L38
+	.word	.L501,.L43,.L162-.L43
 	.sdecl	'.debug_frame',debug,cluster('_ZN39_INTERNAL_17_route_process_cpp_431376b317route_draw_resultEv')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L475,.L40,.L154-.L40
+	.word	.L501,.L45,.L165-.L45
 	.byte	4
-	.word	(.L189-.L40)/2
+	.word	(.L210-.L45)/2
 	.byte	19,16,22,26,3,19,138,16,4
-	.word	(.L154-.L189)/2
+	.word	(.L165-.L210)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('route_process_init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L475,.L42,.L158-.L42
+	.word	.L501,.L47,.L169-.L47
 	.sdecl	'.debug_frame',debug,cluster('route_process_start')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L475,.L44,.L159-.L44
+	.word	.L501,.L49,.L170-.L49
 	.sdecl	'.debug_frame',debug,cluster('route_process_stop')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L475,.L46,.L160-.L46
+	.word	.L501,.L51,.L171-.L51
 	.sdecl	'.debug_frame',debug,cluster('route_process_set_speed')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L475,.L48,.L161-.L48
+	.word	.L501,.L53,.L172-.L53
 	.sdecl	'.debug_frame',debug,cluster('route_process_frame')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L475,.L50,.L164-.L50
+	.word	.L501,.L55,.L174-.L55
 	.sdecl	'.debug_frame',debug,cluster('route_speed_control_100ms')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L475,.L52,.L165-.L52
+	.word	.L501,.L57,.L175-.L57
 	; Module end
