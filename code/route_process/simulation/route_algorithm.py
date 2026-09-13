@@ -44,13 +44,6 @@ MIN_TRACK_WIDTH = _cpp_config_number("ROUTE_MIN_TRACK_WIDTH", 12)
 STEERING_KP = _cpp_config_number("ROUTE_STEERING_KP", 0.025)
 STEERING_KD = _cpp_config_number("ROUTE_STEERING_KD", 0.012)
 STEERING_FILTER = _cpp_config_number("ROUTE_STEERING_FILTER", 0.35)
-STEERING_DEADBAND_PIXELS = _cpp_config_number(
-    "ROUTE_STEERING_DEADBAND_PIXELS", 0
-)
-STEERING_MAX_STEP = _cpp_config_number("ROUTE_STEERING_MAX_STEP", 1.0)
-STEERING_LOST_HOLD_FRAMES = _cpp_config_number(
-    "ROUTE_STEERING_LOST_HOLD_FRAMES", 0
-)
 
 NORMAL_SPEED = _cpp_config_number("ROUTE_NORMAL_SPEED_TICKS_100MS", 80)
 RAMP_SPEED = _cpp_config_number("ROUTE_RAMP_SPEED_TICKS_100MS", 65)
@@ -369,49 +362,25 @@ class RouteController:
         self.last_image_error = 0.0
         self.filtered_steering = 0.0
         self.steering_permille = 0
-        self.track_valid = 0
-        self.ramp_active = 0
-        self.lost_frame_count = 0
         self.left_pid = IncrementalPid()
         self.right_pid = IncrementalPid()
 
-    def _move_steering_toward(self, target):
-        target = min(max(target, -1.0), 1.0)
-        filtered_target = self.filtered_steering + STEERING_FILTER * (
-            target - self.filtered_steering
-        )
-        step = min(max(
-            filtered_target - self.filtered_steering,
-            -STEERING_MAX_STEP,
-        ), STEERING_MAX_STEP)
-        self.filtered_steering = min(max(
-            self.filtered_steering + step, -1.0
-        ), 1.0)
-        self.steering_permille = int(self.filtered_steering * 1000.0)
-
     def update_steering(self, result):
         if not result.track_valid:
-            if (self.track_valid
-                    and self.lost_frame_count < STEERING_LOST_HOLD_FRAMES):
-                self.lost_frame_count += 1
-                return self.filtered_steering
-            self.track_valid = 0
-            self.ramp_active = 0
             self.last_image_error = 0.0
-            self._move_steering_toward(0.0)
-            return self.filtered_steering
-
-        self.lost_frame_count = 0
+            self.filtered_steering = 0.0
+            self.steering_permille = 0
+            return 0.0
         error = float(result.steering_error)
-        if -STEERING_DEADBAND_PIXELS <= error <= STEERING_DEADBAND_PIXELS:
-            error = 0.0
         raw = STEERING_KP * error + STEERING_KD * (
             error - self.last_image_error
         )
-        self._move_steering_toward(raw)
+        self.filtered_steering += STEERING_FILTER * (
+            raw - self.filtered_steering
+        )
+        self.filtered_steering = min(max(self.filtered_steering, -1.0), 1.0)
         self.last_image_error = error
-        self.track_valid = 1
-        self.ramp_active = result.ramp_active
+        self.steering_permille = int(self.filtered_steering * 1000.0)
         return self.filtered_steering
 
     def speed_targets(self, ramp_active):
@@ -428,11 +397,11 @@ class RouteController:
         return max(left_target, 0), max(right_target, 0)
 
     def update_speed(self, result, left_actual, right_actual):
-        if not self.track_valid:
+        if not result.track_valid:
             self.left_pid.reset()
             self.right_pid.reset()
             return 0, 0, 0, 0
-        left_target, right_target = self.speed_targets(self.ramp_active)
+        left_target, right_target = self.speed_targets(result.ramp_active)
         left_duty = self.left_pid.update(left_target, left_actual)
         right_duty = self.right_pid.update(right_target, right_actual)
         return left_target, right_target, left_duty, right_duty

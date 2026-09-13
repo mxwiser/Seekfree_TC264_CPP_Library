@@ -16,29 +16,23 @@
 #define SERVO_CAR_LEFT_ANGLE    (100)
 #define SERVO_CAR_RIGHT_ANGLE    (60)
 
-static uint32 servo_angle_x10_to_duty(int angle_x10)
+static uint32 servo_angle_to_duty(int angle_deg)
 {
-    if (angle_x10 < 0)
+    if (angle_deg < 0)
     {
-        angle_x10 = 0;
+        angle_deg = 0;
     }
-    else if (angle_x10 > SERVO_ANGLE_SPAN_DEG * 10)
+    else if (angle_deg > SERVO_ANGLE_SPAN_DEG)
     {
-        angle_x10 = SERVO_ANGLE_SPAN_DEG * 10;
+        angle_deg = SERVO_ANGLE_SPAN_DEG;
     }
 
     const uint32 pulse_us = (uint32)(SERVO_MIN_PULSE_US
-        + (angle_x10 * SERVO_PULSE_SPAN_US
-            + SERVO_ANGLE_SPAN_DEG * 5)
-        / (SERVO_ANGLE_SPAN_DEG * 10));
+        + (angle_deg * SERVO_PULSE_SPAN_US + SERVO_ANGLE_SPAN_DEG / 2)
+        / SERVO_ANGLE_SPAN_DEG);
     const uint32 period_us = 1000000U / SERVO_PWM_FREQ_HZ;
     return (uint32)(((uint64)pulse_us * PWM_DUTY_MAX
         + period_us / 2U) / period_us);
-}
-
-static uint32 servo_angle_to_duty(int angle_deg)
-{
-    return servo_angle_x10_to_duty(angle_deg * 10);
 }
 
 void servo_init()
@@ -52,23 +46,12 @@ void servo_set_angle(int angle_deg)
     pwm_set_duty(SERVO_PWM_CHANNEL, servo_angle_to_duty(angle_deg));
 }
 
-void car_angle(float i)
-{
-    if (i > 1.0f)
-    {
-        i = 1.0f;
-    }
-    else if (i < -1.0f)
-    {
-        i = -1.0f;
-    }
-
-    float angle = (float)SERVO_CAR_CENTER_ANGLE;
+void car_angle(float i){
+    int angle=SERVO_CAR_CENTER_ANGLE;
     if(i>0)
         angle -= (SERVO_CAR_CENTER_ANGLE-SERVO_CAR_RIGHT_ANGLE)*i;
     else
         angle += (SERVO_CAR_CENTER_ANGLE-SERVO_CAR_LEFT_ANGLE)*i;
-    const int angle_x10 = (int)(angle * 10.0f + 0.5f);
-    pwm_set_duty(SERVO_PWM_CHANNEL, servo_angle_x10_to_duty(angle_x10));
+    servo_set_angle(angle);
 }
 
